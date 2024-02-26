@@ -1,18 +1,29 @@
-select 'Ministerial experience of ' || MAX(p2.name) || ', ' || CAST(STRFTIME('%Y', MIN(ac.start_date)) as TEXT(255)) || char(8211) || CAST(STRFTIME('%Y', MIN(ac.end_date)) as TEXT(255)) as title,
-       null as notes
-  from appointment as a
- inner join appointment_characteristics as ac
-    on a.id = ac.appointment_id
- inner join person as p1
-    on p1.id = @id
-   and a.person_id = p1.id
-   and COALESCE(a.start_date, '1900-01-01') >= COALESCE(p1.start_date, '1900-01-01')
-   and COALESCE(a.start_date, '1900-01-01') < COALESCE(p1.end_date, '9999-12-31')
-  left join (
-        select *
-          from person as p2
-         where p2.id = @id
-         order by COALESCE(p2.end_date, '9999-12-31') desc
-         limit 1
-       ) as p2
- group by p1.id
+select
+    'Ministerial experience of ' || max(p2.name) || ', ' || cast(strftime('%Y', min(ac.start_date)) as text(255)) || char(8211) || cast(strftime('%Y', min(ac.end_date)) as text(255)) Title,
+    'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ifg-ministers-database' Source,
+    min(rc.start_date) [Axis min],
+    max(ac.end_date) [Axis max],
+    null notes
+from appointment a
+    inner join appointment_characteristics ac on
+        a.id = ac.appointment_id
+inner join person p1 on
+    p1.id = @id and
+    a.person_id = p1.id and
+    coalesce(a.start_date, '1900-01-01') >= coalesce(p1.start_date, '1900-01-01') and
+    coalesce(a.start_date, '1900-01-01') < coalesce(p1.end_date, '9999-12-31')
+left join (
+    select *
+        from person p2
+        where
+            p2.id = @id
+        order by
+            coalesce(p2.end_date, '9999-12-31') desc
+        limit 1
+    ) p2
+left join representation r on
+    p1.id = r.person_id
+left join representation_characteristics rc on
+    r.id = rc.representation_id
+group by
+    p1.id
