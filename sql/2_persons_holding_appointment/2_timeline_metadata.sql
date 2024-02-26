@@ -6,6 +6,8 @@ select
         else 'Individuals serving as ' || t.name || ', ' || CAST(STRFTIME('%Y', @date1) as TEXT(255)) || char(8211) || CAST(STRFTIME('%Y', @date2) as TEXT(255))
     end Title,
     'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ifg-ministers-database' Source,
+    @date1 [Axis min],
+    @date2 [Axis max],
     null Notes
 from post t
 inner join organisation o on
