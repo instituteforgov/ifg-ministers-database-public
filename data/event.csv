@@ -1,2 +1,6 @@
-id,name,type,date
-b46bd819-21f8-419d-af6c-cc5dc04ae813,European Union membership referendum,Other political event,2016-06-23
+id,name,display_name,type,date
+61644a47-b697-41de-aeaa-4ac3cd7741a5,European Union membership referendum,EU referendum,Other political event,2016-06-23
+b78099d7-cc30-4d06-be44-584d5fb224d7,2015 general election,GE2015,General election,2015-05-07
+b66cb5ca-1844-4c1f-9ab0-648e7502ec40,2017 general election,GE2017,General election,2017-06-08
+88d47a25-b8ad-474f-b327-ad7709b4da13,2019 general election,GE2019,General election,2019-12-12
+872f5da2-b19b-4d9f-8c22-b538692bc577,2010 general election,GE2010,General election,2010-05-06
