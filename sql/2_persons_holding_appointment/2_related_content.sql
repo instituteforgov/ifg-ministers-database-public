@@ -1,3 +1,5 @@
-select id_ifg_website
-  from post as t
- where t.id = @id
+select
+    id_ifg_website
+from post t
+where
+    t.id = @id
