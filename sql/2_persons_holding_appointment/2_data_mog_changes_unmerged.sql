@@ -32,5 +32,8 @@ select p.id_parliament,
     on a.post_id = t.id
  inner join organisation as o
     on t.organisation_id = o.id
- where t.id = @id
+where
+    t.id = @id and
+    COALESCE(ac.end_date, '9999-12-31') > @date1 and
+    COALESCE(ac.start_date, '9999-12-31') <= @date2
  order by COALESCE(ac.start_date, '1900-01-01')

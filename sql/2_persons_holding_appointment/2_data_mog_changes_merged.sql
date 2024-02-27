@@ -59,7 +59,10 @@ select MIN(id_parliament) as id_parliament,
           left join organisation_links as ol2
             on o.id = ol2.successor_organisation_id
            and ac.start_date = ol2.link_date
-         where t.id = @id
+        where
+            t.id = @id and
+            COALESCE(ac.end_date, '9999-12-31') > @date1 and
+            COALESCE(ac.start_date, '9999-12-31') <= @date2
          order by COALESCE(ac.start_date, '1900-01-01')
        ) as q
  group by link_id,
