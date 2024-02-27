@@ -58,10 +58,10 @@ from (
             a.post_id = t.id
         inner join organisation o on
             t.organisation_id = o.id
-        left join organisation_links ol1 on
+        left join organisation_link ol1 on
             o.id = ol1.predecessor_organisation_id and
             ac.end_date = ol1.link_date
-        left join organisation_links ol2 on
+        left join organisation_link ol2 on
             o.id = ol2.successor_organisation_id and
             ac.start_date = ol2.link_date
     where
