@@ -81,8 +81,8 @@ from
     ) q
 where
     row_number = 1
- group by
+group by
     group_name,
     organisation_link_id
- order by
+order by
     min(coalesce(start_date, '1900-01-01'))
