@@ -74,7 +74,7 @@ from (
             left join post_relationship pr on
                 pr.post_id = t.id
         where
-            t.id = @id and
+            t.id = @id and      -- NB: This line is a holding line: the actual line would check t.id against a table of IDs
             coalesce(ac.end_date, '9999-12-31') > @date1 and
             coalesce(ac.start_date, '1900-01-01') <= @date2
         order by
