@@ -6,13 +6,14 @@ select
          when r.house = 'Lords' then 'Peer'
     end "MP/peer",
     rc.party Party,
-    t.name Post,
+    case
+        when ac.is_on_leave = 1 then t.name || ' (on leave)'
+        when ac.is_acting = 1 then t.name || ' (acting)'
+        else t.name
+    end Role,
+    o.short_name Department,
     t.rank_equivalence Rank,
-    o.short_name Organisation,
     ac.cabinet_status "Cabinet status",
-    ac.is_on_leave "On leave",
-    ac.is_acting Acting,
-    ac.leave_reason "Leave reason",
     ac.start_date "Start date",
     ac.end_date "End date"
 from appointment a

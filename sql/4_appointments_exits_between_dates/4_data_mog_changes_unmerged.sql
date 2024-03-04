@@ -8,13 +8,14 @@ select
         when q.house = 'Lords' then 'Peer'
     end "MP/peer",
     q.party Party,
-    q.post_name Post,
+    case
+        when q.is_on_leave = 1 then q.post_name || ' (on leave)'
+        when q.is_acting = 1 then q.post_name || ' (acting)'
+        else q.post_name
+    end Role,
+    q.org_name Department,
     q.rank_equivalence Rank,
-    q.org_name Organisation,
-    q.cabinet_status "Cabinet status",
-    q.is_on_leave "On leave",
-    q.is_acting Acting,
-    q.leave_reason "Leave reason"
+    q.cabinet_status "Cabinet status"
 from (
     select
         'Appointment' type,

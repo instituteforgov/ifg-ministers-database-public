@@ -11,8 +11,8 @@ select
 
     end Title,
     'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ifg-ministers-database' Source,
-    @date1 [Axis min],
-    @date2 [Axis max],
+    @date1 "Axis min",
+    @date2 "Axis max",
     null Notes
 from post t
     inner join organisation o on

@@ -3,13 +3,14 @@ select
     min(minister_name) Name,
     min("MP/peer") "MP/peer",
     min(party) Party,
-    group_concat(post_name, '/') Post,
+    case
+        when max(case when is_on_leave = 1 then 1 else 0 end) = 1 then group_concat(post_name || ' (on leave)', '/')
+        when max(case when is_acting = 1 then 1 else 0 end) = 1 then group_concat(post_name || ' (acting)', '/')
+        else group_concat(post_name, '/')
+    end Role,
+    group_concat(org_name, '/') within group (order by start_date) Department,
     min(rank_equivalence) Rank,
-    group_concat(org_name, '/') Organisation,
     min(cabinet_status) "Cabinet status",
-    max(case when is_on_leave = 1 then 1 else 0 end) "On leave",
-    max(case when is_acting = 1 then 1 else 0 end) Acting,
-    min(leave_reason) "Leave reason",
     min(start_date) "Start date",
     max(end_date) "End date"
 from (

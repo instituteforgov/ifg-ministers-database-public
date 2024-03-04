@@ -4,8 +4,8 @@ select
         else 'Ministerial experience of ' || max(p2.name) || ', ' || cast(strftime('%Y', min(ac.start_date)) as nvarchar(255)) || char(8211) || cast(strftime('%Y', max(ac.end_date)) as nvarchar(255))
     end Title,
     'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ifg-ministers-database' Source,
-    min(rc.start_date) [Axis min],
-    max(ac.end_date) [Axis max],
+    min(rc.start_date) "Axis min",
+    max(ac.end_date) "Axis max",
     null Notes
 from appointment a
     inner join appointment_characteristics ac on
