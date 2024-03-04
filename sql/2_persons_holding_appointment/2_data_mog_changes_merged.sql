@@ -8,7 +8,7 @@ select
         when max(case when is_acting = 1 then 1 else 0 end) = 1 then group_concat(post_name || ' (acting)', '/')
         else group_concat(post_name, '/')
     end Role,
-    group_concat(org_name, '/') within group (order by start_date) Department,
+    group_concat(org_name, '/') Department,
     min(rank_equivalence) Rank,
     min(cabinet_status) "Cabinet status",
     min(start_date) "Start date",
