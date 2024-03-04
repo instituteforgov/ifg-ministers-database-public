@@ -38,6 +38,6 @@ from appointment a
 where
     t.id = @id and
     coalesce(ac.end_date, '9999-12-31') > @date1 and
-    coalesce(ac.start_date, '9999-12-31') <= @date2
+    coalesce(ac.start_date, '1900-01-01') <= @date2
 order by
     coalesce(ac.start_date, '1900-01-01')
