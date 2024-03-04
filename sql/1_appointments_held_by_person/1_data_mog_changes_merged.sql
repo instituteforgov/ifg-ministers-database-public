@@ -7,13 +7,9 @@ select
     min(rank_equivalence) Rank,
     group_concat(org_name, '/') Organisation,
     min(cabinet_status) "Cabinet status",
-    max(case when is_on_leave = 1 then 1 else 0 end) "On leave",
-    max(case when is_acting = 1 then 1 else 0 end) Acting,
-    min(leave_reason) "Leave reason",
     min(start_date) "Start date",
     max(end_date) "End date"
-from
-(
+from (
     select
         row_number() over (partition by appointment_characteristics_id order by continues_previous_appointment desc, group_name) row_number,
         *
@@ -77,8 +73,8 @@ from
             p.id = @id
         order by
             coalesce(ac.start_date, '1900-01-01')
-        ) q
     ) q
+) q
 where
     row_number = 1
 group by

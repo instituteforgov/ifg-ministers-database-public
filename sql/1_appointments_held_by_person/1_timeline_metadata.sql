@@ -10,13 +10,13 @@ select
 from appointment a
     inner join appointment_characteristics ac on
         a.id = ac.appointment_id
-inner join person p1 on
-    p1.id = @id and
-    a.person_id = p1.id and
-    coalesce(a.start_date, '1900-01-01') >= coalesce(p1.start_date, '1900-01-01') and
-    coalesce(a.start_date, '1900-01-01') < coalesce(p1.end_date, '9999-12-31')
-left join (
-    select *
+    inner join person p1 on
+        p1.id = @id and
+        a.person_id = p1.id and
+        coalesce(a.start_date, '1900-01-01') >= coalesce(p1.start_date, '1900-01-01') and
+        coalesce(a.start_date, '1900-01-01') < coalesce(p1.end_date, '9999-12-31')
+    left join (
+        select *
         from person p2
         where
             p2.id = @id
@@ -24,9 +24,9 @@ left join (
             coalesce(p2.end_date, '9999-12-31') desc
         limit 1
     ) p2
-left join representation r on
-    p1.id = r.person_id
-left join representation_characteristics rc on
-    r.id = rc.representation_id
+    left join representation r on
+        p1.id = r.person_id
+    left join representation_characteristics rc on
+        r.id = rc.representation_id
 group by
     p1.id

@@ -31,26 +31,26 @@ from (
         ac.is_acting,
         ac.leave_reason
     from appointment a
-    inner join appointment_characteristics ac on
-        a.id = ac.appointment_id and
-        @date1 <= coalesce(ac.start_date, '1900-01-01') and
-        @date2 >= coalesce(ac.start_date, '1900-01-01')
-    inner join person p on
-        a.person_id = p.id and
-        coalesce(a.start_date, '1900-01-01') >= coalesce(p.start_date, '1900-01-01') and
-        coalesce(a.start_date, '1900-01-01') < coalesce(p.end_date, '9999-12-31')
-    left join representation r on
-        a.person_id = r.person_id and
-        coalesce(a.start_date, '1900-01-01') >= coalesce(r.start_date, '1900-01-01') and
-        coalesce(a.start_date, '1900-01-01') < coalesce(r.end_date, '9999-12-31')
-    left join representation_characteristics rc on
-        r.id = rc.representation_id and
-        coalesce(a.start_date, '1900-01-01') >= coalesce(rc.start_date, '1900-01-01') and
-        coalesce(a.start_date, '1900-01-01') < coalesce(rc.end_date, '9999-12-31')
-    inner join post t on
-        a.post_id = t.id
-    inner join organisation o on
-        t.organisation_id = o.id
+        inner join appointment_characteristics ac on
+            a.id = ac.appointment_id and
+            @date1 <= coalesce(ac.start_date, '1900-01-01') and
+            @date2 >= coalesce(ac.start_date, '1900-01-01')
+        inner join person p on
+            a.person_id = p.id and
+            coalesce(a.start_date, '1900-01-01') >= coalesce(p.start_date, '1900-01-01') and
+            coalesce(a.start_date, '1900-01-01') < coalesce(p.end_date, '9999-12-31')
+        left join representation r on
+            a.person_id = r.person_id and
+            coalesce(a.start_date, '1900-01-01') >= coalesce(r.start_date, '1900-01-01') and
+            coalesce(a.start_date, '1900-01-01') < coalesce(r.end_date, '9999-12-31')
+        left join representation_characteristics rc on
+            r.id = rc.representation_id and
+            coalesce(a.start_date, '1900-01-01') >= coalesce(rc.start_date, '1900-01-01') and
+            coalesce(a.start_date, '1900-01-01') < coalesce(rc.end_date, '9999-12-31')
+        inner join post t on
+            a.post_id = t.id
+        inner join organisation o on
+            t.organisation_id = o.id
 
     union all
 
@@ -69,26 +69,26 @@ from (
         ac.is_acting,
         ac.leave_reason
     from appointment a
-    inner join appointment_characteristics ac on
-        a.id = ac.appointment_id and
-        @date1 <= coalesce(ac.end_date, '9999-12-31') and
-        @date2 >= coalesce(ac.end_date, '9999-12-31')
-    inner join person p on
-        a.person_id = p.id and
-        coalesce(a.end_date, '9999-12-31') > coalesce(p.start_date, '1900-01-01') and
-        coalesce(a.end_date, '9999-12-31') <= coalesce(p.end_date, '9999-12-31')
-    left join representation r on
-        a.person_id = r.person_id and
-        coalesce(a.end_date, '9999-12-31') > coalesce(r.start_date, '1900-01-01') and
-        coalesce(a.end_date, '9999-12-31') <= coalesce(r.end_date, '9999-12-31')
-    left join representation_characteristics rc on
-        r.id = rc.representation_id and
-        coalesce(a.end_date, '9999-12-31') > coalesce(rc.start_date, '1900-01-01') and
-        coalesce(a.end_date, '9999-12-31') <= coalesce(rc.end_date, '9999-12-31')
-    inner join post t on
-        a.post_id = t.id
-    inner join organisation o on
-        t.organisation_id = o.id
+        inner join appointment_characteristics ac on
+            a.id = ac.appointment_id and
+            @date1 <= coalesce(ac.end_date, '9999-12-31') and
+            @date2 >= coalesce(ac.end_date, '9999-12-31')
+        inner join person p on
+            a.person_id = p.id and
+            coalesce(a.end_date, '9999-12-31') > coalesce(p.start_date, '1900-01-01') and
+            coalesce(a.end_date, '9999-12-31') <= coalesce(p.end_date, '9999-12-31')
+        left join representation r on
+            a.person_id = r.person_id and
+            coalesce(a.end_date, '9999-12-31') > coalesce(r.start_date, '1900-01-01') and
+            coalesce(a.end_date, '9999-12-31') <= coalesce(r.end_date, '9999-12-31')
+        left join representation_characteristics rc on
+            r.id = rc.representation_id and
+            coalesce(a.end_date, '9999-12-31') > coalesce(rc.start_date, '1900-01-01') and
+            coalesce(a.end_date, '9999-12-31') <= coalesce(rc.end_date, '9999-12-31')
+        inner join post t on
+            a.post_id = t.id
+        inner join organisation o on
+            t.organisation_id = o.id
 ) q
 order by
     q.date,
