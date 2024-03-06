@@ -18,9 +18,7 @@ select
     ac.end_date "End date"
 from appointment a
     inner join appointment_characteristics ac on
-        a.id = ac.appointment_id and
-        @date >= coalesce(ac.start_date, '1900-01-01') and
-        @date < coalesce(ac.end_date, '9999-12-31')
+        a.id = ac.appointment_id
     inner join person p on
         a.person_id = p.id and
         @date >= coalesce(p.start_date, '1900-01-01') and
@@ -37,5 +35,8 @@ from appointment a
         a.post_id = t.id
     inner join organisation o on
         t.organisation_id = o.id
+where
+    @date >= coalesce(ac.start_date, '1900-01-01') and
+    @date < coalesce(ac.end_date, '9999-12-31')
 order by
     p.name
