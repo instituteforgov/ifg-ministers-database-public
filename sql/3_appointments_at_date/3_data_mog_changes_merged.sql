@@ -15,7 +15,7 @@ select
     max(end_date) "End date"
 from (
     select
-        row_number() over (partition by appointment_characteristics_id order by continues_previous_appointment desc, group_name) row_number,
+        row_number() over (partition by person_id, appointment_characteristics_id order by continues_previous_appointment desc, group_name) row_number,
         *
     from (
         select
@@ -29,6 +29,7 @@ from (
                 when ol1.id is null then ol2.id
                 when ol2.id is null then ol1.id
             end organisation_link_id,
+            p.id person_id,
             p.id_parliament,
             p.name minister_name,
             case
@@ -80,6 +81,7 @@ from (
 where
     row_number = 1
 group by
+    person_id,
     group_name,
     organisation_link_id
 having
