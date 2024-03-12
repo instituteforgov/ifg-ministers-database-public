@@ -34,8 +34,8 @@ from (
     from appointment a1
         inner join appointment_characteristics ac1 on
             a1.id = ac1.appointment_id and
-            @date1 <= coalesce(ac1.start_date, '1900-01-01') and
-            @date2 >= coalesce(ac1.start_date, '1900-01-01')
+            @start_date <= coalesce(ac1.start_date, '1900-01-01') and
+            @end_date >= coalesce(ac1.start_date, '1900-01-01')
         inner join person p on
             a1.person_id = p.id and
             coalesce(a1.start_date, '1900-01-01') >= coalesce(p.start_date, '1900-01-01') and
@@ -95,8 +95,8 @@ from (
     from appointment a1
         inner join appointment_characteristics ac1 on
             a1.id = ac1.appointment_id and
-            @date1 <= coalesce(ac1.end_date, '9999-12-31') and
-            @date2 >= coalesce(ac1.end_date, '9999-12-31')
+            @start_date <= coalesce(ac1.end_date, '9999-12-31') and
+            @end_date >= coalesce(ac1.end_date, '9999-12-31')
         inner join person p on
             a1.person_id = p.id and
             coalesce(a1.end_date, '9999-12-31') > coalesce(p.start_date, '1900-01-01') and

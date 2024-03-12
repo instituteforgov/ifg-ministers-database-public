@@ -5,7 +5,7 @@ select
 from event e
 where
     type = 'General election' and
-    e.date >= @date1 and
-    e.date <= @date2
+    e.date >= @start_date and
+    e.date <= @end_date
 order by
     date

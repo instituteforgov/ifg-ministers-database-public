@@ -25,7 +25,7 @@ from appointment a
         t.organisation_id = o.id
 where
     t.id = @id and
-    coalesce(ac.end_date, '9999-12-31') > @date1 and
-    coalesce(ac.start_date, '1900-01-01') <= @date2
+    coalesce(ac.end_date, '9999-12-31') > @start_date and
+    coalesce(ac.start_date, '1900-01-01') <= @end_date
 order by
     coalesce(ac.start_date, '1900-01-01')
