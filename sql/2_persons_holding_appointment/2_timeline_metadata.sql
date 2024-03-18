@@ -24,7 +24,7 @@ select
             where
                 t.id = @id
             ) > 1
-        then 'Notes: Appointments include appointments in related roles.'
+        then 'Notes: Includes appointments in related roles.'
         else null
     end notes
 from post t
