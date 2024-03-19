@@ -1,12 +1,12 @@
 select
     case
         -- Acting and appointment starts before start of chart range
-        when max(case when q.is_acting = 1 then 1 else 0 end) = 1 and strftime('%Y', min(q.start_date)) < strftime('%Y', @start_date) then min(q.minister_short_name) || ' (acting; since ' || strftime('%Y', min(q.start_date)) || ')'
-        when max(case when q.is_acting = 1 then 1 else 0 end) = 1 and min(q.start_date) < @start_date then min(q.minister_short_name) || ' (acting; since ' || substr ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", min(q.start_date)) * 3, 3) || ' ' || strftime('%Y', min(q.start_date)) || ')'
+        when max(case when q.is_acting = 1 then 1 else 0 end) = 1 and strftime('%Y', min(q.start_date)) < strftime('%Y', @start_date) then min(q.minister_short_name) || ' (acting - since ' || strftime('%Y', min(q.start_date)) || ')'
+        when max(case when q.is_acting = 1 then 1 else 0 end) = 1 and min(q.start_date) < @start_date then min(q.minister_short_name) || ' (acting - since ' || substr ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", min(q.start_date)) * 3, 3) || ' ' || strftime('%Y', min(q.start_date)) || ')'
 
         -- Acting and appointment ends after end of chart range
-        when max(case when q.is_acting = 1 then 1 else 0 end) = 1 and strftime('%Y', max(q.end_date)) > strftime('%Y', @end_date) then min(q.minister_short_name) || ' (acting; until ' || strftime('%Y', max(q.end_date)) || ')'
-        when max(case when q.is_acting = 1 then 1 else 0 end) = 1 and max(q.end_date) > @end_date then min(q.minister_short_name) || ' (acting; until ' || substr ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", min(q.end_date)) * 3, 3) || ' ' || strftime('%Y', max(q.end_date)) || ')'
+        when max(case when q.is_acting = 1 then 1 else 0 end) = 1 and strftime('%Y', max(q.end_date)) > strftime('%Y', @end_date) then min(q.minister_short_name) || ' (acting - until ' || strftime('%Y', max(q.end_date)) || ')'
+        when max(case when q.is_acting = 1 then 1 else 0 end) = 1 and max(q.end_date) > @end_date then min(q.minister_short_name) || ' (acting - until ' || substr ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", min(q.end_date)) * 3, 3) || ' ' || strftime('%Y', max(q.end_date)) || ')'
 
         -- Acting
         when max(case when q.is_acting = 1 then 1 else 0 end) = 1 then min(q.minister_short_name) || ' (acting)'
