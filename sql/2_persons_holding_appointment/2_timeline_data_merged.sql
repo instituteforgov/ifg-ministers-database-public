@@ -23,8 +23,8 @@ select
         else min(q.minister_short_name)
 
     end label,
-    'gender-' || lower(min(q.gender)) gender,
-    'party-' || lower(min(q.party)) party,
+    'gender-' || lower(replace(replace(min(q.gender), ' ', '-'), '.', '')) gender,
+    'party-' || lower(replace(replace(min(q.party), ' ', '-'), '.', '')) party,
     min(q.start_date) "start",
     coalesce(max(q.end_date), date('now')) "end"
 from (

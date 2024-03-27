@@ -8,7 +8,7 @@ with ministerial_appointment(organisation_id, organisation_short_name, rank_equi
         end organisation_short_name,
         case
             when max(case when q.is_on_leave = 1 then 1 else 0 end) = 1 then 'rank-equivalence-on-leave'
-            else 'rank-equivalence-' || lower(min(q.rank_equivalence))
+            else 'rank-equivalence-' || lower(replace(replace(min(q.rank_equivalence), ' ', '-'), '.', ''))
         end rank_equivalence,
         min(q.start_date) appointment_characteristics_start_date,
         coalesce(max(q.end_date), date('now')) appointment_characteristics_end_date
