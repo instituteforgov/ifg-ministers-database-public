@@ -82,15 +82,15 @@ FROM (
             -- Main filters
             minister_id IN (@id)
 
-            /*
             AND
-            COALESCE(ac.start_date, '9999-12-31') >= @start_date
+            COALESCE(ac.start_date, '1900-01-01') >= @start_date
 
             AND
             COALESCE(ac.end_date, '9999-12-31') <= @end_date
 
             -- Secondary filters
             -- These need to use column aliases so the conditions are reusable across all 8 main queries.
+            /*
             AND
             role IN (@role_ids)
 
