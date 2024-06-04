@@ -1,4 +1,5 @@
 SELECT
+    COUNT(*),
     q.type AS "appointment_exit",
     q.date AS "date",
     q.image_id AS "image_id",
@@ -136,10 +137,3 @@ ORDER BY
     date DESC,
     appointment_exit DESC,
     minister_name ASC
-
--- Paged example
--- e.g. viewing page 2 of 10 results per page.
-/*
-LIMIT 10
-OFFSET 10
-*/
