@@ -6,7 +6,7 @@ from (
         1 persist
     from representation r
     where
-        r.person_id = @id and
+        r.person_id IN (@id) and
         r.house = 'Commons'
 
     union
@@ -17,7 +17,7 @@ from (
         1 persist
     from representation r
     where
-        r.person_id = @id and
+        r.person_id IN (@id) and
         r.house = 'Lords'
 
     union
@@ -34,7 +34,7 @@ from (
                 min(start_date)
             from representation r
             where
-                r.person_id = @id
+                r.person_id IN (@id)
         ) and
         e.date <= (
             select
@@ -46,7 +46,7 @@ from (
                 inner join appointment_characteristics ac on
                     a.id = ac.appointment_id
             where
-                a.person_id = @id
+                a.person_id IN (@id)
         )
 )
 where
