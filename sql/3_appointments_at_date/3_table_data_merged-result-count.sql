@@ -1,4 +1,5 @@
 SELECT
+    COUNT(*),
     MIN(id_parliament) AS "image_id",
     MIN(minister_name) AS "minister_name",
     MIN("mp_peer") AS "mp_peer",
@@ -126,9 +127,7 @@ WHERE
     row_number = 1
 
 GROUP BY
-    person_id,
-    group_name,
-    organisation_link_id
+    count_grouping_value
 
 HAVING
     @date >= MIN(start_date) AND
