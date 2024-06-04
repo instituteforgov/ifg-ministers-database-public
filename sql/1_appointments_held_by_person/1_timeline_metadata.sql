@@ -25,7 +25,7 @@ from appointment a
         select *
         from person p
         where
-            p.id = @id
+            p.id IN (@id)
         order by
             coalesce(p.end_date, '9999-12-31') desc
         limit 1
@@ -36,7 +36,7 @@ from appointment a
             inner join post t on
                 a.post_id = t.id
         where
-            a.person_id = @id and
+            a.person_id IN (@id) and
             t.name in (
                 'First Lord of the Treasury',
                 'Lord Privy Seal',
@@ -47,8 +47,8 @@ from appointment a
         limit 1
     ) t
     left join representation r on
-        r.person_id = @id
+        r.person_id IN (@id)
     left join representation_characteristics rc on
         r.id = rc.representation_id
 where
-    a.person_id = @id
+    a.person_id IN (@id)
