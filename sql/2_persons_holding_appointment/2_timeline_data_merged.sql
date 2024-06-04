@@ -1,57 +1,57 @@
-select
-    case
+SELECT
+    CASE
         -- Acting and appointment starts before start of chart range
-        when max(case when q.is_acting = 1 then 1 else 0 end) = 1 and strftime('%Y', min(q.start_date)) < strftime('%Y', @start_date) then min(q.minister_short_name) || ' (acting - since ' || strftime('%Y', min(q.start_date)) || ')'
-        when max(case when q.is_acting = 1 then 1 else 0 end) = 1 and min(q.start_date) < @start_date then min(q.minister_short_name) || ' (acting - since ' || substr ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", min(q.start_date)) * 3, 3) || ' ' || strftime('%Y', min(q.start_date)) || ')'
+        WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 AND strftime('%Y', MIN(q.start_date)) < strftime('%Y', @start_date) THEN MIN(q.minister_short_name) || ' (acting - since ' || strftime('%Y', MIN(q.start_date)) || ')'
+        WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 AND MIN(q.start_date) < @start_date THEN MIN(q.minister_short_name) || ' (acting - since ' || SUBSTR ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", MIN(q.start_date)) * 3, 3) || ' ' || strftime('%Y', MIN(q.start_date)) || ')'
 
         -- Acting and appointment ends after end of chart range
-        when max(case when q.is_acting = 1 then 1 else 0 end) = 1 and strftime('%Y', max(q.end_date)) > strftime('%Y', @end_date) then min(q.minister_short_name) || ' (acting - until ' || strftime('%Y', max(q.end_date)) || ')'
-        when max(case when q.is_acting = 1 then 1 else 0 end) = 1 and max(q.end_date) > @end_date then min(q.minister_short_name) || ' (acting - until ' || substr ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", min(q.end_date)) * 3, 3) || ' ' || strftime('%Y', max(q.end_date)) || ')'
+        WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 AND strftime('%Y', MAX(q.end_date)) > strftime('%Y', @end_date) THEN MIN(q.minister_short_name) || ' (acting - until ' || strftime('%Y', MAX(q.end_date)) || ')'
+        WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 AND MAX(q.end_date) > @end_date THEN MIN(q.minister_short_name) || ' (acting - until ' || SUBSTR ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", MIN(q.end_date)) * 3, 3) || ' ' || strftime('%Y', MAX(q.end_date)) || ')'
 
         -- Acting
-        when max(case when q.is_acting = 1 then 1 else 0 end) = 1 then min(q.minister_short_name) || ' (acting)'
+        WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 THEN MIN(q.minister_short_name) || ' (acting)'
 
         -- Appointment starts before start of chart range
-        when strftime('%Y', min(q.start_date)) < strftime('%Y', @start_date) then min(q.minister_short_name) || ' (since ' || strftime('%Y', min(q.start_date)) || ')'
-        when min(q.start_date) < @start_date then min(q.minister_short_name) || ' (since ' || substr ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", min(q.start_date)) * 3, 3) || ' ' || strftime('%Y', min(q.start_date)) || ')'
+        WHEN strftime('%Y', MIN(q.start_date)) < strftime('%Y', @start_date) THEN MIN(q.minister_short_name) || ' (since ' || strftime('%Y', MIN(q.start_date)) || ')'
+        WHEN MIN(q.start_date) < @start_date THEN MIN(q.minister_short_name) || ' (since ' || SUBSTR ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", MIN(q.start_date)) * 3, 3) || ' ' || strftime('%Y', MIN(q.start_date)) || ')'
 
         -- Appointment ends after end of chart range
-        when strftime('%Y', max(q.end_date)) > strftime('%Y', @end_date) then min(q.minister_short_name) || ' (until ' || strftime('%Y', max(q.end_date)) || ')'
-        when max(q.end_date) > @end_date then min(q.minister_short_name) || ' (until ' || substr ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", min(q.end_date)) * 3, 3) || ' ' || strftime('%Y', max(q.end_date)) || ')'
+        WHEN strftime('%Y', MAX(q.end_date)) > strftime('%Y', @end_date) THEN MIN(q.minister_short_name) || ' (until ' || strftime('%Y', MAX(q.end_date)) || ')'
+        WHEN MAX(q.end_date) > @end_date THEN MIN(q.minister_short_name) || ' (until ' || SUBSTR ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", MIN(q.end_date)) * 3, 3) || ' ' || strftime('%Y', MAX(q.end_date)) || ')'
 
         -- Normal case
-        else min(q.minister_short_name)
+        ELSE MIN(q.minister_short_name)
 
-    end label,
-    'gender-' || lower(replace(replace(min(q.gender), ' ', '-'), '.', '')) gender,
-    'party-' || lower(replace(replace(min(q.party), ' ', '-'), '.', '')) party,
-    min(q.start_date) "start",
-    coalesce(max(q.end_date), date('now')) "end"
-from (
-    select
-        row_number() over (partition by person_id, appointment_characteristics_id order by continues_previous_appointment desc, group_name) row_number,
+    END label,
+    'gender-' || LOWER(REPLACE(REPLACE(MIN(q.gender), ' ', '-'), '.', '')) gender,
+    'party-' || LOWER(REPLACE(REPLACE(MIN(q.party), ' ', '-'), '.', '')) party,
+    MIN(q.start_date) "start",
+    COALESCE(MAX(q.end_date), DATE('now')) "end"
+FROM (
+    SELECT
+        ROW_NUMBER() OVER (PARTITION BY person_id, appointment_characteristics_id ORDER BY continues_previous_appointment DESC, group_name) ROW_NUMBER,
         *
-    from (
-        select
-            case
-                when lag(ac.end_date) over (partition by pr.group_name order by ac.start_date asc) = ac.start_date then 1
-                else 0
-            end continues_previous_appointment,
+    FROM (
+        SELECT
+            CASE
+                WHEN LAG(ac.end_date) OVER (PARTITION BY pr.group_name ORDER BY ac.start_date ASC) = ac.start_date THEN 1
+                ELSE 0
+            END continues_previous_appointment,
             pr.group_name,
-            case
-                when ol1.id is null and ol2.id is null then random()
-                when ol1.id is null then ol2.id
-                when ol2.id is null then ol1.id
-            end organisation_link_id,
+            CASE
+                WHEN ol1.id IS NULL AND ol2.id IS NULL THEN RANDOM()
+                WHEN ol1.id IS NULL THEN ol2.id
+                WHEN ol2.id IS NULL THEN ol1.id
+            END organisation_link_id,
             p.id person_id,
             p.id,
             p.name minister_name,
             p.short_name minister_short_name,
             p.gender,
-            case
-                when r.house = 'Commons' then 'MP'
-                when r.house = 'Lords' then 'Peer'
-            end "MP/peer",
+            CASE
+                WHEN r.house = 'Commons' THEN 'MP'
+                WHEN r.house = 'Lords' THEN 'Peer'
+            END "MP/peer",
             rc.party,
             t.name post_name,
             t.rank_equivalence,
@@ -63,45 +63,45 @@ from (
             ac.leave_reason,
             ac.start_date,
             ac.end_date
-        from appointment a
-            inner join appointment_characteristics ac on
+        FROM appointment a
+            INNER JOIN appointment_characteristics ac ON
                 a.id = ac.appointment_id
-            inner join person p on
-                a.person_id = p.id and
-                coalesce(a.start_date, '1900-01-01') >= coalesce(p.start_date, '1900-01-01') and
-                coalesce(a.start_date, '1900-01-01') < coalesce(p.end_date, '9999-12-31')
-            left join representation r on
-                a.person_id = r.person_id and
-                coalesce(a.start_date, '1900-01-01') >= coalesce(r.start_date, '1900-01-01') and
-                coalesce(a.start_date, '1900-01-01') < coalesce(r.end_date, '9999-12-31')
-            left join representation_characteristics rc on
-                r.id = rc.representation_id and
-                coalesce(r.start_date, '1900-01-01') >= coalesce(rc.start_date, '1900-01-01') and
-                coalesce(r.start_date, '1900-01-01') < coalesce(rc.end_date, '9999-12-31')
-            inner join post t on
+            INNER JOIN person p ON
+                a.person_id = p.id AND
+                COALESCE(a.start_date, '1900-01-01') >= COALESCE(p.start_date, '1900-01-01') AND
+                COALESCE(a.start_date, '1900-01-01') < COALESCE(p.end_date, '9999-12-31')
+            LEFT JOIN representation r ON
+                a.person_id = r.person_id AND
+                COALESCE(a.start_date, '1900-01-01') >= COALESCE(r.start_date, '1900-01-01') AND
+                COALESCE(a.start_date, '1900-01-01') < COALESCE(r.end_date, '9999-12-31')
+            LEFT JOIN representation_characteristics rc ON
+                r.id = rc.representation_id AND
+                COALESCE(r.start_date, '1900-01-01') >= COALESCE(rc.start_date, '1900-01-01') AND
+                COALESCE(r.start_date, '1900-01-01') < COALESCE(rc.end_date, '9999-12-31')
+            INNER JOIN post t ON
                 a.post_id = t.id
-            inner join organisation o on
+            INNER JOIN organisation o ON
                 t.organisation_id = o.id
-            left join organisation_link ol1 on
-                o.id = ol1.predecessor_organisation_id and
+            LEFT JOIN organisation_link ol1 ON
+                o.id = ol1.predecessor_organisation_id AND
                 ac.end_date = ol1.link_date
-            left join organisation_link ol2 on
-                o.id = ol2.successor_organisation_id and
+            LEFT JOIN organisation_link ol2 ON
+                o.id = ol2.successor_organisation_id AND
                 ac.start_date = ol2.link_date
-            left join post_relationship pr on
+            LEFT JOIN post_relationship pr ON
                 pr.post_id = t.id
-        where
-            ac.is_on_leave = 0 and
-            t.id = @id and
-            coalesce(ac.end_date, '9999-12-31') > @start_date and
-            coalesce(ac.start_date, '1900-01-01') <= @end_date
+        WHERE
+            ac.is_on_leave = 0 AND
+            t.id  IN (@role_ids) AND
+            COALESCE(ac.end_date, '9999-12-31') > @start_date AND
+            COALESCE(ac.start_date, '1900-01-01') <= @end_date
     ) q
 ) q
-where
+WHERE
     q.row_number = 1
-group by
+GROUP BY
     q.person_id,
     q.group_name,
     q.organisation_link_id
-order by
-    min(coalesce(q.start_date, '1900-01-01'))
+ORDER BY
+    MIN(COALESCE(q.start_date, '1900-01-01'))

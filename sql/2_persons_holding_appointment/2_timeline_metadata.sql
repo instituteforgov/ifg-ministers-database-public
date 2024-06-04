@@ -1,35 +1,34 @@
-select
-    case
-
+SELECT
+    CASE
         -- Generic MoS, PUSS
-        when t.name in ('Minister of State', 'Parliamentary Under Secretary of State') and @end_date = '9999-12-31' then 'Individuals serving as ' || t.name || ', ' || o.short_name || ', ' || cast(strftime('%Y', @start_date) as nvarchar(255)) || char(8211)
-        when t.name in ('Minister of State', 'Parliamentary Under Secretary of State') then 'Individuals serving as ' || t.name || ', ' || o.short_name || ', ' || cast(strftime('%Y', @start_date) as nvarchar(255)) || char(8211) || cast(strftime('%Y', @end_date) as nvarchar(255))
+        WHEN t.name IN ('Minister of State', 'Parliamentary Under Secretary of State') AND @end_date = '9999-12-31' THEN 'Individuals serving as ' || t.name || ', ' || o.short_name || ', ' || CAST(strftime('%Y', @start_date) AS nvarchar(255)) || CHAR(8211)
+        WHEN t.name IN ('Minister of State', 'Parliamentary Under Secretary of State') THEN 'Individuals serving as ' || t.name || ', ' || o.short_name || ', ' || CAST(strftime('%Y', @start_date) AS nvarchar(255)) || CHAR(8211) || CAST(strftime('%Y', @end_date) AS nvarchar(255))
 
         -- Specific job title
-        when @end_date = '9999-12-31' then 'Individuals serving as ' || t.name || ', ' || cast(strftime('%Y', @start_date) as nvarchar(255)) || char(8211)
-        else 'Individuals serving as ' || t.name || ', ' || cast(strftime('%Y', @start_date) as nvarchar(255)) || char(8211) || cast(strftime('%Y', @end_date) as nvarchar(255))
+        WHEN @end_date = '9999-12-31' THEN 'Individuals serving as ' || t.name || ', ' || CAST(strftime('%Y', @start_date) AS nvarchar(255)) || CHAR(8211)
+        ELSE 'Individuals serving as ' || t.name || ', ' || CAST(strftime('%Y', @start_date) AS nvarchar(255)) || CHAR(8211) || CAST(strftime('%Y', @end_date) AS nvarchar(255))
 
-    end title,
-    coalesce(@start_date, '1900-01-01') startDate,
-    case
-        when coalesce(@end_date, '9999-12-31') = '9999-12-31' then date('now')
-        else coalesce(@end_date, '9999-12-31')
-    end endDate,
+        END title,
+    COALESCE(@start_date, '1900-01-01') startDate,
+    CASE
+        WHEN COALESCE(@end_date, '9999-12-31') = '9999-12-31' THEN DATE('now')
+        ELSE COALESCE(@end_date, '9999-12-31')
+        END endDate,
     'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ifg-ministers-database' source,
-    case
-        when (
-            select
-                count(distinct name)
-            from post t
-            where
-                t.id = @id
-            ) > 1
-        then 'Notes: Includes appointments in related roles.'
-        else null
-    end notes
-from post t
-    inner join organisation o on
-        t.organisation_id = o.id
-where
-    t.name = @role
-limit 1
+    CASE
+        WHEN (
+                 SELECT
+                     COUNT(DISTINCT name)
+                 FROM post t
+                 WHERE
+                     t.id IN (@role_ids)
+             ) > 1
+            THEN 'Notes: Includes appointments in related roles.'
+        ELSE NULL
+        END notes
+FROM post t
+         INNER JOIN organisation o ON
+    t.organisation_id = o.id
+WHERE
+    t.name = @role_name
+LIMIT 1
