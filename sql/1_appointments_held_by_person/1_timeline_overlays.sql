@@ -1,55 +1,55 @@
-select *
-from (
-    select
-        'First became MP' label,
-        min(start_date) date,
-        1 persist
-    from representation r
-    where
-        r.person_id IN (@id) and
-        r.house = 'Commons'
+SELECT *
+FROM (
+         SELECT
+             'First became MP' label,
+             MIN(start_date) date,
+             1 persist
+         FROM representation r
+         WHERE
+             r.person_id IN (@minister_ids) AND
+             r.house = 'Commons'
 
-    union
+         UNION
 
-    select
-        'Became peer' label,
-        min(start_date) date,
-        1 persist
-    from representation r
-    where
-        r.person_id IN (@id) and
-        r.house = 'Lords'
+         SELECT
+             'Became peer' label,
+             MIN(start_date) date,
+             1 persist
+         FROM representation r
+         WHERE
+             r.person_id IN (@minister_ids) AND
+             r.house = 'Lords'
 
-    union
+         UNION
 
-    select
-        e.display_name label,
-        e.date,
-        0 persist
-    from event e
-    where
-        type = 'General election' and
-        e.date > (
-            select
-                min(start_date)
-            from representation r
-            where
-                r.person_id IN (@id)
-        ) and
-        e.date <= (
-            select
-                case
-                    when max(coalesce(ac.end_date, '9999-12-31')) = '9999-12-31' then date('now')
-                    else max(coalesce(ac.end_date, '9999-12-31'))
-                end
-            from appointment a
-                inner join appointment_characteristics ac on
-                    a.id = ac.appointment_id
-            where
-                a.person_id IN (@id)
-        )
-)
-where
-    date is not null
-order by
+         SELECT
+             e.display_name label,
+             e.date,
+             0 persist
+         FROM event e
+         WHERE
+             type = 'General election' AND
+             e.date > (
+                 SELECT
+                     MIN(start_date)
+                 FROM representation r
+                 WHERE
+                     r.person_id IN (@minister_ids)
+             ) AND
+             e.date <= (
+                 SELECT
+                     CASE
+                         WHEN MAX(COALESCE(ac.end_date, '9999-12-31')) = '9999-12-31' THEN DATE('now')
+                         ELSE MAX(COALESCE(ac.end_date, '9999-12-31'))
+                         END
+                 FROM appointment a
+                          INNER JOIN appointment_characteristics ac ON
+                     a.id = ac.appointment_id
+                 WHERE
+                     a.person_id IN (@minister_ids)
+             )
+     ) AS q
+WHERE
+    date IS NOT NULL
+ORDER BY
     date

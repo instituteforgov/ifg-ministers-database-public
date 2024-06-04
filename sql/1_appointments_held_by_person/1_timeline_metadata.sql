@@ -1,54 +1,55 @@
-select
-    case
-        when (min(rc.start_date) is null or min(ac.start_date) < min(rc.start_date)) and max(coalesce(ac.end_date, '9999-12-31')) = '9999-12-31' then 'Ministerial roles of ' || max(p.name) || ', ' || cast(strftime('%Y', min(ac.start_date)) as nvarchar(255)) || char(8211)
-        when (min(rc.start_date) is null or min(ac.start_date) < min(rc.start_date)) then 'Ministerial roles of ' || max(p.name) || ', ' || cast(strftime('%Y', min(ac.start_date)) as nvarchar(255)) || char(8211) || cast(strftime('%Y', max(ac.end_date)) as nvarchar(255))
-        when max(coalesce(ac.end_date, '9999-12-31')) = '9999-12-31' then 'Ministerial roles of ' || max(p.name) || ', ' || cast(strftime('%Y', min(rc.start_date)) as nvarchar(255)) || char(8211)
-        else 'Ministerial roles of ' || max(p.name) || ', ' || cast(strftime('%Y', min(rc.start_date)) as nvarchar(255)) || char(8211) || cast(strftime('%Y', max(ac.end_date)) as nvarchar(255))
-    end title,
-    case
-        when (min(rc.start_date) is null or min(ac.start_date) < min(rc.start_date)) then min(ac.start_date)
-        else min(rc.start_date)
-    end startDate,
-    case
-        when max(coalesce(ac.end_date, '9999-12-31')) = '9999-12-31' then date('now')
-        else max(coalesce(ac.end_date, '9999-12-31'))
-    end endDate,
+SELECT
+    CASE
+        WHEN (MIN(rc.start_date) IS NULL OR MIN(ac.start_date) < MIN(rc.start_date)) AND MAX(COALESCE(ac.end_date, '9999-12-31')) = '9999-12-31' THEN 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(strftime('%Y', MIN(ac.start_date)) AS nvarchar(255)) || CHAR(8211)
+        WHEN (MIN(rc.start_date) IS NULL OR MIN(ac.start_date) < MIN(rc.start_date)) THEN 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(strftime('%Y', MIN(ac.start_date)) AS nvarchar(255)) || CHAR(8211) || CAST(strftime('%Y', MAX(ac.end_date)) AS nvarchar(255))
+        WHEN MAX(COALESCE(ac.end_date, '9999-12-31')) = '9999-12-31' THEN 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(strftime('%Y', MIN(rc.start_date)) AS nvarchar(255)) || CHAR(8211)
+        ELSE 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(strftime('%Y', MIN(rc.start_date)) AS nvarchar(255)) || CHAR(8211) || CAST(strftime('%Y', MAX(ac.end_date)) AS nvarchar(255))
+    END title,
+    CASE
+        WHEN (MIN(rc.start_date) IS NULL OR MIN(ac.start_date) < MIN(rc.start_date)) THEN MIN(ac.start_date)
+        ELSE MIN(rc.start_date)
+    END startDate,
+    CASE
+        WHEN MAX(COALESCE(ac.end_date, '9999-12-31')) = '9999-12-31' THEN DATE('now')
+        ELSE MAX(COALESCE(ac.end_date, '9999-12-31'))
+    END endDate,
     'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ifg-ministers-database' source,
-    case
-        when max(t.name) is not null then 'Roles without significant ministerial duties are not shown.'
-        else null
-    end notes
-from appointment a
-    inner join appointment_characteristics ac on
+    CASE
+        WHEN MAX(t.name) IS NOT NULL THEN 'Roles without significant ministerial duties are not shown.'
+        ELSE NULL
+    END notes
+FROM appointment a
+    INNER JOIN appointment_characteristics ac ON
         a.id = ac.appointment_id
-    left join (
-        select *
-        from person p
-        where
-            p.id IN (@id)
-        order by
-            coalesce(p.end_date, '9999-12-31') desc
-        limit 1
+    LEFT JOIN (
+        SELECT *
+        FROM person p
+        WHERE
+            p.id IN (@minister_ids)
+        ORDER BY
+            COALESCE(p.end_date, '9999-12-31') DESC
+        LIMIT 1
     ) p
-    left join (
-        select t.*
-        from appointment a
-            inner join post t on
+    LEFT JOIN (
+        SELECT t.*
+        FROM appointment a
+            INNER JOIN post t ON
                 a.post_id = t.id
-        where
-            a.person_id IN (@id) and
-            t.name in (
+        WHERE
+            a.person_id IN (@minister_ids)
+          AND
+            t.name IN (
                 'First Lord of the Treasury',
                 'Lord Privy Seal',
                 'Lord President of the Council',
                 'Minister for the Civil Service',
                 'Minister for the Union'
             )
-        limit 1
+        LIMIT 1
     ) t
-    left join representation r on
-        r.person_id IN (@id)
-    left join representation_characteristics rc on
+    LEFT JOIN representation r ON
+        r.person_id IN (@minister_ids)
+    LEFT JOIN representation_characteristics rc ON
         r.id = rc.representation_id
-where
-    a.person_id IN (@id)
+WHERE
+    a.person_id IN (@minister_ids)

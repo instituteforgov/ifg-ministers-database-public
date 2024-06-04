@@ -1,5 +1,5 @@
-select
+SELECT
     id_ifg_website
-from person
-where
+FROM person
+WHERE
     display_name = @minister_name
