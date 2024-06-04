@@ -1,90 +1,145 @@
-select
-    min(id_parliament) id_parliament,
-    min(minister_name) Name,
-    min("MP/peer") "MP/peer",
-    min(party) Party,
-    case
-        when max(case when is_on_leave = 1 then 1 else 0 end) = 1 then group_concat(post_name || ' (on leave)', '/')
-        when max(case when is_acting = 1 then 1 else 0 end) = 1 then group_concat(post_name || ' (acting)', '/')
-        else group_concat(post_name, '/')
-    end Role,
-    group_concat(org_name, '/') Department,
-    min(rank_equivalence) Rank,
-    min(cabinet_status) "Cabinet status",
-    min(start_date) "Start date",
-    max(end_date) "End date"
-from (
-    select
-        row_number() over (partition by person_id, appointment_characteristics_id order by continues_previous_appointment desc, group_name) row_number,
-        *
-    from (
-        select
-            case
-                when lag(ac.end_date) over (partition by pr.group_name order by ac.start_date asc) = ac.start_date then 1
-                else 0
-            end continues_previous_appointment,
+SELECT
+    MIN(minister_id) AS "minister_id",
+    MIN(id_parliament) AS "id_parliament",
+    MIN(minister_name)  AS "name",
+    MIN("mp_peer") AS "mp_peer",
+    MIN(party) AS "party",
+
+    CASE
+        WHEN MAX(CASE WHEN is_on_leave = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(role || ' (on leave)', '/')
+        WHEN MAX(CASE WHEN is_acting = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(role || ' (acting)', '/')
+        ELSE GROUP_CONCAT(role, '/')
+    END AS "role",
+
+    GROUP_CONCAT(department, '/') AS "department",
+    MIN(rank) AS "rank",
+    MIN(cabinet_status) AS "cabinet_status",
+    MIN(start_date) AS "start_date",
+    MAX(end_date) AS "end_date",
+    "1" AS "count_grouping_value"
+FROM (
+    SELECT
+        ROW_NUMBER() OVER (PARTITION BY minister_id, appointment_characteristics_id ORDER BY continues_previous_appointment DESC, group_name) ROW_NUMBER, *
+    FROM (
+        SELECT
+            CASE
+                WHEN LAG(ac.end_date) OVER (PARTITION BY pr.group_name ORDER BY ac.start_date ASC) = ac.start_date THEN 1
+                ELSE 0
+            END continues_previous_appointment,
             pr.group_name,
-            case
-                when ol1.id is null and ol2.id is null then random()
-                when ol1.id is null then ol2.id
-                when ol2.id is null then ol1.id
-            end organisation_link_id,
-            p.id person_id,
+            CASE
+                WHEN ol1.id IS NULL AND ol2.id IS NULL THEN RANDOM()
+                WHEN ol1.id IS NULL THEN ol2.id
+                WHEN ol2.id IS NULL THEN ol1.id
+            END organisation_link_id,
+            p.id AS "minister_id",
             p.id_parliament,
-            p.name minister_name,
-            case
-                when r.house = 'Commons' then 'MP'
-                when r.house = 'Lords' then 'Peer'
-            end "MP/peer",
-            rc.party,
-            t.name post_name,
-            t.rank_equivalence,
-            o.short_name org_name,
+            p.name AS "minister_name",
+            CASE
+                WHEN r.house = 'Commons' THEN 'MP'
+                WHEN r.house = 'Lords' THEN 'Peer'
+            END "mp_peer",
+            rc.party AS "party",
+            t.name AS "role",
+            t.rank_equivalence AS "rank",
+            o.short_name AS "department",
             ac.id appointment_characteristics_id,
-            ac.cabinet_status,
-            ac.is_on_leave,
-            ac.is_acting,
-            ac.leave_reason,
-            ac.start_date,
-            ac.end_date
-        from appointment a
-            inner join appointment_characteristics ac on
+            ac.cabinet_status AS "cabinet_status",
+            ac.is_on_leave AS "is_on_leave",
+            ac.is_acting AS "is_acting",
+            ac.leave_reason AS "leave_reason",
+            ac.start_date AS "start_date",
+            ac.end_date AS "end_date"
+        FROM appointment a
+            INNER JOIN appointment_characteristics ac ON
                 a.id = ac.appointment_id
-            inner join person p on
-                a.person_id = p.id and
-                coalesce(a.start_date, '1900-01-01') >= coalesce(p.start_date, '1900-01-01') and
-                coalesce(a.start_date, '1900-01-01') < coalesce(p.end_date, '9999-12-31')
-            left join representation r on
-                a.person_id = r.person_id and
-                coalesce(a.start_date, '1900-01-01') >= coalesce(r.start_date, '1900-01-01') and
-                coalesce(a.start_date, '1900-01-01') < coalesce(r.end_date, '9999-12-31')
-            left join representation_characteristics rc on
-                r.id = rc.representation_id and
-                coalesce(r.start_date, '1900-01-01') >= coalesce(rc.start_date, '1900-01-01') and
-                coalesce(r.start_date, '1900-01-01') < coalesce(rc.end_date, '9999-12-31')
-            inner join post t on
+            INNER JOIN person p ON
+                a.person_id = p.id AND
+                COALESCE(a.start_date, '1900-01-01') >= COALESCE(p.start_date, '1900-01-01') AND
+                COALESCE(a.start_date, '1900-01-01') < COALESCE(p.end_date, '9999-12-31')
+            LEFT JOIN representation r ON
+                a.person_id = r.person_id AND
+                COALESCE(a.start_date, '1900-01-01') >= COALESCE(r.start_date, '1900-01-01') AND
+                COALESCE(a.start_date, '1900-01-01') < COALESCE(r.end_date, '9999-12-31')
+            LEFT JOIN representation_characteristics rc ON
+                r.id = rc.representation_id AND
+                COALESCE(r.start_date, '1900-01-01') >= COALESCE(rc.start_date, '1900-01-01') AND
+                COALESCE(r.start_date, '1900-01-01') < COALESCE(rc.end_date, '9999-12-31')
+            INNER JOIN post t ON
                 a.post_id = t.id
-            inner join organisation o on
+            INNER JOIN organisation o ON
                 t.organisation_id = o.id
-            left join organisation_link ol1 on
-                o.id = ol1.predecessor_organisation_id and
+            LEFT JOIN organisation_link ol1 ON
+                o.id = ol1.predecessor_organisation_id AND
                 ac.end_date = ol1.link_date
-            left join organisation_link ol2 on
-                o.id = ol2.successor_organisation_id and
+            LEFT JOIN organisation_link ol2 ON
+                o.id = ol2.successor_organisation_id AND
                 ac.start_date = ol2.link_date
-            left join post_relationship pr on
+            LEFT JOIN post_relationship pr ON
                 pr.post_id = t.id
-        where
-            p.id = @id
-        order by
-            coalesce(ac.start_date, '1900-01-01')
+
+        WHERE (
+            -- Main filters
+            minister_id IN (@id)
+
+            /*
+            AND
+            COALESCE(ac.start_date, '9999-12-31') >= @start_date
+
+            AND
+            COALESCE(ac.end_date, '9999-12-31') <= @end_date
+
+            -- Secondary filters
+            -- These need to use column aliases so the conditions are reusable across all 8 main queries.
+            AND
+            role IN (@role_ids)
+
+            AND
+            cabinet_status IN (@cabinet_statuses)
+
+            AND
+            mp_peer IN (@mp_peer)
+
+            AND
+            party IN (@party)
+
+            AND
+            rank IN (@rank)
+
+            AND
+            department IN (@department)
+
+            AND
+            is_acting IN (@is_acting)
+
+            AND
+            is_on_leave IN (@on_leave)
+
+            AND
+            leave_reason IN (@leave_reason)
+            */
+        )
+
+        ORDER BY
+            COALESCE(ac.start_date, '1900-01-01')
     ) q
 ) q
-where
-    row_number = 1
-group by
-    person_id,
+
+GROUP BY
+    minister_id,
     group_name,
     organisation_link_id
-order by
-    min(coalesce(start_date, '1900-01-01'))
+
+HAVING (
+    row_number = 1
+)
+
+ORDER BY
+    MIN(COALESCE(start_date, '1900-01-01'))
+
+-- Paged example
+-- e.g. viewing page 2 of 10 results per page.
+/*
+LIMIT 10
+OFFSET 10
+*/
