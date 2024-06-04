@@ -1,4 +1,5 @@
 SELECT
+    COUNT(*),
     p.id_parliament AS "image_id",
     p.name AS "minister_name",
 
