@@ -1,5 +1,7 @@
-select distinct
+select
     id_ifg_website
-from person p
+from person
 where
-    p.id = @id
+    display_name = @minister_name
+order by
+    display_name asc
