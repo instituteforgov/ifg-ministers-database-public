@@ -1,4 +1,5 @@
 SELECT
+    COUNT(*),
     person_id,
     MIN(id_parliament) AS "image_id",
     MIN(minister_name) AS "minister_name",
@@ -128,9 +129,7 @@ FROM (
 ) q
 
 GROUP BY
-    person_id,
-    group_name,
-    organisation_link_id
+    count_grouping_value
 
 HAVING
     role_id IN (@role_ids)
@@ -139,10 +138,3 @@ HAVING
 
 ORDER BY
     start_date ASC
-
--- Paged example
--- e.g. viewing page 2 of 10 results per page.
-/*
-LIMIT 10
-OFFSET 10
-*/
