@@ -1,5 +1,5 @@
-select
+SELECT
     id_ifg_website
-from post t
-where
+FROM post t
+WHERE
     name = @role
