@@ -62,7 +62,7 @@ with ministerial_appointment(organisation_id, organisation_short_name, rank_equi
                 left join post_relationship pr on
                     pr.post_id = t.id
             where
-                p.id = @id and
+                p.id IN (@id) and
                 t.name not in (
                     'First Lord of the Treasury',
                     'Lord Privy Seal',
