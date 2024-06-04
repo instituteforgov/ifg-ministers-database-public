@@ -41,16 +41,16 @@ FROM (
                 WHEN r.house = 'Commons' THEN 'MP'
                 WHEN r.house = 'Lords' THEN 'Peer'
             END "MP/peer",
-            rc.party,
+            rc.party AS "party",
             t.id role_id,
             t.name AS "role",
             t.rank_equivalence AS "rank",
             o.short_name AS "department",
             ac.id appointment_characteristics_id,
             ac.cabinet_status AS "cabinet_status",
-            ac.is_on_leave,
-            ac.is_acting,
-            ac.leave_reason,
+            ac.is_on_leave AS "is_on_leave",
+            ac.is_acting AS "is_acting",
+            ac.leave_reason AS "leave_reason",
             ac.start_date AS "start_date",
             ac.end_date AS "end_date"
         FROM appointment a
