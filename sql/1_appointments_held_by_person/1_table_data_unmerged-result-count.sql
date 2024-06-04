@@ -1,4 +1,5 @@
 SELECT
+    COUNT(*),
     p.id AS "minister_id",
     p.id_parliament AS "image_id",
     p.name AS "minister_name",
@@ -83,10 +84,3 @@ WHERE
     */
 order by
     start_date ASC
-
--- Paged example
--- e.g. viewing page 2 of 10 results per page.
-/*
-LIMIT 10
-OFFSET 10
-*/

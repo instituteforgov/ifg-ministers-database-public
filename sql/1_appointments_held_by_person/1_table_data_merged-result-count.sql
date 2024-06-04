@@ -135,10 +135,3 @@ HAVING (
 
 ORDER BY
     MIN(COALESCE(start_date, '1900-01-01'))
-
--- Paged example
--- e.g. viewing page 2 of 10 results per page.
-/*
-LIMIT 10
-OFFSET 10
-*/

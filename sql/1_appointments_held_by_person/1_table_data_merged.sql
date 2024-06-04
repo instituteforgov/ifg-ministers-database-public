@@ -135,7 +135,7 @@ HAVING (
 )
 
 ORDER BY
-    MIN(COALESCE(start_date, '1900-01-01'))
+    start_date ASC
 
 -- Paged example
 -- e.g. viewing page 2 of 10 results per page.
