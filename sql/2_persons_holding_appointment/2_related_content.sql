@@ -1,5 +1,5 @@
-SELECT
+SELECT DISTINCT
     id_ifg_website
 FROM post t
 WHERE
-    name = @role
+    t.id IN (@id)
