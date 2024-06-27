@@ -1,5 +1,5 @@
-SELECT
+SELECT DISTINCT
     id_ifg_website
 FROM person
 WHERE
-    display_name = @minister_name
+    id IN @id
