@@ -43,7 +43,7 @@ FROM appointment a
     t.organisation_id = o.id
 WHERE
     -- Main filters
-    minister_id IN (@id)
+    minister_id IN (@minister_ids)
 
     AND
     COALESCE(ac.start_date, '1900-01-01') >= @start_date

@@ -44,7 +44,7 @@ FROM appointment a
     t.organisation_id = o.id
 WHERE
     -- Main filters
-    minister_id IN (@id)
+    minister_id IN (@minister_ids)
 
     /*
     AND

@@ -81,7 +81,7 @@ FROM (
 
                   WHERE (
                             -- Main filters
-                            minister_id IN (@id)
+                            minister_id IN (@minister_ids)
 
                             /*
                             AND
