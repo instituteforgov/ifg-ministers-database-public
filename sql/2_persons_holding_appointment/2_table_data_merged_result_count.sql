@@ -1,28 +1,28 @@
 SELECT
-    COUNT(*),
-    person_id,
-    MIN(id_parliament) AS "image_id",
-    MIN(minister_name) AS "minister_name",
-    MIN("MP/peer") "mp_peer",
-    MIN(party) AS "party",
-    MIN(role_id) AS "role_id",
-
-    CASE
-        WHEN MAX(CASE WHEN is_on_leave = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(role || ' (on leave)', '/')
-        WHEN MAX(CASE WHEN is_acting = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(role || ' (acting)', '/')
-        ELSE GROUP_CONCAT(role, '/')
-        END AS "role",
-
-    GROUP_CONCAT(department, '/') AS "department",
-    MIN(rank) AS "rank",
-    MIN(cabinet_status) AS "cabinet_status",
-    MIN(start_date) AS "start_date",
-    MAX(end_date) AS "end_date",
-    "1" AS "count_grouping_value"
+    COUNT(1)
 FROM (
-          SELECT
-        ROW_NUMBER() OVER (PARTITION BY person_id, appointment_characteristics_id ORDER BY continues_previous_appointment DESC, group_name) ROW_NUMBER,
-        *
+    SELECT
+         person_id,
+         MIN(id_parliament)            AS "image_id",
+         MIN(minister_name)            AS "minister_name",
+         MIN("MP/peer")                   "mp_peer",
+         MIN(party)                    AS "party",
+         MIN(role_id)                  AS "role_id",
+
+         CASE
+             WHEN MAX(CASE WHEN is_on_leave = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(role || ' (on leave)', '/')
+             WHEN MAX(CASE WHEN is_acting = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(role || ' (acting)', '/')
+             ELSE GROUP_CONCAT(role, '/')
+             END                       AS "role",
+
+        GROUP_CONCAT(department, '/') AS "department",
+        MIN(rank) AS "rank",
+        MIN(cabinet_status) AS "cabinet_status",
+        MIN(start_date) AS "start_date",
+        MAX(end_date) AS "end_date"
+    FROM (
+        SELECT
+            ROW_NUMBER() OVER (PARTITION BY person_id, appointment_characteristics_id ORDER BY continues_previous_appointment DESC, group_name) ROW_NUMBER,   *
     FROM (
         SELECT
             CASE
@@ -82,15 +82,13 @@ FROM (
             LEFT JOIN post_relationship pr ON
                 pr.post_id = t.id
 
-        WHERE
+            WHERE
             -- Main filters
-            role_id IN (@role_ids)
+              role_id IN (@role_ids)
 
-            AND
-            COALESCE(ac.end_date, '9999-12-31') > @start_date
+            AND COALESCE(ac.end_date, '9999-12-31') > @start_date
 
-            AND
-            COALESCE(ac.start_date, '1900-01-01') <= @end_date
+            AND COALESCE(ac.start_date, '1900-01-01') <= @end_date
 
             -- Secondary filters
             -- These need to use column aliases so the conditions are reusable across all 8 main queries.
@@ -123,18 +121,14 @@ FROM (
             leave_reason IN (@leave_reason)
             */
 
-        ORDER BY
-            COALESCE(ac.start_date, '1900-01-01')
-    ) q
+            ORDER BY COALESCE(ac.start_date, '1900-01-01')) q) q
+
+      GROUP BY person_id,
+               group_name,
+               organisation_link_id
+
+      HAVING role_id IN (@role_ids)
+         AND row_number = 1
+
+      ORDER BY start_date ASC
 ) q
-
-GROUP BY
-    count_grouping_value
-
-HAVING
-    role_id IN (@role_ids)
-    AND
-    row_number = 1
-
-ORDER BY
-    start_date ASC

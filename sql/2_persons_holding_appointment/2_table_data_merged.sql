@@ -16,8 +16,7 @@ SELECT
     MIN(rank) AS "rank",
     MIN(cabinet_status) AS "cabinet_status",
     MIN(start_date) AS "start_date",
-    MAX(end_date) AS "end_date",
-    "1" AS "count_grouping_value"
+    MAX(end_date) AS "end_date"
 FROM (
           SELECT
         ROW_NUMBER() OVER (PARTITION BY person_id, appointment_characteristics_id ORDER BY continues_previous_appointment DESC, group_name) ROW_NUMBER,
