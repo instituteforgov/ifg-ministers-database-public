@@ -1,5 +1,5 @@
-select
+SELECT DISTINCT
     id_ifg_website
-from post t
-where
-    t.id = @id
+FROM post t
+WHERE
+    t.id IN (@id)

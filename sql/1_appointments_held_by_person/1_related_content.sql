@@ -1,5 +1,5 @@
-select distinct
+SELECT DISTINCT
     id_ifg_website
-from person p
-where
-    p.id = @id
+FROM person
+WHERE
+    id IN (@minister_ids)

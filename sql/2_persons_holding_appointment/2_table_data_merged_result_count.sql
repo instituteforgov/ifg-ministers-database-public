@@ -1,24 +1,28 @@
 SELECT
-    MIN(minister_id) AS "minister_id",
-    MIN(id_parliament) AS "id_parliament",
-    MIN(minister_name)  AS "name",
-    MIN("mp_peer") AS "mp_peer",
-    MIN(party) AS "party",
-
-    CASE
-        WHEN MAX(CASE WHEN is_on_leave = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(role || ' (on leave)', '/')
-        WHEN MAX(CASE WHEN is_acting = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(role || ' (acting)', '/')
-        ELSE GROUP_CONCAT(role, '/')
-    END AS "role",
-
-    GROUP_CONCAT(department, '/') AS "department",
-    MIN(rank) AS "rank",
-    MIN(cabinet_status) AS "cabinet_status",
-    MIN(start_date) AS "start_date",
-    MAX(end_date) AS "end_date"
+    COUNT(1)
 FROM (
     SELECT
-        ROW_NUMBER() OVER (PARTITION BY minister_id, appointment_characteristics_id ORDER BY continues_previous_appointment DESC, group_name) ROW_NUMBER, *
+         person_id,
+         MIN(id_parliament)            AS "image_id",
+         MIN(minister_name)            AS "minister_name",
+         MIN("MP/peer")                   "mp_peer",
+         MIN(party)                    AS "party",
+         MIN(role_id)                  AS "role_id",
+
+         CASE
+             WHEN MAX(CASE WHEN is_on_leave = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(role || ' (on leave)', '/')
+             WHEN MAX(CASE WHEN is_acting = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(role || ' (acting)', '/')
+             ELSE GROUP_CONCAT(role, '/')
+             END                       AS "role",
+
+        GROUP_CONCAT(department, '/') AS "department",
+        MIN(rank) AS "rank",
+        MIN(cabinet_status) AS "cabinet_status",
+        MIN(start_date) AS "start_date",
+        MAX(end_date) AS "end_date"
+    FROM (
+        SELECT
+            ROW_NUMBER() OVER (PARTITION BY person_id, appointment_characteristics_id ORDER BY continues_previous_appointment DESC, group_name) ROW_NUMBER,   *
     FROM (
         SELECT
             CASE
@@ -31,22 +35,23 @@ FROM (
                 WHEN ol1.id IS NULL THEN ol2.id
                 WHEN ol2.id IS NULL THEN ol1.id
             END organisation_link_id,
-            p.id AS "minister_id",
+            p.id person_id,
             p.id_parliament,
-            p.name AS "minister_name",
+            p.name minister_name,
             CASE
                 WHEN r.house = 'Commons' THEN 'MP'
                 WHEN r.house = 'Lords' THEN 'Peer'
-            END "mp_peer",
-            rc.party AS "party",
+            END "MP/peer",
+            rc.party,
+            t.id role_id,
             t.name AS "role",
             t.rank_equivalence AS "rank",
             o.short_name AS "department",
             ac.id appointment_characteristics_id,
             ac.cabinet_status AS "cabinet_status",
-            ac.is_on_leave AS "is_on_leave",
-            ac.is_acting AS "is_acting",
-            ac.leave_reason AS "leave_reason",
+            ac.is_on_leave,
+            ac.is_acting,
+            ac.leave_reason,
             ac.start_date AS "start_date",
             ac.end_date AS "end_date"
         FROM appointment a
@@ -77,21 +82,19 @@ FROM (
             LEFT JOIN post_relationship pr ON
                 pr.post_id = t.id
 
-        WHERE (
+            WHERE
             -- Main filters
-            minister_id IN (@minister_ids)
+              role_id IN (@role_ids)
 
-            AND
-            COALESCE(ac.start_date, '1900-01-01') >= @start_date
+            AND COALESCE(ac.end_date, '9999-12-31') > @start_date
 
-            AND
-            COALESCE(ac.end_date, '9999-12-31') <= @end_date
+            AND COALESCE(ac.start_date, '1900-01-01') <= @end_date
 
             -- Secondary filters
             -- These need to use column aliases so the conditions are reusable across all 8 main queries.
             /*
             AND
-            role IN (@role_ids)
+            minister_name IN (@names)
 
             AND
             cabinet_status IN (@cabinet_statuses)
@@ -117,28 +120,15 @@ FROM (
             AND
             leave_reason IN (@leave_reason)
             */
-        )
 
-        ORDER BY
-            COALESCE(ac.start_date, '1900-01-01')
-    ) q
+            ORDER BY COALESCE(ac.start_date, '1900-01-01')) q) q
+
+      GROUP BY person_id,
+               group_name,
+               organisation_link_id
+
+      HAVING role_id IN (@role_ids)
+         AND row_number = 1
+
+      ORDER BY start_date ASC
 ) q
-
-GROUP BY
-    minister_id,
-    group_name,
-    organisation_link_id
-
-HAVING (
-    row_number = 1
-)
-
-ORDER BY
-    start_date ASC
-
--- Paged example
--- e.g. viewing page 2 of 10 results per page.
-/*
-LIMIT 10
-OFFSET 10
-*/
