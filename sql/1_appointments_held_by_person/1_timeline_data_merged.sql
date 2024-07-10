@@ -26,49 +26,49 @@ WITH ministerial_appointment(organisation_id, organisation_short_name, rank_equi
                     WHEN ol1.id IS NULL THEN ol2.id
                     WHEN ol2.id IS NULL THEN ol1.id
                 END organisation_link_id,
-                    p.id person_id,
-                    p.id,
-                    p.name minister_name,
-                    t.name post_name,
-                    t.rank_equivalence,
-                    o.id organisation_id,
-                    o.short_name organisation_short_name,
-                    ac.id appointment_characteristics_id,
-                    ac.cabinet_status,
-                    ac.is_on_leave,
-                    ac.is_acting,
-                    ac.leave_reason,
-                    ac.start_date,
-                    ac.end_date
-                FROM appointment a
-                    INNER JOIN appointment_characteristics ac ON
-                        a.id = ac.appointment_id
-                    INNER JOIN person p ON
-                        a.person_id = p.id AND
-                        COALESCE(a.start_date, '1900-01-01') >= COALESCE(p.start_date, '1900-01-01') AND
-                        COALESCE(a.start_date, '1900-01-01') < COALESCE(p.end_date, '9999-12-31')
-                    INNER JOIN post t ON
-                        a.post_id = t.id
-                    INNER JOIN organisation o ON
-                        t.organisation_id = o.id
-                    LEFT JOIN organisation_link ol1 ON
-                        o.id = ol1.predecessor_organisation_id AND
-                        ac.end_date = ol1.link_date
-                    LEFT JOIN organisation_link ol2 ON
-                        o.id = ol2.successor_organisation_id AND
-                        ac.start_date = ol2.link_date
-                    LEFT JOIN post_relationship pr ON
-                        pr.post_id = t.id
-                WHERE
-                    p.id IN (@minister_ids) AND
-                    t.name NOT IN (
-                        'First Lord of the Treasury',
-                        'Lord Privy Seal',
-                        'Lord President of the Council',
-                        'Minister for the Civil Service',
-                        'Minister for the Union'
-                    )
-            ) q
+                p.id person_id,
+                p.id,
+                p.name minister_name,
+                t.name post_name,
+                t.rank_equivalence,
+                o.id organisation_id,
+                o.short_name organisation_short_name,
+                ac.id appointment_characteristics_id,
+                ac.cabinet_status,
+                ac.is_on_leave,
+                ac.is_acting,
+                ac.leave_reason,
+                ac.start_date,
+                ac.end_date
+            FROM appointment a
+                INNER JOIN appointment_characteristics ac ON
+                    a.id = ac.appointment_id
+                INNER JOIN person p ON
+                    a.person_id = p.id AND
+                    COALESCE(a.start_date, '1900-01-01') >= COALESCE(p.start_date, '1900-01-01') AND
+                    COALESCE(a.start_date, '1900-01-01') < COALESCE(p.end_date, '9999-12-31')
+                INNER JOIN post t ON
+                    a.post_id = t.id
+                INNER JOIN organisation o ON
+                    t.organisation_id = o.id
+                LEFT JOIN organisation_link ol1 ON
+                    o.id = ol1.predecessor_organisation_id AND
+                    ac.end_date = ol1.link_date
+                LEFT JOIN organisation_link ol2 ON
+                    o.id = ol2.successor_organisation_id AND
+                    ac.start_date = ol2.link_date
+                LEFT JOIN post_relationship pr ON
+                    pr.post_id = t.id
+            WHERE
+                p.id IN (@minister_ids) AND
+                t.name NOT IN (
+                    'First Lord of the Treasury',
+                    'Lord Privy Seal',
+                    'Lord President of the Council',
+                    'Minister for the Civil Service',
+                    'Minister for the Union'
+                )
+        ) q
     ) q
     WHERE
         q.row_number = 1
