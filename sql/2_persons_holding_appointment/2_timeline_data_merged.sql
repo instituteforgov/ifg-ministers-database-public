@@ -92,7 +92,7 @@ FROM (
                 pr.post_id = t.id
         WHERE
             ac.is_on_leave = 0 AND
-            t.id  IN (@role_ids) AND
+            t.id IN (@role_ids) AND
             COALESCE(ac.end_date, '9999-12-31') > @start_date AND
             COALESCE(ac.start_date, '1900-01-01') <= @end_date
     ) q
