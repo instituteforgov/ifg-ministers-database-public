@@ -50,7 +50,7 @@ FROM (
 
         /*
         AND
-        COALESCE(ac.start_date, '9999-12-31') >= @start_date
+        COALESCE(ac.start_date, '1900-01-01') >= @start_date
 
         AND
         COALESCE(ac.end_date, '9999-12-31') <= @end_date
