@@ -10,7 +10,7 @@ SELECT
         WHEN MAX(CASE WHEN is_on_leave = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(role || ' (on leave)', '/')
         WHEN MAX(CASE WHEN is_acting = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(role || ' (acting)', '/')
         ELSE GROUP_CONCAT(role, '/')
-        END AS "role",
+    END AS "role",
 
     GROUP_CONCAT(department, '/') AS "department",
     MIN(rank) AS "rank",
@@ -18,7 +18,7 @@ SELECT
     MIN(start_date) AS "start_date",
     MAX(end_date) AS "end_date"
 FROM (
-          SELECT
+    SELECT
         ROW_NUMBER() OVER (PARTITION BY person_id, appointment_characteristics_id ORDER BY continues_previous_appointment DESC, group_name) ROW_NUMBER,
         *
     FROM (
@@ -132,8 +132,7 @@ GROUP BY
     organisation_link_id
 
 HAVING
-    role_id IN (@role_ids)
-    AND
+    role_id IN (@role_ids) AND
     row_number = 1
 
 ORDER BY

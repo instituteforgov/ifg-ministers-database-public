@@ -26,19 +26,19 @@ FROM (
         q.cabinet_status AS "cabinet_status"
     FROM (
         SELECT
-           'Appointment' AS "type",
-           ac.start_date DATE,
-           p.id_parliament AS "image_id",
-           p.name AS "name",
-           r.house AS "house",
-           rc.party AS "party",
-           t.name AS "role",
-           t.rank_equivalence AS "rank",
-           o.short_name AS "department",
-           ac.cabinet_status AS "cabinet_status",
-           ac.is_on_leave AS "is_on_leave",
-           ac.is_acting AS "is_acting",
-           ac.leave_reason AS "leave_reason"
+            'Appointment' AS "type",
+            ac.start_date DATE,
+            p.id_parliament AS "image_id",
+            p.name AS "name",
+            r.house AS "house",
+            rc.party AS "party",
+            t.name AS "role",
+            t.rank_equivalence AS "rank",
+            o.short_name AS "department",
+            ac.cabinet_status AS "cabinet_status",
+            ac.is_on_leave AS "is_on_leave",
+            ac.is_acting AS "is_acting",
+            ac.leave_reason AS "leave_reason"
         FROM appointment a
             INNER JOIN appointment_characteristics ac ON
                 a.id = ac.appointment_id AND

@@ -9,7 +9,7 @@ FROM (
         CASE
             WHEN r.house = 'Commons' THEN 'MP'
             WHEN r.house = 'Lords' THEN 'Peer'
-            END AS "mp_peer",
+        END AS "mp_peer",
 
         rc.party AS "party",
 
@@ -17,7 +17,7 @@ FROM (
             WHEN ac.is_on_leave = 1 THEN t.name || ' (on leave)'
             WHEN ac.is_acting = 1 THEN t.name || ' (acting)'
             ELSE t.name
-            END AS "role",
+        END AS "role",
 
         o.short_name AS "department",
         t.rank_equivalence AS "rank",
@@ -26,24 +26,24 @@ FROM (
         ac.end_date AS "end_date"
 
     FROM appointment a
-             INNER JOIN appointment_characteristics ac ON
-        a.id = ac.appointment_id
-             INNER JOIN person p ON
-        a.person_id = p.id AND
-        COALESCE(a.start_date, '1900-01-01') >= COALESCE(p.start_date, '1900-01-01') AND
-        COALESCE(a.start_date, '1900-01-01') < COALESCE(p.end_date, '9999-12-31')
-             LEFT JOIN representation r ON
-        a.person_id = r.person_id AND
-        COALESCE(a.start_date, '1900-01-01') >= COALESCE(r.start_date, '1900-01-01') AND
-        COALESCE(a.start_date, '1900-01-01') < COALESCE(r.end_date, '9999-12-31')
-             LEFT JOIN representation_characteristics rc ON
-        r.id = rc.representation_id AND
-        COALESCE(r.start_date, '1900-01-01') >= COALESCE(rc.start_date, '1900-01-01') AND
-        COALESCE(r.start_date, '1900-01-01') < COALESCE(rc.end_date, '9999-12-31')
-             INNER JOIN post t ON
-        a.post_id = t.id
-             INNER JOIN organisation o ON
-        t.organisation_id = o.id
+        INNER JOIN appointment_characteristics ac ON
+            a.id = ac.appointment_id
+        INNER JOIN person p ON
+            a.person_id = p.id AND
+            COALESCE(a.start_date, '1900-01-01') >= COALESCE(p.start_date, '1900-01-01') AND
+            COALESCE(a.start_date, '1900-01-01') < COALESCE(p.end_date, '9999-12-31')
+        LEFT JOIN representation r ON
+            a.person_id = r.person_id AND
+            COALESCE(a.start_date, '1900-01-01') >= COALESCE(r.start_date, '1900-01-01') AND
+            COALESCE(a.start_date, '1900-01-01') < COALESCE(r.end_date, '9999-12-31')
+        LEFT JOIN representation_characteristics rc ON
+            r.id = rc.representation_id AND
+            COALESCE(r.start_date, '1900-01-01') >= COALESCE(rc.start_date, '1900-01-01') AND
+            COALESCE(r.start_date, '1900-01-01') < COALESCE(rc.end_date, '9999-12-31')
+        INNER JOIN post t ON
+            a.post_id = t.id
+        INNER JOIN organisation o ON
+            t.organisation_id = o.id
     WHERE
         -- Main filters
         minister_id IN (@minister_ids)

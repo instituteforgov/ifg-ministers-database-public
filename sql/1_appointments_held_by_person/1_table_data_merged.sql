@@ -18,7 +18,8 @@ SELECT
     MAX(end_date) AS "end_date"
 FROM (
     SELECT
-        ROW_NUMBER() OVER (PARTITION BY minister_id, appointment_characteristics_id ORDER BY continues_previous_appointment DESC, group_name) ROW_NUMBER, *
+        ROW_NUMBER() OVER (PARTITION BY minister_id, appointment_characteristics_id ORDER BY continues_previous_appointment DESC, group_name) ROW_NUMBER,
+        *
     FROM (
         SELECT
             CASE

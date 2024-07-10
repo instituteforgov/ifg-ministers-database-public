@@ -83,7 +83,7 @@ FROM (
                     ac1.start_date = ol.link_date AND
                     ol.predecessor_organisation_id = o2.id AND
                     pr1.group_name = pr2.group_name
-                )
+            )
 
         UNION ALL
 
@@ -144,7 +144,7 @@ FROM (
                     ac1.end_date = ol.link_date AND
                     ol.successor_organisation_id = o2.id AND
                     pr1.group_name = pr2.group_name
-                )
+            )
     ) q
 
     /*

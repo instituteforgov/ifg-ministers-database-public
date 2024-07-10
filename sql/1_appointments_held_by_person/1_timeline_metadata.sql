@@ -36,8 +36,7 @@ FROM appointment a
             INNER JOIN post t ON
                 a.post_id = t.id
         WHERE
-            a.person_id IN (@minister_ids)
-          AND
+            a.person_id IN (@minister_ids) AND
             t.name IN (
                 'First Lord of the Treasury',
                 'Lord Privy Seal',
