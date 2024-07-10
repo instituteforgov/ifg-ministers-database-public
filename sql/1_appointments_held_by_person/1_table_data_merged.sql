@@ -130,9 +130,8 @@ GROUP BY
     group_name,
     organisation_link_id
 
-HAVING (
+HAVING
     row_number = 1
-)
 
 ORDER BY
     start_date ASC

@@ -133,9 +133,8 @@ FROM (
         group_name,
         organisation_link_id
 
-    HAVING (
+    HAVING
         row_number = 1
-    )
 
     ORDER BY
         MIN(COALESCE(start_date, '1900-01-01'))

@@ -133,7 +133,6 @@ FROM (
         organisation_link_id
 
     HAVING
-        role_id IN (@role_ids) AND
         row_number = 1
 
     ORDER BY
