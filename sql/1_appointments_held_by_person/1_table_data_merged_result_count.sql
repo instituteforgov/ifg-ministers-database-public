@@ -123,9 +123,9 @@ FROM (
                 */
             )
 
-            ORDER BY
-                COALESCE(ac.start_date, '1900-01-01')
         ) q
+        ORDER BY
+            COALESCE(q.start_date, '1900-01-01')
     ) q
 
     GROUP BY

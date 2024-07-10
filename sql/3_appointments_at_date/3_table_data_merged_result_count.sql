@@ -120,9 +120,9 @@ FROM (
                 leave_reason IN (@leave_reason)
                 */
 
-            ORDER BY
-                COALESCE(ac.start_date, '1900-01-01')
         ) q
+        ORDER BY
+            COALESCE(q.start_date, '1900-01-01')
     ) q
     WHERE
         row_number = 1
