@@ -1,12 +1,17 @@
 SELECT
     CASE
-        -- Generic MoS, PUSS
-        WHEN t.name IN ('Minister of State', 'Parliamentary Under Secretary of State') AND @end_date = '9999-12-31' THEN 'Individuals serving as ' || t.name || ', ' || o.short_name || ', ' || CAST(strftime('%Y', @start_date) AS nvarchar(255)) || CHAR(8211)
-        WHEN t.name IN ('Minister of State', 'Parliamentary Under Secretary of State') THEN 'Individuals serving as ' || t.name || ', ' || o.short_name || ', ' || CAST(strftime('%Y', @start_date) AS nvarchar(255)) || CHAR(8211) || CAST(strftime('%Y', @end_date) AS nvarchar(255))
 
-        -- Specific job title
-        WHEN @end_date = '9999-12-31' THEN 'Individuals serving as ' || t.name || ', ' || CAST(strftime('%Y', @start_date) AS nvarchar(255)) || CHAR(8211)
-        ELSE 'Individuals serving as ' || t.name || ', ' || CAST(strftime('%Y', @start_date) AS nvarchar(255)) || CHAR(8211) || CAST(strftime('%Y', @end_date) AS nvarchar(255))
+        -- Up to current appointments
+        WHEN @end_date = DATE('now') THEN t.display_name || ', ' || CAST(STRFTIME('%Y', @start_date) AS NVARCHAR(255)) || CHAR(8211)
+
+        -- Start and end year are the same
+        WHEN STRFTIME('%Y', @start_date) = STRFTIME('%Y', @end_date) THEN t.display_name || ', ' || CAST(STRFTIME('%Y', @start_date) AS NVARCHAR(255))
+
+        -- Start and end year begin with the same two digits
+        WHEN SUBSTR(@start_date, 0, 2) = SUBSTR(@end_date, 0, 2) THEN t.display_name || ', ' || CAST(STRFTIME('%Y', @start_date) AS NVARCHAR(255)) || CHAR(8211) || CAST(SUBSTR(STRFTIME('%Y', @end_date), -2) AS NVARCHAR(255))
+
+        -- Base case
+        ELSE t.display_name || ', ' || CAST(STRFTIME('%Y', @start_date) AS NVARCHAR(255)) || CHAR(8211) || CAST(STRFTIME('%Y', @end_date) AS NVARCHAR(255))
 
     END title,
     COALESCE(@start_date, '1900-01-01') startDate,
@@ -14,7 +19,7 @@ SELECT
         WHEN COALESCE(@end_date, '9999-12-31') = '9999-12-31' THEN DATE('now')
         ELSE COALESCE(@end_date, '9999-12-31')
     END endDate,
-    'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ifg-ministers-database' source,
+    'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ifg-ministers-database.' source,
     CASE
         WHEN (
             SELECT
@@ -30,5 +35,5 @@ FROM post t
     INNER JOIN organisation o ON
         t.organisation_id = o.id
 WHERE
-    t.name = @role_name
+    t.display_name = @role_name
 LIMIT 1

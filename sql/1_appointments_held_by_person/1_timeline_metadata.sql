@@ -1,9 +1,9 @@
 SELECT
     CASE
-        WHEN (MIN(rc.start_date) IS NULL OR MIN(ac.start_date) < MIN(rc.start_date)) AND MAX(COALESCE(ac.end_date, '9999-12-31')) = '9999-12-31' THEN 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(strftime('%Y', MIN(ac.start_date)) AS nvarchar(255)) || CHAR(8211)
-        WHEN (MIN(rc.start_date) IS NULL OR MIN(ac.start_date) < MIN(rc.start_date)) THEN 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(strftime('%Y', MIN(ac.start_date)) AS nvarchar(255)) || CHAR(8211) || CAST(strftime('%Y', MAX(ac.end_date)) AS nvarchar(255))
-        WHEN MAX(COALESCE(ac.end_date, '9999-12-31')) = '9999-12-31' THEN 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(strftime('%Y', MIN(rc.start_date)) AS nvarchar(255)) || CHAR(8211)
-        ELSE 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(strftime('%Y', MIN(rc.start_date)) AS nvarchar(255)) || CHAR(8211) || CAST(strftime('%Y', MAX(ac.end_date)) AS nvarchar(255))
+        WHEN (MIN(rc.start_date) IS NULL OR MIN(ac.start_date) < MIN(rc.start_date)) AND MAX(COALESCE(ac.end_date, '9999-12-31')) = '9999-12-31' THEN 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(STRFTIME('%Y', MIN(ac.start_date)) AS nvarchar(255)) || CHAR(8211)
+        WHEN (MIN(rc.start_date) IS NULL OR MIN(ac.start_date) < MIN(rc.start_date)) THEN 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(STRFTIME('%Y', MIN(ac.start_date)) AS nvarchar(255)) || CHAR(8211) || CAST(STRFTIME('%Y', MAX(ac.end_date)) AS nvarchar(255))
+        WHEN MAX(COALESCE(ac.end_date, '9999-12-31')) = '9999-12-31' THEN 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(STRFTIME('%Y', MIN(rc.start_date)) AS nvarchar(255)) || CHAR(8211)
+        ELSE 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(STRFTIME('%Y', MIN(rc.start_date)) AS nvarchar(255)) || CHAR(8211) || CAST(STRFTIME('%Y', MAX(ac.end_date)) AS nvarchar(255))
     END title,
     CASE
         WHEN (MIN(rc.start_date) IS NULL OR MIN(ac.start_date) < MIN(rc.start_date)) THEN MIN(ac.start_date)

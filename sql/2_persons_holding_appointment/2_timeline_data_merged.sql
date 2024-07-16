@@ -1,23 +1,23 @@
 SELECT
     CASE
         -- Acting and appointment starts before start of chart range
-        WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 AND strftime('%Y', MIN(q.start_date)) < strftime('%Y', @start_date) THEN MIN(q.minister_short_name) || ' (acting - since ' || strftime('%Y', MIN(q.start_date)) || ')'
-        WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 AND MIN(q.start_date) < @start_date THEN MIN(q.minister_short_name) || ' (acting - since ' || SUBSTR ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", MIN(q.start_date)) * 3, 3) || ' ' || strftime('%Y', MIN(q.start_date)) || ')'
+        WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 AND STRFTIME('%Y', MIN(q.start_date)) < STRFTIME('%Y', @start_date) THEN MIN(q.minister_short_name) || ' (acting - since ' || STRFTIME('%Y', MIN(q.start_date)) || ')'
+        WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 AND MIN(q.start_date) < @start_date THEN MIN(q.minister_short_name) || ' (acting - since ' || SUBSTR("--JanFebMarAprMayJunJulAugSepOctNovDec", STRFTIME ("%m", MIN(q.start_date)) * 3, 3) || ' ' || STRFTIME('%Y', MIN(q.start_date)) || ')'
 
         -- Acting and appointment ends after end of chart range
-        WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 AND strftime('%Y', MAX(q.end_date)) > strftime('%Y', @end_date) THEN MIN(q.minister_short_name) || ' (acting - until ' || strftime('%Y', MAX(q.end_date)) || ')'
-        WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 AND MAX(q.end_date) > @end_date THEN MIN(q.minister_short_name) || ' (acting - until ' || SUBSTR ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", MIN(q.end_date)) * 3, 3) || ' ' || strftime('%Y', MAX(q.end_date)) || ')'
+        WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 AND STRFTIME('%Y', MAX(q.end_date)) > STRFTIME('%Y', @end_date) THEN MIN(q.minister_short_name) || ' (acting - until ' || STRFTIME('%Y', MAX(q.end_date)) || ')'
+        WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 AND MAX(q.end_date) > @end_date THEN MIN(q.minister_short_name) || ' (acting - until ' || SUBSTR("--JanFebMarAprMayJunJulAugSepOctNovDec", STRFTIME ("%m", MIN(q.end_date)) * 3, 3) || ' ' || STRFTIME('%Y', MAX(q.end_date)) || ')'
 
         -- Acting
         WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 THEN MIN(q.minister_short_name) || ' (acting)'
 
         -- Appointment starts before start of chart range
-        WHEN strftime('%Y', MIN(q.start_date)) < strftime('%Y', @start_date) THEN MIN(q.minister_short_name) || ' (since ' || strftime('%Y', MIN(q.start_date)) || ')'
-        WHEN MIN(q.start_date) < @start_date THEN MIN(q.minister_short_name) || ' (since ' || SUBSTR ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", MIN(q.start_date)) * 3, 3) || ' ' || strftime('%Y', MIN(q.start_date)) || ')'
+        WHEN STRFTIME('%Y', MIN(q.start_date)) < STRFTIME('%Y', @start_date) THEN MIN(q.minister_short_name) || ' (since ' || STRFTIME('%Y', MIN(q.start_date)) || ')'
+        WHEN MIN(q.start_date) < @start_date THEN MIN(q.minister_short_name) || ' (since ' || SUBSTR("--JanFebMarAprMayJunJulAugSepOctNovDec", STRFTIME ("%m", MIN(q.start_date)) * 3, 3) || ' ' || STRFTIME('%Y', MIN(q.start_date)) || ')'
 
         -- Appointment ends after end of chart range
-        WHEN strftime('%Y', MAX(q.end_date)) > strftime('%Y', @end_date) THEN MIN(q.minister_short_name) || ' (until ' || strftime('%Y', MAX(q.end_date)) || ')'
-        WHEN MAX(q.end_date) > @end_date THEN MIN(q.minister_short_name) || ' (until ' || SUBSTR ("--JanFebMarAprMayJunJulAugSepOctNovDec", strftime ("%m", MIN(q.end_date)) * 3, 3) || ' ' || strftime('%Y', MAX(q.end_date)) || ')'
+        WHEN STRFTIME('%Y', MAX(q.end_date)) > STRFTIME('%Y', @end_date) THEN MIN(q.minister_short_name) || ' (until ' || STRFTIME('%Y', MAX(q.end_date)) || ')'
+        WHEN MAX(q.end_date) > @end_date THEN MIN(q.minister_short_name) || ' (until ' || SUBSTR("--JanFebMarAprMayJunJulAugSepOctNovDec", STRFTIME ("%m", MIN(q.end_date)) * 3, 3) || ' ' || STRFTIME('%Y', MAX(q.end_date)) || ')'
 
         -- Normal case
         ELSE MIN(q.minister_short_name)
