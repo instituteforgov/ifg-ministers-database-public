@@ -131,7 +131,7 @@ GROUP BY
 
 HAVING
     @date >= MIN(start_date) AND
-    @date < MAX(end_date)
+    @date < MAX(COALESCE(end_date, '9999-12-31'))
 
 ORDER BY
     minister_name ASC
