@@ -19,7 +19,7 @@ FROM (
         END AS "role",
 
         t.id AS "role_id",
-        o.short_name AS "department",
+        o.name AS "department",
         t.rank_equivalence AS "rank",
         ac.cabinet_status AS "cabinet_status",
         ac.is_on_leave AS "is_on_leave",

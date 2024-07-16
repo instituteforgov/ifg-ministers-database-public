@@ -45,7 +45,7 @@ FROM (
                 rc.party AS "party",
                 t.name AS "role",
                 t.rank_equivalence AS "rank",
-                o.short_name AS "department",
+                o.name AS "department",
                 ac.id appointment_characteristics_id,
                 ac.cabinet_status AS "cabinet_status",
                 ac.is_on_leave AS "is_on_leave",

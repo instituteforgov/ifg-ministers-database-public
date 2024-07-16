@@ -19,7 +19,7 @@ FROM (
             ELSE t.name
         END AS "role",
 
-        o.short_name AS "department",
+        o.name AS "department",
         t.rank_equivalence AS "rank",
         ac.cabinet_status AS "cabinet_status",
         ac.start_date AS "start_date",
