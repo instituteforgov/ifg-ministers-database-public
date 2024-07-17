@@ -4,6 +4,7 @@ FROM (
     SELECT
         p.id_parliament AS "image_id",
         p.name AS "minister_name",
+        p.short_name AS "minister_short_name",
 
         CASE
             WHEN r.house = 'Commons' THEN 'MP'

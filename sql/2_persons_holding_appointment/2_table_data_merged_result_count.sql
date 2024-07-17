@@ -5,6 +5,7 @@ FROM (
         person_id,
         MIN(id_parliament) AS "image_id",
         MIN(minister_name) AS "minister_name",
+        MIN(minister_short_name) AS "minister_short_name",
         MIN("MP/peer") "mp_peer",
         MIN(party) AS "party",
         MIN(role_id) AS "role_id",
@@ -39,6 +40,7 @@ FROM (
                 p.id person_id,
                 p.id_parliament,
                 p.name minister_name,
+                p.name minister_short_name,
                 CASE
                     WHEN r.house = 'Commons' THEN 'MP'
                     WHEN r.house = 'Lords' THEN 'Peer'

@@ -3,6 +3,7 @@ SELECT
     q.date AS "date",
     q.id_parliament AS "image_id",
     q.minister_name AS "minister_name",
+    q.minister_short_name AS "minister_short_name",
 
     CASE
         WHEN q.house = 'Commons' THEN 'MP'
@@ -28,6 +29,7 @@ FROM (
         ac1.start_date date,
         p.id_parliament,
         p.name minister_name,
+        p.short_name minister_short_name,
         r.house,
         rc.party,
         t1.name post_name,
@@ -89,6 +91,7 @@ FROM (
         ac1.end_date date,
         p.id_parliament,
         p.name minister_name,
+        p.short_name minister_short_name,
         r.house,
         rc.party,
         t1.name post_name,

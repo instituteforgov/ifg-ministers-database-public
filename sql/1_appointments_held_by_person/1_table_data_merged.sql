@@ -2,6 +2,7 @@ SELECT
     MIN(minister_id) AS "minister_id",
     MIN(id_parliament) AS "id_parliament",
     MIN(minister_name)  AS "name",
+    MIN(minister_short_name)  AS "short_name",
     MIN("mp_peer") AS "mp_peer",
     MIN(party) AS "party",
 
@@ -35,6 +36,7 @@ FROM (
             p.id AS "minister_id",
             p.id_parliament,
             p.name AS "minister_name",
+            p.short_name AS "minister_short_name",
             CASE
                 WHEN r.house = 'Commons' THEN 'MP'
                 WHEN r.house = 'Lords' THEN 'Peer'
