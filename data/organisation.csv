@@ -16,7 +16,8 @@ bd8269fe-cac3-4ff2-ab01-31eabc3239cc,"Department for Children, Schools and Famil
 d5eab9cd-fa61-4d9c-8534-3a68cf3e1724,Department of Trade,DoT,NULL,9999-12-31
 4436bde2-d717-42d6-aa2c-3ab701ea14f5,"Department for Digital, Culture, Media and Sport",DCMS,2017-07-03,2023-02-07
 74535c7d-5afe-4283-a16f-3ffa95e4727d,Department of National Heritage,DNH,NULL,9999-12-31
-af3124a8-cdee-4847-b0e1-41acdf926cb4,Department for Education,DfE,NULL,9999-12-31
+af3124a8-cdee-4847-b0e1-41acdf926cb4,Department for Education,DfE,2010-05-12,9999-12-31
+d5b4a523-903e-4dd3-b699-473ed5d9dc46,Department for Education,DfE,1992-04-11,1995-07-05
 56b99927-e705-4804-a35a-48902978cad2,Lord Chancellor's Department,LCD,NULL,9999-12-31
 e02cf2e9-8ab4-4e79-992a-48d857f369ea,Office of the Secretary of State for Scotland,Scot,1999-07-01,9999-12-31
 74d7b4e7-e541-44ba-b643-4e91df504fd5,Department for International Development,DfID,NULL,2020-09-02
@@ -25,13 +26,13 @@ f66a7d9f-05a2-4ad0-954d-54cf83a6b041,Department of Industry,DoI,NULL,9999-12-31
 64430280-1188-4c44-9b01-590cab80e2e9,Ministry of Defence,MoD,NULL,9999-12-31
 39c4900d-4c75-4622-94b7-6490ea7c8de2,Department for Constitutional Affairs,DCA,NULL,9999-12-31
 5140880e-3784-47d9-a643-64c0397009a9,"Foreign, Commonwealth and Development Office",FCDO,2020-09-02,9999-12-31
-ab626519-b046-413c-99ef-664a2ecdf06e,Department for Education and Employment,DfEE,NULL,9999-12-31
+ab626519-b046-413c-99ef-664a2ecdf06e,Department for Education and Employment,DfEE,1995-07-05,2001-06-08
 d224ad2a-a186-44f6-8ebf-6811bc0bebb3,Government Whips-House of Lords,Whip Lords,NULL,9999-12-31
 7f595c78-d15d-40cf-936e-6ba095c82cfa,Department of Social Security,DSS,NULL,9999-12-31
 4ab28968-f550-4da6-9f42-6c3a045f2263,"Department for Business, Innovation and Skills",BIS,NULL,9999-12-31
 cd9a4a3e-15d2-4f51-b999-6eb75e55fef4,"Ministry of Housing, Communities and Local Government",MHCLG,2018-01-08,2021-09-20
 0e2840cf-3adf-4b2b-8549-74e62d7d3a57,Department of Health and Social Security,DHSS,NULL,9999-12-31
-4c8d58ed-e49f-4ce6-93ec-78ca1baae691,Department for Education and Skills,DfES,NULL,9999-12-31
+4c8d58ed-e49f-4ce6-93ec-78ca1baae691,Department for Education and Skills,DfES,2001-06-08,2007-06-28
 b68a3cb1-c1da-46ac-b587-7e4fbc200601,Department of Energy,DoE,NULL,9999-12-31
 c7958519-b5ea-4631-aae2-85a59f4af4ef,Department of Trade and Industry,DTI,NULL,9999-12-31
 b32a41f4-be9b-42fd-9b45-86f2482e3684,"Department of Environment, Transport and the Regions",DETR,NULL,9999-12-31
@@ -54,6 +55,7 @@ dc0c11db-ed48-49f3-9733-9936b595950f,Scottish Office,Scot,NULL,1999-07-01
 52663866-dac6-4145-99c1-b3b28e0cd9a3,Attorney General's Office,AGO,NULL,9999-12-31
 ac357d18-4343-4665-8242-bcc3576410cf,Office of Public Service,OPS,1995-07-05,NULL
 a2f8cb74-0c99-42f2-99d5-bea2fc2b78f8,Northern Ireland Office,NIO,NULL,9999-12-31
+10ff4dcd-cd9d-47ee-8c17-c0868e94fd04,Department of Transport,DoTr,NULL,1997-05-02
 e7a8b6b1-a92d-41f0-89e2-c452dc806b2c,"Department for Business, Enterprise and Regulatory Reform",BERR,NULL,9999-12-31
 33a2ae61-e756-40ca-96da-c708a022b702,Foreign and Commonwealth Office,FCO,NULL,2020-09-02
 2d033e00-cba8-484d-b06a-c84d1d0b5d8b,Ministry of Justice,MoJ,NULL,9999-12-31
@@ -61,6 +63,6 @@ e17826ce-6b83-4ac6-ab10-cd3096ffd5e4,Office of the Leader of the House of Common
 c091555f-f8a2-4260-9b26-d0064e3cd68f,"Department for Environment, Food and Rural Affairs",Defra,NULL,9999-12-31
 88e057e4-f7bc-428a-ac95-d5006b9e7ac0,"Department for Levelling Up, Housing and Communities",DLUHC,2021-09-20,9999-12-31
 fec96b64-de5a-4c15-be6a-da1f69dc5920,Department for Work and Pensions,DWP,NULL,9999-12-31
-13ff6dc1-7e76-46a6-93dd-da7eaea58353,Department of Education and Science,DESc,NULL,9999-12-31
+13ff6dc1-7e76-46a6-93dd-da7eaea58353,Department of Education and Science,DESc,NULL,1992-04-11
 143e8528-d7ab-4514-ac5b-e69d8adc9af2,Home Office,HO,NULL,9999-12-31
 fedf4ed4-b139-4f18-ae6d-f41d17852134,Welsh Office,Wal,NULL,1999-07-01
