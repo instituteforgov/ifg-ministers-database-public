@@ -94,7 +94,7 @@ FROM (
             -- These need to use column aliases so the conditions are reusable across all 8 main queries.
             /*
             AND
-            role IN (@role_ids)
+            role IN (@role_names)
 
             AND
             cabinet_status IN (@cabinet_statuses)
