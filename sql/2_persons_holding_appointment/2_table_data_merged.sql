@@ -112,15 +112,6 @@ FROM (
 
             AND
             department IN (@department)
-
-            AND
-            is_acting IN (@is_acting)
-
-            AND
-            is_on_leave IN (@on_leave)
-
-            AND
-            leave_reason IN (@leave_reason)
             */
 
     ) q
