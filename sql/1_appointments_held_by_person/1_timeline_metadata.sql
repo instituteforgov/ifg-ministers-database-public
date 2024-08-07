@@ -1,26 +1,59 @@
 SELECT
     CASE
-        WHEN (MIN(rc.start_date) IS NULL OR MIN(ac.start_date) < MIN(rc.start_date)) AND MAX(COALESCE(ac.end_date, '9999-12-31')) = '9999-12-31' THEN 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(STRFTIME('%Y', MIN(ac.start_date)) AS nvarchar(255)) || CHAR(8211)
-        WHEN (MIN(rc.start_date) IS NULL OR MIN(ac.start_date) < MIN(rc.start_date)) THEN 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(STRFTIME('%Y', MIN(ac.start_date)) AS nvarchar(255)) || CHAR(8211) || CAST(STRFTIME('%Y', MAX(ac.end_date)) AS nvarchar(255))
-        WHEN MAX(COALESCE(ac.end_date, '9999-12-31')) = '9999-12-31' THEN 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(STRFTIME('%Y', MIN(rc.start_date)) AS nvarchar(255)) || CHAR(8211)
-        ELSE 'Ministerial roles of ' || MAX(p.name) || ', ' || CAST(STRFTIME('%Y', MIN(rc.start_date)) AS nvarchar(255)) || CHAR(8211) || CAST(STRFTIME('%Y', MAX(ac.end_date)) AS nvarchar(255))
+
+        -- Minister was never a parliamentarian, or was a minister before being a parliamentarian, and has ongoing appointment
+        WHEN (q.representation_start_date_min IS NULL OR q.appointment_start_date_min < q.representation_start_date_min) AND q.appointment_end_date_max = '9999-12-31' THEN 'Ministerial roles held by ' || p.name || ', ' || CAST(STRFTIME('%Y', q.appointment_start_date_min) AS NVARCHAR(255)) || CHAR(8211)
+
+        -- Minister was never a parliamentarian, or was a minister before being a parliamentarian
+        WHEN q.representation_start_date_min IS NULL OR q.appointment_start_date_min < q.representation_start_date_min THEN 'Ministerial roles held by ' || p.name || ', ' || CAST(STRFTIME('%Y', q.appointment_start_date_min) AS NVARCHAR(255)) || CHAR(8211) || CAST(STRFTIME('%Y', q.appointment_end_date_max) AS NVARCHAR(255))
+
+        -- Minister became a parliamentarian before May 1979
+        WHEN q.representation_start_date_min < '1979-05-04' THEN 'Ministerial roles held by ' || p.name || ', ' || '1979' || CHAR(8211) || CAST(STRFTIME('%Y', q.appointment_end_date_max) AS NVARCHAR(255))
+
+        -- Has ongoing appointment
+        WHEN q.appointment_end_date_max = '9999-12-31' THEN 'Ministerial roles held by ' || p.name || ', ' || CAST(STRFTIME('%Y', q.representation_start_date_min) AS NVARCHAR(255)) || CHAR(8211)
+
+        -- Start and end year are the same
+        WHEN STRFTIME('%Y', q.representation_start_date_min) = STRFTIME('%Y', q.appointment_end_date_max) THEN 'Ministerial roles held by ' || p.name || ', ' || CAST(STRFTIME('%Y', q.representation_start_date_min) AS NVARCHAR(255))
+
+        -- Start and end year begin with the same two digits
+        WHEN SUBSTR(q.representation_start_date_min, 0, 2) = SUBSTR(q.appointment_end_date_max, 0, 2) THEN 'Ministerial roles held by ' || p.name || ', ' || CAST(STRFTIME('%Y', q.representation_start_date_min) AS NVARCHAR(255)) || CHAR(8211) || CAST(SUBSTR(STRFTIME('%Y', q.appointment_end_date_max), -2) AS NVARCHAR(255))
+
+        -- Base case
+        ELSE 'Ministerial roles held by ' || p.name || ', ' || CAST(STRFTIME('%Y', q.representation_start_date_min) AS NVARCHAR(255)) || CHAR(8211) || CAST(STRFTIME('%Y', q.appointment_end_date_max) AS NVARCHAR(255))
+
     END title,
     CASE
-        WHEN (MIN(rc.start_date) IS NULL OR MIN(ac.start_date) < MIN(rc.start_date)) THEN MIN(ac.start_date)
-        ELSE MIN(rc.start_date)
+        WHEN q.representation_start_date_min IS NULL OR q.appointment_start_date_min < q.representation_start_date_min THEN q.appointment_start_date_min
+        WHEN q.representation_start_date_min < '1979-05-04' THEN '1979-05-04'
+        ELSE q.representation_start_date_min
     END startDate,
     CASE
-        WHEN MAX(COALESCE(ac.end_date, '9999-12-31')) = '9999-12-31' THEN DATE('now')
-        ELSE MAX(COALESCE(ac.end_date, '9999-12-31'))
+        WHEN q.appointment_end_date_max = '9999-12-31' THEN DATE('now')
+        ELSE q.appointment_end_date_max
     END endDate,
-    'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ifg-ministers-database' source,
+    'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ifg-ministers-database.' source,
     CASE
-        WHEN MAX(t.name) IS NOT NULL THEN 'Roles without significant ministerial duties are not shown.'
+        WHEN q.representation_start_date_min < '1979-05-04' AND t.name IS NOT NULL THEN 'Notes: Only roles since May 1979 are shown. Roles without significant ministerial duties are not shown.'
+        WHEN q.representation_start_date_min < '1979-05-04' THEN 'Notes: Only roles since May 1979 are shown.'
+        WHEN t.name IS NOT NULL THEN 'Notes: Roles without significant ministerial duties are not shown.'
         ELSE NULL
     END notes
-FROM appointment a
-    INNER JOIN appointment_characteristics ac ON
-        a.id = ac.appointment_id
+FROM (
+    SELECT
+        MIN(ac.start_date) appointment_start_date_min,
+        MAX(COALESCE(ac.end_date, '9999-12-31')) appointment_end_date_max,
+        MIN(rc.start_date) representation_start_date_min
+    FROM appointment a
+        INNER JOIN appointment_characteristics ac ON
+            a.id = ac.appointment_id
+        LEFT JOIN representation r ON
+            r.person_id IN (@minister_ids)
+        LEFT JOIN representation_characteristics rc ON
+            r.id = rc.representation_id
+    WHERE
+        a.person_id IN (@minister_ids)
+) q
     LEFT JOIN (
         SELECT *
         FROM person p
@@ -46,9 +79,3 @@ FROM appointment a
             )
         LIMIT 1
     ) t
-    LEFT JOIN representation r ON
-        r.person_id IN (@minister_ids)
-    LEFT JOIN representation_characteristics rc ON
-        r.id = rc.representation_id
-WHERE
-    a.person_id IN (@minister_ids)
