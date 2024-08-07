@@ -2,7 +2,7 @@ SELECT
     t.id
 FROM post t
 WHERE
-    t.display_name = @role
+    t.display_name = @display_name
 
 UNION
 
@@ -14,4 +14,4 @@ FROM post t
     INNER JOIN post_relationship pr2 on
         pr1.group_name = pr2.group_name
 WHERE
-    t.display_name = @role
+    t.display_name = @display_name
