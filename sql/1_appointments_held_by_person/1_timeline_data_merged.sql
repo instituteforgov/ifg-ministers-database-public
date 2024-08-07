@@ -1,5 +1,6 @@
 WITH ministerial_appointment(organisation_id, organisation_short_name, rank_equivalence, appointment_characteristics_start_date, appointment_characteristics_end_date) AS (
-    SELECT GROUP_CONCAT(CAST(q.organisation_id AS varchar(36)), '/') organisation_id,
+    SELECT
+        GROUP_CONCAT(CAST(q.organisation_id AS varchar(36)), '/') organisation_id,
         CASE
             WHEN MAX(CASE WHEN q.is_on_leave = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(q.organisation_short_name || ' (on leave)', '/')
             WHEN MAX(CASE WHEN q.is_acting = 1 THEN 1 ELSE 0 END) = 1 THEN GROUP_CONCAT(q.organisation_short_name || ' (acting)', '/')
