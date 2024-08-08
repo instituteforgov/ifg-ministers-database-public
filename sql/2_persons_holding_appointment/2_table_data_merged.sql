@@ -3,7 +3,7 @@ SELECT
     MIN(id_parliament) AS "image_id",
     MIN(minister_name) AS "minister_name",
     MIN(minister_short_name) AS "minister_short_name",
-    MIN("MP/peer") "mp_peer",
+    MIN("mp_peer") AS "mp_peer",
     MIN(party) AS "party",
     MIN(role_id) AS "role_id",
 
@@ -41,7 +41,7 @@ FROM (
             CASE
                 WHEN r.house = 'Commons' THEN 'MP'
                 WHEN r.house = 'Lords' THEN 'Peer'
-            END "MP/peer",
+            END "mp_peer",
             rc.party AS "party",
             t.id role_id,
             t.name AS "role",
