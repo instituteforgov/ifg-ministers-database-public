@@ -129,6 +129,7 @@ WHERE
 ORDER BY
     date DESC,
     appointment_exit DESC,
+    minister_short_name ASC,
     minister_name ASC
 
 -- Paged example
