@@ -77,4 +77,5 @@ WHERE
     */
 
 ORDER BY
+    minister_short_name ASC,
     minister_name ASC

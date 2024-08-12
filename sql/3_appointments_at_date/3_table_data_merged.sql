@@ -127,6 +127,7 @@ HAVING
     @date < MAX(COALESCE(end_date, '9999-12-31'))
 
 ORDER BY
+    minister_short_name ASC,
     minister_name ASC
 
 -- Paged example
