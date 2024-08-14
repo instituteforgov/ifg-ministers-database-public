@@ -19,7 +19,7 @@ SELECT
         WHEN COALESCE(@end_date, '9999-12-31') = '9999-12-31' THEN DATE('now')
         ELSE COALESCE(@end_date, '9999-12-31')
     END endDate,
-    'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ifg-ministers-database.' source,
+    'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ministers-database.' source,
     CASE
         WHEN (
             SELECT

@@ -32,7 +32,7 @@ SELECT
         WHEN q.appointment_end_date_max = '9999-12-31' THEN DATE('now')
         ELSE q.appointment_end_date_max
     END endDate,
-    'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ifg-ministers-database.' source,
+    'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ministers-database.' source,
     CASE
         WHEN q.representation_start_date_min < '1979-05-04' AND t.name IS NOT NULL THEN 'Notes: Only roles since May 1979 are shown. Roles without significant ministerial duties are not shown.'
         WHEN q.representation_start_date_min < '1979-05-04' THEN 'Notes: Only roles since May 1979 are shown.'
