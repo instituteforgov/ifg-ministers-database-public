@@ -60,11 +60,11 @@ FROM (
                 @date < COALESCE(p.end_date, '9999-12-31')
             LEFT JOIN representation r ON
                 a.person_id = r.person_id AND
-                @date >= COALESCE(r.start_date, '1900-01-01') AND
+                @date >= r.start_date AND
                 @date < COALESCE(r.end_date, '9999-12-31')
             LEFT JOIN representation_characteristics rc ON
                 r.id = rc.representation_id AND
-                @date >= COALESCE(rc.start_date, '1900-01-01') AND
+                @date >= rc.start_date AND
                 @date < COALESCE(rc.end_date, '9999-12-31')
             INNER JOIN post t ON
                 a.post_id = t.id
@@ -80,7 +80,7 @@ FROM (
                 pr.post_id = t.id
         WHERE
             -- Main filters
-            @date >= COALESCE(ac.start_date, '1900-01-01')
+            @date >= ac.start_date
 
             AND
             @date < COALESCE(ac.end_date, '9999-12-31')
@@ -112,7 +112,7 @@ FROM (
 
     ) q
     ORDER BY
-        COALESCE(q.start_date, '1900-01-01')
+        q.start_date
 ) q
 WHERE
     row_number = 1

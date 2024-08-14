@@ -42,20 +42,20 @@ FROM (
     FROM appointment a1
         INNER JOIN appointment_characteristics ac1 ON
             a1.id = ac1.appointment_id AND
-            @start_date <= COALESCE(ac1.start_date, '1900-01-01') AND
-            @end_date >= COALESCE(ac1.start_date, '1900-01-01')
+            @start_date <= ac1.start_date AND
+            @end_date >= ac1.start_date
         INNER JOIN person p ON
             a1.person_id = p.id AND
-            COALESCE(a1.start_date, '1900-01-01') >= COALESCE(p.start_date, '1900-01-01') AND
-            COALESCE(a1.start_date, '1900-01-01') < COALESCE(p.end_date, '9999-12-31')
+            a1.start_date >= COALESCE(p.start_date, '1900-01-01') AND
+            a1.start_date < COALESCE(p.end_date, '9999-12-31')
         LEFT JOIN representation r ON
             a1.person_id = r.person_id AND
-            COALESCE(a1.start_date, '1900-01-01') >= COALESCE(r.start_date, '1900-01-01') AND
-            COALESCE(a1.start_date, '1900-01-01') < COALESCE(r.end_date, '9999-12-31')
+            a1.start_date >= r.start_date AND
+            a1.start_date < COALESCE(r.end_date, '9999-12-31')
         LEFT JOIN representation_characteristics rc ON
             r.id = rc.representation_id AND
-            COALESCE(a1.start_date, '1900-01-01') >= COALESCE(rc.start_date, '1900-01-01') AND
-            COALESCE(a1.start_date, '1900-01-01') < COALESCE(rc.end_date, '9999-12-31')
+            a1.start_date >= rc.start_date AND
+            a1.start_date < COALESCE(rc.end_date, '9999-12-31')
         INNER JOIN post t1 ON
             a1.post_id = t1.id
         INNER JOIN organisation o1 ON
@@ -112,11 +112,11 @@ FROM (
             COALESCE(a1.end_date, '9999-12-31') <= COALESCE(p.end_date, '9999-12-31')
         LEFT JOIN representation r ON
             a1.person_id = r.person_id AND
-            COALESCE(a1.end_date, '9999-12-31') > COALESCE(r.start_date, '1900-01-01') AND
+            COALESCE(a1.end_date, '9999-12-31') > r.start_date AND
             COALESCE(a1.end_date, '9999-12-31') <= COALESCE(r.end_date, '9999-12-31')
         LEFT JOIN representation_characteristics rc ON
             r.id = rc.representation_id AND
-            COALESCE(a1.end_date, '9999-12-31') > COALESCE(rc.start_date, '1900-01-01') AND
+            COALESCE(a1.end_date, '9999-12-31') > rc.start_date AND
             COALESCE(a1.end_date, '9999-12-31') <= COALESCE(rc.end_date, '9999-12-31')
         INNER JOIN post t1 ON
             a1.post_id = t1.id

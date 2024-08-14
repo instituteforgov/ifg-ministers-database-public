@@ -46,8 +46,8 @@ WITH ministerial_appointment(organisation_id, organisation_short_name, rank_equi
                     a.id = ac.appointment_id
                 INNER JOIN person p ON
                     a.person_id = p.id AND
-                    COALESCE(a.start_date, '1900-01-01') >= COALESCE(p.start_date, '1900-01-01') AND
-                    COALESCE(a.start_date, '1900-01-01') < COALESCE(p.end_date, '9999-12-31')
+                    a.start_date >= COALESCE(p.start_date, '1900-01-01') AND
+                    a.start_date < COALESCE(p.end_date, '9999-12-31')
                 INNER JOIN post t ON
                     a.post_id = t.id
                 INNER JOIN organisation o ON

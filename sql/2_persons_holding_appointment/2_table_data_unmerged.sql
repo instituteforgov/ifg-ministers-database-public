@@ -31,16 +31,16 @@ FROM appointment a
         a.id = ac.appointment_id
     INNER JOIN person p ON
         a.person_id = p.id AND
-        COALESCE(a.start_date, '1900-01-01') >= COALESCE(p.start_date, '1900-01-01') AND
-        COALESCE(a.start_date, '1900-01-01') < COALESCE(p.end_date, '9999-12-31')
+        a.start_date >= COALESCE(p.start_date, '1900-01-01') AND
+        a.start_date < COALESCE(p.end_date, '9999-12-31')
     LEFT JOIN representation r ON
         a.person_id = r.person_id AND
-        COALESCE(a.start_date, '1900-01-01') >= COALESCE(r.start_date, '1900-01-01') AND
-        COALESCE(a.start_date, '1900-01-01') < COALESCE(r.end_date, '9999-12-31')
+        a.start_date >= r.start_date AND
+        a.start_date < COALESCE(r.end_date, '9999-12-31')
     LEFT JOIN representation_characteristics rc ON
         r.id = rc.representation_id AND
-        COALESCE(r.start_date, '1900-01-01') >= COALESCE(rc.start_date, '1900-01-01') AND
-        COALESCE(r.start_date, '1900-01-01') < COALESCE(rc.end_date, '9999-12-31')
+        r.start_date >= rc.start_date AND
+        r.start_date < COALESCE(rc.end_date, '9999-12-31')
     INNER JOIN post t ON
         a.post_id = t.id
     INNER JOIN organisation o ON
@@ -53,7 +53,7 @@ WHERE
     COALESCE(ac.end_date, '9999-12-31') > @start_date
 
     AND
-    COALESCE(ac.start_date, '1900-01-01') <= @end_date
+    ac.start_date <= @end_date
 
     -- Secondary filters
     -- These need to use column aliases so the conditions are reusable across all 8 main queries.
