@@ -14,10 +14,10 @@ SELECT
         ELSE t.display_name || ', ' || CAST(STRFTIME('%Y', @start_date) AS NVARCHAR(255)) || CHAR(8211) || CAST(STRFTIME('%Y', @end_date) AS NVARCHAR(255))
 
     END title,
-    COALESCE(@start_date, '1900-01-01') startDate,
+    @start_date startDate,
     CASE
         WHEN COALESCE(@end_date, '9999-12-31') = '9999-12-31' THEN DATE('now')
-        ELSE COALESCE(@end_date, '9999-12-31')
+        ELSE @end_date
     END endDate,
     'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ministers-database.' source,
     CASE
