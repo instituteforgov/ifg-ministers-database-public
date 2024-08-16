@@ -2,7 +2,7 @@ SELECT
     CASE
 
         -- Up to current appointments
-        WHEN @end_date = DATE('now') THEN t.display_name || ', ' || CAST(STRFTIME('%Y', @start_date) AS NVARCHAR(255)) || CHAR(8211)
+        WHEN @end_date >= DATE('now') THEN t.display_name || ', ' || CAST(STRFTIME('%Y', @start_date) AS NVARCHAR(255)) || CHAR(8211)
 
         -- Start and end year are the same
         WHEN STRFTIME('%Y', @start_date) = STRFTIME('%Y', @end_date) THEN t.display_name || ', ' || CAST(STRFTIME('%Y', @start_date) AS NVARCHAR(255))
