@@ -70,6 +70,8 @@ WITH ministerial_appointment(organisation_id, organisation_short_name, rank_equi
                     'Minister for the Union'
                 )
         ) q
+        ORDER BY
+            q.start_date
     ) q
     WHERE
         q.row_number = 1

@@ -96,6 +96,8 @@ FROM (
             COALESCE(ac.end_date, '9999-12-31') > @start_date AND
             ac.start_date <= @end_date
     ) q
+    ORDER BY
+        q.start_date
 ) q
 WHERE
     q.row_number = 1
