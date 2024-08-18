@@ -34,10 +34,11 @@ FROM (
     FROM (
         SELECT
             CASE
-                WHEN LAG(ac.end_date) OVER (PARTITION BY pr.group_name ORDER BY ac.start_date ASC) = ac.start_date THEN 1
+                WHEN LAG(ac.end_date) OVER (PARTITION BY pr.group_name, pr.group_seniority ORDER BY ac.start_date ASC) = ac.start_date THEN 1
                 ELSE 0
             END continues_previous_appointment,
             pr.group_name,
+            pr.group_seniority,
             CASE
                 WHEN ol1.id IS NULL AND ol2.id IS NULL THEN RANDOM()
                 WHEN ol1.id IS NULL THEN ol2.id
@@ -104,6 +105,7 @@ WHERE
 GROUP BY
     q.person_id,
     q.group_name,
+    q.group_seniority,
     q.organisation_link_id
 ORDER BY
     MIN(q.start_date)
