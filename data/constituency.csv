@@ -1,603 +1,1604 @@
-id,name,region,ons_code
-228d3f3e-d2c4-4d6f-a7c7-0078f9734b98,Bury South,North West,E14000612
-ad3daec1-14cd-4f7b-8de5-00b23801ec2f,Reading East,South East,E14000889
-73bcda46-3883-4d2d-bd82-0118c6c5da37,Bermondsey and Old Southwark,London,E14000553
-e03525e0-3e94-404d-80f0-012d852e69f9,Carshalton and Wallington,London,E14000621
-2f1ce893-18a1-4dd7-af32-0155b158dd85,Croydon North,London,E14000655
-0ef247e3-2392-406a-8c77-017e127fbe31,Hornsey and Wood Green,London,E14000752
-913e402e-8875-4099-9112-01e0fd22ef35,Dumfries,Scotland,NULL
-fc034b46-3db3-43af-9665-01e1e0b694fe,Newham North West,London,NULL
-87b6df94-6a58-41db-a686-0298559bee67,Beverley and Holderness,Yorkshire and The Humber,E14000556
-b69ef3f5-9061-4d91-8fe5-02c3eb1d0112,East Hampshire,South East,E14000680
-7810079c-615a-4de7-92e7-02c647cd469e,Wanstead and Woodford,London,NULL
-1565787f-1d4e-493a-b579-0350ce5add19,Leigh,North West,E14000785
-ffd53bf6-fd37-4d9a-88c7-037db618343c,Burton,West Midlands,E14000610
-c6b89748-6315-46e4-b9eb-03d2d20ad9a1,"Liverpool, West Derby",North West,E14000796
-1e4d9383-0bcd-413a-afbc-049da264a748,West Aberdeenshire and Kincardine,Scotland,S14000058
-c27f33f4-9dad-4c24-a441-051d18b263ac,North West Norfolk,East,E14000859
-bf7cf499-37b1-4faf-ab28-0604605132b4,Ogmore,Wales,W07000074
-845425ce-5610-4ad8-802d-0652276420b9,Crawley,South East,E14000652
-e2821d40-2c89-4797-a090-068326df460b,Kettering,East Midlands,E14000769
-845e6a89-2ad5-4792-a995-0815f03e3b69,Maidstone and The Weald,South East,E14000804
-16859436-9322-4e0d-b629-08e2ea25d738,East Devon,South West,E14000678
-05957d38-16ea-4512-8c54-09020f74f8a0,Amber Valley,East Midlands,E14000533
-5f21836f-5077-4189-9381-091795209113,Camberwell and Peckham,London,E14000615
-9c9382fa-c43c-4279-b275-09c94c03e0d3,Norwich North,East,E14000863
-0c1cf466-7e66-4495-aba4-0adb2f243ee9,Ashford,South East,E14000536
-b1b425a8-56b7-4c71-9c7a-0b8f93c19994,East Yorkshire,Yorkshire and The Humber,E14000683
-2a39ff29-d4ac-400a-bff9-0c3dd462173a,Meriden,West Midlands,E14000812
-d5ea1daa-0014-410b-976c-0c46355c7a74,Saffron Walden,East,E14000910
-3bf10f33-fb8e-41ac-9dbb-0c77d17e7333,Greenock and Inverclyde,Scotland,NULL
-9abe150c-cfaf-4012-b7ff-0cf1ce343068,North Wiltshire,South West,E14000860
-0e28a50f-9b1c-4ee7-a0d1-0dbe2efea59e,North East Cambridgeshire,East,E14000842
-c55c5946-c103-4206-b8a6-0e17576b4523,Blackburn,North West,E14000570
-1058aa62-ffd7-4ee1-b78b-0eb54bc95d74,Mid Sussex,South East,E14000817
-5e960dc5-3137-4c1f-9dac-0eb643bbb416,Tottenham,London,E14001002
-b9f14bbf-3667-40d6-a4a3-10b5a0d86109,Barking,London,E14000540
-7a1ba8e6-bea9-406f-98ba-10eb2901a077,Sherwood,East Midlands,E14000924
-62c7bc67-d1f9-42a1-8b1e-11578b12c7f5,"East Kilbride, Strathaven and Lesmahagow",Scotland,S14000019
-c0b6002e-6cb8-4504-8610-116d320eee8a,Cities of London and Westminster,London,E14000639
-a359c1cf-f68a-4cf3-9c32-11a8ea4eceed,Boothferry,Yorkshire and the Humber,NULL
-ae3f9cae-647a-48ef-8c2a-12149533db43,"Ruislip, Northwood and Pinner",London,E14000906
-582a5b9b-8c07-4c71-8e2f-121a22f3a486,Gravesham,South East,E14000715
-ac9597cf-4927-47f8-970b-1297d7da6d22,Coatbridge and Chryston,Scotland,NULL
-2abeaec3-9909-4664-ac6f-1388b942a740,Darlington,North East,E14000658
-0bfb656d-85bb-4dc9-9b0b-141de48bc416,North East Bedfordshire,East,E14000841
-3ae8da2c-013f-4fb8-8c6e-1477cc69e5c6,Wrexham,Wales,W07000044
-074dce37-fd8b-4bae-8e80-1490ab4ea605,Hemel Hempstead,East,E14000739
-c381694a-5255-4808-9f6d-14c7a655d47c,Wolverhampton South West,West Midlands,E14001051
-ac9c9dda-c248-4f32-a556-151fed247fc0,Moray,Scotland,S14000046
-93fa95da-6302-485c-846c-15230fb42646,Livingston,Scotland,S14000044
-4baee1ed-9403-449e-83cb-15cb1c7f89aa,Sleaford and North Hykeham,East Midlands,E14000929
-eb525070-e7b6-4f8a-87db-15d6e7bdda9e,Stoke-on-Trent Central,West Midlands,E14000972
-1aa1c40e-e4c8-4c7a-9d07-1611b9eefbb5,Croydon North West,London,NULL
-f2488102-a6cd-4371-a860-1637ec444fba,Eastleigh,South East,E14000685
-50f2e655-fbf6-4d7a-962d-165950aba73c,Bury North,North West,E14000611
-c510b8b9-c2e7-4455-9b9e-1705f1b95735,Clwyd North West,Wales,NULL
-8a8995a8-e805-45f2-98d9-1784198245ea,Knowsley North and Sefton East,North West,NULL
-ef1bf711-c90f-4203-ba53-17c478e30ca1,Enfield North,London,E14000691
-49135845-4166-4303-b0dc-181bfe2544ac,Brecon and Radnor,Wales,NULL
-7217e7cd-9f6a-4786-8e40-18252fe7f6fd,Wythenshawe and Sale East,North West,E14001059
-74da9e5c-1f96-40d2-90e9-185140bd0778,Hamilton North and Bellshill,Scotland,NULL
-38947a83-1389-4c38-8581-18af11c0ac53,Warley West,West Midlands,NULL
-986f0b77-668f-442c-acb3-19a8b2ce671f,South Colchester and Maldon,East,NULL
-7d5ff602-0cd9-4f18-b961-19aa429ae719,North Devon,South West,E14000838
-fe15d100-d575-41e4-8fcf-19b828823071,Worsley,North West,NULL
-782ebe57-178b-4459-9cdd-1a973c1c9fa7,Wycombe,South East,E14001056
-41fdbd0f-ef10-4d8f-86f8-1aafd1d3b25f,Brecon and Radnorshire,Wales,W07000068
-32e41b6e-84d0-4c49-aab8-1ad801b52c54,Hornchurch and Upminster,London,E14000751
-9e44ad2e-98c9-43c5-9948-1b0732caeac2,Kirkcaldy and Cowdenbeath,Scotland,S14000041
-ce9634ed-b62c-48d6-84b7-1c8db7d770fd,East Dunbartonshire,Scotland,S14000018
-998452c2-5856-427e-ab46-1cf01f88b27b,Bedford,East,E14000552
-441c597c-6d68-4001-8fba-1d19a7bddee9,Monklands West,Scotland,NULL
-b9b5c55d-bd30-49e7-b1c3-1de2cf207165,Holborn and St Pancras,London,E14000750
-391d34e2-ae07-4843-9e28-1ef3188a3b97,Gordon,Scotland,S14000037
-86f30f0a-d079-443f-a67a-1f90789e2c0c,Wentworth,Yorkshire and the Humber,NULL
-788a3974-61d7-445c-887d-1fa9f298b450,West Ham,London,E14001032
-164ee398-aaa5-4ada-a89e-1fcce641aaa9,Newcastle upon Tyne East and Wallsend,North East,NULL
-9e869532-ebc1-4b36-8a57-2042400dcb16,Nottingham East,East Midlands,E14000865
-39bdbf60-5da3-4ac3-b967-2084e68b6358,North Herefordshire,West Midlands,E14000847
-05a20953-fa8a-487b-b3d6-208641524dc1,Wallasey,North West,E14001010
-04b50a57-1bda-4e54-ac43-20c14ec29349,Poplar and Limehouse,London,E14000882
-264d593b-f1a2-4641-88ed-20e72ce4920a,Harrogate and Knaresborough,Yorkshire and The Humber,E14000730
-f1835084-44e6-448e-89d8-213587332403,Stockton South,North East,E14000971
-3757c21f-d397-4ebc-8b6e-2164ec085d4e,Sheffield Central,Yorkshire and The Humber,E14000919
-55b5ce91-aaff-4cc8-9469-222d5b7db732,Sheffield South East,Yorkshire and The Humber,E14000920
-5bc99ee6-b0d7-4ec3-b9de-22595094eb0f,Motherwell North,Scotland,NULL
-82c12314-0922-405b-b757-228ee6acb5d5,Mitcham and Morden,London,E14000823
-1f7a744a-0a8c-4c2d-ae73-22ca6cdffe58,High Peak,East Midlands,E14000748
-aef7e435-fb25-473f-b685-22e21cc3a113,West Worcestershire,West Midlands,E14001035
-b1c504ae-e7bb-4979-ba40-2320c48fa7c8,"Dumfriesshire, Clydesdale and Tweeddale",Scotland,S14000014
-d790d79c-40a3-4134-887a-23793314c34a,Warrington North,North West,E14001017
-2b9aff45-a168-4b0d-b08f-2446b3d0df3d,Spelthorne,South East,E14000959
-f6fbf760-85bc-41c1-9318-2488a0f16a9c,Lewisham West and Penge,London,E14000788
-9d9d8d0d-2304-4088-86e5-24ae04d991b7,City of Chester,North West,E14000640
-8b97508a-1d37-4572-b297-252ee4204108,Wells,South West,E14001026
-55866b2f-ea9a-499a-a2ec-25479b255f16,Derbyshire Dales,East Midlands,E14000664
-80c08b66-a6fe-4ab1-9cdc-255fbc2328fe,Croydon Central,London,E14000654
-04c8d25a-7819-4c13-b294-2585569c7c3e,Pembroke,Wales,NULL
-dbd40dc3-ae85-43db-94b3-25c395191b4c,Morecambe and Lunesdale,North West,E14000825
-4e0af33c-3c4f-4d17-93d8-25f944ae9c5e,Redditch,West Midlands,E14000892
-25911c97-ba54-4df2-bad9-262a249b5f95,Richmond (Yorks),Yorkshire and The Humber,E14000895
-04eea690-7691-4bed-921f-26a734b344c6,Orkney and Shetland,Scotland,S14000051
-9d5d4795-d905-4e21-8dc0-274f20b3cb98,Twickenham,London,E14001005
-ddb9716f-6190-41df-95e3-275a937be2de,North Warwickshire,West Midlands,E14000854
-3e65028f-cc9f-49ce-bd93-2761f2c44e04,Braintree,East,E14000590
-4a6ac1b6-5daf-436e-9708-286b36e37a61,Hove,South East,E14000755
-1fe56d7e-922d-46a6-8125-28d72ac9046f,St Austell and Newquay,South West,E14000961
-d6741db0-370c-46b7-9c02-28f487d929e5,Epsom and Ewell,South East,E14000694
-0fbf265e-649b-4b6e-973b-297476c16b7f,Brigg and Goole,Yorkshire and The Humber,E14000596
-f579cddc-a3a8-4906-acf9-2a840a08a2de,Derby South,East Midlands,E14000663
-4a69cfe7-d324-4737-adf8-2a89e5be69b3,Wallsend,North East,NULL
-2f7af2f4-ade8-4694-a111-2b8ac632371b,East Berkshire,South East,NULL
-07aee75c-cefe-4cbd-9828-2cedb9e03848,Berwick-upon-Tweed,North East,E14000554
-d45c64e3-991d-4478-a1c6-2d3cc2980424,West Hertfordshire,East,NULL
-7fd4b05b-ad06-471b-88a1-2e2fc09464ef,Wellingborough,East Midlands,E14001025
-a619b20c-36e6-4a58-b820-2e30a29bb21c,Garston and Halewood,North West,E14000708
-198de526-caaf-4af3-9222-2ede987a64e8,North East Hampshire,South East,E14000844
-933e4880-ea67-4a44-a00e-2efc28b1dfed,Kirkcaldy,Scotland,NULL
-1091754a-3bc8-4a9c-9471-2f2936184787,Banff and Buchan,Scotland,S14000007
-2d6583af-db8f-42d2-b3c1-2f5908e8c034,Fulham,London,NULL
-d4524f19-200c-43d8-bda0-2f97af27a0e8,Greenwich,London,NULL
-f05f846a-e089-45eb-affc-2fea97fea9b1,Aberavon,Wales,W07000049
-f0f1d7e1-5c1f-4bc2-be7c-305242725dd2,Wantage,South East,E14001015
-2286be14-0b28-428e-ac2a-30a4ad8f95d1,Dudley West,West Midlands,NULL
-678d5d98-63a3-477d-b964-30af239730a1,Leeds East,Yorkshire and The Humber,E14000778
-aeb3e85f-e49a-49f8-a84e-30e5102fd56f,Wyre Forest,West Midlands,E14001058
-e59a9062-2cb2-4599-94d6-313e4629697a,Sutton and Cheam,London,E14000984
-f4e8db5d-3052-4e20-98dc-31ff10c4ea44,Hertsmere,East,E14000745
-ef282aab-b772-4fe0-a64e-324977cbaf80,Burnley,North West,E14000609
-68098cc8-9388-4855-ae7e-328e12e49b62,Grantham and Stamford,East Midlands,E14000714
-89259ecc-7f22-4071-b81b-32b6a260bcf1,Haltemprice and Howden,Yorkshire and The Humber,E14000724
-8a021472-4448-4f2c-aab4-32f5aaeeeba3,"Manchester, Withington",North West,E14000809
-2e7a4e50-1143-43d3-9dc6-33035f3bfadc,Salford,North West,NULL
-9b55733f-3e98-4c8d-a41b-33c90e880e1d,Boston and Skegness,East Midlands,E14000582
-7584b8f8-43a9-462f-ab6e-342e7ca279d3,Lewisham West,London,NULL
-d2dd68b6-51dd-4024-a34d-34cf77f72069,Finchley and Golders Green,London,E14000703
-7bfca9a8-84ab-4909-94b1-350495c6f2f4,Coventry North East,West Midlands,E14000649
-6966bb9e-ebe0-4a73-a9c0-36d594e05ac0,Rushcliffe,East Midlands,E14000908
-1141f93f-c603-4799-8551-36e197d9e429,Derby North,East Midlands,E14000662
-66771198-50c0-4040-9e9f-375d9f309a98,"Plymouth, Devonport",South West,NULL
-77ab9cc8-9646-48af-a7c4-381b5ac276c9,"Plymouth, Moor View",South West,E14000879
-17485c9f-321a-45ee-8926-3857174089a2,Sevenoaks,South East,E14000918
-a3c6f38d-730a-460c-b506-389af4d4b102,Leeds West,Yorkshire and The Humber,E14000781
-13834567-4f56-41cc-abfc-38c44673a323,Lincoln,East Midlands,E14000792
-c6c04e37-ff20-4d43-8234-38c57a68e088,Taunton Deane,South West,E14000988
-30a87e4a-c2b1-4588-848c-38f098e53926,Basildon,East,NULL
-044e9f48-1138-4aa0-b31d-39042dd06f58,Torfaen,Wales,W07000053
-9fee3241-59dc-486f-b82d-39363b1e4335,South Northamptonshire,East Midlands,E14000942
-a61930ab-34e3-4259-865a-3a5b04931e74,Delyn,Wales,W07000042
-7ce7eaf0-d445-42a8-8fb8-3b6c2bceaf52,Ashfield,East Midlands,E14000535
-d0e367ec-7550-4bb9-b4c7-3b78d0d05413,"Berwickshire, Roxburgh and Selkirk",Scotland,S14000008
-4ae98d07-d346-49fb-b0e9-3b970ba041ee,Brent South,London,NULL
-7b2b026f-f768-4de3-8162-3c738f446d52,Suffolk Coastal,East,E14000981
-8d4ab950-efec-41bb-be36-3ce0b16340ae,St Helens South and Whiston,North West,E14000963
-57bd1e98-16aa-4bbe-98e3-3cfb012cc35c,West Dorset,South West,E14001031
-591ecfb9-ecab-4aa1-98b5-3d0f7cdf8b71,Weston-Super-Mare,South West,E14001038
-8e26f033-54ec-4a2e-b535-3e3ed965770a,Conwy,Wales,NULL
-139d12f5-3f20-455c-bea4-3e6d22d6b558,Southport,North West,E14000958
-c5549083-9258-4a79-9c55-3f11eddddd7e,Havant,South East,E14000736
-f97c9c56-3b05-45cc-b32f-3f5b55ff0d00,Wealden,South East,E14001023
-f66deebc-2c6a-4441-ad8b-3fe0a3bd8817,Oxford East,South East,E14000873
-99c699ea-0f51-4f21-8b7b-401f169a666e,South West Surrey,South East,E14000953
-0274de68-cb7b-473f-a2aa-40d6158fac01,Shipley,Yorkshire and The Humber,E14000925
-668fd9aa-bc64-4783-a1f3-41663ed55372,Calder Valley,Yorkshire and The Humber,E14000614
-a82bffa3-aa1e-4ba0-a27c-4193b6515cfd,Skipton and Ripon,Yorkshire and The Humber,E14000928
-703585bc-b4fa-445f-99ef-42cb74df4dbf,Stalybridge and Hyde,North West,E14000967
-bf01b84f-8e2d-4d29-a976-4397ab946f0a,Esher,South East,NULL
-61432af5-0d26-42e8-b495-43db5d1959ee,Stretford,North West,NULL
-71981e2e-082a-4d83-babf-4416abc0eb07,Aldershot,South East,E14000530
-4f89d004-1157-4782-9a18-443f9858122a,Stafford,West Midlands,E14000965
-7fc84b1f-76ec-4fe1-a424-446753c35773,Kingswood,South West,E14000774
-70b5945c-6411-463c-9912-44bf8345b587,Runnymede and Weybridge,South East,E14000907
-9ab37e06-4412-465e-960e-45a027917244,Edinburgh Central,Scotland,NULL
-16ed1bd4-4ce2-416f-9302-4600ea80162c,Ruislip - Northwood,London,NULL
-49cafce6-1a8a-46cc-9164-462403e57597,Cheltenham,South West,E14000630
-5d69e0cb-0c79-46ae-af2d-46f17b7ae3af,Peckham,London,NULL
-5926cbc4-4311-46a2-a939-47edfe270dc1,York Central,Yorkshire and The Humber,E14001061
-511a9693-ec14-49ee-a057-48446235fbc2,Gillingham,South East,NULL
-7c600a05-8192-4fc9-802a-489b2649716f,Wimbledon,London,E14001040
-bc0c58fe-ead8-4bbb-a9f9-4938cfc88424,Don Valley,Yorkshire and The Humber,E14000667
-6e3924da-76f2-4172-91e8-49424c3ab10a,Brigg and Cleethorpes,Yorkshire and the Humber,NULL
-62697461-c01a-45f6-9d00-49c5de83eb2e,Paisley and Renfrewshire South,Scotland,S14000053
-b90d474e-c428-4aaa-9914-49d7c3d0d565,Birkenhead,North West,E14000559
-188f066f-9042-43ed-bc7d-4a1829cb0e02,Rochford and Southend East,East,E14000899
-b156a0ba-c300-4db9-b2ae-4a2db7cec3e5,Keighley,Yorkshire and The Humber,E14000766
-df36b1d1-7578-4676-9a19-4a490cc799f5,Northampton North,East Midlands,E14000861
-4ff6dc54-0088-445e-ad7d-4a8d68d7de4f,Witney,South East,E14001046
-15cfcc8f-697d-46a6-8785-4b8c896b7f56,St Helens North,North West,E14000962
-ac1347dc-994a-4dc4-946f-4bea577c9bed,Huntingdon,East,E14000757
-f6766b67-5b25-4ec4-89ac-4bfb7d68a4bd,Aldridge-Brownhills,West Midlands,E14000531
-581c81c5-cbd8-4dbe-a992-4c00c0b9abcb,North West Durham,North East,E14000856
-bea81334-247f-4697-bd9e-4c530dfee971,Louth and Horncastle,East Midlands,E14000798
-0b089c1c-d69a-41ac-a647-4d6bb5d731f8,Chippenham,South West,E14000635
-577b9e2f-dfe2-4838-8420-4dc2560e6987,Dunfermline East,Scotland,NULL
-7cd373d2-8d0a-492c-b3c4-4e0aab15fed6,Pontypridd,Wales,W07000075
-99f1f4f8-f597-4d9e-a8bb-4e78b0b3a523,Hornchurch,London,NULL
-21840cbc-8edb-41b1-baad-4e9c0e5aa6b6,Paisley South,Scotland,NULL
-3296fa47-78c2-4ba3-bf1f-4f8abd6fb4a2,Worcester,West Midlands,E14001052
-1241c785-e30c-4096-8101-4fc0e0a88d48,Putney,London,E14000887
-69d2da2f-a513-4535-8985-501dca8e82c5,Scunthorpe,Yorkshire and The Humber,E14000914
-504b7a65-bb8e-40e7-bde1-502e6714e2e5,Central Devon,South West,E14000623
-7c18a6f5-b692-439a-a058-50853faf93ea,Bognor Regis and Littlehampton,South East,E14000576
-69f7fb12-8926-4140-930c-50d3cd822cda,Aberdeen South,Scotland,S14000002
-4a2b3652-223d-42b7-8b2f-5101635618f4,North Durham,North East,E14000840
-0cce853a-e15c-45aa-947a-515a13f9a7e7,Faversham and Mid Kent,South East,E14000700
-e6c09881-77b0-445b-9042-5163d498366b,East Kilbride,Scotland,NULL
-247c4fad-e3db-4c8f-9d51-516ab0c65ce5,South Thanet,South East,E14000948
-3893e942-ce67-4342-9f82-51b827a7ef54,West Chelmsford,East,NULL
-7e824e5e-75cd-448f-aaa5-530a31125741,Cardiff West,Wales,W07000079
-4970e303-07c6-4147-8820-5335e5a03322,Chichester,South East,E14000633
-3560a60d-96a1-4cbd-b0a4-53cae25f85e8,South East Staffordshire,West Midlands,NULL
-1e2a0a26-bcdc-4bf5-8f7d-541ab31913a8,Aberconwy,Wales,W07000058
-e94841a7-ba48-44e0-89db-545f205c4a1f,Pendle,North West,E14000875
-c17c67bf-ff99-4318-8a26-54c26ecc95fe,Hertford and Stortford,East,E14000744
-1517c3e4-2b06-4e24-9334-55aa5598b987,Tynemouth,North East,E14001006
-816a5d69-b41a-4ada-967e-55cc6b423d77,Oldham West,North West,NULL
-1c69a4b6-70d2-4142-bd85-55cf5d724f73,Poole,South West,E14000881
-df377a18-5b4f-472f-8cc1-561acacbff6f,Alyn and Deeside,Wales,W07000043
-08ebbfc8-85a1-4f4f-8dc8-5687b3e30fa5,South Leicestershire,East Midlands,E14000940
-ef428788-1463-494e-9a0a-568fdfe40667,Gainsborough,East Midlands,E14000707
-7b7a5594-6677-4ecf-bbb1-56bc5925b42c,Yeovil,South West,E14001060
-bc11f5cc-9516-4d2b-9d45-577122d13702,Leeds North East,Yorkshire and The Humber,E14000779
-6a36798a-63d9-4a60-af80-57d9a7b31aaa,Chatham and Aylesford,South East,E14000626
-80bef18f-8043-4cbc-8f83-587049879aba,South West Bedfordshire,East,E14000949
-d663570b-c5f1-413f-8dca-59e9f8a19771,"Birmingham, Hodge Hill",West Midlands,E14000563
-81dd46f0-4ced-4b30-989f-5b72e821f9f7,Southwark and Bermondsey,London,NULL
-f0e79c44-6274-4d7b-adbe-5bafb764e928,Clwyd West,Wales,W07000059
-bf66448a-ff13-4b55-a31a-5be4c971ebf7,Eddisbury,North West,E14000686
-c0e9408a-2025-4115-8c04-5caf27a57fbb,Strathkelvin and Bearsden,Scotland,NULL
-5d33f8f7-12ac-450d-90c0-5cdcca36bcd9,South East Cambridgeshire,East,E14000937
-80683052-d657-4801-8c69-5d323b46f50b,Sedgefield,North East,E14000915
-a2cd87f2-f447-4183-afe9-5d9c81f04bc8,North East Milton Keynes,South East,NULL
-5cd7456c-1f0a-4e70-b3de-5dee1ba69031,Bournemouth East,South West,E14000584
-68f1cc5c-51fa-485f-963d-5df34b702c2b,Tunbridge Wells,South East,E14001004
-6186d861-62d4-4a05-82b8-5e0de2deaa28,Tiverton and Honiton,South West,E14000996
-4a6d1c96-9ea3-473a-89fe-5ee2f9c03ec8,Glasgow South,Scotland,S14000034
-6870ad72-3ab4-4253-b945-5f1aa05baf66,Chelmsford,East,E14000628
-e9e36acd-8ef8-4389-b54e-603722e1c9c2,Basingstoke,South East,E14000545
-da149820-3ce1-4214-8838-604199fdec6c,Hastings and Rye,South East,E14000735
-51d7b6ba-baf7-42c0-94a0-60b4dd179abe,Hereford and South Herefordshire,West Midlands,E14000743
-319dfdb7-e365-41e9-8a49-61cb33206701,Torridge and West Devon,South West,E14001000
-2ca01f7e-f80c-45c0-b6d7-6251e9809fe9,Galloway and Upper Nithsdale,Scotland,NULL
-7c66919c-4115-4df5-94d9-63a13998f2fd,Stratford-on-Avon,West Midlands,E14000977
-530daa27-d3aa-45ea-9e5a-63b8aaf91534,Chingford and Woodford Green,London,E14000634
-ece2e16a-5c5f-4578-89bb-644b3ba7918a,North East Derbyshire,East Midlands,E14000843
-18129fc9-365d-4c4a-9922-645a914e3fc4,Milton Keynes North,South East,E14000821
-420fdb50-3af9-4e01-9586-64619e523a8a,Gloucester,South West,E14000712
-e31a5df2-b087-4532-b394-648457d9df89,Bracknell,South East,E14000586
-507175ba-2a15-4fdb-a6fa-64aa4786a64e,"Coatbridge, Chryston and Bellshill",Scotland,S14000011
-59477a8e-d1b9-4135-916b-64e8033874e5,Bridgend,Wales,W07000073
-b8ea7f08-1a14-4461-9839-64f766ac4594,Clydebank and Milngavie,Scotland,NULL
-3115fe34-ac72-436d-bc13-6680b8f56c16,North Swindon,South West,E14000851
-bff9d4ed-9227-4f15-b8de-66ff32bd0aec,Edinburgh South,Scotland,S14000024
-c87e49f6-5cf6-49d9-8c18-67dacd8d2ca6,Airdrie and Shotts,Scotland,S14000003
-e06cc7d5-b808-41db-8b72-6845e07ea262,Central Suffolk and North Ipswich,East,E14000624
-07fc3aad-d770-4437-b2c7-68e60e154d09,Glasgow North,Scotland,S14000031
-0c0fc829-cdd9-4a78-a4ee-69348a1c9f5c,York,Yorkshire and the Humber,NULL
-211999e2-8f0f-4969-9f6f-697ea915d1c2,Uxbridge and South Ruislip,London,E14001007
-f575d2eb-ae0e-44fb-96ee-69f26cfb9da2,Edinburgh East and Musselburgh,Scotland,NULL
-54114e2c-ee0c-42b2-b2a3-6a4b9dc00813,Thirsk and Malton,Yorkshire and The Humber,E14000993
-08d42ac4-7c88-46f7-9b6f-6b1938e8fa05,"Plymouth, Sutton",South West,NULL
-ef19b25f-7d53-4543-970a-6b2792efea7d,Inverclyde,Scotland,S14000038
-a5b07e4d-9855-4202-9b8c-6b83eb915f57,"Enfield, Southgate",London,E14000692
-1d8046f8-730e-4639-842c-6bb5319262ac,Mid Bedfordshire,East,E14000813
-9c810250-51e4-4709-939c-6c8ed6d67332,Elmet and Rothwell,Yorkshire and The Humber,E14000689
-efcec420-ca6a-46d8-9887-6d4fa81f4c63,"Glasgow, Maryhill",Scotland,NULL
-d43056b0-a51b-4792-9cd8-6da070bf4a04,Bristol East,South West,E14000599
-ac182f5c-9b70-4d9e-85e5-6ddd15b5aa84,Morley and Outwood,Yorkshire and The Humber,E14000826
-f2d0475a-2717-48d9-9298-6de91790bfce,"Lewisham, Deptford",London,E14000789
-2c309809-d74c-4ee9-840e-6e33219c97bb,Bolsover,East Midlands,E14000577
-fb4ecd2b-7ccb-4985-a348-6e45c9fae30f,Ludlow,West Midlands,E14000799
-6f9d1100-460e-42e6-97d5-6f67efaae230,Richmond Park,London,E14000896
-fd4e15fc-33c2-4491-8804-6f6fc2d1e584,South Derbyshire,East Midlands,E14000935
-830847fc-677e-4aab-9699-6f7e3bd95070,Western Isles,Scotland,NULL
-47393965-576c-4ca4-9a61-6fa254ea77f5,Camborne and Redruth,South West,E14000616
-30b97595-a20f-4eb5-a4a0-6fc4d8aa4e5c,Newham North East,London,NULL
-b76cef42-243c-4484-b776-702f2d60553b,North West Cambridgeshire,East,E14000855
-b2ce62a5-8451-4174-97f4-70744651444a,Uxbridge,London,NULL
-d2f2f7a4-3f12-44a2-95c5-707cb403eaaa,Central Fife,Scotland,NULL
-92d0838b-3ee6-4516-9c42-70bbbc5749d8,Beckenham,London,E14000551
-a388c26e-fc55-4786-84d9-70f6aa08e49b,Newark,East Midlands,E14000829
-9006b5ff-46f7-4ef4-bf74-718b31c809ac,North Hertfordshire,East,NULL
-fcae0e50-2382-48e6-8705-7200ebf4498e,Harwich,East,NULL
-776b1e29-db4c-42ea-b65c-726cf24c44d6,Esher and Walton,South East,E14000697
-aa381c3e-8d98-4ce7-900a-72ab723aba5e,Manchester Central,North West,E14000807
-622ff319-0d92-454a-9f65-73048b0074be,Doncaster North,Yorkshire and The Humber,E14000669
-d30a3281-17b3-4d9e-9cd1-73d53cf0c991,Rhondda,Wales,W07000052
-ae21a21d-98ec-46bb-9dc5-73ea2768d2e4,Bolton West,North West,E14000580
-e93b2784-8f57-49f1-8a5f-7432e281e0e6,South Shields,North East,E14000944
-f38ea3c7-b1f5-4f32-b695-746f7b17d512,South Cambridgeshire,East,E14000934
-34f619ee-0c29-4e55-a51d-74d86b5b0092,"Sheffield, Brightside and Hillsborough",Yorkshire and The Humber,E14000921
-adee2680-5639-4c79-82c7-75bf56d05064,Cunninghame North,Scotland,NULL
-007ddd85-58e7-4074-9b48-7638d1adc5db,Broxtowe,East Midlands,E14000607
-e85ca193-6510-4461-ae42-768184d07a79,West Dunbartonshire,Scotland,S14000059
-be2c2ae0-d9f2-4dba-a18d-768376bd7b9e,Wokingham,South East,E14001048
-36c8bcc8-6c35-444b-854b-779a3036c60e,Tatton,North West,E14000987
-d9b012c8-fc2a-40b7-8010-779f006ae59c,Hackney South and Shoreditch,London,E14000721
-43e98896-050f-4def-9818-77c17df36d33,Witham,East,E14001045
-74db3cbf-faf3-44bf-a966-78b634f615df,South Holland and The Deepings,East Midlands,E14000939
-5d004189-ddbc-4a9d-9c12-793668ee74af,Maidenhead,South East,E14000803
-35b8827d-fd0d-4e6a-83eb-799134023d43,"Sheffield, Attercliffe",Yorkshire and the Humber,NULL
-4d162e19-508c-4d80-b8e0-7a3ee4dbfdf4,Dulwich and West Norwood,London,E14000673
-8cbad8ef-ee9a-40c5-968c-7a71ebba14e4,Sunderland South,North East,NULL
-9dd776f9-1d42-4a27-adc6-7b36a794328c,Worsley and Eccles South,North West,E14001054
-36bdc0b7-1e95-4671-b64b-7bdb428dc007,Harlow,East,E14000729
-6c4d5205-3fcd-4fc7-8560-7ca30a766a77,Rayleigh and Wickford,East,E14000888
-1655b4f0-0558-487e-88dc-7d17d28e7123,Sutton Coldfield,West Midlands,E14000985
-d4b190f2-c5ef-4dc2-b650-7d1b42d1889f,Doncaster Central,Yorkshire and The Humber,E14000668
-65d48b96-6d07-4f48-814d-7dd7cded4bd0,Solihull,West Midlands,E14000931
-7cbba70f-0b9c-4df2-9d08-7e2b6a1edaf6,Islington South and Finsbury,London,E14000764
-2f9a7939-2f1f-4a95-a16f-7e4cb8712ace,Warrington South,North West,E14001018
-b0d53aa8-a2b7-46fb-b7e7-7ed469b69fb6,Telford,West Midlands,E14000989
-01536eec-26ad-4274-ae92-7f29170e9975,Barrow and Furness,North West,E14000543
-f9d2bd69-a66d-425b-ab2f-7f2ba9ab73f4,Selby and Ainsty,Yorkshire and The Humber,E14000917
-0764696f-269b-40a9-b1c2-7f4b8d9e9808,North Shropshire,West Midlands,E14000849
-a59bcca2-2045-4040-ba0d-80234b2fdf78,Newport East,Wales,W07000055
-fe63a589-8847-4487-b482-817a8a5ebc13,Mansfield,East Midlands,E14000810
-819a60de-168a-4c79-9a1d-81fdb849493b,Preseli Pembrokeshire,Wales,W07000065
-ea6e41d8-0052-4c6b-aae5-8206fbb50a26,"Birmingham, Erdington",West Midlands,E14000561
-34d5d379-a803-4794-9063-83a492335d1c,East Worthing and Shoreham,South East,E14000682
-56b21b88-b2b8-49c3-b0c9-84e38cd77be0,Hitchin and Harpenden,East,E14000749
-3c53b502-4a03-46af-b71f-84f1e850aa22,"Birmingham, Ladywood",West Midlands,E14000564
-0a434c38-f35a-4828-8e4f-850daf5a20e3,Mid Dorset and North Poole,South West,E14000815
-0728abcb-5456-47bf-9613-85118a37d8a1,Brent North,London,E14000592
-c27e1496-2024-4dd8-9386-85a119c3cd1c,Mole Valley,South East,E14000824
-c78fa617-356b-406a-a9d8-860a0e98f906,"Birmingham, Yardley",West Midlands,E14000568
-96674035-9c0d-4923-9325-86e2963c6c8c,Motherwell and Wishaw,Scotland,S14000047
-0fff60c9-1f48-4e10-8ec9-86e9a2023c9c,Falmouth and Camborne,South West,NULL
-f9ec91e7-b266-4a48-bd4e-87359a45170f,Chesham and Amersham,South East,E14000631
-58077eb3-d28c-4bfd-af65-87708c4dd577,Pudsey,Yorkshire and The Humber,E14000886
-1d76548f-d38f-46af-9ca4-87d9124b7b9f,Dudley North,West Midlands,E14000671
-4a85c960-ac2d-42ea-bd4a-8808112b3c6b,Rossendale and Darwen,North West,E14000902
-69cb79fc-d6f1-4ec9-b1b5-88582b3ceb0c,Rochester and Strood,South East,E14000898
-51d5e9fe-2014-42eb-966f-8861121b72fe,Tonbridge and Malling,South East,E14000997
-df2a760f-9e19-4a44-b1c9-8960fe9a39b8,Bradford South,Yorkshire and The Humber,E14000588
-0f2c6881-195c-471b-9221-89b476d5c3a1,Tamworth,West Midlands,E14000986
-b99ab844-934b-459d-9cc7-8b3b5ccc5186,"Birmingham, Hall Green",West Midlands,E14000562
-58aef609-feb2-4a2d-9846-8bfdc143a18b,Knowsley,North West,E14000775
-45a1c9c2-8f9c-4f7b-a6e5-8cc7010bd3a7,Mid Norfolk,East,E14000816
-067af1c9-da69-4f7c-a46f-8d4fce2ebb36,Islwyn,Wales,W07000077
-14b2eb58-1cda-4ecd-b201-8e58a8745df1,Coventry North West,West Midlands,E14000650
-43470897-c48d-406d-a83c-8ed69ec87a99,Fareham,South East,E14000699
-89d5585d-b14d-46ce-b384-8ef40d304de5,"Glasgow, Anniesland",Scotland,NULL
-48860678-00e3-4691-aaad-8f332e450413,Nuneaton,West Midlands,E14000868
-9a3deaaf-ab0c-4a1c-aaf9-8f866a7508ef,"Edinburgh, Leith",Scotland,NULL
-faa3f240-e0fe-4c48-bb71-915dfaa90eb6,Somerton and Frome,South West,E14000932
-2bd20138-29ba-4218-ac10-918331036820,Cheadle,North West,E14000627
-c8e85c1c-8b82-4637-9ad6-926e7f459158,Rotherham,Yorkshire and The Humber,E14000904
-ccd47f11-3805-4995-b99f-92b0d73da0a2,Maidstone,South East,NULL
-7a18d3a8-38e9-40ef-b76a-92f9b60b941a,Newbury,South East,E14000830
-918efdf5-97e6-49be-a83b-9382bce83b0b,Stretford and Urmston,North West,E14000979
-e0486a4a-4842-4b5c-882c-93ccb92e7b0b,"Liverpool, Walton",North West,E14000794
-532f050d-60f1-4736-8bfa-94e70b612fc7,"Sheffield, Hallam",Yorkshire and The Humber,E14000922
-343aae95-46f2-41ba-a161-9534f9f542cd,Newcastle upon Tyne East,North East,E14000832
-91354a4c-03ae-4a4c-ab58-95fefeba5cc0,"Carrick, Cumnock and Doon Valley",Scotland,NULL
-653b3b59-bb9e-4872-9d7e-961cc31e65e3,Stirling,Scotland,S14000057
-7acb8ddb-bc37-498e-a392-965dee6c20de,Maldon and East Chelmsford,East,NULL
-3dad7ad1-146f-4a5d-8595-97dd82c707af,Stamford and Spalding,East Midlands,NULL
-218e7818-d472-416c-b0b4-983cfcab43a8,Shrewsbury and Atcham,West Midlands,E14000926
-2a2b4eb3-d8f6-42f9-a2da-986aaf9522c3,Richmond and Barnes,London,NULL
-58e02239-8b2c-4f8f-a2e7-992bb7eb6c87,Dover,South East,E14000670
-9429552b-0525-4238-b4ce-994c0d6bbfd3,Macclesfield,North West,E14000802
-46a5e765-a57f-4356-aee0-9a4c3911834c,Torbay,South West,E14000999
-bd08c91a-b345-4a1e-af99-9ac3b2a1ecb4,Great Yarmouth,East,E14000717
-0e62617e-8e70-4e64-96d8-9bff94dff3e4,"Tweeddale, Ettrick and Lauderdale",Scotland,NULL
-35476dc1-8d84-4db4-ae66-9c211cd7e03e,Crewe and Nantwich,North West,E14000653
-a1479b32-ec7b-444f-9d19-9c22920f7092,Bromley and Chislehurst,London,E14000604
-9fb067ca-8531-4f64-89ef-9c7c3f9bda34,Surrey Heath,South East,E14000983
-0eb46680-9dae-41d3-a3e5-9cc0154f458b,Mid Staffordshire,West Midlands,NULL
-11a5ee81-0994-4905-ba59-9d41717f0629,Bexleyheath and Crayford,London,E14000558
-639bfafd-878a-4784-89fe-9d786965d287,Waveney,East,E14001022
-52dde3cf-ce17-41f9-8533-9e7b86ba4e22,"Sheffield, Heeley",Yorkshire and The Humber,E14000923
-47463a64-80f1-4d14-8809-9ea87d0e72e4,South Ribble,North West,E14000943
-dc00ce30-4152-4286-8c94-9f06bbc0fbb0,South West Wiltshire,South West,E14000954
-c7ed5e39-f996-4599-b89b-9f8067b51077,Knowsley North,North West,NULL
-623a3d38-e78e-4a1f-98f2-a05b072310ac,Edinburgh West,Scotland,S14000026
-dec7eba3-59a3-4f3e-8bf3-a0e5160b63fc,Westminster North,London,E14001036
-b06da95d-466e-4995-831a-a11fab02e200,Watford,East,E14001021
-eb918faa-1200-4b92-a053-a1566a64bb82,City Of York,Yorkshire and the Humber,NULL
-e706361e-511b-4606-a784-a1ede52e97c0,Romsey and Southampton North,South East,E14000901
-6e261cb2-4533-4b00-9e2f-a244ca7caa76,"Birmingham, Edgbaston",West Midlands,E14000560
-7049b1c7-ac21-4a02-8a72-a24f9ded24be,"Liverpool, Garston",North West,NULL
-0e0ee4e8-1fb4-4947-ad86-a2e46258803e,North West Hampshire,South East,E14000857
-63ea0430-3475-41ef-81e8-a32d8d173010,North Somerset,South West,E14000850
-71184544-d22e-4288-b0a3-a4404c57843f,Loughborough,East Midlands,E14000797
-7cb64301-661d-4295-a11a-a50bcaf51344,Battersea,London,E14000549
-a32617a0-ab8f-47a3-b2c8-a5ea69686584,Erewash,East Midlands,E14000695
-f7a98616-1ca4-47d5-ba0a-a66b7041e80d,Washington and Sunderland West,North East,E14001020
-6283125c-909c-403b-9740-a6caeb50528f,Hamilton,Scotland,NULL
-32780e66-2c66-4d5d-8959-a7027bcc5991,Grantham,East Midlands,NULL
-4d477185-ac34-4707-a9b9-a74cdd6c9583,Wyre and Preston North,North West,E14001057
-b0336a27-7b77-4088-af9f-a7537424f44c,Reading West,South East,E14000890
-701719c2-1e8c-42de-b28c-a7a13cf0ce5e,Upminster,London,NULL
-7418cf28-b3c0-4182-a2fb-a7cb4896c994,Kincardine and Deeside,Scotland,NULL
-e7a88d66-2999-4f0e-a8e9-a7fa6d5af3c1,"Brighton, Pavilion",South East,E14000598
-3fb2247d-6743-4666-8378-a904b83f5a30,West Suffolk,East,E14001034
-e85efd91-1e5c-4c1e-a84d-a95b4e522fc7,Northavon,South West,NULL
-ae1a92c2-d400-4b3a-b705-a9a34bd61635,Gedling,East Midlands,E14000710
-a4372357-5f96-4220-bffe-aa5073b9cb66,"Normanton, Pontefract and Castleford",Yorkshire and The Humber,E14000836
-60557d3c-1e84-4188-aede-aa6e30c2dc5c,Stroud,South West,E14000980
-6249f5d7-a983-4b6a-9092-aab6a18e5160,Gillingham and Rainham,South East,E14000711
-41fb63b3-f1bd-4fc0-9507-ab2cd63b64af,Cardiff South and Penarth,Wales,W07000080
-b5319ee2-dd14-4f93-b398-ab67f285d8fb,Staffordshire Moorlands,West Midlands,E14000966
-b1fc6664-4425-476d-a12c-abfef95d9aed,Cardiff North,Wales,W07000051
-365550c9-2e74-4d5d-857f-accf3afe9eb1,Edinburgh East,Scotland,S14000022
-d3da3a9e-e75a-4e12-ae04-ad9b2ada354f,Brent Central,London,E14000591
-71f5a09f-48d9-4416-979f-addf6864e06a,Thurrock,East,E14000995
-e2e8203b-320d-4ddc-be98-ade54a6234fe,Middlesbrough South and East Cleveland,North East,E14000820
-907d46c6-a9f1-43c8-a3bb-adf4d386bae6,Leicester East,East Midlands,E14000782
-16e873c6-878e-480c-9ba1-adfad32a8549,North East Hertfordshire,East,E14000845
-ef689a5d-73f2-419a-96f2-af15f3c351ba,Lancaster and Wyre,North West,NULL
-7a5a0f52-2318-4b47-bbc3-afa7092ee232,Blackley and Broughton,North West,E14000571
-4da8ca9e-28b7-4b75-8867-afba8b1075d5,Hartlepool,North East,E14000733
-caaac6e5-8902-445e-9de7-b029fd46861b,Forest of Dean,South West,E14000705
-e1a832e9-feee-4618-b278-b02a82fbb741,Wakefield,Yorkshire and The Humber,E14001009
-3dba50c4-6e63-4320-a8cf-b085fea427f5,Devizes,South West,E14000665
-354a92dd-dff2-4e39-b364-b1cde75ebde6,Oxford West and Abingdon,South East,E14000874
-abe22306-f572-4bce-86ae-b272cc851ef6,Regent's Park and Kensington North,London,NULL
-c01987ed-b4e1-44de-88bf-b2873a66dca2,North Dorset,South West,E14000839
-ead533ec-e6a5-4373-818b-b2daf6947152,St Helens South,North West,NULL
-6d4c53e4-2c78-4c1b-9b78-b33769b5f1cf,Bristol South,South West,E14000601
-206a8828-1bdf-41a0-9136-b383f75e2455,Hexham,North East,E14000746
-177aac68-c5b3-402b-94d3-b3bfec470401,Vauxhall,London,E14001008
-a37d51fc-b8e3-495f-89c3-b4e4223e6adc,South West Hertfordshire,East,E14000951
-bc26ac1b-ec10-42a1-8565-b4f41e9ad94f,Epping Forest,East,E14000693
-4ce8c646-12d5-43fe-a685-b5067d71525c,East Surrey,South East,E14000681
-c74dfd75-5e75-452d-bcbc-b5ffae3f9451,"Liverpool, Broadgreen",North West,NULL
-7997e416-f089-4ff1-ab15-b605a9668e33,Thornbury and Yate,South West,E14000994
-2d19921f-7f1a-4e3a-84dd-b633e4c5be21,East Ham,London,E14000679
-dbe81f02-7af7-4138-97c4-b6480e284362,Rutherglen and Hamilton West,Scotland,S14000056
-07f3d161-6f1d-42b6-84ee-b68b299b126a,Banbury,South East,E14000539
-e63a8ba2-be38-464b-bf56-b69a354b1c59,Bournemouth West,South West,E14000585
-c8a01874-5915-4543-ab2d-b6c4eb145a7e,Rayleigh,East,NULL
-94d60b0a-a940-4704-a912-b6fd29e74bca,South Suffolk,East,E14000946
-0091e7fa-3915-495b-aaab-b73a10b0f305,New Forest West,South East,E14000828
-d58b4521-9db5-4f4d-b4df-b91c6c9bec84,Greenwich and Woolwich,London,E14000718
-ae4a562e-114a-4b1e-b79e-b96c8efc8ca2,West Bromwich East,West Midlands,E14001029
-2091aaf6-35c8-4b8a-87f2-b9bd8229c933,Milton Keynes South,South East,E14000822
-19e5a6c8-d5fc-4b81-9aad-ba1557bb2e5b,"Southampton, Itchen",South East,E14000955
-19dc903a-50b8-49eb-ab90-ba998fa8808c,Walsall North,West Midlands,E14001011
-0a977437-6256-4add-be13-baff8c4e39b7,Dumbarton,Scotland,NULL
-4e5e8834-2ff7-4f8d-bc77-bb2685f51cea,Glanford and Scunthorpe,Yorkshire and the Humber,NULL
-4be2a999-7e0a-4df8-b5a9-bb9148c8d408,Portsmouth North,South East,E14000883
-9955785f-0f46-4637-b069-bba9f5572dcf,Wirral West,North West,E14001044
-db8c7573-c556-4401-9d3e-bbae689c05f8,Poplar and Canning Town,London,NULL
-5f8d8ab3-db93-452d-9c78-bbb38ab4949f,"Southampton, Test",South East,E14000956
-4a6fe348-21cd-457e-b7a9-bc08a7b0b772,North East Somerset,South West,E14000846
-2c7041d3-a424-410c-9dbc-bd3d168dad81,Salisbury,South West,E14000912
-cf56fc4c-96f0-489c-abed-be033421b3a9,Chingford,London,NULL
-8e634e6b-65d3-4c6b-90d3-be1dd8133f01,South West Norfolk,East,E14000952
-4f36c51e-b496-495a-ab8c-be9a3b7b13f9,Clwyd South,Wales,W07000062
-812af5e2-f7fd-4d33-9e62-c01b92eb249e,Canterbury,South East,E14000619
-e35902da-ee97-48fa-b463-c0d810d02867,Lichfield,West Midlands,E14000791
-07648c8c-1345-44e8-8711-c144ed2189e9,Edinburgh South West,Scotland,S14000025
-76db7d9c-5973-45fe-9aed-c153e9bad5da,Halesowen and Rowley Regis,West Midlands,E14000722
-708afbfb-5ca4-4243-b2c8-c1d5e2f3450b,Mid Worcestershire,West Midlands,E14000818
-9fb47574-124f-4b39-9540-c1e963ccc16c,Lewes,South East,E14000786
-a8026195-04a5-447c-8944-c2069bbe97c3,Dulwich,London,NULL
-f58b6357-7214-41ca-a2f6-c24ca31e470e,South Staffordshire,West Midlands,E14000945
-43a19379-8a62-41ef-9d10-c2b40acb53f0,Erith and Crayford,London,NULL
-4a24758f-2a2a-486f-9fa0-c2c537291aaa,Tooting,London,E14000998
-f2bd562f-a7bb-4eaf-9ff6-c34526729ba5,Rugby and Kenilworth,West Midlands,NULL
-dc9395f9-ad7b-4154-8ea9-c3f1fc9b95e9,Warwick and Leamington,West Midlands,E14001019
-441b8198-1fe7-49d4-941f-c416d50e2b62,St Albans,East,E14000960
-076e38b8-1f17-4775-b617-c4879b953c45,Blackpool North and Cleveleys,North West,E14000572
-ab914ec7-2b6e-40e7-baf4-c4a685326b83,Vale of Glamorgan,Wales,W07000078
-e979d7ed-42a3-4df4-bba2-c4c700fbc234,Monklands East,Scotland,NULL
-915eef52-b751-4d4d-adc9-c5b8bf49b274,Harborough,East Midlands,E14000728
-bc1bab28-d290-4816-aead-c65e2aaeb3d1,Oldham East and Saddleworth,North West,E14000870
-75e61386-b62f-498e-973d-c6c1e964598f,Hampstead and Kilburn,London,E14000727
-4a138aca-7f95-4d34-a84d-c6d4ce08f462,Caerphilly,Wales,W07000076
-cf7900c9-0c9e-4965-a068-c717d776d4ec,Langbaurgh,North East,NULL
-b25b0c5f-f899-4f4e-b8ad-c789f019fec9,"Glasgow, Garscadden",Scotland,NULL
-b9f8c3b4-0dd6-4535-a373-c78dc2a48579,Rutland and Melton,East Midlands,E14000909
-70dc7dce-f6e7-4968-8bd2-c95f44cce837,Brentwood and Ongar,East,E14000594
-087f241f-be11-4fc1-a1b1-c9731dce601a,Reigate,South East,E14000893
-f6666dd6-548c-49a2-92f4-c9b49c9fe506,Fylde,North West,E14000706
-ee93a309-1833-4500-ab09-c9db894eceb9,"Glasgow, Rutherglen",Scotland,NULL
-4b274bca-5388-41aa-9bd1-cac97c12bf75,Wolverhampton South East,West Midlands,E14001050
-91611a82-320d-46a8-a105-caf27b80fd41,Cannock Chase,West Midlands,E14000618
-ca80cbbe-f2bf-4246-bbb0-cb1b9fefe4ac,Guildford,South East,E14000719
-f05a325e-4ad4-4aa4-aa88-cb35c7f7e735,Winchester,South East,E14001041
-810430ab-085f-4260-89ad-cb50ba478768,Gainsborough and Horncastle,East Midlands,NULL
-c23f61e7-94bc-4389-b388-cc31b530cbdd,Gosport,South East,E14000713
-db545568-f8ce-480a-a428-cc78156c462f,Kingston upon Thames,London,NULL
-0672e46b-e728-4fb7-8c50-cc89e716338f,Newcastle-under-Lyme,West Midlands,E14000834
-f9d6ce11-0e1a-48e3-982e-cd0e55ee1814,Stoke-on-Trent North,West Midlands,E14000973
-9cdade9a-9943-474b-bf72-ce65bd39cfc2,City of London and Westminster South,London,NULL
-74f98f7c-3ec4-475b-a0c3-cedfaa21af98,Cardiff Central,Wales,W07000050
-f0894924-1fb7-48b7-ab13-cfaeffb1b93a,"Edinburgh, Pentlands",Scotland,NULL
-5225444e-8f5b-4445-ab26-cfbee3efac0e,Lewisham East,London,E14000787
-c163ff86-6d0b-4253-9d9b-cfca818fda45,Stevenage,East,E14000968
-c1d188c5-bd4b-4eec-8f3a-d05815b333b1,Copeland,North West,E14000647
-6961fd9b-7aeb-4aaf-befa-d0b966e215ea,Hyndburn,North West,E14000758
-3679ce15-6117-4c06-950a-d0c53112116e,Maldon,East,E14000806
-ca211f80-1a91-4e3d-ae9c-d19043895451,"Birmingham, Perry Barr",West Midlands,E14000566
-958372cd-322a-4895-8818-d26bd8c51887,"Glasgow, Cathcart",Scotland,NULL
-2ff87289-3eee-4b3c-b572-d2f8dbf7e83d,"Liverpool, Wavertree",North West,E14000795
-d00203b1-2726-44be-b892-d3499a865610,Kingston upon Hull North,Yorkshire and The Humber,E14000772
-8b8aafce-1deb-41a1-b737-d3fca10c063e,Castle Point,East,E14000622
-825b6d28-671a-438d-84b8-d49cc908f47c,Westbury,South West,NULL
-d30f99be-b886-4575-88c4-d4e89feb2171,North Tyneside,North East,E14000853
-74fa7b1c-92d1-494b-a49d-d63c5576b7ec,Warley,West Midlands,E14001016
-4f9017e6-7c41-4d94-ad69-d717ec5a9624,Workington,North West,E14001053
-2f5bd6fe-ee55-4ba3-8d4b-d7e6c1a7d523,Oldham West and Royton,North West,E14000871
-d66e287a-2f03-4acb-a825-d8132677136b,Henley,South East,E14000742
-f0ad4fb5-3664-439c-a080-d884ae5b8aaf,Kensington,London,E14000768
-3a9e1ca1-8445-43df-abe5-d99467c02110,Salford and Eccles,North West,E14000911
-51936c82-e84c-4e80-8a4f-d9c0eb6c20ae,"Brighton, Kemptown",South East,E14000597
-ecbd730b-8d38-4702-9c5a-d9d3dccd17e3,Taunton,South West,NULL
-87dae01c-b622-4349-8433-d9f6da29645b,Kenilworth and Southam,West Midlands,E14000767
-b382b8c6-ba77-4169-aba1-db3441a6d113,Chelsea,London,NULL
-e20e81cd-efb0-4585-b69c-db622abde413,South Dorset,South West,E14000936
-ecbdfdba-3740-4534-887d-dc386fb3d664,Pontefract and Castleford,Yorkshire and the Humber,NULL
-374ecd53-4a57-49dc-9ec1-dc82cabbaa25,Houghton and Washington East,North East,NULL
-097a46ad-ebc9-48a6-998c-dcd4fbdfcb57,Folkestone and Hythe,South East,E14000704
-2597cafe-d65f-4a3c-8f3f-dd111f146e95,Weaver Vale,North West,E14001024
-40c54ff5-35cd-4d59-9fe7-dd199e7590e2,"Ealing, Acton",London,NULL
-8a6e1c1f-b665-4793-bf7d-dd6ac9069c57,Arundel and South Downs,South East,E14000534
-7a9800da-7edd-4299-a4fd-dea51a378914,North Southwark and Bermondsey,London,NULL
-94f69419-46f0-443f-b59c-df347f70156e,Bristol West,South West,E14000602
-5ae9b1bf-7b5c-449a-b180-e00ede5b842a,Gateshead East and Washington West,North East,NULL
-fd55f6fe-d188-456d-8854-e0610e1c5347,Leicester West,East Midlands,E14000784
-acc5053c-a100-4c70-87b2-e08c3c4d3929,Tyne Bridge,North East,NULL
-099d6d01-9957-40eb-b1d9-e0b0cd9ac781,Newcastle upon Tyne North,North East,E14000833
-5af2f5d9-a69f-4e76-bfed-e113a59f93ef,Edinburgh North and Leith,Scotland,S14000023
-bc3868e6-161b-440a-806c-e13ed7c034f3,Wentworth and Dearne,Yorkshire and The Humber,E14001028
-6e2d6a1b-9e44-4531-acf2-e18b21dba204,"Inverness, Nairn, Badenoch and Strathspey",Scotland,S14000039
-a80db8b7-d028-4a00-b48e-e19f78ef04b7,Hampstead and Highgate,London,NULL
-3fdefe58-6f4d-4d44-8992-e23d667cb892,Dewsbury,Yorkshire and The Humber,E14000666
-0f828e28-2882-476c-858e-e27c1c488659,Leominster,West Midlands,NULL
-014dee75-d37e-4d1e-8b6b-e2dd40e8ba36,Halton,North West,E14000725
-aaefa6cf-f022-479a-8d78-e36d1b1bb4f9,Wansdyke,South West,NULL
-c58e3aab-d235-4a2c-b239-e38d062e4ea2,Scarborough and Whitby,Yorkshire and The Humber,E14000913
-230cc13e-d4f2-4e6d-9476-e430030b1baf,Croydon South,London,E14000656
-6735f459-6342-402e-b8eb-e510fb122035,Redcar,North East,E14000891
-cb5b87e6-2364-48ef-bcaa-e51ac4be1608,Dartford,South East,E14000659
-cb54f1bc-a2a7-4756-98fc-e5b81bd46414,Truro and Falmouth,South West,E14001003
-e9ae879c-988c-4cf3-b35d-e5b9682e598c,Bath,South West,E14000547
-63381485-40ff-436b-835d-e5f62175c1da,Chipping Barnet,London,E14000636
-2981fee1-07dd-4b31-9c59-e630844f25d6,Dudley South,West Midlands,E14000672
-c8b0ee32-48d0-4c60-abdb-e654f9fd58e9,Harrow East,London,E14000731
-9577732e-3565-4685-9cdd-e6936a5c9b97,Chelsea and Fulham,London,E14000629
-cd733f34-51d6-478a-97af-e6bce84bdac5,Kingston upon Hull East,Yorkshire and The Humber,E14000771
-8f122806-2f85-43ab-af58-e6c6ba9b9be6,Slough,South East,E14000930
-d809fdf2-b10b-42e5-b633-e72049407086,Bury St Edmunds,East,E14000613
-f9abaecc-2ca8-4d6a-aee2-e7470a95c976,West Derbyshire,East Midlands,NULL
-f36cc3e1-bb11-4dde-8bb2-e83206d9994b,Bishop Auckland,North East,E14000569
-a96f13f1-6836-45e7-a209-e8493b6e9207,Aylesbury,South East,E14000538
-d876b75c-478f-49c3-a4a3-e900bb19f0ee,Nottingham North,East Midlands,E14000866
-20d4b92a-a30e-4a2f-ab67-e979c1be1443,Hamilton South,Scotland,NULL
-9c4c3810-2e53-44aa-aeb4-e98f26f99076,South Norfolk,East,E14000941
-c1f539bf-2bf6-4584-9fd0-e9961103b321,Daventry,East Midlands,E14000660
-99da5f72-8fe6-4a68-8715-e9d82eaf738c,Carmarthen West and South Pembrokeshire,Wales,W07000066
-c43faef1-5aee-4a11-a2cf-eae0e1d829e0,Harrow West,London,E14000732
-496dc4ce-178a-4674-b9b9-eae74269b180,Colchester,East,E14000644
-193da8ec-98e3-41b1-b6d1-eb58d6ab3bc1,Penrith and The Border,North West,E14000877
-66bd0bc4-e8ea-4d57-aa0e-eb8e25871773,Rochdale,North West,E14000897
-7efea3f5-f7cd-4bb9-82b8-ebb444500c5b,Charnwood,East Midlands,E14000625
-d4aadd76-ccac-4501-8238-ebbb8219ba43,East Renfrewshire,Scotland,S14000021
-2a72e6eb-1060-4e20-9a47-ebe342359f17,Ipswich,East,E14000761
-377f3a1c-e044-4f82-8395-ec1b1702bb5e,Neath,Wales,W07000069
-525abe64-0432-469b-90f8-ec79b248827c,Kensington and Chelsea,London,NULL
-2ecba4d4-2932-484e-a86e-ec99081c30bf,South Swindon,South West,E14000947
-70513abf-4e96-457f-bd6b-ed063af9a289,Bassetlaw,East Midlands,E14000546
-9f0a039c-a9a1-4094-a5c1-ed183adbbc08,Old Bexley and Sidcup,London,E14000869
-0214729f-e66f-4996-953b-ed6275bf652f,Peterborough,East,E14000878
-9b11692c-c11a-4190-85eb-ed77f0fb02c0,Bromsgrove,West Midlands,E14000605
-b2b6868b-7acd-4cff-8126-ed9919ebe458,Vale of Clwyd,Wales,W07000060
-d2685f48-0d78-4a57-98f8-ee2b6338961c,Stourbridge,West Midlands,E14000976
-fec745f3-02be-4328-9a65-ef002d336870,Dumfries and Galloway,Scotland,S14000013
-4921e6b6-4c49-4fbc-a9c1-ef082fe6bd8c,Kingston and Surbiton,London,E14000770
-f090c6f3-f7da-4eac-8e47-ef55f9db0f50,North Cornwall,South West,E14000837
-8b9a061e-d554-4267-84b1-efd9763e5db4,Horsham,South East,E14000753
-dc662ae7-9ff4-4ead-926b-eff695544578,"Birmingham, Selly Oak",West Midlands,E14000567
-024c25a7-6c74-42bb-b78a-f0c03749c78b,Corby,East Midlands,E14000648
-a3ca5ff9-2b9a-409e-b813-f130be94708a,Exeter,South West,E14000698
-670e9690-e184-4546-b36d-f1dc2db0f8b3,Orpington,London,E14000872
-b01dd4d0-083e-4d85-861f-f2cb172f29a5,Norwich South,East,E14000864
-1f69ae6d-ca21-4ba5-989d-f3a52fa2aac1,Kingston upon Hull West and Hessle,Yorkshire and The Humber,E14000773
-39fd1a04-f134-45e1-bb3e-f446957b2970,Brent East,London,NULL
-296b46a2-d997-481b-8f55-f4ad6673ebff,North Norfolk,East,E14000848
-1f8d3bc7-c571-48e7-8e81-f4d438005e89,Welwyn Hatfield,East,E14001027
-435c7103-3714-4d0e-a2c6-f5090e039632,Brentford and Isleworth,London,E14000593
-74b25784-6fef-4659-87a4-f6db5d64b15f,Streatham,London,E14000978
-0d36590a-296c-4961-8324-f7638b8bd685,Monmouth,Wales,W07000054
-8fdb470a-8b1b-4a3d-b930-f7d60c362dfc,Beaconsfield,South East,E14000550
-3be6225b-fb6b-4114-b266-f8087a054a10,"Sheffield, Brightside",Yorkshire and the Humber,NULL
-66b4cd86-5047-4a32-adb1-f887e3e5fb6f,Hazel Grove,North West,E14000738
-e4e66102-f944-4797-b93a-fa47a509805c,Great Grimsby,Yorkshire and The Humber,E14000716
-81f4d595-0744-4c75-a45e-fa746750b52e,"Manchester, Blackley",North West,NULL
-e4d1c3fb-21b5-4f9a-aeb7-faf264daf12f,Eastwood,Scotland,NULL
-5c927399-58f3-4751-96f9-fbc00480243f,Bexhill and Battle,South East,E14000557
-90060570-aff1-4667-8f99-fbc282664c44,Tiverton,South West,NULL
-b73c7c3a-514e-4cbd-b823-fc617a25afd0,Meon Valley,South East,E14000811
-87ab5bbe-ab8c-41ea-9c13-fcf026abc6e3,Woodspring,South West,NULL
-a69966cf-a75e-41cc-8578-fd342bc10f86,Leeds Central,Yorkshire and The Humber,E14000777
-02dc124b-3cde-46c2-9222-fd95b384b252,Hammersmith and Fulham,London,NULL
-5e22be9d-88b1-4df5-bd67-fdde007dc4df,Makerfield,North West,E14000805
-3818c6ee-3255-4b77-8b2c-fe0292974d57,Normanton,Yorkshire and the Humber,NULL
-929a250a-fe7f-4fcf-b9f7-fe2197381e1a,South West Devon,South West,E14000950
-1fc30961-78dd-49ac-b585-ff28db9dc1ca,Blaby,East Midlands,NULL
-ea056b9d-41b2-44d8-96c7-ff4d500a6eab,Luton South,East,E14000801
+id,id_parliament,name
+1f799941-18b8-4894-86da-00045e571a20,2957,Tottenham
+fd856a78-8492-49bd-ae53-001297b4f6c2,843,Denton and Reddish
+7b4874a0-8556-4f95-a753-004a21185e27,286,"Birmingham, Northfield"
+371f236e-d839-4832-84b0-004ebc2b3281,4143,Leicester West
+fe9aebdb-a89b-4dd6-bae3-00846fe7f1d0,4232,Orpington
+94ec3a4d-e28d-4c29-8d9e-00856a758034,2254,Orkney and Shetland
+1fef31a4-e01a-48be-9f71-009306fe07df,3936,Braintree
+25a82d04-7975-4bf1-93f1-00ad4967becb,3415,Cities of London and Westminster
+f273b399-ef47-49e7-a03d-00de0d62ccd0,3391,Cardiff South and Penarth
+2fbc7bc4-48b9-43c6-8b69-00eb71a91a81,3813,Tunbridge Wells
+3ee3ab32-2d9a-4b9d-934a-0103248ba048,3051,Warrington North
+ad3ef436-3a31-4f73-9e56-0111dcbe035e,3693,Redcar
+7d567364-9e97-4290-85ea-0136377ac300,2296,Pembroke
+62158cb8-053b-4bad-8321-01446986d7a2,2736,Spelthorne
+64ae6047-35b4-4acd-897b-015a4bfd83fa,1166,Fulham
+27eda878-dd62-4025-a871-015c1c44a340,2452,Ross and Cromarty
+c03e5c12-275a-49a3-bf28-01a94eab5ef9,4505,Cardiff North
+4dc85ecf-9a57-4735-910a-01b5199afbee,3008,Wallasey
+1d35544a-764c-4666-b4f5-01b8949b4e78,3246,Worcester
+6d8fb17f-569b-42ae-8da4-01bf05ab8c90,1030,Edinburgh Central
+9b98ec9b-260d-4b61-b9d4-01e4173f4c3c,64,Argyll
+f5edcf53-b1a2-4fc5-9884-01f7b666eb93,1692,Leeds East
+fe173f59-2399-462c-9ea6-021cbb97edd4,3480,Esher and Walton
+e2fd7de1-e764-4cb7-82c6-023fba13dc03,2560,"Sheffield, Brightside"
+9242d1f7-41dc-4d6f-9531-02640a5d4bc2,661,Chichester
+2b9aae7d-05e8-4eee-990d-02829cc33df0,262,"Birmingham, Edgbaston"
+ec8eab36-7cfb-4af3-9044-02f338008552,1498,Hornsey
+d84df358-a6a0-49fd-87b3-02f9c602423c,3829,Warrington North
+979daa2a-caeb-4304-b523-0339c5fbc4e6,2380,Pudsey
+58d090e4-353d-4096-b6ea-03669c39488e,3764,Spelthorne
+70c386b6-41cf-4454-9648-03883c40f301,878,Doncaster North
+aa859e4a-2d0c-420c-a805-038fcfa53bfc,3797,Telford
+4dceb537-b85a-46ec-9eb1-03b755c4f762,3982,Chingford and Woodford Green
+f24af86e-5dd8-4f55-b240-040c2f5a45bd,3648,North Shropshire
+5b60749e-7272-4ca4-9357-0424f1052d8f,4352,Swindon South
+368a8b20-c187-4bfe-9b46-0440d93d368a,2075,Newham North East
+83eb133d-1b58-4d77-b49b-0479f201cee0,3532,Hexham
+aca15dec-40f1-461b-bf9b-04813a0a9bc1,73,Arundel and Shoreham
+cbfe6a15-ba72-4db7-af08-04a56cae068e,3300,Banbury
+be609b6b-94a2-48d8-ad34-04b0a9f3cb62,2637,South Dorset
+cdf929f7-7a5f-4e37-8902-04e042357c49,2404,Redcar
+adcbfb89-33f9-4ed8-b16e-04f8a019b8b0,1093,Erewash
+ab0b3009-9eed-4ca8-bd0f-04fa0b950a25,1860,Luton South
+3bdb9112-1e8b-4c07-9757-0508a1063cd0,2704,"Southampton, Itchen"
+21fbc797-95ce-4b3f-882f-052df641bef7,3612,Milton Keynes North
+f5d41079-1277-4d52-bce3-05555736133d,3484,Feltham and Heston
+ed64e9f1-7a55-4254-bc27-055ab35140e8,4405,Witham
+28fe6823-1067-4c69-ab0c-05860473cd4f,1501,Hornsey and Wood Green
+ff148ae9-ca89-4374-a196-059269ef6cfa,4416,Wyre Forest
+fbdbaca4-8482-4471-9e88-05c6b4374f2e,1452,Hertsmere
+355e5390-4b8e-43d3-b300-05c8ea83c963,2936,Tonbridge and Malling
+8169e6d4-d649-4977-8051-05e8d5e30e15,2178,North Wiltshire
+3a3b6288-66ac-4e1b-b93e-0603aad07b80,2385,Putney
+1e411609-d4b6-4945-92e5-0620e2763284,364,Bolton West
+4899114d-f062-4b15-8813-0680e70a5761,904,Dulwich and West Norwood
+2fdaa9d8-8286-4026-9e89-06917e9a14bc,2556,"Sheffield, Attercliffe"
+2861288f-d2a9-46c4-a8ee-06991de08970,1357,Hamilton South
+3685bd82-3639-4b1e-a363-069fee0403fa,4311,South West Hertfordshire
+b941a03f-73ed-4886-aecb-06aa9fc31ee5,665,Chingford
+322dd26d-879e-432d-89d8-06e197d020cf,2876,Sutton Coldfield
+c28df9d0-de64-4e08-aa6d-07587b92820d,3381,Bury St Edmunds
+fde57c7f-a547-43b6-96f3-07ccef9d7ab9,366,Bolton West
+8ea16a1b-4d12-4ce9-a78d-07d5a5dd0207,2403,Redcar
+6a9596c9-4242-40a7-87f9-07f5a9d2e7f0,3163,Weston-Super-Mare
+22ec1c66-134b-4047-91bd-0832c23334ef,2350,Pontypridd
+4fe11414-f493-4994-8190-0866f0996a0c,16,Aberdeen South
+24c7284b-688f-4a39-923c-087bed82e8ab,3501,Gravesham
+d75ebe64-8e8e-498a-a28c-0895a9824c28,2997,Vauxhall
+f5a9701f-d069-4967-ad4e-08a0df53e79c,2250,Oldham West
+172e9664-3b85-45bf-b71d-08a7869386d4,1468,High Peak
+08086aa1-c54f-4e7f-9ac8-090ba8cd3239,4090,Havant
+1ae2d391-5f08-4b70-aeb8-090fa65a97b8,4029,East Hampshire
+da862737-c919-4ab5-b228-096d85fe5d71,1513,"Hounslow, Brentford and Isleworth"
+29b278c8-4f1d-44e4-914f-09ed67dafa0a,230,Beverley and Holderness
+d3b37d4d-4058-499c-8d85-09f3da6909ae,3938,Brent West
+d771eabd-a165-44d8-8eb6-0a364c5f172a,3679,"Plymouth, Moor View"
+8cb3d173-32d6-472c-898b-0a4cbfe29075,2255,Orkney and Shetland
+ab803598-c163-4be9-924f-0a52efd46523,3616,Monmouth
+50912c5b-80b5-4628-92ad-0ab865ec1cde,2239,Ogmore
+9fe6b32e-0f3b-447b-bde6-0af089a6ccda,3806,Tooting
+9e5a0212-7d87-41e8-95f4-0b16122f6e5f,1623,Kilmarnock and Loudoun
+fc5a93d9-f78a-48ac-8960-0b17a09c4dfa,2277,Paddington
+44bed3d3-46c4-4e2a-bf70-0b274adf922f,351,Bognor Regis and Littlehampton
+8fa94990-b98a-4b6d-a202-0b34e3e92392,4147,Lewisham North
+23592f5b-76e5-4ecb-8965-0b6696572f56,2188,Northavon
+abc790cd-0917-4e28-9f3f-0be9204acb56,4394,West Worcestershire
+5cccf4f2-98b6-4aaf-8af4-0bebc13d9566,2550,Sheffield Central
+424200e6-fcbe-46ce-a01f-0c0928555b1b,4151,Lincoln
+79701df6-f932-4029-9dd7-0c3065b01065,2842,Stretford
+70d075f0-6457-428a-8ccf-0c32b17b676c,3092,Wentworth
+65e7416c-4089-4d76-ac0c-0c3b47efdaa7,3853,Wimbledon
+0424c63a-86d1-4544-803c-0c57a7947ed8,4243,"Pontefract, Castleford and Knottingley"
+11f2c8e6-b651-4c21-88f1-0c89702d597d,2540,Sedgefield
+e56e2a27-9c4a-4640-bbe7-0cd46ee2cc28,2247,Oldham East and Saddleworth
+f341d92c-8cb0-4068-81d4-0cf38d7899ab,2370,Preseli Pembrokeshire
+8db4aaf4-295f-4aa6-b632-0cfde76ecded,3666,Nottingham South
+e932c999-b080-4a81-aeb1-0d3f9e682d90,4496,Aberafan Maesteg
+38941061-49e8-46e0-a75c-0d91e2c53382,377,Bosworth
+827c79fd-58a4-4fe1-a11a-0dc1703d8c6c,2584,Shipley
+141bf270-e1b6-46dd-89b7-0dc70c03f3e5,4217,North West Essex
+f0363141-3baf-48ef-a691-0df46c1169fe,2829,Stratford-on-Avon
+1c7d15a2-9eaf-44b4-8773-0dfecdd456e4,105,Banbury
+0cc4dc16-41ac-4558-a441-0e162f342eac,3559,Kingston upon Hull North
+acee996c-1310-489a-8bd3-0e2d066be819,3431,Crewe and Nantwich
+a7664142-8a9d-43de-9af9-0eb63d462975,3504,Greenwich and Woolwich
+f062b18b-7035-4f9d-b586-0ed03d85d167,290,"Birmingham, Perry Barr"
+b1c4303b-f1a9-4b3f-aabf-0f5566bd67e3,3311,Beaconsfield
+03728f23-d703-4ae0-a85d-0f5ac6c1e432,2481,Royal Tunbridge Wells
+8e730e6a-b069-46cf-a1e9-0f91965eeef7,3626,Newcastle upon Tyne East
+cf07d18a-dfad-4d70-920a-0fad26004eb8,1509,Houghton and Washington East
+c580bfed-34cf-440d-a257-0fbefc8c5f74,3420,Clwyd South
+2db0aec9-9ed8-4221-9f6a-0fc864c82468,3081,Wells
+ee449115-2724-41d2-9070-0fefa54bbf54,3472,Elmet and Rothwell
+8c91d46b-e2b8-4f75-a12c-0fff6904fab4,435,Brentwood and Ongar
+b60a586b-bc84-4815-b853-1011b264cebc,2397,Reading North
+8afc9aa4-3af9-41c1-80a6-1014dd34a63a,4445,Midlothian
+d71b789f-28ff-4398-9c96-101c8146f24d,3439,Daventry
+c2023266-64cf-41e2-8a61-103846362d7d,1048,Edinburgh South West
+659f9af7-14a3-4a3f-bf41-10601e8c678a,979,East Hampshire
+9fe7e1e2-f5be-42e6-a7bb-106a138164fb,3796,Taunton Deane
+f799ed74-c6dc-4982-9999-1095843a3ea2,820,Darlington
+53f4a6f0-d4e6-4f1c-a026-10ad6c25e399,933,Dunfermline East
+d4d8e33d-1fa9-45b0-b9d3-10bcbcaee0ee,3822,Wallasey
+f234f41d-d802-4fdf-a662-10f5ad9e94d4,2567,"Sheffield, Hallam"
+39ad5167-26ec-4dd2-ac54-1114dfe3eed9,3591,Macclesfield
+3e7c918e-b311-4f60-bee0-111cbe3508e0,165,Battersea
+00774ff3-0b07-4d32-b0ee-11a67299f1f5,3667,Nuneaton
+b79b8680-30da-4f05-8e90-1211f07de39f,3714,Salford and Eccles
+28c4af72-a212-4585-af62-1211f94f0e69,1081,"Enfield, Southgate"
+1f537ad3-a487-417d-b13e-1219b55c57ac,334,Blackpool South
+611d9bd1-1a07-4af0-ab4a-1259aed3d8bf,2905,Teignbridge
+c9f3360c-2980-41be-899c-127957575c4b,745,Conway
+06166b69-a622-4e49-8e22-1283aa093b3d,2,Aberavon
+350dec13-d00c-4052-9df5-12ac1781207e,2965,Tunbridge Wells
+7c71fe43-6232-4be1-a576-12bd1ecdc6f4,3080,Wells
+3a72d376-8c59-4714-a05d-12c507acdecc,3464,East Surrey
+0c1bf4c3-56a8-4fc6-9a9a-1304778e8b5e,3996,Coventry North West
+613c441c-df5a-47d2-814b-130657af4d8a,3849,Westminster North
+2610cd1f-9e2e-4f96-a0e7-133c8baa0a76,1453,Hertsmere
+f42e561d-0ab5-4d3f-be6e-137d17f8dcb6,3496,Gillingham and Rainham
+6c85c4e4-91bc-4ba5-98c5-13916396ac0a,2430,Richmond (Yorks)
+cc3d1701-1a3b-4311-860b-13da41d4afb5,3692,Reading West
+f0a8f0f9-eb03-418c-acd6-13e275b633d8,2010,Morecambe and Lunesdale
+860b2fd0-ab9a-4ba9-8369-13e79c63f303,3505,Guildford
+a84b0b9f-a423-4839-992f-1412565327f8,4180,Mid Norfolk
+397abab9-9647-4d7b-8f13-14297207c06b,2625,South Ayrshire
+3274991c-2838-4c0b-87da-142c165907a9,3350,Bournemouth East
+1a7de340-d3c9-4228-9741-14508ef64e51,1656,Kinross and West Perthshire
+a6fafcd1-1343-423e-9de6-148d91b933f0,571,Cardiff Central
+fe822be0-621e-48a7-b703-1490716102f6,1988,Mole Valley
+a4fa6c25-f821-4216-b8fc-149de095e257,3832,Washington and Sunderland West
+e0177c13-7e78-4ff9-9519-14c3ce6db2b8,2870,Sutton and Cheam
+64fef809-0339-4016-8cb1-14daaf092253,2709,"Southampton, Test"
+dfd0bda3-f355-4ef8-97ec-14f750f4b0bd,3105,West Chelmsford
+8220636b-fc3b-4e18-898d-15033ab95995,908,Dumfries
+fd578632-a7d5-4f0d-87f5-153e7b5ae5ff,2156,North Swindon
+7d64f0f1-bbbd-4af7-8ec9-158d276a09bb,2497,Rushcliffe
+92d1067e-0861-4fdf-b63f-15a0245c7283,1638,Kingston upon Hull North
+1592c98b-5a8f-403d-81f5-15dc1a838562,3611,Middlesbrough South and East Cleveland
+1f8ecf1c-3d3e-429f-955c-15e65d36c454,4231,"Oldham West, Chadderton and Royton"
+5a881cc1-dfc9-46dd-9d98-15f29e75f616,3358,Brent Central
+63ed2a9c-f20d-4d70-9788-1633d183774e,3094,West Aberdeenshire
+8fad4152-6c87-492b-affc-16c3f6466b69,3846,West Suffolk
+b0546dc5-63ba-4125-a38b-16de7e946ab6,81,Ashford
+7a7f794d-a6b4-4f3a-b523-1701def6e746,721,Clydebank and Milngavie
+1bcf6ad6-ce4a-4d0a-9a44-172e9e21e657,3579,Lichfield
+cf32b677-0374-4382-a933-177eddd47021,617,Central Fife
+92e1a6ec-7079-47cc-bfcf-17bce05988bf,3250,Workington
+6f5703e7-9cf8-4bd8-9a25-17bed02efece,1059,"Edinburgh, Pentlands"
+04e666be-6370-4f2e-b686-17e4d71b88a1,76,Ashfield
+b5d0fca4-3f15-4766-8951-1820ec00a461,2878,Sutton Coldfield
+963dde09-335f-479f-9c7e-18271b7ccf16,464,Bristol East
+db0badc7-306d-4cba-a45e-18431e84b4c9,1150,Finchley
+d1f10f37-0afc-4cd8-87be-184721c2a177,3726,"Sheffield, Heeley"
+3d3afc1a-ce3f-4dd3-b4a2-189f7bc3d841,2461,Rossendale and Darwen
+05fedd37-0d2b-438e-b57b-18a18e69842e,3079,Wells
+b702744e-11c4-4332-b9de-18e4c96d8642,3434,Croydon South
+3f4d6251-c1b9-455f-9c25-18ea1668c77e,544,Calder Valley
+471cf998-6f2c-438f-982f-19034d1eb437,18,Aberdeen South
+aff72beb-4010-49f1-8c0c-196d13620a4e,491,Broxbourne
+a9e3143e-c228-4ac2-a4d2-19743d701167,3686,Preseli Pembrokeshire
+2979b728-4b21-4762-bf06-19ba8953dc2b,2930,Tiverton
+97624ccd-9943-4847-aaea-19d2d2c27ece,442,Bridgwater
+3d11d84e-ea17-4bcd-adf1-19e1894d944e,2843,Stretford and Urmston
+01fb4a17-b329-41b5-80c2-19fd18793e65,4280,Sevenoaks
+0624e5e5-17bc-4544-b584-1a3893bda3e6,1329,Hackney Central
+cb6096a8-47a3-4ed3-bec4-1a3fe3a4b08b,2828,Stratford-on-Avon
+a7b1e27e-1289-483f-9acf-1a5d194dacd8,439,Bridgwater
+d1711b17-c629-42f4-831a-1a9e385944ee,899,Dudley West
+d4bf7176-2ccf-4ec4-9b02-1acb7ef88531,3614,Mitcham and Morden
+fd071901-4881-45a6-8d4f-1accc386931d,1848,Lowestoft
+f14e8228-4bb6-42c8-85da-1b066b690718,3876,York Central
+6d738260-bbef-4fd4-a795-1b179aadd9ac,1286,Gosport
+345b7045-62fb-40e0-84f0-1b2d0be80936,1038,Edinburgh North
+8acfd29a-bbb6-4604-803a-1b4c3837d59a,3343,Bolsover
+a43311cd-9778-482d-93db-1b724614ee04,3522,Havant
+942e8e99-36f2-4e38-9940-1ba71b508b9c,2137,North East Hertfordshire
+9a848c8e-d282-42b3-9669-1ba8224894b1,3184,Wimbledon
+636e83e4-3434-45de-9731-1baee6d1d62d,317,Blaby
+4453ac4d-b1f8-4d59-a38f-1bf2db4c243b,4302,South Holland and The Deepings
+dc32522d-4b91-4fc6-9acf-1bfecab2b3b0,994,East Renfrewshire
+174f572c-387f-44a3-bfa7-1c964a1d75fe,147,Basingstoke
+c036d133-cdc3-4a19-9ddb-1cbf9ba265c6,3781,Stourbridge
+a4c5c2a7-18e1-4609-b85b-1ce04c38ad31,3333,"Birmingham, Yardley"
+40cff2b0-de74-46c2-aae5-1ce67d2bd347,1561,"Inverness, Nairn, Badenoch and Strathspey"
+f946c57e-be01-4686-8bf9-1cf9d56b5bf2,274,"Birmingham, Handsworth"
+2126b5f6-bdb5-4045-a17d-1d12b1a17938,1148,Finchley
+b4f7d8a9-936f-4af6-b97a-1d2fc60057dc,3310,Battersea
+428f7378-2bc5-4f28-80fb-1d3a94fbd8d8,999,East Worthing and Shoreham
+be31462b-02de-4468-b293-1dc1f8013a46,2251,Oldham West and Royton
+38c92125-76f5-4b85-b67d-1ddc113ce3b4,1733,Leicester West
+92ad2606-f370-4942-b1bf-1e386653ffe6,1191,Gedling
+3a15b15b-35e5-4f93-a2e5-1e84d2077f08,2719,Southgate
+f9cb5163-5d83-496a-abf8-1f0a4a1e7cbd,4050,Faversham and Mid Kent
+84b3b4cf-655e-4647-a5ab-1f526e316ae0,1373,Harborough
+5d0be35d-6987-4093-93cc-1f6c048970d7,3302,Barnsley Central
+69a1d2eb-d29b-4da7-bcba-1f8618c63003,783,Croydon Central
+f9d92b33-676d-4734-b5c3-1f938c6116dc,3521,Hastings and Rye
+abbfe1bd-cbc7-4309-9043-1fa2cc8882c2,1278,Gloucester
+d08b1f88-7c22-4131-a380-1fa3c6f47cac,3159,Westmorland
+a4b2b51d-5bd3-4d80-baea-1fb0bce87032,3745,South Leicestershire
+493e6a6c-44ae-4def-9004-2007775afee9,1920,Mansfield
+2710056e-c13d-45fd-8042-2035914d4090,2127,North East Cambridgeshire
+725dca0f-e3f5-46ca-ad91-203bd569f335,2293,Peckham
+ab0523a9-a10a-4055-ae4d-207c94dd2bcb,3529,Hereford and South Herefordshire
+f74f43a9-24db-4e66-85d0-2085d9b66ad2,3969,Castle Point
+0bb3b8e6-ba3b-4723-99fc-20c383de7659,3645,North East Somerset
+409b7123-8c4f-49e9-911a-20c8c7d280ee,3043,Warley
+7b386fe6-1082-41ef-add3-20df9e590ec5,1529,Huntingdon
+0db5a6d2-0728-4eb7-836d-20e387bb5311,247,Birkenhead
+d063adf9-af44-4faf-b30b-20eadbb1ea64,2184,Northampton North
+5d4e8d73-2adb-4e56-9e14-211f8a42f212,3901,Bethnal Green and Stepney
+4953f97b-b86a-43e3-9da8-21491dc60dd8,3160,Westmorland and Lonsdale
+967e5e51-8130-48f7-a99c-217fb4b176d3,683,Christchurch
+c7d26423-e813-44da-aad6-21a23df68d54,3627,Newcastle upon Tyne North
+b126aae7-d9b9-47a3-bed5-21a57dbd3d7f,310,"Birmingham, Yardley"
+c70da5da-4c70-48b7-b216-21f1994e7a99,876,Doncaster Central
+fafc52fa-6604-450e-9c64-223d1535c5e5,3787,Suffolk Coastal
+5b8ff409-1302-448a-a4b3-225d6526e381,2195,Northwich
+67a15322-1053-4391-9377-22768f2b9f9e,2517,Salford
+36719712-0d94-4d55-a359-229818cb54c1,3701,Rochester and Strood
+3a32940b-4c49-4a05-927c-22a979de471f,1473,Hitchin
+ac08ac8a-02c9-4739-a293-22e234692d79,2400,Reading West
+b8bd938c-5951-4929-9313-22f0be201321,2009,Morecambe and Lonsdale
+b7f1853a-0693-4ad0-b06f-22f327139cf3,849,Derby North
+16df14df-a118-44f4-8563-230c65bb0aa8,1496,Hornchurch
+32e107a0-b77d-4354-9448-238515270a61,2566,"Sheffield, Hallam"
+95b2bad0-4ef3-4752-948e-239c441064d3,3388,Canterbury
+3e95f404-ee2d-4ce6-9485-23d3aa8af1a1,494,Broxtowe
+2b458a94-784e-4927-868a-24227caf8088,2164,North West Cambridgeshire
+7a43b7b4-543e-4e14-bb08-2438bcea6f4b,2315,Perth and Kinross
+310c722f-3b01-4d17-bd1b-24e5489c1013,4140,Leeds West and Pudsey
+f0eafe7d-fb78-49a9-8f3e-2506fe6a60f6,750,Copeland
+59e7997a-2838-4d4e-a910-257aa2ca9dfc,3642,North East Derbyshire
+378554bd-d733-46be-92a7-2598478320dd,2618,South Angus
+fb63a00f-5ccb-4129-8f9b-25df0fffc019,2027,Nantwich
+aba6c0d7-d374-43d1-9f3a-25f3a41a727c,306,"Birmingham, Stechford"
+f2f94113-ff63-4f88-99bd-2623f99ddca9,3744,South Holland and The Deepings
+039e3a9c-d3ce-4cb8-ba9e-26382d47282f,3572,Leicester West
+a6b0e2f3-1f3a-418d-ab6d-264be36b42d2,3536,Holborn and St Pancras
+5fee40db-c201-4b04-870a-265e7749a015,558,Cambridgeshire
+6005fd4e-2ee4-40a3-ac7f-269e0606989a,3543,Huntingdon
+66aeb5ad-29f0-446c-a26e-26aeb55e8268,1744,Leominster
+e81258cb-17d4-4485-8628-26d67748b268,1033,Edinburgh East
+0ec692bd-2d60-439d-b0c2-26f00115e6c3,2796,Stockport South
+99e54d84-aa8b-4123-8d69-27166df0bfca,1824,Livingston
+c3ab70a1-7503-4329-b654-27284cf49504,1032,Edinburgh East
+b0485f76-cb0e-4319-aaf3-2822339eceec,3680,"Plymouth, Sutton and Devonport"
+f6a0d5a3-e02e-4c68-afd1-2846aae67dea,180,Beckenham
+8ca1b35c-32f0-4a33-896e-285100281c3f,2290,Paisley South
+73bdeed1-2dfc-4219-a55f-2888025a5a30,3605,Mid Dorset and North Poole
+ef5102ab-cca7-4208-96ea-28a011219886,1126,Fareham
+76271bcd-36c1-4a31-954c-28f0b411840f,1189,Gateshead West
+103829d9-544b-4e22-b595-292c0a90f86b,268,"Birmingham, Hall Green"
+f2ba7950-9d90-488e-8444-292ef6a2b15a,3655,North West Durham
+dc4a90ed-7858-4949-8099-2947447bbddc,3390,Cardiff North
+73d3256c-8fa4-4a44-ab37-29517e0ac276,3406,Cheltenham
+fcd88095-02f1-49a6-b1d2-297deb79fe6c,1951,Mid-Oxon
+b85720c0-14ff-46c9-b71f-2985633d9b5c,2051,Newbury
+1a4243b1-cdf2-4738-8655-29bdcff3885e,507,Burnley
+e4e99fae-3ea8-4adc-b649-29e3d71f1712,4275,Salisbury
+bc25fe6f-146c-4dfa-a698-29ee5bcea061,4108,Hornsey and Friern Barnet
+557b93e4-258e-4e49-b285-2a1d618f76f1,3503,Great Yarmouth
+939d5d03-4977-4e5f-985b-2a75716e1615,2662,South Norfolk
+46efbf96-07a3-4ec3-9417-2a7dec9d8ad9,3438,Dartford
+0216fa23-beb3-421c-a0e5-2a93aa752865,1224,"Glasgow, Garscadden"
+2bdfb578-6e5c-431b-88a2-2abf07aeca8c,4086,Harrow West
+a3201bd3-a37f-416d-b3af-2ad2b4502173,4255,Redcar
+82cd2a88-2c34-4e94-a3bb-2ae8ce3f1dee,1406,Hastings and Rye
+f6e9db58-c1f9-43f4-aa79-2b0c64ddce1b,4440,"Berwickshire, Roxburgh and Selkirk"
+6fecd82f-2674-4b02-b401-2b45890fa705,1101,Esher and Walton
+64a9ee16-25ff-40bd-9529-2b598b421fe9,3164,Weston-Super-Mare
+27927f27-5f63-420f-9f5f-2b7b40e99a1e,4417,Wythenshawe and Sale East
+b44bfa85-7b35-4150-a3d4-2b930086bf08,2203,Norwich South
+c80266ff-72e3-43a6-a339-2baafb789ee3,1114,Eye
+0b07ae7b-b199-460c-b3cc-2c3b8b90d32f,853,Derby South
+b1c4a6f4-1cfb-4dd6-afd2-2c44ae810fc4,905,Dumbarton
+a3a7640f-7c9f-48d1-8744-2c506b899ced,232,Bexhill and Battle
+ab0a421b-fe3a-426f-b969-2c94f46f944d,3478,Erewash
+ca40b027-6507-436f-8886-2c99aeb7b090,95,Ayr
+c209f674-d9ed-4956-b40c-2c9dd8eeb2cc,3214,Wokingham
+2f28ba6e-9116-4efb-99c9-2d24d85d9f42,2967,"Tweeddale, Ettrick and Lauderdale"
+b8a3f21a-5a29-48ce-b11b-2d42e891ceaa,2023,Motherwell North
+1f0afd45-7c8b-46c0-93ed-2d714b94d7ec,3545,Ilford North
+510d6488-1c05-4fef-b5d1-2d7718ff6f14,3038,Wanstead and Woodford
+330fe1c7-8a9f-4cd1-a76f-2db304114eb7,3575,Lewisham East
+8992e924-2811-4bd0-82aa-2dd81ee0a239,2872,Sutton and Cheam
+584eda09-f83c-4234-b36b-2de69c258171,485,Bromley and Chislehurst
+bbea8860-f870-473b-92d2-2df819d2850d,3949,Bristol North West
+c01dd2b4-6fa5-4d57-a564-2e2f8daa7eb5,2114,North Devon
+d2f1954b-c17e-4445-8140-2e607290eed0,3082,Wells
+06a89a26-92ab-445a-a384-2e66ae4673e7,3809,Torridge and West Devon
+71b37363-86ec-436d-844e-2e6a4e86279d,3859,Witney
+2c61bebe-0a67-42c9-aea1-2e7248eb64a8,2167,North West Durham
+ff155081-bfc7-442d-935c-2eba4daf6756,3586,Loughborough
+f4c5c1e2-d395-465f-814d-2f29f736ffe6,1173,Fylde
+94820200-5659-46e4-9ce4-2f60edb43182,759,Coventry North East
+5bd4ac06-a893-4674-b162-2f9390cb490b,3039,Wanstead and Woodford
+d786b172-3fc8-46b2-a3d0-2fc38fbd8e71,3727,Sherwood
+03cd1717-ee45-481c-91be-30219e227a1a,4343,Stretford and Urmston
+52ff4957-f996-48fc-9859-303387f0ca66,1377,Harlow
+599207f5-f706-4390-8b6c-3035ee95ad49,914,"Dumfriesshire, Clydesdale and Tweeddale"
+cb2c44d4-0c3f-4462-9a9c-30546e7dace9,2617,South Angus
+5feacc85-e94f-40ba-b7b2-30ddc5f2b493,3047,Warley West
+7fb546b2-3632-49e6-996e-30fe4711306c,3879,Aldridge-Brownhills
+8df10496-4cdf-4244-bdef-30fe9d16049f,4410,Wolverhampton South East
+3897a39f-9636-4f46-92ee-3110cfcf41f7,1911,"Manchester, Withington"
+40a7e5f2-981f-4000-b7f5-31127db529a1,1220,"Glasgow, Cathcart"
+2bcf8c50-a2c3-4923-abcc-311a0cfbdc2c,2678,South Thanet
+b5835d30-20ac-4c32-aa8a-312b4bf57a67,2408,Reigate
+ab4bba10-0ef8-46c4-a511-313c75fd31a6,2294,Peckham
+187ac679-27b4-4b26-90c4-318eb8666309,3213,Wokingham
+25b136a9-82d0-4226-8e41-31d6a8adf08a,3818,Vale of Clwyd
+7237d214-c20f-4c09-ac49-31e86d9ff510,3864,Wolverhampton South West
+dd5d991e-cf34-401d-bf75-3293eaf18709,691,Cities of London and Westminster
+fb04540e-c911-43b1-a21d-3299fc4eea17,3840,Wentworth and Dearne
+92cc5ace-c856-444c-be05-32b40db8bf25,2244,Oldham Central and Royton
+68b40f06-1b83-4813-a659-32ba3d515678,719,Clwyd West
+0259350d-2e0a-4785-a411-33219ad62d2f,833,Daventry
+45072f73-e1de-400b-a74a-3331aca54a9b,120,Barkston Ash
+44950884-6051-4d22-a788-334fd6ab4c44,3206,Witney
+fb32e253-f946-4d80-adfd-337f05cfec96,2126,North East Bedfordshire
+d317b92b-6581-4a0e-937e-339d4bffaa46,3802,Thornbury and Yate
+8a10b98e-d0ef-4868-b277-339e7bfc5b51,3399,Central Suffolk and North Ipswich
+054d342d-b8ba-4535-be19-33dbf46e1930,3368,Bristol North West
+7c72fd00-26c7-42a0-91c9-34124b52de68,1258,"Glasgow, Rutherglen"
+b65f3460-038f-4b92-a6b9-341c8689ba3b,2530,Salisbury
+0ad47c08-942b-40e7-881c-3424753ab826,1505,Horsham
+03cdc0c3-894b-4559-8b9e-343ede1ff763,3577,"Lewisham, Deptford"
+c33d9d82-2286-449c-9817-346ed11b11dd,1495,Hornchurch
+8f037b9f-769f-47d0-980a-34cfb05debc0,1417,Hazel Grove
+7d546d11-b895-4144-95d6-34d4e88e2598,2097,Normanton
+56cf1de1-db3c-4a15-9089-34f358f2ad7c,3854,Winchester
+1df0c568-57e9-4cc0-9053-3522b0ac9580,318,Blaby
+24994cec-4845-4965-bdd5-353aec147fb6,2471,Rotherham
+faad0cc7-6920-429e-be3b-354d97cf2ebf,3298,Ashton-under-Lyne
+7dd63d10-d279-4e11-8e64-354ff7cf7dc2,3154,Westminster North
+77a6f3b9-9da5-4cef-8930-355dce1b7427,1632,Kingston upon Hull East
+17fd41fb-b9c6-4ce5-b5bc-3578f341cdb9,1738,Leigh
+81eab841-8724-4f78-8c2e-35a48203a8f9,3325,"Birmingham, Edgbaston"
+c0f7df79-3b28-459b-ac44-35d75498e555,4167,Manchester Central
+7ddb8600-e52a-49f5-9515-360a4d1b983f,1198,Glanford and Scunthorpe
+72b61321-d599-49a9-bf10-361235c0fddf,1086,Epping Forest
+ee10f08d-af37-4c77-90c8-36262a73ab5f,4259,Richmond and Northallerton
+584390e4-62f2-4df6-bad6-366d4b15e3bb,3720,Selby and Ainsty
+542dfe3b-1360-4ff2-b682-369653cd6fed,2536,Scunthorpe
+9ef8ccbb-eed2-4978-a48e-3722d98d5690,3838,Wells
+c885bbd8-c39c-4fec-8ac9-373cc6b281bf,3428,Coventry North West
+4e7d28a4-4756-4f9e-9f69-379bbbc95f98,4218,North West Hampshire
+3c1387d8-1968-47fb-8ff3-37ba530ee602,1871,Maidstone
+0d0e62c9-1217-410c-bb53-37d292fe426e,3096,West Aberdeenshire and Kincardine
+f2d0e0c6-45d6-4d63-b728-37dbc54fa432,1277,Gloucester
+29114c28-9d4c-440a-947d-37f2030499dc,1366,Hampstead
+19550d83-5966-4ea0-beee-3804bc10a476,3432,Croydon Central
+15604a0f-436f-49c0-ab50-3822a37bfef5,2086,Newport West
+e56c9cfe-6744-4260-add1-383814bd3af3,3747,South Northamptonshire
+25517498-ab66-44c1-85b9-384a49d0a14c,634,Chelmsford
+7521f7cf-3910-4b47-8bb7-385840f34fe1,1297,Grantham
+c2536ffc-04b3-47d7-a3e2-38b0aa8c667f,1091,Epsom and Ewell
+e7a24412-2567-49d4-9b2c-3911e923c88f,3287,Aberavon
+0f339aa5-13f6-4965-a7e1-3971312468ac,3234,Woodspring
+07334357-848d-4570-9d84-3992e4d3d59f,3588,Ludlow
+c5cb3d72-223e-4c84-84fc-3a477aa337b4,2218,Nottingham North
+2d933d42-7049-4c51-bbd2-3a4dd47746c0,3169,Whitehaven
+2b2e0559-503b-4022-88aa-3acd29260192,746,Conway
+1bb4620a-46a5-4f49-8dee-3ae3e512a249,2895,Tatton
+0a05aa0d-5ef2-44fc-af04-3b075ad00a7c,3633,"Normanton, Pontefract and Castleford"
+ad95c10a-7057-4c60-ad7f-3b07a7cee187,3862,Wolverhampton North East
+a11f2389-4bfe-4831-9bcf-3b87fddcf956,799,Croydon South
+2e8450ae-a19a-4fed-90bc-3b8920eb09d2,909,Dumfries
+63ff339c-b0ae-45d2-92a8-3ba9d0211f37,2175,North West Norfolk
+e5fe4346-7ffd-4c11-9c9d-3bc4a7643b3b,179,Beckenham
+072010d9-ec49-4c74-a455-3c14ca96b83a,4115,Ilford North
+fa36f8cf-133e-4e26-ab5d-3c374cb27831,2336,"Plymouth, Sutton"
+27b24117-f041-4cee-8088-3c46e4d24adc,3117,West Dunbartonshire
+ec018c23-29d4-4757-a975-3c5a6c7ebf4d,2636,South Dorset
+e6f4a000-f535-4605-8ce1-3c5d9901945b,1919,Mansfield
+bd82834a-bbe2-453a-a860-3c8923c87970,2139,North East Milton Keynes
+4c7bc9f2-358f-4b19-a5b6-3ca03198ad3a,2687,South West Hertfordshire
+1541c49a-50e1-4822-8b4f-3ca554486907,4190,Newark
+bb1c6af8-3039-48fb-b45a-3ca716360351,3650,North Swindon
+94445f53-1e70-4fff-a890-3cb460a064a8,3856,Wirral South
+fbfb8e99-1811-46ae-88c4-3ce48c802ac6,4485,Lothian East
+faf3f5cb-5656-417e-9118-3cfab0e70130,3863,Wolverhampton South East
+42b13436-14f8-4de5-b818-3d42279b9db8,2771,Staffordshire Moorlands
+81262714-917d-409a-a6c1-3d44864d428e,2561,"Sheffield, Brightside"
+ec7578f2-551b-4097-9e3d-3d5ad2f5ca24,1208,Glasgow South
+2837459d-f887-4ed5-95cc-3d61677386d0,1778,Lincoln
+fc6ce0cd-1636-4564-a6c4-3d89f1970ceb,1080,"Enfield, Southgate"
+59e9f594-f05e-4540-a668-3dc0f6dc0800,2060,"Newcastle upon Tyne East  "
+09c0be9a-0b44-4c26-a466-3e1a26631dc4,3664,Nottingham East
+072a77b0-a2cc-4fa8-b5a3-3e261a793c14,3828,Warley
+30458c22-3bf4-4773-8842-3e3c31c41ad8,1138,Faversham and Mid Kent
+ae7247e5-0f10-47f8-b599-3e4fb468a753,1449,Hertford and Stevenage
+ae877849-366a-4940-80ca-3ea897c3300e,761,Coventry North West
+55d2118a-2838-4043-b606-3ebaa1b2e9c3,3698,Richmond (Yorks)
+20259c82-d005-4f54-be29-3ee0a1d5173a,3207,Woking
+d4133c78-1eb3-4d2f-afa2-3ee19830ba72,3396,Carshalton and Wallington
+3e8d582e-50ed-4321-8b6a-3f17474c8f83,3674,Oxford West and Abingdon
+6b13ca87-9463-41fc-83f9-3ff28b78ecd1,3565,Leeds Central
+f94acad6-c68e-4e61-9d52-40048af01485,2877,Sutton Coldfield
+a52390b5-f8d0-4b4a-b499-405de1e9b911,94,Ayr
+15a97634-fcb5-4b42-aa77-407dde89f005,3441,Denton and Reddish
+52f83593-4a3b-40e6-a156-40ae91fc6236,17,Aberdeen South
+327797c8-0cf9-4bac-a06a-40ff717761dd,1394,Harrow West
+22ae8b0f-ca50-4d71-8815-4152b2769a41,2587,Shipley
+2030c00b-ef5d-4221-9dd0-4161ac14a4b8,1029,Edinburgh Central
+8c475ed8-9d1f-46d7-ae9b-4173acb8663b,819,Darlington
+2eac1f07-acd8-4d27-b32a-419e02c50484,3271,Wyre Forest
+b8ceab07-14b7-4ed2-85fd-4200190f17b5,333,Blackpool South
+0841c469-94b0-43c7-bf89-422947e2b5e8,1317,Greenwich
+31a5b265-d169-404c-8823-422e46404e77,2871,Sutton and Cheam
+8b3a7597-7cea-40fa-ac2e-42300cb49fbc,701,City of London and Westminster South
+3ec78600-9ff2-4c0f-ab31-426e007c2bb3,4078,Hamble Valley
+d5ed9c20-16f4-4b0d-bd42-428a0b2a59ce,2503,Rutland and Melton
+78a09592-48e2-4cf3-b5b2-428a436124f3,1721,Leicester East
+cc5e1f56-7b3b-4c6b-885c-42b995dcffcf,2249,Oldham West
+2b1b3b48-de2a-469a-81bb-42de049f31a3,2306,Penrith and The Border
+8f1fda0e-0697-4d63-874f-42de24b5aa43,2443,Rochford and Southend East
+059495cd-cea3-45fc-aba1-42f6ccb401b2,3672,Orpington
+d951fbdf-aa98-41b5-a3b9-430b072d0ef6,4123,Keighley and Ilkley
+c423e1a7-65a1-4a34-8a6e-431eb24f96f9,3570,Leicester East
+704bbd4a-dbe4-4f31-bd69-43480fce3c69,2501,Rutherglen and Hamilton West
+9e6b74e5-8e2b-41f5-bdec-43619854062e,2118,North Dorset
+ad2a8c5d-aa5b-4409-af21-43672baf762c,1159,Forest of Dean
+68c45468-0673-4a00-95c7-439415d84f4e,894,Dudley East
+b8746b82-68af-43ab-a2c9-43c291ed6a01,490,Broxbourne
+74f86b2c-b729-4ddc-bce6-43c95aef467a,3637,North Dorset
+efa9d94d-108c-47ab-a022-44061e31a25c,3823,Walsall North
+ace25598-1fdb-4a16-a911-4407c6bcedf1,3411,Chippenham
+8b3eda12-6fcb-4f2b-97a3-444c08c77b58,3426,Corby
+598999dd-a58b-4e8f-8b66-445d06700454,1469,High Peak
+002b29f8-8537-445a-bde5-4461756564e6,4053,Finchley and Golders Green
+db08712f-c0c6-46fd-b85a-44741b738c4a,3356,Braintree
+c37c3cd1-988a-4d5c-8f9a-449d8079efc0,978,East Hampshire
+5ea1456a-3090-4c9b-abad-44b5173a16f5,2943,Torfaen
+c42400ae-d712-4c08-b167-44ca761219aa,3380,Bury South
+281f9d3f-c160-4501-8009-45142fde0e66,1661,Kirkcaldy and Cowdenbeath
+b5182c64-fe56-476c-bd96-458f7ab70181,3603,Mid Bedfordshire
+025e9f3b-4f7b-432b-9517-45afa1f98ce1,3456,Ealing North
+1c56f7de-12a5-49dc-b87c-45bb5a705ea9,116,Barking
+7845619c-2872-45ea-bee4-45e4aaba5f9d,2307,Penrith and The Border
+e8dae019-4d7e-4b1c-b9ab-45ff9917bf0f,172,Battersea South
+987ce9b5-ba82-4c72-a897-4606c2b786f6,3670,Oldham East and Saddleworth
+2636dde9-5f32-411e-8c9b-46223ab9143d,4152,Liverpool Garston
+03bc8000-9730-4d71-a74b-4655580090e2,4313,South West Wiltshire
+5c4f0a9b-200e-4897-86a3-466774290dd8,3273,Wythenshawe and Sale East
+deaff201-7e5b-42d0-8072-46b646e9c6f5,104,Banbury
+401a5274-11dc-406d-9912-46db96551d6f,3487,Finchley and Golders Green
+65e220e5-f86d-4bdc-b854-46ee3f7f9853,41,Aldershot
+929871c9-3e4e-4e12-8f8a-4702e7105e40,3067,Waveney
+b4838c33-a9ec-4089-bea4-47278acc7504,3615,Mole Valley
+1d7d52a1-7c52-461b-82b5-472888626a40,1985,Mitcham and Morden
+87c64f61-f77d-4506-8875-472a330e61b6,1684,Langbaurgh
+3d15cf2f-71b4-4860-915b-47442302a5bc,2337,"Plymouth, Sutton"
+e3213f54-9d91-4e08-9f98-47527263ccc1,4251,Rawmarsh and Conisbrough
+4e9a0173-12e4-4ff7-8393-47a67e5eb8c7,1285,Gosport
+1cd46e3e-f9c1-4c5f-ac20-47c98f217c4a,574,Cardiff North
+59c99e3f-9eb8-4d00-81e9-47ee8637e907,1645,Kingston upon Hull West and Hessle
+7ae682d1-ad6a-42e1-bc4c-47f9ff5a6e05,291,"Birmingham, Perry Barr"
+d6f2ed3b-bcf5-4369-ad5a-48105f9db24e,3382,Caerphilly
+56bb15f6-8dfe-424c-96c8-4810c5642515,3673,Oxford East
+ef08aa1c-3030-48f7-8a56-482fe6199d8d,2681,South West Bedfordshire
+ee8904ca-1312-4920-8b87-4892bd524591,1451,Hertford and Stortford
+02c12074-8732-4bdd-9a8b-48f9d046538e,2487,Rugby and Kenilworth
+9528ce5f-3216-40ef-adb9-4919dcc5ffe1,3660,Northampton North
+5505494d-c56e-4d81-8b8f-4925ea5a7d05,3751,South Suffolk
+9510e02a-211c-40cf-901b-49376a0c67e2,4291,Sleaford and North Hykeham
+2d8cc154-b5c9-4b8f-b294-4945abbd4a62,3070,Weaver Vale
+e391e96e-26db-4c90-a7e8-494d04d04973,747,Conwy
+59a34358-5add-4bad-946e-494d63cd606b,4247,Portsmouth South
+3f6f575b-af23-4b30-b553-4993309724d9,3407,Chesham and Amersham
+fbb91337-a0ec-46a6-bcb6-49980c8b5844,1625,Kincardine and Deeside
+c5d5b2a5-c433-4e55-a13b-499bdd222410,3252,Workington
+d1058da9-26d4-4da5-841c-49dbbd4c102d,4382,Washington and Gateshead South
+586fd1f7-14c0-41a7-be0b-4a0a496e4985,441,Bridgwater
+f3c74ad2-2168-44e0-b494-4a2e5dd6728e,3264,Wrexham
+a1a47aa0-aef6-4985-a2bb-4a3ce10102d9,2751,St Helens South
+edf7a3fd-29ad-406a-8ad2-4ae08bdd588e,3986,Christchurch
+3c1f8b31-d6c3-4f59-a012-4aecdf566176,2440,Rochester and Chatham
+09bf3811-06e6-4edd-bee3-4af8af5c5c95,3539,Horsham
+8fcf83b2-edc6-4fc7-ade6-4afdefa0482f,1752,Lewisham East
+d9c5ec68-6c2d-4da7-a589-4b070f50a547,3037,Wansdyke
+d05ec759-79f2-4944-b1a5-4b0bad35689d,1536,Hyndburn
+b9c5b853-e402-4e37-b86e-4b442f98f3cb,1941,"Merton, Mitcham and Morden"
+b2ec56fc-2bb8-4881-8cee-4b9096abdbc6,3361,Brentwood and Ongar
+9859d250-a005-481e-8b04-4bbadcd2542e,267,"Birmingham, Erdington"
+8660b92c-dda8-4a6d-9b66-4c16f17f8f64,1096,Erith and Crayford
+8e37532a-bd0e-436a-ac4b-4c5fe02755a3,2904,Teignbridge
+9cedc55e-f222-4774-b72e-4c735724d94b,1995,Monmouth
+7b67bf49-b966-4d23-a2ad-4ce42544afea,1287,Gosport
+b8c7a8a9-3442-49af-b7ff-4cf37e1c06d0,3964,Cambridge
+160ed02f-d02f-484e-a5c6-4d1bd94a1823,3474,Enfield North
+6e06a747-e1c8-43b1-89dd-4d466bc02540,694,City of Chester
+10dadde8-d83b-4005-bbf7-4d4bf088a4eb,3445,Devizes
+c94c073b-14ae-40f8-98f0-4da16f355257,3401,Charnwood
+2dfb0e27-15db-4b9a-bf0b-4df66ed83946,3874,Yeovil
+26b92ca5-8492-4ed3-87c5-4e2360c92815,4002,Croydon South
+7f687940-ad8c-4d67-bf62-4e3911fa5b80,4111,Hove and Portslade
+83b436b7-bd28-4b4d-84e4-4e73d50e0f97,4199,North Bedfordshire
+ec549f4d-a262-42eb-8ebe-4ebdcfddfee7,1587,Islington South and Finsbury
+673c1682-51d8-4529-a0fa-4ec3a9675605,519,Bury South
+0c0fca19-62e4-4c28-9858-4ef691605aae,2981,Upminster
+4177d019-1bd9-4225-b57f-4f087905fbfc,3640,North East Bedfordshire
+c639222e-5e49-49f6-9a22-4f997b06fbf6,2776,Stalybridge and Hyde
+1bbe8afa-94b3-474d-85c5-4faf2794fdd4,3623,Newark
+6d65a81e-6a96-40f0-a8c9-4fc5f6df6aeb,2115,North Devon
+7ef8be73-0b75-4fa3-9409-4fde8ad5b15c,175,Beaconsfield
+3f9b9d9c-4b15-4419-bd5a-500c50cc534f,2581,Sherwood
+099adc53-d153-451c-abc6-500f0ff04951,3593,Maidstone and The Weald
+56ebc0d4-925d-4e64-ac2b-503935142e8c,3724,"Sheffield, Brightside and Hillsborough"
+af44e0cc-bbae-443a-a727-508e157cf98a,3448,Doncaster Central
+17d50a2e-0b4a-4325-bf8b-50941e85f7df,1051,Edinburgh West
+56471e47-d282-487e-ad35-50b5820e7e54,2085,Newport East
+6032cfbc-78d7-4172-bf77-50bd4d1421fd,1099,Esher
+918cfda8-ca1c-4b2a-b7c2-50d36909cdb1,2676,South Suffolk
+9b4ca581-6b51-465d-b1f5-51076e0376e8,603,"Carrick, Cumnock and Doon Valley"
+8212b7b0-b405-43b8-93b8-5183fe561f3b,2111,North Cornwall
+d89baac0-3acb-417f-bb6e-51a78c06cb96,673,Chipping Barnet
+d155026e-41f4-416b-8d43-51f76f3570e6,3685,Portsmouth South
+b50f694d-b12b-49f3-aaa0-520807b79e0b,3452,Dudley South
+16da81a9-49e3-4869-9132-5234fdaff497,3766,St Austell and Newquay
+ee884abd-d155-42d5-915a-526ea0b9ed3a,516,Bury North
+5deca2cf-2819-476a-a22c-527564e56da3,2615,Somerton and Frome
+37b4f103-fb3f-4f0c-8659-52aa59fb16c3,1720,Leicester East
+b2d9edd9-e5f0-4b7d-a26a-52ba1527cd95,2460,Rossendale and Darwen
+0ba64ae8-894c-4327-b645-52bb64baf672,4080,Hampstead and Highgate
+05436767-7a66-42cb-a903-52d9258901ff,2498,Rushcliffe
+60144c7f-5c75-410b-817a-52f41cd96401,3643,North East Hampshire
+3de3ce18-6a28-4ff4-b306-532651f57934,1367,Hampstead
+66d77654-63ff-426f-a8ae-53558a879839,3337,Blackpool North and Cleveleys
+43bab34f-47ac-4a06-9578-536118a91ec8,3083,Welwyn and Hatfield
+da1f981e-b0b9-42ec-9718-5398bef82e86,74,Arundel and South Downs
+892c57c8-ba6b-426c-9b32-53c009cb90c7,2541,Sedgefield
+12094334-b186-4b2b-bd01-540bdd2481cf,499,Buckingham
+e7395e8c-ae1f-4f11-af91-5417cf3100ab,1993,Monmouth
+c779f587-6e6b-4770-be29-541e8cf5f19a,2061,Newcastle upon Tyne East and Wallsend
+d07d2ecd-0023-4f2e-a2a6-543fed4235bf,3759,South West Wiltshire
+16400968-8d24-4c19-9aa0-547367e3276c,2679,South Thanet
+201a0435-c294-4919-9f44-54a542f5106c,3493,Garston and Halewood
+3bfa14b4-ceaf-455f-85de-54b3e6da309e,3709,"Ruislip, Northwood and Pinner"
+06928a15-231e-4e8f-81c5-54d8f3173bc1,2658,South Holland and The Deepings
+187af96d-63ee-4858-94b6-55466010481a,3598,"Manchester, Withington"
+f685d1e4-5b18-45f8-bba8-554ad74daeee,2416,Rhondda
+fbc67904-6006-41f6-88db-5576f972f654,1990,Monklands West
+8ea46e4b-7b65-48ed-a4d6-557b5e425d83,4469,Edinburgh South
+baa0d1f2-2d83-4fe3-b6cc-5593a4538fb8,3624,Newbury
+7cc4444c-0b5b-49e7-b36a-55a39bf9c794,3699,Richmond Park
+2a00c2a8-0782-4eb7-a162-55ccd5b0632c,3450,Dover
+94bd5d1b-3483-4c65-b85f-56187b0ec93d,425,Brent North
+1c78c0cd-ae5e-41cd-b21d-5642dbb8490c,2722,Southport
+08fb5710-5478-42f6-8d3c-56450bf28a7d,3587,Louth and Horncastle
+322296ee-c3d7-49d7-b67d-565cba7cc8fc,373,Boston and Skegness
+a407fa41-4f1f-4eb0-ad95-568a9e629db5,3489,Forest of Dean
+68c3bd8c-63f9-4645-a3f0-56907cdbbd8e,4037,Ellesmere Port and Bromborough
+71ae9422-63f8-4cdd-9b67-56a61bdca658,3511,Halton
+d17cce44-ad8e-4d75-93fa-56ab48a3cd25,2754,St Ives
+560e6db1-1416-423c-a4d3-56af6220654a,3254,Worsley
+543dfb19-7818-4cb6-b7b4-56b44a8b236f,4081,"Harborough, Oadby and Wigston"
+5122bceb-b1d6-4b3f-a68a-56bba743a309,1648,Kingston upon Thames
+ff818e76-dc61-4263-9faa-56be0a95765c,216,"Berwickshire, Roxburgh and Selkirk"
+7c2803c3-b14f-43d0-a920-56befb4a8d92,159,Bath
+53f00bc7-643a-43cd-bce1-57036b97472f,449,Brigg and Cleethorpes
+5c8df162-76f2-477e-b617-573cbb428ea2,4284,Sheffield Heeley
+c33699f3-2754-47d2-a7f5-5763089f880d,3288,Aberconwy
+c2432b8b-b001-46f0-ab08-577b8f5acbef,3191,Winchester
+366fef6a-7eaa-4a18-b5fb-578e49a3ec06,2272,Oxford East
+943c1a36-df32-44ed-97ee-57dae5a09ea3,3732,Sleaford and North Hykeham
+672f0894-5699-4bb4-92d1-57db36c19f69,3821,Wakefield
+fc431a13-46c0-410a-8d0e-57de469d6c78,2613,Solihull
+ddb08ab6-a447-4e18-a2f6-581458a91296,2691,South West Norfolk
+6c358cbb-c3e9-46ff-8ae0-581f0e9b3f38,3442,Derby North
+8c8aebf1-0b4f-4617-9d48-5839e1d87154,4350,Sutton Coldfield
+01040e08-6ca2-4e7d-bced-58560e835df1,1591,Islwyn
+4704348b-e3f4-4bb1-b587-58b63fb24663,2078,Newham North West
+b7c18efb-46d5-40ee-b4b9-58c4744f8ebf,271,"Birmingham, Hall Green"
+94814f5e-f0fb-4611-bfb9-58c9c973d621,2903,Tavistock
+ffde1244-6979-4460-905e-58ecad3f5a8a,3607,Mid Sussex
+0ee9a2b9-b10e-462b-8b4e-590a79febec4,3308,Bath
+090bc730-ca79-4556-919d-59198692bcef,3242,Woolwich West
+38ad974c-1034-4ffa-a1ba-593ced9bed12,319,Blaby
+282f604e-aafd-45e8-b29d-595d0a7510af,3715,Salisbury
+2c0feba6-43fb-41e9-8f1d-5976eab864e0,3844,West Ham
+3a20a612-c650-4aee-a92a-597f5bcdab96,1356,Hamilton North and Bellshill
+2437e543-774d-4b2c-ab18-5987d278478a,3695,Reigate
+4e5a9b52-1f95-4b0b-99b5-5988c1b228a7,2693,South West Surrey
+85319678-bcd0-44b6-985a-59c07f4404ab,4399,Widnes and Halewood
+81bad04b-f831-4b8d-810a-5a0f1ccf75e7,2117,North Dorset
+54d42a70-ac59-46ef-87d4-5a18c547c083,428,Brent South
+0ecae81f-ad07-471b-ba1d-5a3ac7f66220,1244,"Glasgow, Maryhill"
+c8916615-a7a7-4be4-9960-5a7fb117ae3b,3245,Worcester
+766ad9d5-59ef-43c7-a26b-5a8c2810cd1a,1078,Enfield North
+92fcb6eb-3ba2-4528-a67c-5ac095bf8f46,1311,Greenock and Inverclyde
+13292139-e149-4aca-9cb2-5ac79a440dd1,1812,"Liverpool, Walton"
+207fe6af-ba4a-4bb2-a205-5af460fc2971,3585,Llanelli
+e63da065-6aef-4e0e-bcbb-5b0b502d4ab3,3906,Birkenhead
+5be4ebe4-9928-405d-ab69-5b32a7acd8d6,3433,Croydon North
+39aa8ab8-4b0b-4c47-a728-5b38afd90fbe,1210,"Glasgow, Anniesland"
+a62d75ff-3182-4c7c-ba92-5b630adc2c3b,1024,Eddisbury
+5c9331f1-7bb5-4056-9519-5b7dc0a780db,768,Coventry South West
+3dd1ecb5-be27-4fe6-9b52-5bacaa393807,3827,Wantage
+6306dc04-6eee-4e8a-befc-5bc143bd13b9,852,Derby South
+ecf77d8c-3a8e-4398-811a-5bda716f5dbd,825,Dartford
+48347bfb-c8cd-4b6f-9285-5bed61420519,3479,Erith and Thamesmead
+f1822ac8-6cb8-4066-932b-5c162c0a1173,2163,North Warwickshire
+b939ba56-df6b-49fc-afc0-5c172ffee711,3601,Meriden
+463331b6-59f9-47d0-b342-5c18b6121de5,4124,Kenilworth and Southam
+9611f889-56ae-49e4-9129-5c3dd1abe634,782,Croydon Central
+eea27612-59ae-4be3-9657-5c5b48fb3d8e,832,Daventry
+55f92189-b5af-4d75-84f3-5c61c9b13b40,3783,Stratford-on-Avon
+6c925768-4185-4563-9ccc-5c9ee6e7a80a,1450,Hertford and Stortford
+25b54733-816b-4e48-9bb7-5ca1abd6d3ec,2705,"Southampton, Itchen"
+9c1b142c-e449-4481-b943-5ca2cc2b2817,1182,Galloway and Upper Nithsdale
+f335202a-a539-4e16-866d-5ca5355e8d24,2715,Southend West
+35201fd4-0731-465b-8f5a-5cb7069848d2,2726,Southwark and Bermondsey
+c96b51a0-df0f-450f-9d04-5cf128d1ea28,3335,Blackburn
+4eb0017d-5157-4891-956c-5d0ba93b7b9c,2529,Salisbury
+dd03c057-8f24-4ddb-85dc-5d68360f1e30,3483,Faversham and Mid Kent
+4c484171-1a1a-413d-a17c-5dba3b2d4986,3622,New Forest West
+4c9bae77-9e8a-4195-961c-5dc671b4f3ca,1284,Gordon
+3aabff29-78d7-4a64-92f4-5de7311fc197,2264,Orpington
+70b995bd-3cb3-46f4-b9c1-5e00b3fb9651,3477,Epsom and Ewell
+f590b9ca-f060-489e-b8c9-5e02e2dadace,3566,Leeds East
+caf35684-03f8-4718-94e9-5e49000e7040,637,Chelsea
+76b03ce9-fe39-48c7-80fa-5e7487ce675d,2174,North West Norfolk
+acaf1e28-8deb-4c5c-b33b-5ea5a8d6f463,1664,Knowsley North
+e18d4a8e-b59b-43c7-a8f1-5ef66d5ff6d1,3372,Bromley and Chislehurst
+c5f2cd1e-f159-472c-b4ae-5f2117a51502,3752,South Swindon
+588b66a2-191e-460d-97ce-5f39ec2b60e4,1057,"Edinburgh, Leith"
+5db72da5-004e-4927-a231-5f6642855b87,3554,Kenilworth and Southam
+c3b26b52-a113-464c-94f0-602fb5e2f22a,3321,Beverley and Holderness
+2ff5dd8c-46e0-441d-a522-6048779f5434,638,Chelsea
+4d27cddb-a2f6-48a6-910c-6049c9980100,1840,Loughborough
+c3e20a20-1476-46ee-9cbf-606f21a7c24f,1205,Glasgow North
+87e0068f-145e-40db-a5b2-6075820c2429,3656,North West Hampshire
+8aac4945-7551-492e-a72f-60e193e43bbe,798,Croydon South
+bf1b6bae-83dc-46c0-b3c9-60f0a968d94d,34,Acton
+76aff02a-67d5-4b43-b4c8-6115652f700f,1726,Leicester South
+2658412b-4af8-4246-80a9-611dc53f36ba,3292,Alyn and Deeside
+bcf6da70-db48-4a47-9c86-614a695afd5c,3525,Hemel Hempstead
+684d249a-4cf6-40f2-af94-61514e35ae78,2387,Putney
+1128aa5d-a856-4ccf-88aa-61823afa4c5e,2901,Taunton
+0c6d683e-31e9-4a45-b530-61d2a628f86a,106,Banbury
+61dc417d-4388-4222-b333-61dc749a49e6,3378,Burton
+937f44a8-5dd7-4d2c-9584-62325b8e543c,961,East Berkshire
+2d9fccaf-4807-4061-9c58-6293b474a270,4099,Hertsmere
+1338745f-12af-4201-9f08-6297438c20d2,2379,Pudsey
+217ee998-cb2a-4e08-8c3b-629ce0f36c1f,82,Ashford
+33cefcc8-0afa-4967-b20a-62ae90bf4797,3902,Beverley and Holderness
+884b256a-ba79-4e31-9993-62d6e12cff6a,897,Dudley South
+72fdd0f3-eece-4b6e-9671-6318bc93759b,3425,Copeland
+ff8f5ced-f94a-4e4d-a1a9-632aadf4fa76,3711,Rushcliffe
+83a23c75-1880-4fc2-ba17-636379abc9a3,1867,Maidenhead
+8bc76f1a-07ba-4738-b268-63c08636f234,1025,Eddisbury
+0cd942a0-b929-4b05-8b5c-63d101f92010,1849,Lowestoft
+1c4806c1-475f-4999-845a-6402276eacc2,3499,Gower
+cc5e89e4-546e-4612-995a-642222b653fc,2644,South East Cambridgeshire
+4b71f5b5-545e-4343-bded-643fae545989,2032,Neath
+33b314cd-5854-4051-b50e-644b5d8559e3,181,Beckenham
+29c9fc50-aa7e-47ce-b157-644b935f295d,3437,Darlington
+61d5180b-e39c-4fd5-b894-64738cf43e60,2308,Penrith and The Border
+f445b229-e0dd-402c-88f4-64998e2affe7,3481,Exeter
+6eaa36a8-dae4-4517-9da1-64b061629d8f,1960,Mid Worcestershire
+88f39fb4-b275-4fe3-ac48-64b57d0bf4f5,2453,Ross and Cromarty
+d4f33969-219f-4af2-b2e9-64d4b41cb1ef,1665,Knowsley North and Sefton East
+bc189352-f7c5-40ee-95ab-64d5eaba75b6,2386,Putney
+50d7ed98-62cf-463d-b607-64dd63656e18,3235,Woodspring
+8b866996-fef7-438e-b9c0-64e71a8f33cb,4342,Streatham and Croydon North
+28434870-85fb-449a-8f91-651ce6d225be,2041,New Forest West
+1a3b2f69-7881-473a-99f0-653251213728,3613,Milton Keynes South
+537b3e3b-bd4e-46ce-8b2d-654cb2b3ebaf,3077,Wellingborough
+5b14315d-16d4-4bf1-a141-655ea36420a5,3547,Ipswich
+5c17afc3-3c83-4edc-9dd3-658b8f64670a,1634,Kingston upon Hull East
+8d9d1726-2161-48ef-b411-65b81ec5cd5f,1649,Kingston upon Thames
+a2dc8de2-018e-4029-87a4-65c6ef8407b3,3910,Birmingham Hodge Hill and Solihull North
+b8a64da1-c51c-49bd-9660-65cd7ef76526,4359,Thirsk and Malton
+b2cea07f-c324-447c-aa01-65dd1afddc78,2241,Old Bexley and Sidcup
+b0066e7a-58ac-4390-afbb-65fded2c293f,3003,Wakefield
+f612d162-2fb5-4032-bc8d-662e31dc8c4e,1986,Mitcham and Morden
+18b58e67-aece-485c-8414-666227fe7fbf,2066,Newcastle upon Tyne North
+64061916-55e4-4514-ac80-6686eee96d1f,567,Canterbury
+84101ecd-bdde-4f35-ab5b-66df441f0a29,3817,Uxbridge and South Ruislip
+cc3d3f0f-ae0c-448e-841a-66df4eaea12a,4250,Queen's Park and Maida Vale
+a05c67b6-738f-4259-8e13-676d4c4e106e,4285,Sheffield South East
+609d9775-7c4b-43d5-ad71-67dfe1194a97,570,Cardiff Central
+b58efb3c-bb61-4180-bcc3-680ec769f53b,3704,Romsey and Southampton North
+6e318b2b-c379-4610-8dfb-68495bf66bb8,3323,Bexleyheath and Crayford
+75023aad-912b-48f1-9a53-684c27fc12e6,1455,Heston and Isleworth
+4bdf7917-ba61-4446-a2a1-6896d279e935,3889,Barnsley North
+42448928-d052-4d70-ae4f-68d5b82930c7,1172,Fylde
+92105e98-33d4-48f8-8a3d-68ef15a5feef,3682,Poole
+5039b569-4b88-4bb9-8560-6958eeada3c4,1467,High Peak
+c14ad409-d6a4-42da-ad8c-69cc08092fc4,1516,Hove
+a4dcccd4-9449-412c-af33-6a33c7c368ba,689,Cirencester and Tewkesbury
+d92f3d3d-0d07-481b-adbf-6a35ec57cb9d,3515,Harlow
+b9c45115-ad72-401d-be01-6a3b6d3306e8,4277,Scunthorpe
+3ffcab96-6c65-4487-8859-6a4218755fdb,2248,Oldham West
+39027dce-c198-43c9-981a-6a58457b59db,1881,Manchester Central
+5f4513eb-7c6a-45e1-b603-6a6d2098cc4c,3392,Cardiff West
+adcf29b2-b49e-4f12-b396-6a7c19bfce6c,3978,Chester North and Neston
+17452cbe-dddf-4e44-abed-6a9cd048a1e3,2655,South Gloucestershire
+17c5a8be-fdf7-494d-a1aa-6ab95e6f3e9f,436,Bridgend
+b1acb1b0-cccb-4ca6-b749-6b37f6554ad5,2931,Tiverton and Honiton
+354557fa-3ef8-4f65-860e-6b3e31753e61,1854,Ludlow
+93436770-7c48-4ab6-a175-6c09da01120d,4023,Ealing North
+3efaa5bf-b976-492e-bbf4-6c2f12b8fe5f,2222,Nottingham South
+1612acac-8262-49df-afc0-6c44642e99f1,415,Braintree
+fb04bf53-7a7a-4755-ba3c-6c476a8e3310,3247,Worcester
+babf74e6-1f12-4135-9f16-6c778bb0b20d,602,Carmarthen West and South Pembrokeshire
+bf17a9a0-7992-4f79-83d9-6cb9506f3690,1440,Henley
+54f64dde-46d6-489b-8781-6cff1da63c23,877,Doncaster North
+d3ec5c43-5dfd-46b8-8f7a-6d1238fca592,3402,Chatham and Aylesford
+5e570874-8787-4b6e-91f1-6d232dcdd203,3461,East Ham
+50b925c2-a19d-4ac8-bb36-6d5c6e334e7a,1359,Hammersmith and Fulham
+862ab3ff-c700-49a5-80bb-6d7955fd9b73,1777,Lincoln
+9f7d22e7-41f5-4d58-beb4-6da7983a1e95,2421,Ribble Valley
+8ca27009-616b-4d83-adda-6dbe47af9a02,3561,Kingswood
+78a99e99-f65e-475e-9a9f-6ddaab2280c5,134,Barons Court
+c53bb66c-00fa-4776-8148-6de0b9878bac,2586,Shipley
+c49f64aa-8587-4c0b-b15e-6e052b35e06c,1188,Gateshead East and Washington West
+6d1f8a14-b731-4004-8c72-6e197f2a6ce9,136,Barrow and Furness
+d654e097-775f-46a5-a9be-6e2b8dffed26,1955,Mid Sussex
+a36aa5aa-194d-486c-8edb-6e3900edc7e5,3289,Aldershot
+ff99c007-dcbe-4a5f-9c83-6e70ce390813,4027,East Grinstead and Uckfield
+33531e73-336f-4a5e-b945-6ecd1aeca205,2670,South Shields
+324446ba-48e3-4a42-8c40-6f0d7d891564,4329,Staffordshire Moorlands
+5bbc1f8d-0742-4421-ba4e-6f6381e37f92,3560,Kingston upon Hull West and Hessle
+a15ee18a-3920-426a-9368-6f8568a763cc,932,Dunfermline East
+77bd21bc-f117-4f3a-b571-701ecab93e76,1396,Hartlepool
+e1890de8-7b82-4da1-ac23-7021b7fc6214,2391,Rayleigh
+249d5af9-9b0d-4895-af7b-7063634225c8,2671,South Shields
+dbe54002-be38-4884-a23a-706d3f196021,1157,Folkestone and Hythe
+1028bb7c-743a-4d16-a0a8-706d9a33cf8e,2837,Streatham
+84009563-08a0-466f-8e1d-711a713d4cbc,3739,South Derbyshire
+49f2bd82-ca48-4e7c-bad1-71c77fd47d54,3723,Sheffield South East
+0e8cdcec-e526-42df-8606-71c90cdbdb47,2732,Sowerby
+23d6cf40-4b36-4624-a11f-71cc931d10f2,4415,Wycombe
+f0a064b4-431a-40ac-a9b5-71d4382a7966,3970,Central Devon
+e6c85f7f-1155-4ba5-a649-71d9b5f0ac3e,2714,Southend West
+d675655d-7061-4b2b-a781-71eaee477621,3735,Somerton and Frome
+ee69e9d9-2640-49e0-b4fb-71ff1754dd33,3681,Pontypridd
+82276633-d04b-4a03-a14a-721755ef1459,1555,Inverclyde
+6b9cd0f6-87da-4658-beb4-72268dd5a606,2320,Peterborough
+abf80009-db93-4342-b8d9-72356fe5f358,2603,Skipton and Ripon
+65c5d30e-46ab-47f9-b1f8-724cf028f66d,726,Coatbridge and Airdrie
+ac2a0b64-5faa-482b-8a6b-728597da68b9,2502,Rutland and Melton
+4006d852-dec4-414d-94ef-72bc7083f432,3596,Manchester Central
+524d460d-9fce-437e-8c8c-733f4209ac6e,3224,Wolverhampton South West
+36bcd578-0f12-493c-b5c7-735258e89583,2630,South Cambridgeshire
+c2f89e79-610c-4120-9f22-737639eb6a96,2831,Stratford-on-Avon
+89486808-4598-4c2a-bcdf-7380178e21c8,2651,South East Staffordshire
+2f0b0b58-283d-4ac7-8196-739a1f2bdb8c,3286,York
+140199c8-b22c-49b4-bf9f-73c06777d202,3508,Halesowen and Rowley Regis
+8b7d92b3-b993-46f8-8c3c-741589e8eb1b,3127,West Hertfordshire
+b6d7f523-fd04-4b90-b6fc-743966de7c48,749,Copeland
+d21f74af-2c68-4be9-ac21-743cf0c3dc49,3351,Bournemouth West
+fabed938-c239-43c1-95a5-74763ae61307,3414,Christchurch
+67eec772-8902-4384-8c81-74df7db09e71,417,Brecon and Radnor
+51641135-ec29-4183-8c41-752382105bdf,4521,Pontypridd
+67776244-f410-4a23-855d-7552735f0ac5,3733,Slough
+78cbc5d3-7764-4f03-8e3d-756bdd2fc878,962,East Devon
+d156c5f6-1766-4ead-8cd2-757db83d0692,4064,Godalming and Ash
+36c41344-1eea-4eaf-b4f6-75839c9c969d,3085,Welwyn Hatfield
+c118f41b-47d2-4cdc-bdf5-75a13bf1ce64,3205,Witney
+7d5f7439-97dd-45b3-b5b0-75bcd99471bf,1873,Makerfield
+21b9bf4c-0793-427c-ba91-75febdcc07ef,3109,West Derbyshire
+ab1e0dee-283a-45b3-a5dd-760321ef0999,2155,North Southwark and Bermondsey
+e5f625b5-24f9-4424-b624-76117f6ceba2,2399,Reading South
+7a616905-8078-4aeb-8aa2-76788a0ef304,3748,South Ribble
+b082ba69-e42f-40ad-86df-7678d0168a08,3843,West Dorset
+914ee316-37b1-435c-b359-76b3bbcad933,1713,Leeds West
+d813598e-7030-4c97-a660-76b9dcd42c85,3628,Newcastle-under-Lyme
+211bc64c-c5f7-4c8d-9296-76e3537d20a8,886,Dover
+31720c08-bef9-4660-bf89-77148bf86201,2867,Surrey Heath
+4957cb1b-7cbb-4ff6-9063-771f15a25c3f,3170,Whitehaven
+7b0a5c9d-fd96-4a62-afd1-7721118cb89a,3606,Mid Norfolk
+87a75ab2-0784-4974-9c39-775512f142f0,270,"Birmingham, Hall Green"
+427e1048-60ff-40ad-a730-7764b8f35a6a,3367,Bristol East
+b46a4d10-4151-4d4e-81ca-779a098456bd,3609,Mid Worcestershire
+135d9a19-fde1-4a4c-a906-77b1fd51dc40,3641,North East Cambridgeshire
+84f4ef60-6876-4857-8ff2-77d0dcef73fb,649,Chesham and Amersham
+f1c41a5d-c1f8-454e-92c5-77eb286e5b4c,1670,Knutsford
+944743c8-fae8-4cc9-a3f7-77f4c19b09b2,4164,Maidstone and Malling
+cb3db5cb-a27d-41d5-96f8-780423c060cc,3537,Hornchurch and Upminster
+0393fd1e-adfa-4f60-8cf6-780a8429532b,3892,Basildon and Billericay
+a10d0dd6-b85f-4d9a-97e2-7816943e2bc4,3852,Wigan
+58e87be1-b4c2-4fca-9404-782ae2f27c66,2065,Newcastle upon Tyne North
+37a07a6d-d4bc-4b2f-9672-7841a1cfe524,3569,Leeds West
+81be2bf3-72be-4f73-80f3-785ab077f0b0,3742,South East Cambridgeshire
+c044129c-aaaf-4375-a5b7-78752e2b5063,3375,Broxtowe
+29d25849-b76f-4c72-89cc-78759bd19106,993,East Renfrewshire
+a72faee1-5be1-4bf7-a65e-789c1cd5744e,911,Dumfries and Galloway
+637462f2-4490-41f1-8b8e-79b982d974f4,4400,Wigan
+60ddaf05-80ae-4553-be7d-79cbcf21cd2c,2939,Tooting
+8bf82d1a-62a9-4cdf-a28b-79eb9c342d52,2215,Nottingham East
+82382281-de6b-407d-ade2-7a05af5c72d5,239,Bexleyheath and Crayford
+afe144fc-b958-419c-9acd-7a7904a76a9d,4077,Halifax
+ea85730e-de7f-4f6e-b4b3-7aa1e0ebd083,646,Chertsey and Walton
+20c03141-21d2-43eb-8421-7ad1b6513eb0,2686,South West Hertfordshire
+cee2babc-f719-4643-b03e-7ad973f3e771,269,"Birmingham, Hall Green"
+822e5c83-19a6-46cf-b314-7ae9ceedf70a,3725,"Sheffield, Hallam"
+0f42edf5-6f99-43dd-bdec-7b0574161ed1,3471,Ellesmere Port and Neston
+c6857a74-38e2-47ed-8afc-7c0c847852dd,4044,Erith and Thamesmead
+13f878a5-95bb-4e93-ae30-7c1e21dcb0d6,2643,South East Cambridgeshire
+022ce613-7f78-42d3-8078-7c92859cb839,1149,Finchley
+6571924c-7318-4061-894b-7d4f693c4b33,3557,Kingston and Surbiton
+a3b523ee-7be7-437a-bcee-7d519a4d08eb,3619,Morley and Outwood
+0365d4c4-a7d4-44af-8f6d-7d74699e93e7,3313,Bedford
+7b42fb5d-89c9-4432-8187-7dc2fb845121,1889,"Manchester, Blackley"
+eb5f1417-4e1d-4977-b356-7dcad49dc324,2777,Stamford and Spalding
+c1f338c2-e92b-4cf6-b8e4-7dceb021dca3,3299,Aylesbury
+1e027059-b5a9-4f60-bf2a-7e3269e7cfac,2743,St Albans
+0cf6951d-9488-4d08-a106-7ea03c128dc8,1401,Harwich
+c25ead3c-9119-4ba3-92b8-7ead363cf2a7,3758,South West Surrey
+03a340e9-4203-4adf-9f9e-7eae3f88ac2b,424,Brent North
+dab2cee6-fdea-40d6-9f07-7eb181de2063,3267,Wycombe
+573ab7d0-67ef-47ca-8d4a-7ec0422f3732,3830,Warrington South
+a16145f3-24bf-4620-a79d-7f146e8b0e8c,2847,Stroud
+0f0cb0c6-9433-42cb-a975-7f2deaab4330,2431,Richmond Park
+36f27c7e-3dec-43b2-bf27-7f3f7adbc3ee,1355,Hamilton
+03054aa1-bc1f-4603-b69f-7f682dbfd219,4068,Grantham and Bourne
+0d1ec7ad-7b3e-42cf-9f69-7f91020e8fd1,3734,Solihull
+91a5c3c4-bc80-4ec5-a322-7f963a25bbfa,2663,South Norfolk
+3888d34e-8f17-4a19-8117-7fc0ca66cbe6,619,Central Norfolk
+7d548729-9959-431a-911e-7fd7863e1d83,4040,Enfield North
+6aee86e3-07a2-4e25-b8dc-8009147f8fd1,1714,Leeds West
+57f27c54-5fb8-422d-b315-803e8901f02e,1192,Gedling
+14bbe8cd-a575-4b1a-8367-8055ec7e93a6,3297,Ashford
+52725628-ef67-4db0-bbaf-8061a9ff8c02,1500,Hornsey and Wood Green
+e3330804-0392-46a3-9e92-806d292b0a75,4234,Oxford East
+6ef10bf3-ccef-4a50-89f2-8082cf67b2f6,3646,North Herefordshire
+de48ed0a-0f1f-4c7d-bebe-80ca7554bea8,3144,Westbury
+b3755711-57bd-4fd3-b665-813003fe4dac,2948,Torridge and West Devon
+37b73e18-d3b7-4116-84d0-8139d7f189c0,3342,Bognor Regis and Littlehampton
+47c4ae8c-142c-447f-bc34-8155874becc0,3538,Hornsey and Wood Green
+b06129c8-acac-4b31-a845-8165e0475f29,3691,Reading East
+92df474e-f89d-4134-9a31-816baa224ef6,577,Cardiff North West
+3ee30b23-e5ca-482c-ac77-81799c602b52,53,Amber Valley
+9ede4ce6-0b08-4835-b08f-81a9a61562f5,3654,North West Cambridgeshire
+169d68e6-821a-4c13-b851-81b40fa8e8d7,2906,Telford
+509a114e-dd4c-4ce5-9b4f-81f5de605dda,2685,South West Hertfordshire
+4a9f2798-2de8-49af-b5a2-822e8d5f7aa8,3449,Doncaster North
+51c4a4e4-91a8-4723-b0e4-824a007c931d,432,Brentford and Isleworth
+3159812a-15f8-45a6-8deb-8267d8334c1c,1303,Gravesham
+0c387ea5-6ade-4c03-8544-8275587e70c0,3848,West Worcestershire
+7f9b77c5-1f35-43b0-86eb-828056d7a7ec,3354,Bradford South
+4e513e70-88ec-4210-b739-8295427bb5a6,1477,Holborn and St Pancras
+dceed292-a5b6-439f-8577-82ed6191b94e,3186,Wimbledon
+6ab948cb-18ea-4ad7-96bc-82fca96ef753,3444,Derbyshire Dales
+b5c2e9c5-d9fd-45f5-a522-8318a7673fa0,189,Beeston
+8b95833d-865f-4213-90ae-832af19bc7ab,2982,Upminster
+085df14e-ffd0-4db2-9a7e-832e7b248ce3,2394,Reading East
+3cae3d50-88cd-4f52-b8bb-83cd6e9d61c1,4309,South Suffolk
+5f728850-64cc-45b6-b3b3-84002983e360,3791,Sutton Coldfield
+c8e586c7-03db-41ff-a746-8406c5590e42,2268,Oswestry
+4836993e-0ceb-45bb-aa2f-84107d0b85d6,2324,Petersfield
+6e7d161a-9a92-46a1-9267-841e898bf033,292,"Birmingham, Perry Barr"
+d287ce40-a882-465c-ba2f-844e06a2de2f,630,Cheadle
+d2e202e1-ce8f-4e67-84e0-84621b9fd1a3,2836,Streatham
+ed3caf0a-0afb-423a-a71b-84e5aebdcd60,4338,"Stone, Great Wyrley and Penkridge"
+a2f34f5d-ac2b-47e1-821d-8515169df33b,975,East Ham North
+b4c5df3f-6530-407d-ac23-853a102e19e0,323,Blackburn
+a00ed60a-3979-4472-86e3-8542fc2692f1,1324,Guildford
+6073c49f-3413-4efc-96a1-8584380b235e,1072,Eltham
+9c97b1c6-f894-42b1-9096-85fad51023ec,3694,Redditch
+0e2313ec-db03-4c29-ab86-864cb365bfa9,413,Braintree
+846b88b4-c369-47a1-9f38-865588220df4,2319,Peterborough
+d1db6245-2dbf-44ca-9cd2-867b15909957,609,Carshalton and Wallington
+e8045f81-6d3e-43f6-9c3c-86a319ed1443,65,Argyll and Bute
+8ca94a00-f232-4e5a-94a2-86c6986e33c4,3947,Bristol East
+70f251d0-fd89-4975-a3cc-86cd8d54d79e,3166,Weston-Super-Mare
+a9a112b2-972a-421f-ad15-86eb62e6dacc,1439,Henley
+98b3a14b-7bc5-457d-a87f-86fd2e5e84f4,3440,Delyn
+29aff81b-8efa-408a-a1c8-8736f4cc3fea,3584,"Liverpool, West Derby"
+ffa522b4-bee1-4faf-9453-876d6d370e8e,1650,Kingston upon Thames
+1617ad39-5b5e-41aa-9472-87d0777f7fcf,3516,Harrogate and Knaresborough
+612681e5-d12f-42bb-97e5-882d0f0bf6bf,860,Devizes
+15c5b409-c1fb-4407-8dda-88348854a97c,3639,North Durham
+918f5ea0-c8c9-4f64-8d34-88c45e97ff3a,1825,Livingston
+a3c9277e-cd10-4f64-95e8-88f6f997f1ea,557,Cambridgeshire
+9f8bfd99-d544-4e83-9b07-893dc4216cf7,3872,Wyre Forest
+514a3a3d-3684-4d2b-8ba1-89b2a4d8f6c1,3453,Dulwich and West Norwood
+f02c564a-9fea-4845-afb0-8a914ea50c52,3373,Bromsgrove
+3be2c55c-41c1-4ddb-a16a-8b0ef93b9ca4,3812,Truro and Falmouth
+0b9d9a20-bd77-4766-b71e-8b5355440bc7,2990,Uxbridge
+3fd66183-d3ba-41ce-be87-8c006d4d2963,1994,Monmouth
+9ca92fd4-8d74-491a-aef4-8c0e42704d05,3422,Colchester
+bd5e55dd-38e5-474c-8509-8c239e0adb0a,626,Chatham and Aylesford
+3886720e-cbc2-4694-a3d6-8c3e68b0e46e,1408,Havant
+5a550366-0c31-4454-89a8-8c613ad989e7,3447,Don Valley
+b60007fb-e749-4ece-9526-8c88f852056d,1279,Gloucester
+98fbf6b3-d610-4ebf-812a-8d364e35934b,944,Ealing South
+a18f22ce-6bc3-44ed-b608-8d4b56282d3e,4308,South Shropshire
+1e2225a4-cee9-49e9-b39c-8db8b21d8fa5,3365,"Brighton, Kemptown"
+cbe7dec4-bb8c-4d12-93f2-8dd8deb1ea76,965,East Dunbartonshire
+b225c5c2-d474-4339-9edc-8e1e1e3f210e,3370,Bristol West
+b4ad4dfd-82f1-4fe6-b75e-8e1fd6d37c21,3412,Chipping Barnet
+96b01564-3af3-4bf2-8df8-8e2b52a10436,3165,Weston-Super-Mare
+306d4384-4fe6-4db2-b459-8e4dd9d43b73,3502,Great Grimsby
+06e4162d-63b6-4837-8a81-8e6d3be759f0,2199,Norwich North
+63f9dcbd-47a4-4d95-aa7d-8e6d8d2db7c4,2555,"Sheffield, Attercliffe"
+e10f4978-1ba8-4eb7-a3dc-8e7cd94718ef,2429,Richmond (Yorks)
+2833fb4a-c77b-43db-b06d-8e8a0f258865,4015,Doncaster North
+626a3b46-9666-45b1-a0f3-8ec1b831b991,3731,Skipton and Ripon
+5bd101a9-5cb8-46ed-aa5c-8ed3b3441ab1,92,Aylesbury
+4b2291f6-766b-46d8-865e-8ed6dc34e28d,1530,Huntingdon
+58efba83-9815-468e-857f-8ef4ac9fe292,906,Dumbarton
+7e78e23d-b86d-4a83-a597-8ef89be238f6,1474,Hitchin and Harpenden
+661f3017-41ec-47f7-99b5-8f0848fcd0c9,4513,Llanelli
+ff042344-f752-4e2e-9022-8f0d054a45be,2491,Ruislip - Northwood
+f38d6829-bb85-454f-8767-8f20c8b4c4c0,1533,Huntingdonshire
+09c4a039-daaf-418b-bca7-8f48d9d63b38,1687,Leeds Central
+59434650-48ef-4a82-a7cd-8f9bfd0bce7e,4173,Meriden and Solihull East
+5e0b2dbc-87f4-4306-8e41-8fd0765367c4,2935,Tonbridge and Malling
+d0c3ce13-8896-4a35-ae33-8ffa2a61d310,3857,Wirral West
+e4dacaa5-6a99-4b5b-9497-8ffc6c163a70,3599,Mansfield
+e81caa16-b4e9-494e-ac30-9032d2903839,1928,Meriden
+960ec7a2-ca57-4e2a-8013-90480f3963fc,2035,Nelson and Colne
+753cee6d-24f6-41db-9a0f-905698b45ed8,1499,Hornsey
+2734e957-242e-49eb-bebf-9080d83253b9,632,Chelmsford
+df0332b3-5b67-4ee5-983c-908cac3c4f3d,2099,North Angus and Mearns
+027a7303-c019-45fe-a58d-90b7b55e55ca,1952,Mid Staffordshire
+73236211-5799-4680-bcc1-90daf70c18c0,2343,Pontefract and Castleford
+0b6dc24b-e80e-4de6-a610-9112c9a6a008,2411,Reigate
+c5a90dc4-81e1-43d5-9130-911bd8dcae57,762,Coventry North West
+b5338411-9277-4e95-9c3a-9131171fac0b,2657,South Hertfordshire
+a8c4657d-f1d1-4439-ae35-91408da4bf3c,3482,Fareham
+2ee70fb3-afdc-4b38-9f99-91a510270637,4290,Skipton and Ripon
+a11644c8-09ed-4165-bf48-922420589c0f,83,Ashford
+583c7dac-8ad4-43b8-bc42-9239a742171b,93,Aylesbury
+63b87bb3-5f23-426a-9309-926fcfa2dd13,3150,Western Isles
+5a79c3b6-aa64-4e02-86ba-92bcdcf5bfd0,375,Bosworth
+16a58814-9d5f-4a2a-823e-92bddc60cfcd,52,Alyn and Deeside
+0d30a1d5-a4db-4a86-8f84-92c2e2bcba6a,2256,Orkney and Shetland
+c5b6bce5-8b0c-499d-a52f-92c3fee1bd62,3101,West Bromwich East
+d930d3fc-97b6-484e-bcbb-930fbc5a7e91,1566,Ipswich
+2215edb9-7096-4560-9938-93898bfd4cfb,2362,Portsmouth North
+42b70d06-63d5-4a45-ae86-9399ad7e4eae,2638,South Dorset
+d1b3c56e-7a16-4ef7-ab04-93a56104b7b7,335,Blackpool South
+4f031173-18f4-49ee-9d86-93b41acf4c52,1660,Kirkcaldy
+80928fcd-d133-41c1-b957-93b5d2b648aa,1961,Mid Worcestershire
+ccde6869-699b-4680-9607-93c24f1fcd3b,479,Bristol West
+dcd45d38-b91d-4458-acab-93fbc531bd39,3700,Rochdale
+3614bfde-0618-41fe-ae4f-943bd9f9d29e,2833,Strathkelvin and Bearsden
+c4e4d61d-5492-4018-932a-943f86aea402,1420,Hemel Hempstead
+ef26f3b6-8a4a-4fef-ae1b-94695c14e21f,3677,Penrith and The Border
+290d3b9c-b8db-4c66-951b-946ab27a5ce0,1397,Hartlepool
+688a517a-45b4-4986-b200-94847d2b725c,3815,Tynemouth
+ba947b7a-6864-43c8-927a-9489fe3341c9,4504,Cardiff East
+05091cba-7302-4c65-8fe0-94a8bbcb1f5d,2979,Tynemouth
+d3ec1344-1db6-42d2-ac9e-94cb44c2b2a3,4148,Lewisham West and East Dulwich
+a0c30fd7-70ee-4f2d-9aa0-94d9d714f97a,3124,West Ham
+35c07d7c-ef09-4bfa-a707-94dbeccd682a,3059,Warwick and Leamington
+15a8eeb1-e558-4789-9f2c-94fd640a6826,3395,Carmarthen West and South Pembrokeshire
+367c9f01-f3ff-4c53-b21d-954e710d732c,3553,Keighley
+d219e16b-25ff-4c27-857d-95ca6d5a1e8d,1177,Gainsborough
+9afeb296-23f0-4a94-9752-95f16175e1ad,650,Chesham and Amersham
+b9c58360-7232-4157-a3e1-961e30d94e82,586,Cardiff West
+6cf03d9a-3a03-45d9-83c7-9623eb8dc164,3269,Wycombe
+ce45317c-7d66-4717-aaf5-96554b6304f0,460,"Brighton, Pavilion"
+e4a88774-beb9-49b6-be5a-9665ccff4d75,4209,North East Somerset and Hanham
+91b938da-ab22-4265-b1eb-97087659404a,871,Don Valley
+97667fa2-e060-404c-9499-97101c546372,3053,Warrington South
+f0290898-d0d7-4843-a6f5-972b6e64b980,3324,Birkenhead
+aeeb3cf0-2970-49e0-bccf-974c7c58d481,3069,Wealden
+78ace3b3-750f-4bb1-88ea-97653a0534a1,824,Dartford
+905fc778-7166-4ccf-b44f-983e4240e468,575,Cardiff North
+5812a1ec-8eee-43ce-8500-98680336a3cd,831,Daventry
+5b756d50-0c5b-4225-9999-986d9751e905,3918,Blackley and Middleton South
+f0eb84ba-8b87-41ed-b095-98f545a1de66,687,Cirencester and Tewkesbury
+0014cfe1-96b6-43ef-bfe1-99004657c773,3013,Wallsend
+f18948db-0651-4aac-8bea-993959cf3aa6,4227,Nottingham South
+6dc2f17c-9ba8-466e-a8ff-994bdd036530,2265,Orpington
+4eb1a966-9402-4f79-96f9-9a0166a60c1e,2297,Pembroke
+bafe233f-be4f-4b3b-b98a-9aabf388eed3,4522,Rhondda and Ogmore
+f8615b67-acb8-4907-90b2-9ac105023a09,406,Bradford South
+7a6c79c4-7e9d-4650-bd57-9af8cbf1b59e,3689,Putney
+f410e84a-9cac-4ee0-97c0-9b004cc7da13,1797,"Liverpool, Garston"
+3cf22437-f934-489a-8281-9b0ed2e34358,4075,Hackney South and Shoreditch
+4b91cd1b-6ea9-454b-bdd6-9b1fddc8f446,3861,Wokingham
+35a9a2ab-3692-4e33-b250-9b20d2aac9e5,579,Cardiff South and Penarth
+86541c4f-fc32-4da6-85f2-9b960ed7dc45,2161,North Tyneside
+a9b9a112-decd-48e5-8286-9bbf88b5baa3,1389,Harrow East
+58fbcec9-c3b1-4e03-86cb-9bd8fa655da0,1077,Enfield North
+659a6142-a2f0-4f7a-b777-9bf97cb26886,1039,Edinburgh North
+9b748aff-3cbc-4407-82d7-9c0fd6e05791,3187,Wimbledon
+49ac3481-9b50-4053-bb16-9c12324e4783,315,Bishop Auckland
+88f6993f-c32e-440d-a12f-9c2554fd456a,1323,Guildford
+7ed319e7-1b2f-4c55-bec2-9c2d285f1662,246,Birkenhead
+978026e2-487c-4149-8153-9c92f7d2dbef,695,City of Chester
+4483aaea-3b0b-4808-997c-9cb4335eefc1,3897,Beaconsfield
+c7950e81-9740-412b-b9f0-9d2369b8d211,3885,Ashton-under-Lyne
+8052c3ff-b47f-4f4c-8f23-9d74573d51c2,4330,Stalybridge and Hyde
+af24e364-f8f5-4d53-9174-9d947cbac703,4264,Romsey and Southampton North
+e57a0ef5-e433-4309-94ac-9d97463b5eb9,2496,Rushcliffe
+47bc6bdc-28e5-4a7d-b382-9db5dc853ae4,3937,Brent East
+7979f680-0100-4780-a484-9dcedd48651e,2666,South Ribble
+055cf5f4-a833-47a6-ba5f-9e02e9f202b4,805,Cunninghame North
+e1c1e163-bc70-4596-8695-9e0cae5cd2bf,903,Dulwich
+57e6874d-05b9-4967-85e6-9e124b437c17,2781,Stevenage
+f759a573-c8eb-4297-896e-9e28246051eb,1035,Edinburgh East
+95dfddd8-0de5-4d82-bf8a-9e3d09953e1b,4065,Goole and Pocklington
+c82f57fd-3626-4897-a839-9e6b7bb44b9c,1040,Edinburgh North and Leith
+b29acc86-9b0f-46c6-9872-9ea6b4e807ff,90,Aylesbury
+2608773c-8ebf-474c-8023-9edb31979d6b,996,East Surrey
+9f8e68d0-b9c9-4c81-a678-9edc58fc68e3,158,Bath
+0dc2a510-a403-46ae-9833-9f7c7a4dc669,1298,Grantham and Stamford
+d9e05802-8d02-4ecb-bb13-9fdf515ef46c,3050,Warrington
+279b49a2-1839-4d3f-ab9d-a01085382103,376,Bosworth
+0ef08788-860f-40fc-8e75-a02cf7ccbd49,2838,Streatham
+6ac03e2c-9eac-4c91-852d-a071d9d3efa5,866,Dewsbury
+9ea42338-3054-402b-a669-a0c91c1dd328,4189,New Forest West
+3e828f9f-854f-4e2a-b2f3-a0dba12c6d3f,3158,Westmorland
+55197d97-a4c0-48a0-a1d9-a145f49d3e5c,3334,Bishop Auckland
+2bb13412-3054-4220-b895-a19b4e753d17,2393,Reading
+467f058f-cef9-4022-9939-a1abfcee4724,715,Clitheroe
+ad5d5be8-62d3-408b-affd-a1baf958e308,3950,Bristol South
+3be01df4-7753-4c6d-8ed2-a1e0f68e57d3,3465,East Worthing and Shoreham
+4a7d304a-6d8a-4826-aea3-a1e77abf1bf0,3357,Brecon and Radnorshire
+62492f97-a363-4b3d-9872-a203991ed877,546,Camberwell and Peckham
+c0194d9c-30ed-4dfb-b50f-a26599475a27,4194,Newcastle upon Tyne North
+1ee4d57a-16c5-4676-b842-a27e0c283b91,3671,Oldham West and Royton
+4608b8f9-1dad-4840-a820-a2867d6265ae,3995,Coventry East
+afdb4e5f-09ad-465f-aa1f-a28a259904db,4051,Feltham and Heston
+79eff2f6-75bf-4f62-a715-a2a762456bea,1014,Eastwood
+b3abbfb5-182b-43bf-9b60-a2fd9e1a7605,998,East Surrey
+7807ad65-9185-4e51-8d1a-a2fe0e445b32,2723,Southport
+5ab9046a-487a-4042-a89d-a30918ad41dd,3301,Barking
+0d12bd92-564b-48c7-b341-a30b53aff77d,3592,Maidenhead
+524e9feb-1a0b-4110-a3d8-a3239cf23dc4,3510,Haltemprice and Howden
+2771703d-8b31-4cd1-a05d-a325e12fad19,2406,Regent's Park and Kensington North
+a6612f8b-6448-4fb6-ac21-a359a05a1b25,437,Bridgend
+104e8ffc-9ff9-406a-b3e6-a35bea4ed967,427,Brent South
+d27c8f8f-ab66-4360-8388-a36a54bf211e,716,Clwyd North West
+1778148d-3596-4c9c-821c-a37e32f36c95,3530,Hertford and Stortford
+70cefd71-217c-4185-84b2-a39604367aaa,3757,South West Norfolk
+8d574c66-b0f4-4ec2-910b-a3b96c144582,4376,Wallasey
+5d4eee05-5a33-4d95-b65e-a3c8d4afdf12,1098,Esher
+644f8325-7afb-444a-b50c-a3d288e19c12,1987,Mole Valley
+6d777529-eff2-4c6d-905d-a44912415753,1127,Fareham
+4c827af4-df07-4c45-b107-a486170aa373,3462,East Hampshire
+6367c044-c629-4449-84a9-a48ef011aab9,983,East Kilbride
+abe8ff53-4ce0-47af-8136-a49e52dd687e,3495,Gedling
+ded09c76-1644-474d-afe5-a4a2813d1712,1586,Islington South and Finsbury
+c9ebb392-202f-4dea-9b39-a4e0066beb5a,4129,Kingston upon Hull North and Cottingham
+67944dbd-c4ef-4ff6-80b0-a5117e74f38a,414,Braintree
+99ab3b36-388d-417a-9b2f-a521ec6bc4e4,367,Boothferry
+b39a73ce-db37-4dd4-8c43-a53b230d4d1f,2034,Nelson and Colne
+e01508e9-d4c0-4055-920f-a5606b91c03a,3803,Thurrock
+78364093-8cfe-450f-abc4-a59b8a21446c,2604,Skipton and Ripon
+08beac8f-1c6d-432b-ae5e-a5b921211c00,1197,Gillingham
+982848bb-6b70-4407-bdbc-a5f026032019,4448,West Aberdeenshire and Kincardine
+170c6542-da53-4d34-9f37-a61296b637a6,893,Dudley
+9b560400-19b6-42d0-a64a-a620b2b7ce68,2661,South Norfolk
+a41c674e-ec91-4549-9c56-a620d21e8d95,562,Cannock and Burntwood
+f4d73655-2157-46ec-ae7a-a650de515f56,734,Colne Valley
+b82cc9f4-0795-48c5-bbcb-a6fe8dce4dbe,662,Chichester
+1d873f17-4e79-4dcf-a30c-a715a90a92d7,3108,West Derbyshire
+601cad01-4cda-4351-8909-a722a835987c,451,Brigg and Scunthorpe
+c6e0bd6a-0017-468c-9fe4-a75a99221b2e,1691,Leeds East
+9de1af24-88ae-41b1-bd63-a760c3e714cb,2631,South Colchester and Maldon
+36a58fc4-8c23-41a2-99c2-a7fcbd3dda04,2998,Vauxhall
+4f9b8721-a361-4396-b125-a83a5d35db7e,865,Dewsbury
+1517a5c0-3348-44f7-82a4-a858c76b6797,3620,Neath
+f7b36e33-d951-4d57-9973-a862add4e8ee,2782,Stirling
+ad8fcc1e-1491-4dc6-83ea-a866a4aabf22,913,Dumfriesshire
+039332f5-e8f1-48a9-81ce-a89676887a48,4158,Louth and Horncastle
+cfc3282f-9ba9-4a78-8d9a-a8dea51faa06,4252,Rayleigh and Wickford
+ca381ba6-e51e-49d6-ab8b-a90f99555fd3,947,"Ealing, Acton"
+4a0dc70b-5c15-431a-aedd-a955224f6ef0,1351,Halton
+ebee5499-33f4-4a4f-a265-a98595b75bba,3811,Tottenham
+07436ff5-7565-4305-af19-a99bcd76c81f,1878,Maldon and East Chelmsford
+137c886e-7742-4975-bce6-a99d9ea2f6ec,3869,Wrexham
+cd8ab83b-d6f4-4a71-8524-a9de21d895ae,2753,St Ives
+d0e81722-9cb1-4ce1-a94a-aa1c0daba45a,702,City of York
+e2bc3993-6299-403c-8346-aa86b710131d,1633,Kingston upon Hull East
+46be2838-0882-4e81-90e3-aaa364d663bc,3369,Bristol South
+c73f46c3-d44c-4c90-8870-aab2873bd2fb,276,"Birmingham, Hodge Hill"
+fb95e092-9be1-47f9-8e5c-aac6991ed2b3,4463,"Dumfriesshire, Clydesdale and Tweeddale"
+c0570f59-c4a7-49f9-b494-ab0bd7659806,393,Bracknell
+3e0a6714-5c34-47df-84f3-ab1047207e01,2031,Neath
+a4ae129a-9830-4038-9012-abac016470e9,1760,Lewisham West
+3d278718-9905-440c-ab0c-abc7d188953a,1688,Leeds Central
+598f9d30-b54e-4327-b3dc-ac03826ce480,1441,Henley
+a7516142-ed81-44d3-a93c-ac257c66d51e,3066,Waveney
+3219868a-7f2e-4dc8-94ad-ac3103cb76e8,3040,Wanstead and Woodford
+1922c531-f484-4814-b54f-ac3e9cf99f3e,3064,Watford
+955dbe6a-2c19-40e8-84a7-ac89e9f36350,1872,Maidstone and The Weald
+63f3c127-9e20-46c0-928b-ac8f094f8e33,2357,Poplar and Canning Town
+0dbfdc83-de09-4b51-a042-ac929e03fce3,1368,Hampstead and Highgate
+dd9a92af-626e-4f55-9f29-acf88091b8e4,2535,Scarborough and Whitby
+89c12a57-5c8f-41b2-ad9c-acff3395abbf,3348,Boston and Skegness
+a6f962f7-f71a-4117-9621-ad19f9f1d8c6,3385,Camborne and Redruth
+52aae185-b546-4bfe-ba40-ad36f6abb27a,3658,North West Norfolk
+35c2b661-92b3-44d2-a74f-ad4bfa749195,3890,Barnsley South
+6ab627dd-d4b9-4d4e-8a14-adc8487d8c8a,4107,Hornchurch and Upminster
+7a8e2eb6-b05a-4b81-882b-adf6382a10e7,3535,Hitchin and Harpenden
+78a2e87d-0ef2-4fa6-b793-adf733c5d3de,3868,Worthing West
+6cf2bde9-0446-4f4e-acc7-ae11eec288db,3778,Stoke-on-Trent North
+341a43d4-1a99-4787-95e5-ae3a2ef54fe8,3492,Gainsborough
+f1cda398-99b0-4324-b89e-ae456de89ba2,604,"Carrick, Cumnock and Doon Valley"
+4d7c54ef-35cd-43df-8dbe-ae52e48f4bf1,35,Airdrie and Shotts
+710bf177-810b-408b-ba08-ae89d0be2692,3336,Blackley and Broughton
+475ef306-a7ce-412b-9cd9-aea5356f868b,3328,"Birmingham, Hodge Hill"
+4256aedc-0034-479a-b8d5-aeafc0b89f22,2759,St Marylebone
+f5c07844-254f-4945-86dd-aebf42ab0979,707,Clapham
+3722913a-c690-4e7d-986b-aec7969834e1,618,Central Fife
+49a928a7-ca58-4686-ba10-aecac7072b71,3386,Cambridge
+fbd2bd1f-1f52-4ac5-a00d-aef25096970a,103,Banbury
+e9b27709-d61a-4c7d-9e97-aefc076135ac,3397,Castle Point
+b8bc604c-79c4-4620-aac3-af43dd3b4f39,4447,Orkney and Shetland
+2cd5405d-9fc2-4893-98ad-af814b902a07,700,City of London and Westminster South
+bfe599e7-97ef-441c-a551-afbae5254630,1004,Eastbourne
+4f9d33a6-af97-49ce-b58f-b004b5314353,2809,Stoke-on-Trent Central
+8e62fea0-bd9e-4e3e-b0cf-b02d4488ee98,3871,Wyre and Preston North
+47b12426-a031-4657-b7cc-b082d85a67a5,3940,Brentwood and Ongar
+ee188a8c-857f-4397-a0e8-b08b5fb37430,4497,Alyn and Deeside
+bb0ef979-23b7-4c49-b775-b0aecb2c0718,450,Brigg and Goole
+607993f4-fa9c-4272-b5e1-b0c050b7232b,3841,West Bromwich East
+bd30c60d-1c36-48c4-bc4b-b0ebbc8f30c2,666,Chingford
+b659acc6-ef6e-4bba-9b8f-b0ed24857cfb,2766,Stafford
+097ac930-df7e-4114-9a71-b106fd23e37e,3042,Wantage
+f522ae43-5432-4083-a8e3-b17a102d691a,3451,Dudley North
+a7c4edac-c067-4a13-b7f7-b20182937b59,3404,Chelmsford
+73067a88-ec3a-4674-b7a2-b201feac5814,1921,Medway
+2e0982cc-5495-4e31-a4e6-b2293c54c5d9,2351,Pontypridd
+9cca806e-92c4-4198-a184-b23c4b013eb1,3761,"Southampton, Test"
+6f93346b-9b88-4cbb-83ff-b2790aba098e,3410,Chingford and Woodford Green
+c1425dd9-84ec-4410-ae8f-b2cd9f99d318,1841,Loughborough
+d0a57439-02b7-44fb-b9f2-b2e96380a561,1479,Holborn and St Pancras South
+0e625c90-b941-4419-b90d-b399149ef2d3,3683,Poplar and Limehouse
+0a729325-5c32-4854-9613-b3a13a8c29e9,473,Bristol South
+5f52eae3-21fb-4370-a655-b3bc93259b46,3329,"Birmingham, Ladywood"
+b36532a2-f781-48fa-b1f8-b4323cc50545,3468,Eastleigh
+f31dc32c-63ec-48c6-9be5-b43575074139,213,Berwick and East Lothian
+bee26408-21f6-4d20-9443-b4799f762fad,727,Coatbridge and Chryston
+ad1b8cf8-980e-4563-b5d7-b48f8abf4954,4368,Tottenham
+6ea39bb4-7315-4547-b1a5-b4c0c21f48ba,3805,Tonbridge and Malling
+7ba24437-c3dc-4341-ab96-b4cd202971a4,1606,Kensington and Chelsea
+c8d88c6f-9dbd-4491-b805-b521a96c7388,1757,Lewisham West
+751e41d3-6583-4dc2-ae06-b5c6d2fbba35,633,Chelmsford
+8006b8b2-fd54-4622-a65d-b5fbce96fbb9,3562,Knowsley
+d3c1df4c-50a7-44ba-9980-b60566ececb2,2713,Southend West
+679860d4-8544-42c9-b2b7-b6361901300a,1409,Havant
+e2cec511-b60c-4310-8aeb-b66190573c6d,2125,North Durham
+182682fa-654a-4a23-9faa-b68b6cbb5c80,4249,Putney
+2c1a0bb9-55e2-44f5-9ff8-b691d50b4f64,3319,Berwick-upon-Tweed
+34128ec0-6f33-40bd-b345-b6d1b6f8905a,4279,Selby
+f04df78b-7598-49b3-87f9-b6f7a8896a61,1000,East Yorkshire
+b15de23a-321a-4d64-a3a1-b70aeb5c8680,1635,Kingston upon Hull East
+bc4f5c26-31a3-4c47-9464-b79b4db5f33b,2675,South Suffolk
+a0759ba6-f2ba-4816-ac28-b7e125b26333,1178,Gainsborough and Horncastle
+540a3c1b-0677-4aa5-8597-b817ccef137c,314,Bishop Auckland
+2284ab60-18ee-474d-93ed-b839fc3024a7,985,"East Kilbride, Strathaven and Lesmahagow"
+2426c405-cd13-4947-9b2b-b841e58f4e09,3835,Wealden
+e0b87343-0c1b-4c5f-9762-b8ab5a901a92,3519,Hartlepool
+c9183620-d9eb-4132-a98b-b8fdc2c837e1,3149,Western Isles
+458e75a9-f424-4695-a03c-b93f2f82547b,1181,Galloway
+0d8dc72e-87aa-409e-97ac-b9441abbde2b,3644,North East Hertfordshire
+7b1eee14-d8e2-451b-9f0e-b98206c84770,3580,Lincoln
+34838a47-bfd8-48b0-894b-b98af99c3b61,4003,Croydon West
+36d3fbf1-c105-41c0-bedf-b9bcd81fdd2b,1779,Lincoln
+aa140147-4c6d-4ef1-9772-ba0b91362dcb,2309,Penrith and The Border
+33ddf687-4a70-4506-ac1e-ba418784c659,1190,Gateshead West
+2b705940-4385-438c-a05d-ba5004f192d7,3749,South Shields
+522d7b40-7f1e-4de6-b1ca-ba6ff4d74beb,431,Brentford and Isleworth
+a1af4235-ce14-40d1-abb2-ba8375adb3f8,1940,Merton and Morden
+05de8059-9635-4b9f-85cb-ba8d39f151e9,1537,Hyndburn
+764fe0f5-e7f4-43f6-8450-bafb0ad8f2f5,157,Bath
+4c7d857d-16f2-4b4f-9e8c-bafcaa007972,1877,Maldon
+a1660720-920f-419d-8951-bbd4fc6357e0,2299,Pembrokeshire
+c4d5a8fe-d2aa-4fea-ae3d-bbeb13443db4,1012,Eastleigh
+ed55d7fc-59c7-4c08-91e7-bc026a7cf1b9,2395,Reading East
+2d38e136-944d-4aa4-875d-bc0d14dc16b6,2749,St Helens North
+ef5cb969-6341-4343-bae3-bc19caa4f68a,3322,Bexhill and Battle
+506ee40d-73da-49f7-bc4d-bcd7261b8f35,3009,Wallasey
+95313123-6b4b-40dc-9383-bce4aaa57fe9,624,Charnwood
+c4e8ce09-6b99-4883-8557-bd1876386d74,1013,Eastwood
+16ab8a70-bca2-4969-9088-bd1c6ca79ce9,4364,Tonbridge
+b77605f6-733d-43f0-8525-bd29d5b04bdd,1698,Leeds North East
+11a2e6c6-638d-43ac-b469-bd8a79572b4b,478,Bristol West
+5ad47a5c-773b-485b-bc4c-bdb97779cf12,2616,Somerton and Frome
+2b93de63-2a85-496c-86a3-bde7f7d6a85f,4367,Torridge and Tavistock
+3e13a7ee-0ac2-4943-a365-be00dcab328a,1762,"Lewisham, Deptford"
+45bf8fdb-b59e-4d61-98b5-be727fde4142,2866,Surbiton
+d539f333-5985-4a03-93ec-be9253df4538,2734,Spelthorne
+1de34306-2b88-4c1f-aea9-be9d81c7aa73,3364,Brigg and Goole
+e5884213-4a27-48cf-88c3-beba1304a6c7,3272,Wyre Forest
+68e19530-d6db-40be-95c8-bed1a6b2bf30,3688,Pudsey
+cb34a08d-a64b-4e0b-8611-bf0e82913b67,4482,Inverclyde and Renfrewshire West
+f970d33b-6d5e-4d1b-b1b8-bf41cdfa3f0e,3763,Southport
+6e84246b-624f-4443-9bbd-bf7f94ad4a0f,2548,Sevenoaks
+8108322f-ad43-4aef-8c46-bf829070dee7,2607,Slough
+01981ef3-84bf-45c9-841a-bfa62014b44e,3576,Lewisham West and Penge
+37a14563-ce1a-4467-abb1-bfb1870be154,233,Bexhill and Battle
+4ebb84cf-8aae-47e3-b17a-c0094cdd5efe,2022,Motherwell and Wishaw
+0fd800c9-71bf-4a21-9f93-c026e8bc1f2b,3669,Old Bexley and Sidcup
+aee4ab9c-24cc-4e6a-b51d-c03019215afb,3789,Surrey Heath
+a0de4d09-8023-45eb-a809-c055f93a21d7,2758,St Marylebone
+bbe8098c-df4d-475d-813f-c0bc447397ae,77,Ashfield
+34826278-6d53-4c0a-8e08-c0dde8d5a14e,769,Coventry South West
+5d83b2f6-6e26-4dfb-8219-c0f3e8f6fae3,3717,Scunthorpe
+cea54214-518e-47cd-b9c1-c122e440adc9,3041,Wantage
+89bdaf50-2e16-47e6-b3a2-c1940d71822d,3773,Stevenage
+f85f7942-2447-40b9-99b9-c1aa4e47f070,889,Dover and Deal
+ff1dd012-52bd-43d3-8279-c1f216ee42be,2633,South Derbyshire
+9e951f5e-94f0-43c1-8a3c-c1f50d02574e,1817,"Liverpool, Wavertree"
+afde08c1-8ff4-480b-aceb-c27047d17f5f,2004,Moray
+102a5379-19fd-4d6a-86de-c28bc98ff83a,4096,Hereford and South Herefordshire
+ac48bcf4-9256-4ddc-9e64-c28f157ab2c9,1683,Lancaster and Wyre
+20036297-ea20-4604-8072-c29aaad89cb0,806,Cunninghame North
+b24b0d2b-5825-4b50-9f61-c2b7b20d33c2,712,Cleveland and Whitby
+0b617bd0-4ae6-45f3-9a8e-c2cb6c214879,4186,Mitcham and Morden
+3df4e5b1-9c2e-4093-8daa-c3324d2be94c,2896,Tatton
+8ff5e854-ac15-4565-9c10-c3726f52857b,119,Barkston Ash
+67465f61-a5fa-49ff-8e13-c374f3740796,1052,Edinburgh West
+d528a068-f537-45c0-8422-c3b638c48018,2590,Shoreham
+7dd074f0-a47d-4b22-abd2-c3df32b62bef,2974,Tyne Bridge
+6379ba19-403a-4002-8915-c3eb664c859d,580,Cardiff South and Penarth
+156ae2ac-c496-4109-972c-c486344c2bcc,608,Carshalton and Wallington
+86cf3123-51fc-4e33-a7b5-c48eb43a041c,607,Carshalton
+e4152719-5eb4-48c7-bd4d-c4b825502efc,2441,Rochester and Chatham
+b066cf47-46fd-4b77-91aa-c4cddca79e90,667,Chingford and Woodford Green
+14e070f8-5ce2-4dd1-9eb1-c51ff1d13a1d,1325,Guildford
+df10ced7-3820-4a38-909c-c5346a06e464,60,Angus East
+1ade1dea-f248-41d8-b3df-c53bc85e94d0,1223,"Glasgow, Garscadden"
+ee9d72d6-05ab-4704-aba6-c53cb30b9321,248,Birkenhead
+c668e2ad-1303-4de9-83e2-c5438b7c5d5c,4372,Tynemouth
+b9d65f27-d0c8-4b15-8b82-c553fdc3b043,3755,South West Devon
+dc813962-9080-4178-8601-c57623888af9,1628,Kingston and Surbiton
+ad7cd43f-ceac-4cbf-90f0-c59c5884064b,3684,Portsmouth North
+c457ac08-23e4-49ba-a734-c5b80d102b34,480,Bristol West
+1d6b3d74-ea00-4f16-81db-c5bc96ad25da,174,Beaconsfield
+5c64aa25-dafb-4053-aebc-c5ebb861ea6a,4348,Sussex Weald
+17735139-b8cd-45c4-98c1-c5eef22fb5e3,1090,Epsom and Ewell
+3e11ebf3-12b1-445d-8073-c5fec3141418,2170,North West Hampshire
+054ff8b4-2cff-4fdc-a88c-c62b1f82e141,984,East Kilbride
+49613a20-8b92-4e27-a594-c636b432e194,671,Chipping Barnet
+739746aa-7de6-49ae-8286-c637cd7f4e00,1945,Mid Bedfordshire
+3e7d266a-92b9-493f-aed9-c653f21c4266,973,East Ham
+87b3f40e-06e5-4890-b968-c69179ba0e05,3790,Sutton and Cheam
+4bfb6da4-2de3-4b4e-9b5c-c698911d0bc3,3705,Rossendale and Darwen
+8c73b586-9d7c-480b-a343-c6c8ee167fab,1111,Exeter
+ab646366-68f0-42e7-b6b2-c6cada4cb083,3668,Ogmore
+f9d961fe-fbb3-4eeb-83e9-c70cc7ff2030,4506,Cardiff South and Penarth
+ef8f0f46-aceb-49a9-a579-c72c8178ddf5,861,Devizes
+8b1343bb-a25c-4b77-ae94-c73447ebd3e4,1759,Lewisham West
+24b5354b-3052-4667-88c7-c7423ea75b57,434,Brentwood and Ongar
+70091732-3001-4bb2-a0a8-c743e045575b,3600,Meon Valley
+a3c23beb-777d-45b1-aac1-c7d52fe65b49,173,Beaconsfield
+3a87bc3d-59fa-4c87-9382-c7d8499c5017,3915,Birmingham Yardley
+d06a2161-3123-45f7-babe-c7e094404321,4018,Droitwich and Evesham
+3827ed1b-c5b3-456d-8c12-c82d9dcab1d3,728,"Coatbridge, Chryston and Bellshill"
+e9309fc5-712e-4250-968c-c82eb107925e,2862,Sunderland South
+6c5502ba-2797-4ca0-899e-c881c8a1f8de,149,Basingstoke
+73162c26-9ea5-476d-85f7-c8ce4407b9c2,777,Crewe and Nantwich
+6ff68db5-b72c-4a5b-967e-c92df6d5c473,1953,Mid Sussex
+a62bbfe1-1ada-47bb-8f56-c99710c23936,3555,Kensington
+06bd1cf7-494d-4d48-a99e-c9b7a92439ce,2375,Preston North
+205a2544-2012-4d4a-bbbb-c9f4ea0a1078,1296,Grantham
+498a9cd8-8786-4d21-94c6-ca332dff92e0,3836,Weaver Vale
+8352e333-29e6-4d19-915b-ca3ffca141e4,3409,Chichester
+b073714d-ef07-4055-8c8a-cab833203cb0,1874,Makerfield
+d4b418ee-5702-4032-844e-cb6ee8a07cc1,2863,Sunderland South
+6cf4198d-c652-44ee-88a2-cb7743f28cf9,2168,North West Durham
+3e04ee6f-9250-4b12-801f-cbe5e71d8dd8,1060,"Edinburgh, Pentlands"
+57a9acf1-90d9-433e-8cd6-cc0e95b5e901,2355,Poole
+7ce6239f-93ed-404a-badb-cc2ca02ba4a2,1476,Holborn and St Pancras
+99c24ccc-8799-4a20-af92-cc878801882e,3332,"Birmingham, Selly Oak"
+0a48b79b-70dd-4ac2-9592-cc8c0521d23b,887,Dover
+8cef8606-8496-404e-b9d1-ccaaa9bcc37c,3675,Pendle
+eff86c74-8e78-44c5-a81b-cde6643cd16b,1156,Folkestone and Hythe
+70b48922-c484-4b46-93e2-cdf0105b7154,3306,Basingstoke
+db1f27b3-2830-4fa6-afc3-ce0f275cd617,110,Banff and Buchan
+548bfbca-578d-4469-be26-ce5de76b2ff9,3716,Scarborough and Whitby
+0338589d-05f0-4418-9dec-ce8033a252ad,1061,"Edinburgh, Pentlands"
+efcc16ad-f193-44b2-90fd-cea730c46ae6,3618,Morecambe and Lunesdale
+569d9c39-70de-4c72-8f9a-cebc52d69b81,3307,Bassetlaw
+763b4984-77fa-48fe-aef4-cf0dda16056c,3225,Wolverhampton South West
+4164b691-fb7d-44c5-8cff-cf5d33a66772,3738,South Cambridgeshire
+4856f8ac-f571-4247-aeea-cf654c0a3dcb,4138,Leeds South
+43c2d0d4-4903-41b0-8ef0-cf7a5eda0e22,71,Arundel
+bca19741-d0aa-4394-b15d-cf8e3d5eb16e,4067,Gosport
+ba235792-c947-4684-91a0-cfa1dd7e2bf8,3635,North Cornwall
+65a37e73-640d-4e18-b9d3-cfd884b067c4,4127,Kingston and Surbiton
+925c8178-0db4-43b3-a01f-cfe05cfb2d1a,72,Arundel
+2f49888c-1e41-40b5-bbb0-cffecaa6a806,3405,Chelsea and Fulham
+338bc810-2027-489b-8efe-d0374893d5c7,2152,North Shropshire
+285665e2-fe1d-4905-807e-d038a0100902,2151,North Shropshire
+f909fea0-b5c4-4992-8916-d0401a02e107,2424,Richmond and Barnes
+fba30933-b23d-42cd-802c-d0542ca3769b,838,Delyn
+df6656d8-dfc2-4089-84f4-d05d06f70b92,3139,West Worcestershire
+2f3cada1-81d9-44b5-846c-d08215d7ee34,2143,North Hertfordshire
+fe13ccee-9069-4b78-904a-d0e49900a945,3721,Sevenoaks
+6fbd8400-50f9-413b-ad41-d0e9476b1e24,324,Blackburn
+a71417fb-f151-4393-840f-d0f5cd51c4a3,4169,Manchester Withington
+d15213a7-8ed0-4a5a-95db-d0f91e1ec800,3914,Birmingham Selly Oak
+daa9cc0c-d1ab-4424-8116-d1168de73693,3756,South West Hertfordshire
+d0c6158a-ea13-451e-9fa6-d15682897621,3268,Wycombe
+ffb2deed-1113-4053-9a6d-d17e24db04e9,2499,Rushcliffe
+985b4685-1f19-40e0-bc27-d186dfaf4b57,1393,Harrow West
+f292ab9e-4558-41ee-bf40-d1b04c5a1408,4226,Nottingham North and Kimberley
+031de087-f3ce-4a52-9350-d1c46e47df3b,316,Bishop Auckland
+46043fb9-9b93-4d28-861c-d1e5196b8d6b,4375,Wakefield and Rothwell
+6f2f0153-0aee-4e82-b4da-d20f0e0c7297,568,Canterbury
+589ec4a9-15b5-43ae-a154-d24578ffbc01,2098,North Angus and Mearns
+0e97f03d-bfd0-4cdd-b4a7-d2579f718e8e,1092,Epsom and Ewell
+4122b9d1-31b8-44ed-bca2-d261be02099b,2853,Suffolk Coastal
+b0e6ed7e-b8f0-44eb-a60a-d2cbb7bc07d2,282,"Birmingham, Ladywood"
+deaaf4d5-fe2a-4c69-955d-d2f9dc03f816,4242,Plymouth Sutton and Devonport
+52a68525-2ba4-4d34-94a6-d318574365e1,3647,North Norfolk
+3c6b96dd-504b-45bb-a429-d31bb2bd30ec,1082,"Enfield, Southgate"
+165d355c-eb07-4745-91e2-d34efc129817,1931,Meriden
+e61aa35f-0b13-42a0-a8e5-d39b4d9d3856,672,Chipping Barnet
+94c2997a-2427-45b0-b453-d3a59e653678,3303,Barnsley East
+2370040e-2efd-42d4-ab7b-d3cf5fd7e890,1187,Gateshead East
+080c1e3d-5a48-464f-90bf-d3cf9f45aadf,4203,North Dorset
+c3ee3e41-1e77-4484-8a75-d4004ba4951c,2021,Motherwell and Wishaw
+23e697f2-b058-4174-b7c0-d43a6fb2daa5,2690,South West Norfolk
+8e9e09c1-4017-4b02-b6bc-d45ff3d313c4,2832,Strathkelvin and Bearsden
+9d4018fa-40d3-47db-ab72-d4a33372e102,3259,Worthing West
+045105a4-ef02-4c8a-963b-d4b657afe8cd,1374,Harborough
+4697bc9d-75e5-42f3-940f-d4eac40dd2f4,178,Beckenham
+bf82cbd6-7f9d-4615-a03a-d5281d29c694,3065,Watford
+ff8300b3-a035-42dd-b470-d54886c68ed0,3540,Houghton and Sunderland South
+065c3484-f3b3-42a2-a0ce-d567a080e38a,2162,North Warwickshire
+54fe60a3-e39e-4f70-9c8f-d5aa859f53dc,3873,Wythenshawe and Sale East
+f6b17224-4c26-4c5e-96b5-d5d7cb398b55,3710,Runnymede and Weybridge
+8dc6ab14-1f2b-432a-8f29-d5e64583311c,3819,Vale of Glamorgan
+3981af1e-42f3-4ee2-a838-d5e906a5e0d2,1003,Eastbourne
+1ed1b3be-d1bc-4641-bde4-d5fa57c92500,4105,Holborn and St Pancras
+af406e42-ed5b-4550-824d-d5fbad9fed75,2915,The Wrekin
+c48d3cb1-7281-47e5-b9dc-d627bf72dbd5,2606,Slough
+d68aa4c1-b73c-4d11-8481-d62fa3ae8886,2694,South West Surrey
+87506a9c-00ea-4010-9235-d652e5eabbe7,1771,Lichfield
+f319eb40-6bde-4ae0-9472-d6aa65817fdc,4072,Greenwich and Woolwich
+a5096403-900e-4018-b681-d6acd87cae5f,3662,Norwich North
+41f31d79-3977-48ca-b95c-d6c2ce1ee47f,2972,Twickenham
+815b4d44-7646-415c-9090-d6db94f46789,3421,Clwyd West
+6ceb0484-9b59-4f40-b853-d6e62ca64706,3460,East Devon
+079dc07f-21c7-4828-aa08-d713dc886ffb,4397,Wetherby and Easingwold
+d072d0ec-cdd0-4137-873f-d7421fd6a7a1,144,Basildon
+1c06ca5f-452d-48eb-84b2-d75872454abd,1697,Leeds North East
+daf9e804-c5b0-4519-9ede-d7e4f0d4f216,4131,Kingswinford and South Staffordshire
+45b227ea-2a00-4765-ba9f-d85e0c9107c5,91,Aylesbury
+4b7caaf6-4605-4fbd-86bf-d888b499bed2,4166,Maldon
+09af18e6-959f-4774-b6e8-d89dfe00ec1a,2582,Sherwood
+5981afac-5ece-451a-8ede-d8ac904bddd6,3867,Worsley and Eccles South
+009cc6a6-a338-4210-accd-d9375b8c1bc8,1046,Edinburgh South
+f6786dc3-8ebb-4a2c-aab5-d93d316789e5,536,Caerphilly
+6bdf1f74-4f73-43b6-a627-d95737cb37d3,688,Cirencester and Tewkesbury
+29886448-e640-4477-b0cf-d96192f89977,4058,Gainsborough
+af5ce7e8-499b-4ab5-be34-d977e7a10a81,3295,Arundel and South Downs
+a2ca7814-8fbc-44bf-ab42-da3975b689cd,2854,Suffolk Coastal
+6ed8b2dc-7706-4dec-98ca-da63ea7b39ea,2273,Oxford East
+80c218ce-53cd-49e3-8daf-daac5323dde9,1518,Hove
+0b22dded-ef93-450e-b450-dab2729fa015,3416,City of Chester
+32bd21c4-bb25-4cc5-a008-dab852c843db,1831,Llanelli
+36498dc3-4159-4c40-b2c9-dac7acd43ad5,3960,Bury South
+7448283f-6ed8-4200-aedc-dac9d492d227,3524,Hazel Grove
+769e4d68-5a3b-40f5-9469-dad77ae9bdaa,135,Barrow and Furness
+55e25114-6522-4e0b-9f5a-db0d893be8e6,3665,Nottingham North
+a4ad639b-e460-4c8b-9868-db102e0a2db1,4524,Torfaen
+0412375e-55ca-412d-a8eb-db2d75a7a150,2944,Torfaen
+a92792e5-0624-4281-891f-db8b0f90c7d8,78,Ashfield
+b266e760-3a26-4584-850e-dbb143489a62,2219,Nottingham North
+333d52e3-1cd5-4b0b-a550-dbc7d5db484f,2271,Oxford
+1af8927b-d137-48ce-b702-dc359cadf2ca,1047,Edinburgh South
+b7e9343c-340a-490f-a9a2-dc38f656c770,3387,Cannock Chase
+36ae54db-dd7e-4f7c-9186-dc4a8e324e29,3574,Lewes
+dda8adf1-fccc-4f87-8fa4-dcdc2fb9c30e,1813,"Liverpool, Walton"
+ace808bf-b8da-4b35-a7bc-dcf5d4aa7c83,3290,Aldridge-Brownhills
+f168a62e-91b4-4938-baa1-dd05c2964b83,2330,"Plymouth, Devonport"
+416c4ac0-527e-4183-bd0f-dd5215628507,648,Chesham and Amersham
+e09ce93d-40eb-4a01-adee-dd7d9d6460df,1624,Kilmarnock and Loudoun
+ec803219-0ceb-4484-aae6-dd95b3cc3542,2494,Runnymede and Weybridge
+31602ec5-aa27-4364-8a19-ddbfc2f1cc4d,3514,Harborough
+5a0fafc2-3b9c-475d-aec2-de3b894126e6,788,Croydon North
+65b335f8-f50d-4ee2-acf4-de82b67bd885,1276,Gloucester
+ac74abb8-2b33-4c36-a6e4-de9e680f4f95,4386,Wellingborough and Rushden
+62670264-68f2-448d-883f-deb7fcd22ce1,2934,Tonbridge and Malling
+3fe641af-1af0-4e51-be51-deca22cac280,423,Brent North
+80fff417-43d8-4420-a716-df4817ca2875,3866,Workington
+adfee20f-93e6-4c4e-8bc2-df67e308d1ed,3383,Calder Valley
+fd0b80d3-50da-432b-bf2f-df6b7a737e5c,3443,Derby South
+4a54d2bc-ccde-46c1-92ef-df7915abe6fa,1084,Epping
+dba264ef-fd51-449c-b05a-df84396ebc25,1785,"Liverpool, Broadgreen"
+ffabc873-3b85-4ae9-a48e-dfbbf3167de5,752,Corby
+3b1268b5-3278-4e4a-b95d-e020022573aa,422,Brent East
+f0740ce2-fbf6-4082-8eb6-e049db905d4f,3573,Leigh
+c471b048-de72-4237-b266-e06076e6b332,3595,Maldon
+362179c4-744e-4cad-84a4-e08d1cd5e4d5,1696,Leeds North East
+0bda11fc-93a6-496b-9b44-e0977e43c602,3403,Cheadle
+1806bb0c-139a-4fe6-b93d-e0a96d4c656b,2300,Pendle
+980678db-e03c-4420-bca5-e110fb94e373,1517,Hove
+58eeb237-50c7-43f9-80aa-e1bdc90bd2bb,385,Bournemouth East
+1da14838-14d6-4635-b3ef-e1cc3abbc8e1,3712,Rutland and Melton
+ef970414-46b3-4d01-8f80-e20082d1ff43,1946,Mid Bedfordshire
+0cf3968c-e06f-423e-8059-e2211dd2fb33,1773,Lichfield and Tamworth
+06b12f9b-535c-4302-b6c4-e234335f2add,1590,Islwyn
+6c5d6c65-c75f-4aad-9b5e-e259d20d2007,2735,Spelthorne
+14d61251-4d1f-4217-8fa5-e26f7fa4897a,3498,Gosport
+39eee400-7e9b-4418-844f-e29b071a1658,3469,Eddisbury
+325dda82-ab4d-4ce1-9d59-e2aa0e6c03de,3389,Cardiff Central
+06390de5-f16d-450f-9df6-e2c32cf1803c,3427,Coventry North East
+26bb0416-d1a8-4df8-ab7c-e2dede9e42a8,1614,Kettering
+e676f585-06af-453a-9358-e2e1168bb222,2784,Stirling
+d72d86b5-c473-4557-80e7-e2ee3e10f991,3203,Wirral West
+00a30b9c-f669-40e9-b43c-e3a4ff3b159b,2446,Romford
+fd69237f-6e7b-4db9-b1a5-e3f018adaffa,3359,Brent North
+9787ce32-e7c3-465e-adc3-e3f9903b9045,2286,Paisley and Renfrewshire South
+8a419de1-94b4-4253-af8d-e41a13ec1363,3052,Warrington North
+8c82f4ce-6611-4b47-8ff7-e44d05b81705,1989,Monklands East
+3bdca1e8-7919-4afb-93d3-e4541c8e1104,4066,Gorton and Denton
+6e1a8b6d-d3d5-4bfb-949f-e46295099df2,3318,Bermondsey and Old Southwark
+d3ac3162-8495-420f-9607-e4f749d1b5a1,3851,Weston-super-Mare
+bfa72961-3fab-4198-a092-e517d100c7c4,3185,Wimbledon
+2edea461-48ff-4e70-94f8-e56c3e203152,1094,Erewash
+88250fcd-d27c-475c-8a62-e5ade4fc9132,3518,Harrow West
+433f0216-2e89-41d0-83b0-e5b29cec209b,1354,Hamilton
+0af6893f-c72c-4c77-b449-e5bffd336c20,176,Bebington
+b1bff7cc-997e-49ae-8540-e5fccbf4fd9c,2808,Stoke-on-Trent Central
+23e43bd4-b771-42cc-9f0f-e6560bc33ec2,1125,Fareham
+59b99188-dda8-4ba1-8bb1-e6d9d853b91e,2128,North East Cambridgeshire
+f79f6066-2ac2-4d69-a899-e6e8afb464ab,3776,Stockton South
+d42bc59b-8d5d-4464-99e3-e720dcc7c615,4501,Bridgend
+f9b78790-d978-4bcf-a6ed-e7551fd0f76e,1763,"Lewisham, Deptford"
+c3e1302b-88c0-460f-9a2b-e7789028bbe2,3707,Rotherham
+9fe91182-13c2-4c7d-bd8e-e78f83c9facc,2493,Runcorn
+9925812b-5796-44f5-9317-e7c74e5f641f,1076,Enfield North
+63933b59-2d2a-46b5-a041-e7e8a7bb0f05,3713,Saffron Walden
+bcf7cd17-ba50-45c8-8a20-e7fc84977248,117,Barking
+3df8566f-1f3b-48eb-a089-e80e7dc4d80c,4354,Tatton
+c396884d-7865-43e5-8642-e826eb16298a,3398,Central Devon
+7aedb367-8958-468c-afc6-e8546d85683c,2908,Thanet East
+d53ad5aa-54e8-4f1a-8d07-e885b4731b27,3534,High Peak
+ec8116d6-80a4-4e50-afb9-e8cf58f9557d,96,Ayr
+4aeab1f0-a7d1-4c7c-be1c-e8d28fe9331c,2447,Romford
+224675db-2482-4267-8038-e925d1e5ad97,311,"Birmingham, Yardley"
+9a49b7be-52c9-4665-83b1-e9930379d9e6,763,Coventry North West
+c5c90a5c-9074-4354-88c4-e9ff973279e6,2605,Sleaford and North Hykeham
+986f9235-b72e-40c5-a63e-ea079023cbbb,3839,Welwyn Hatfield
+83968c9c-5278-43d0-940b-ea137a0f6817,946,"Ealing, Acton"
+b175eb4b-285e-458b-b85a-ea469a4a7c1d,3114,West Dorset
+f9c60a3c-88d6-494f-a2a6-ea4cc99cc3c9,1421,Hemel Hempstead
+9919690f-07a1-4f0e-a986-eaae139298a2,2329,"Plymouth, Devonport"
+bfb4929b-e950-4105-a94d-eace2b3df010,4514,Merthyr Tydfil and Aberdare
+70e61711-3166-4cea-ba5f-eb094d209892,1912,"Manchester, Withington"
+fd463ee6-f37a-48ea-90b3-eb4a8c4ef57c,2459,Rossendale
+cc3e0628-6179-4aef-bf3b-eb4d49f23ce5,2275,Oxford West and Abingdon
+f8cd21c6-5983-4848-9d13-eb8ace80732f,3807,Torbay
+8d365676-42c7-4c18-8a1d-eb90b9c84b84,1954,Mid Sussex
+94a7b2c4-8794-439b-b88c-ec13bd00e323,2136,North East Hampshire
+a82509dc-b062-4839-aebd-ec1f2e52c683,2214,Nottingham East
+1a34ab1a-d14f-4910-88a0-ec22a1fdca81,5,Aberavon
+27af9dbc-18cc-41e5-b995-ecb1a6f29dab,440,Bridgwater
+3a98d785-1431-4381-9113-ecdd70b48204,3911,Birmingham Ladywood
+54c1094c-1c29-43f1-bc54-ed1a36013204,3200,Wirral
+c3bd8212-1ae5-4538-86c4-ed1bf43846b0,3750,South Staffordshire
+19e1af9c-d6f4-4772-a06e-ed404e0836a8,365,Bolton West
+90b4247b-55d8-4c35-9bff-ed53b2b325c1,1028,Edinburgh Central
+ee5e4fab-9299-4c52-80f9-ed5d2adc95ed,895,Dudley East
+804f3623-a5c9-4661-b472-ed9ae9b63bb7,3771,Staffordshire Moorlands
+bd41bf51-1b07-4641-a404-edd0b8c3ddb8,3320,Bethnal Green and Bow
+02bc94d2-5ee9-4bae-be56-ee10f5e45418,4130,Kingston upon Hull West and Haltemprice
+72a41c85-eae0-48d9-9bb2-ee1537f7c4ab,837,Delyn
+94f9e3e2-a74e-4b29-9335-ee34fcbef8e5,760,Coventry North East
+9088b4cd-e54d-4867-a42d-eea94d61f946,1044,Edinburgh South
+8abd146d-de4b-442b-b64d-eebdefb7b405,4172,Melton and Syston
+9a83dcb4-af09-4988-b1de-eefa4467ec1a,3500,Grantham and Stamford
+8f8322c7-56d1-4c9b-9222-ef1361aec22d,2780,Stevenage
+c040d4c1-a4a3-4830-baae-ef2c241db9ec,3280,Yeovil
+7b51a422-60aa-49ae-8523-ef3bad1ef06f,1949,Mid Norfolk
+70287302-f683-4885-bf34-ef448d2447d2,1349,Haltemprice and Howden
+3609518a-7753-46ea-81a9-ef66d2d488ad,3488,Folkestone and Hythe
+79440587-c181-4d89-ada0-efd7be6b0306,1515,Hove
+a2b2569b-36cd-444c-9597-efdbe7ede92d,3814,Twickenham
+750e5449-43d1-46d9-9819-f090a6e70dca,2964,Tunbridge Wells
+7876fd9d-03ef-4f84-a36c-f09f6c1a1135,3244,Worcester
+b3ae4dae-ad3a-4d05-b041-f108cb45f8a5,647,Chertsey and Walton
+e46dce39-6186-4baf-b9ec-f12bf40d4cc4,3754,South West Bedfordshire
+50831d83-ee9a-4ef1-a2bb-f135524b6309,3833,Watford
+627cd0f6-d1fa-4ed7-b1dd-f14e5528f02f,2571,"Sheffield, Heeley"
+f407e5ad-1cba-4d42-9e75-f1637f29bc3b,3820,Vauxhall
+95ca92ca-a78b-48e6-9781-f172ad375ec6,1992,Monmouth
+df1e91bd-8f59-4f3a-9204-f22c03901905,2076,Newham North East
+89594f6c-9601-410b-ab28-f22f47744dea,2683,South West Devon
+d5ff5880-0d6f-4dcb-8e53-f24c2223126a,407,Bradford South
+e3a8142a-56b0-42e8-bee1-f271819b0584,997,East Surrey
+9f3b6139-6451-4289-a285-f271d65e9210,1753,Lewisham East
+da6b74c9-0bbb-4497-ae47-f292afbce14a,36,Airdrie and Shotts
+d95be01c-fa18-4bb4-88f8-f2c144337456,2470,Rotherham
+1703992a-9a52-4cce-969f-f2c1d9a73424,771,Crawley
+95200c2f-bd4f-411d-9194-f2f71689c092,2281,Paddington South
+f2b143ac-e35f-47dc-8c85-f307df415f43,3209,Woking
+6b856d4c-80ca-4cd8-8905-f38203eaab57,3649,North Somerset
+68525167-17c2-46b0-95e5-f3919beae4c0,1036,Edinburgh East and Musselburgh
+d9a2d7e4-104a-46ab-985f-f3b7e8a70121,3870,Wycombe
+c8a752c8-19e4-4fa0-9f16-f3c94de8a32d,3760,"Southampton, Itchen"
+3dd601ca-b58c-4329-b68c-f42d5c6c44b5,2150,North Norfolk
+ba4f3019-9d97-4f45-9853-f42d96b952aa,3466,East Yorkshire
+45ebdfa5-3dff-4e6d-a84f-f432dbf7eb63,1122,Falmouth and Camborne
+1e308829-b013-4572-9415-f461f1c57f9f,3007,Wallasey
+480805ab-d950-47f8-a3f6-f4a52c8d8337,283,"Birmingham, Ladywood"
+e4e2333c-2324-4706-aeb7-f4b49f96117f,1338,Hackney South and Shoreditch
+b9b894b1-5b2d-4ad7-86a9-f4b75b89b7ee,2721,Southport
+d167833e-187f-4682-9315-f4dbae5316a8,3772,Stalybridge and Hyde
+69d2fbb1-dc8b-4e63-a1cd-f4fe4cc6e1b6,4048,Fareham and Waterlooville
+fb8012f8-5ef7-4cf3-9ae8-f53d88f4445f,3795,Tatton
+248f4469-748e-4a55-a059-f57c24dd7ec8,211,Bermondsey
+3f4fcd9a-f474-4800-bb5c-f5d83444115f,3063,Watford
+a9161602-8f95-4160-8b66-f5f501834a89,2585,Shipley
+697dd409-9f76-4cc1-a86b-f66ebddbfa81,794,Croydon North West
+97becd23-bbaa-4091-a4c1-f670c01812e4,573,Cardiff North
+65ad454e-f377-415b-bd69-f6727dfe835c,3702,Rochford and Southend East
+7f2eb193-cf0f-413d-b542-f67f885ad6c1,1100,Esher
+ff35573d-9981-40ad-aa4e-f696c03675f4,3808,Torfaen
+a59e4478-4336-445c-a0bd-f6a22db2a7aa,2169,North West Hampshire
+1e857c84-666a-41fb-a8ed-f6a4420e9e48,1749,Lewes
+f811588c-ae91-4c7c-9967-f6aa6fbf9621,2189,Northavon
+b741d34e-0ffe-4e04-a292-f6b6b19e9379,1079,Enfield West
+53bbc8b2-c91a-43b2-b7c7-f6d819eb7ef1,4236,Peckham
+1de0bc72-bd18-42c0-95e2-f727f8ac1ae7,474,Bristol South
+856bb62f-8392-4760-bf8c-f73716a163df,1328,Hackney Central
+ca36b86b-38d2-472e-ad5d-f747be69ed61,2405,Redditch
+92ec14e3-b503-45f0-977a-f769a00103ec,3636,North Devon
+fcdd28d2-af38-49b2-84c1-f770bdc98da8,1318,Greenwich and Woolwich
+57474544-d68c-4bf1-8d5b-f7d9c16bb5f9,3882,Arundel and South Downs
+7f2d5a46-c488-45f3-bb3d-f8769546475a,2698,South Worcestershire
+1b99865c-99ba-4149-aee8-f8907b515c4a,1045,Edinburgh South
+cabb0ed4-8317-45b0-ab50-f8d4f3502b3f,2595,Shrewsbury and Atcham
+f00d8218-5ed4-4bd6-928a-f8d7b2babf39,3837,Wellingborough
+bf29cc33-4f65-49d0-a33e-f8d9c778f828,146,Basingstoke
+0af2ec78-e4d8-4cfb-a28e-f8ee3f7e592c,4146,Lewisham East
+fcdf7d35-1cc7-4ce9-ae4f-f8fcbd217de8,3801,Thirsk and Malton
+e05a2efe-750d-4724-81d1-f90e53a45168,2697,South Worcestershire
+2a7e25f2-8113-4ef7-8678-f9ba5de61900,2267,Oswestry
+5d180135-2c45-479b-bc81-f9bfa6803c88,4110,Houghton and Sunderland South
+d60cb44a-1e56-48e6-a6f2-f9d9eec33f94,2783,Stirling
+1dd02c89-2f5f-4696-a85b-fa3575efa6b8,3,Aberavon
+58d84f76-1f17-48c8-a24a-fa36666ef150,3794,Tamworth
+c0abb8e6-04d2-4c41-ae67-fa640d9a25e1,670,Chippenham
+6e5df576-07a3-4411-9d0f-facbb5ac7699,3384,Camberwell and Peckham
+dfd88d16-19cd-4a80-a1f1-fae00a3a68b9,1826,Livingston
+1d14390c-2af8-44d9-a332-fafb444c8941,322,Blackburn
+2d5101e0-89d6-488d-a8ff-fb0a1e5d32dd,3768,St Helens South and Whiston
+f7935286-21ad-4cf0-b61d-fb273253056b,2973,Tyne Bridge
+38f1f566-aed8-41e8-af79-fb3e5b1d29ef,2492,Runcorn
+4d37d81b-92c3-4a0e-a245-fb58a8427a2d,3696,Rhondda
+833d29c9-4634-4b7b-9b19-fb6a33763f83,3222,Wolverhampton South East
+ada0dbb2-5301-4987-8aba-fb77e833ed0f,1326,Guildford
+0a88b67c-6fd1-4556-b6c0-fbdbd986efd7,3858,Witham
+6d1e35e2-94a6-4307-871a-fbff58224011,896,Dudley North
+d18de3fe-d1c1-409e-aac3-fc2ea9caf4af,2614,Solihull
+268462aa-0624-40be-95fd-fc38ce47331b,3541,Hove
+410c4c55-c997-4406-a91b-fc39f46a0f3e,4030,East Surrey
+fb578717-0cf7-4406-b33f-fc79a43bf29f,3507,Hackney South and Shoreditch
+1fb5abcf-7ee1-43d7-8747-fcc331fd5c0f,2551,Sheffield Central
+6f44972e-c942-4986-b8e8-fcd397a279aa,537,Caerphilly
+8d4efbfc-2dcb-433a-a338-fce153859036,3352,Bracknell
+ee76490b-f0e7-457d-947a-fd197936bf1d,1659,Kirkcaldy
+e252bfb6-893a-4d81-8394-fd2f51a5aae0,3865,Worcester
+4b5600d8-e54d-4342-8860-fd2fcca75e4d,2591,Shoreham
+0bd5b061-a003-45cd-99da-fd3189b15172,1494,Hornchurch
+453ff49b-3aab-46e5-bc39-fd3438d9b71a,3531,Hertsmere
+eccc8572-6d09-4690-b4d7-fd3a5cd24d72,4205,North East Cambridgeshire
+e29cbf6d-0c72-4796-b0be-fd7569c2e30b,1034,Edinburgh East
+f01b1a2a-c6db-45cc-8de1-fd9e9c4db27d,3767,St Helens North
+2be1c6c9-a1aa-4684-95ba-fdacace9f8b8,1369,Hampstead and Highgate
+fb8d4075-07f5-4b83-b813-fdbb9c823fbf,720,Clydebank and Milngavie
+4ff527f0-c22a-4d3a-8b79-fdc9d1b205f0,3208,Woking
+cae1788c-9c03-43b4-8ba9-fde1620f1770,3690,Rayleigh and Wickford
+1055b716-a0c2-479a-98bb-fde50f42c352,4028,East Ham
+c6f91d33-60aa-479d-970e-fe3befefa653,4007,Daventry
+afa0bf01-aec7-4192-96f2-fe5c16442fbc,3785,Stretford and Urmston
+cf2462c8-ae2f-4528-9ed0-fe94bc1a35b4,2542,Selby
+c655b8c5-4877-46df-b808-fec50ec7c51b,4,Aberavon
+863eb8ef-a14a-44b5-8ba4-ff126637ca91,4493,Rutherglen
+3e7201b3-4c97-45d6-ad4a-ff4ce2680ad8,3513,Hampstead and Kilburn
+cfe16d26-defc-406b-ab78-ff57ec1edaaf,2672,South Shields
+91fb83ca-febd-4a1e-80aa-ff5aa79e8dc0,3602,Merthyr Tydfil and Rhymney
+6e32918b-277c-4912-b901-ff73a2164bea,1257,"Glasgow, Rutherglen"
+40c1ece0-4f8d-4242-9dc7-ff80b88aef63,2830,Stratford-on-Avon
