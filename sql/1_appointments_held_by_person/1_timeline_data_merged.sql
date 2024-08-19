@@ -91,14 +91,14 @@ SELECT
     MIN(ma2.appointment_characteristics_end_date) "end"
 FROM ministerial_appointment ma1
     INNER JOIN ministerial_appointment ma2 ON
-        ma1.appointment_characteristics_start_date <= ma2.appointment_characteristics_end_date AND
+        ma1.appointment_characteristics_start_date < ma2.appointment_characteristics_end_date AND
         ma1.organisation_id = ma2.organisation_id AND
         ma1.rank_equivalence = ma2.rank_equivalence AND
         NOT EXISTS (
             SELECT *
             FROM ministerial_appointment ma3
             WHERE
-                ma2.appointment_characteristics_end_date >= ma3.appointment_characteristics_start_date AND
+                ma2.appointment_characteristics_end_date > ma3.appointment_characteristics_start_date AND
                 ma2.appointment_characteristics_end_date < ma3.appointment_characteristics_end_date AND
                 ma2.organisation_id = ma3.organisation_id AND
                 ma2.rank_equivalence = ma3.rank_equivalence
@@ -109,7 +109,7 @@ WHERE
         FROM ministerial_appointment ma4
         WHERE
             ma1.appointment_characteristics_start_date > ma4.appointment_characteristics_start_date AND
-            ma1.appointment_characteristics_start_date <= ma4.appointment_characteristics_end_date AND
+            ma1.appointment_characteristics_start_date < ma4.appointment_characteristics_end_date AND
             ma1.organisation_id = ma4.organisation_id AND
             ma1.rank_equivalence = ma4.rank_equivalence
         )
