@@ -31,6 +31,7 @@ WITH ministerial_appointment(organisation_id, organisation_short_name, rank_equi
                 p.id person_id,
                 p.id,
                 p.name minister_name,
+                p.short_name minister_short_name,
                 t.name post_name,
                 t.rank_equivalence,
                 o.id organisation_id,
