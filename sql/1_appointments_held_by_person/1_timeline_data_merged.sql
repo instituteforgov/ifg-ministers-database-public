@@ -85,7 +85,7 @@ WITH ministerial_appointment(organisation_id, organisation_short_name, rank_equi
         q.start_date
 )
 SELECT
-    ma1.organisation_short_name"label",
+    ma1.organisation_short_name "label",
     ma1.rank_equivalence "rank-equivalence",
     ma1.appointment_characteristics_start_date "start",
     MIN(ma2.appointment_characteristics_end_date) "end"
