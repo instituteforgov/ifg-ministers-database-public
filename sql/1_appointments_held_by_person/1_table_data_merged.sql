@@ -74,10 +74,12 @@ FROM (
                 t.organisation_id = o.id
             LEFT JOIN organisation_link ol1 ON
                 o.id = ol1.predecessor_organisation_id AND
-                ac.end_date = ol1.link_date
+                ac.end_date >= ol1.link_start_date AND
+                ac.end_date <= ol1.link_end_date
             LEFT JOIN organisation_link ol2 ON
                 o.id = ol2.successor_organisation_id AND
-                ac.start_date = ol2.link_date
+                ac.start_date >= ol2.link_start_date AND
+                ac.start_date <= ol2.link_end_date
             LEFT JOIN post_relationship pr ON
                 pr.post_id = t.id
 

@@ -79,7 +79,8 @@ FROM (
             WHERE
                 a1.person_id = a2.person_id AND
                 ac1.start_date = ac2.end_date AND
-                ac1.start_date = ol.link_date AND
+                ac1.start_date >= ol.link_start_date AND
+                ac1.start_date <= ol.link_end_date AND
                 ol.predecessor_organisation_id = o2.id AND
                 pr1.group_name = pr2.group_name AND
                 pr1.group_seniority = pr2.group_seniority
@@ -142,7 +143,8 @@ FROM (
             WHERE
                 a1.person_id = a2.person_id AND
                 ac1.end_date = ac2.start_date AND
-                ac1.end_date = ol.link_date AND
+                ac1.end_date >= ol.link_start_date AND
+                ac1.end_date <= ol.link_end_date AND
                 ol.successor_organisation_id = o2.id AND
                 pr1.group_name = pr2.group_name AND
                 pr1.group_seniority = pr2.group_seniority
