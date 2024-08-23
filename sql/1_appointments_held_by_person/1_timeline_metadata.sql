@@ -8,7 +8,7 @@ SELECT
         WHEN q.representation_start_date_min IS NULL OR q.appointment_start_date_min < q.representation_start_date_min THEN 'Ministerial roles held by ' || p.name || ', ' || CAST(STRFTIME('%Y', q.appointment_start_date_min) AS NVARCHAR(255)) || CHAR(8211) || CAST(STRFTIME('%Y', q.appointment_end_date_max) AS NVARCHAR(255))
 
         -- Minister became a parliamentarian before May 1979
-        WHEN q.representation_start_date_min < '1979-05-04' THEN 'Ministerial roles held by ' || p.name || ', ' || '1979' || CHAR(8211) || CAST(STRFTIME('%Y', q.appointment_end_date_max) AS NVARCHAR(255))
+        WHEN q.representation_start_date_min < '1979-05-03' THEN 'Ministerial roles held by ' || p.name || ', ' || '1979' || CHAR(8211) || CAST(STRFTIME('%Y', q.appointment_end_date_max) AS NVARCHAR(255))
 
         -- Has ongoing appointment
         WHEN q.appointment_end_date_max = '9999-12-31' THEN 'Ministerial roles held by ' || p.name || ', ' || CAST(STRFTIME('%Y', q.representation_start_date_min) AS NVARCHAR(255)) || CHAR(8211)
@@ -25,7 +25,7 @@ SELECT
     END title,
     CASE
         WHEN q.representation_start_date_min IS NULL OR q.appointment_start_date_min < q.representation_start_date_min THEN q.appointment_start_date_min
-        WHEN q.representation_start_date_min < '1979-05-04' THEN '1979-05-04'
+        WHEN q.representation_start_date_min < '1979-05-03' THEN '1979-05-03'
         ELSE q.representation_start_date_min
     END startDate,
     CASE
@@ -34,8 +34,8 @@ SELECT
     END endDate,
     'Source: Institute for Government analysis of IfG Ministers Database, www.instituteforgovernment.org.uk/ministers-database.' source,
     CASE
-        WHEN q.representation_start_date_min < '1979-05-04' AND t.name IS NOT NULL THEN 'Notes: Only roles since May 1979 are shown. Roles without significant ministerial duties are not shown.'
-        WHEN q.representation_start_date_min < '1979-05-04' THEN 'Notes: Only roles since May 1979 are shown.'
+        WHEN q.representation_start_date_min < '1979-05-03' AND t.name IS NOT NULL THEN 'Notes: Only roles since May 1979 are shown. Roles without significant ministerial duties are not shown.'
+        WHEN q.representation_start_date_min < '1979-05-03' THEN 'Notes: Only roles since May 1979 are shown.'
         WHEN t.name IS NOT NULL THEN 'Notes: Roles without significant ministerial duties are not shown.'
         ELSE NULL
     END notes
