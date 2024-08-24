@@ -88,12 +88,12 @@ FROM (
             COALESCE(a.end_date, '9999-12-31') <= COALESCE(p.end_date, '9999-12-31')
         LEFT JOIN representation r ON
             a.person_id = r.person_id AND
-            COALESCE(a.end_date, '9999-12-31') > r.start_date AND
-            COALESCE(a.end_date, '9999-12-31') <= COALESCE(r.end_date, '9999-12-31')
+            COALESCE(a.end_date, '9999-12-31') > DATE(r.start_date, '+7 days') AND
+            COALESCE(a.end_date, '9999-12-31') <= COALESCE(DATE(r.end_date, '+7 days'), '9999-12-31')
         LEFT JOIN representation_characteristics rc ON
             r.id = rc.representation_id AND
-            COALESCE(a.end_date, '9999-12-31') > rc.start_date AND
-            COALESCE(a.end_date, '9999-12-31') <= COALESCE(rc.end_date, '9999-12-31')
+            COALESCE(a.end_date, '9999-12-31') > DATE(rc.start_date, '+7 days') AND
+            COALESCE(a.end_date, '9999-12-31') <= COALESCE(DATE(rc.end_date, '+7 days'), '9999-12-31')
         INNER JOIN post t ON
             a.post_id = t.id
         INNER JOIN organisation o ON
