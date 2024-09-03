@@ -24,7 +24,7 @@ FROM (
         r.house = 'Lords'
 ) q
 WHERE
-    q.date >= '1979-05-04' AND
+    q.date >= '1979-05-03' AND
     EXISTS (
         SELECT *
         FROM appointment a
@@ -44,7 +44,7 @@ FROM (
     FROM event e
     WHERE
         e.type = 'General election' AND
-        e.date >= '1979-05-04' AND
+        e.date >= '1979-05-03' AND
         EXISTS (
             SELECT *
             FROM representation r
@@ -74,7 +74,7 @@ FROM
     FROM event e
     WHERE
         e.type = 'General election' AND
-        e.date >= '1979-05-04' AND
+        e.date >= '1979-05-03' AND
         EXISTS (
             SELECT *
             FROM representation r
