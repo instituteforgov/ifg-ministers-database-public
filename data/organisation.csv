@@ -26,11 +26,11 @@ e02cf2e9-8ab4-4e79-992a-48d857f369ea,Office of the Secretary of State for Scotla
 de2ce45b-01e2-493b-a3b6-53be4e88f166,"Department for Culture, Media and Sport",DCMS,2023-02-07,NULL
 f66a7d9f-05a2-4ad0-954d-54cf83a6b041,Department of Industry,DoI,NULL,1983-06-13
 64430280-1188-4c44-9b01-590cab80e2e9,Ministry of Defence,MoD,NULL,NULL
-39c4900d-4c75-4622-94b7-6490ea7c8de2,Department for Constitutional Affairs,DCA,2003-06-12,2007-05-08
+39c4900d-4c75-4622-94b7-6490ea7c8de2,Department for Constitutional Affairs,DCA,2003-06-12,2007-05-09
 5140880e-3784-47d9-a643-64c0397009a9,"Foreign, Commonwealth and Development Office",FCDO,2020-09-02,NULL
-ab626519-b046-413c-99ef-664a2ecdf06e,Department for Education and Employment,DfEE,1995-07-05,2001-06-08
+ab626519-b046-413c-99ef-664a2ecdf06e,Department for Education and Employment,DfEE,1995-07-05,2001-06-11
 d224ad2a-a186-44f6-8ebf-6811bc0bebb3,Government Whips-House of Lords,Whip Lords,NULL,NULL
-7f595c78-d15d-40cf-936e-6ba095c82cfa,Department of Social Security,DSS,1998-07-25,2001-06-11
+7f595c78-d15d-40cf-936e-6ba095c82cfa,Department of Social Security,DSS,1988-07-25,2001-06-11
 4ab28968-f550-4da6-9f42-6c3a045f2263,"Department for Business, Innovation and Skills",BIS,2009-06-06,2016-07-17
 cd9a4a3e-15d2-4f51-b999-6eb75e55fef4,"Ministry of Housing, Communities and Local Government",MHCLG,2018-01-08,2021-09-20
 0e2840cf-3adf-4b2b-8549-74e62d7d3a57,Department of Health and Social Security,DHSS,NULL,1988-07-25
@@ -49,7 +49,7 @@ cf1ad370-166c-4263-9966-94a206be6354,Cabinet Office,CO,NULL,NULL
 734c0a22-dd5a-4daf-8ab5-95765499b6fc,Civil Service Department,CSD,1968-11-01,1981-11-12
 dc0c11db-ed48-49f3-9733-9936b595950f,Scottish Office,Scot,NULL,1999-07-01
 94a430f6-efed-4a33-b504-9d39e1bfdbff,Office of the Advocate General for Scotland,OAG,1999-06-12,NULL
-0708254b-cf12-4bd4-8e27-9ecb2a436195,Department for Exiting the EU,DExEU,2016-07-14,2020-01-31
+0708254b-cf12-4bd4-8e27-9ecb2a436195,Department for Exiting the EU,DExEU,2016-07-13,2020-01-31
 02a8168c-b94d-4742-bc12-a54a53bbc3f4,"Department for Innovation, Universities and Skills",DIUS,2007-06-28,2009-06-10
 97d2e599-4ee8-4e0a-8188-a62ed779599f,Department for Energy Security and Net Zero,DESNZ,2023-02-07,NULL
 1272757a-6903-4a7c-9a1d-aaf78323c2a7,Department of Energy and Climate Change,DECC,2008-10-03,2016-07-17
@@ -57,7 +57,7 @@ dc0c11db-ed48-49f3-9733-9936b595950f,Scottish Office,Scot,NULL,1999-07-01
 52663866-dac6-4145-99c1-b3b28e0cd9a3,Attorney General's Office,AGO,NULL,NULL
 ac357d18-4343-4665-8242-bcc3576410cf,Office of Public Service,OPS,1995-07-05,1998-07-01
 a2f8cb74-0c99-42f2-99d5-bea2fc2b78f8,Northern Ireland Office,NIO,NULL,NULL
-10ff4dcd-cd9d-47ee-8c17-c0868e94fd04,Department of Transport,DoTr,1981-01-05,1997-05-02
+10ff4dcd-cd9d-47ee-8c17-c0868e94fd04,Department of Transport,DoTr,NULL,1997-05-02
 e7a8b6b1-a92d-41f0-89e2-c452dc806b2c,"Department for Business, Enterprise and Regulatory Reform",BERR,2007-06-28,2009-06-06
 33a2ae61-e756-40ca-96da-c708a022b702,Foreign and Commonwealth Office,FCO,NULL,2020-09-02
 2d033e00-cba8-484d-b06a-c84d1d0b5d8b,Ministry of Justice,MoJ,2007-05-09,NULL
@@ -65,6 +65,6 @@ e17826ce-6b83-4ac6-ab10-cd3096ffd5e4,Office of the Leader of the House of Common
 c091555f-f8a2-4260-9b26-d0064e3cd68f,"Department for Environment, Food and Rural Affairs",Defra,2001-06-08,NULL
 88e057e4-f7bc-428a-ac95-d5006b9e7ac0,"Department for Levelling Up, Housing and Communities",DLUHC,2021-09-20,2024-07-09
 fec96b64-de5a-4c15-be6a-da1f69dc5920,Department for Work and Pensions,DWP,2001-06-08,NULL
-13ff6dc1-7e76-46a6-93dd-da7eaea58353,Department of Education and Science,DESc,NULL,1992-04-11
+13ff6dc1-7e76-46a6-93dd-da7eaea58353,Department of Education and Science,DESc,NULL,1992-04-14
 143e8528-d7ab-4514-ac5b-e69d8adc9af2,Home Office,HO,NULL,NULL
 fedf4ed4-b139-4f18-ae6d-f41d17852134,Welsh Office,Wal,NULL,1999-07-01
