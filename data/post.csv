@@ -46,9 +46,9 @@ c219e5b8-7197-4bb4-8eb9-79ba71500ed5,NULL,3b2301a5-f2a5-44a8-aa67-1cf2bbafe704,C
 bbff44a1-0515-42ec-ab0b-e61419153663,153,3b2301a5-f2a5-44a8-aa67-1cf2bbafe704,Minister of State,"Minister of State, HMT",MoS,4
 93de441b-a7c8-4f52-b56e-e60f0f7df9d5,NULL,43af4dc6-1349-4481-948a-1dfa41659eb3,Minister for Rail and Aviation,Minister for Rail and Aviation,MoS,4
 6af73a39-2d67-4759-b121-c14b9adfd29c,NULL,43af4dc6-1349-4481-948a-1dfa41659eb3,Secretary of State for Transport,Secretary of State for Transport,SoS,3
-17b7bbe7-26d6-435e-a04e-a2378a1e01ee,NULL,43af4dc6-1349-4481-948a-1dfa41659eb3,Minister for Roads and Local Transport,Minister for Roads and Local Transport,PUSS,5
 dd69a169-ff6a-432a-9237-a382f980c9c7,NULL,43af4dc6-1349-4481-948a-1dfa41659eb3,Minister for Transport,Minister for Transport,PUSS,5
 29decf65-25c4-4b11-8f45-a3f34c4954a5,153,43af4dc6-1349-4481-948a-1dfa41659eb3,Minister of State,"Minister of State, DfT",MoS,4
+17b7bbe7-26d6-435e-a04e-a2378a1e01ee,NULL,43af4dc6-1349-4481-948a-1dfa41659eb3,Minister for Roads and Local Transport,Minister for Roads and Local Transport,PUSS,5
 3d72acaa-10ad-4f74-b73c-aef1c3a92959,NULL,43af4dc6-1349-4481-948a-1dfa41659eb3,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DfT",PUSS,5
 df726d59-fb22-45bf-95a6-8457c1b8e7f7,NULL,43af4dc6-1349-4481-948a-1dfa41659eb3,Minister for Local Transport,Minister for Local Transport,PUSS,5
 4fccef41-c071-4026-8258-90ad63cc8455,NULL,43af4dc6-1349-4481-948a-1dfa41659eb3,Minister for Roads and Motoring,Minister for Roads and Motoring,PUSS,5
@@ -826,6 +826,7 @@ badbea66-ad49-44c9-98dc-e5c0ad96462a,NULL,143e8528-d7ab-4514-ac5b-e69d8adc9af2,M
 100de08d-152e-45c2-8b0b-cc8e6c54c0a6,148,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Secretary of State for the Home Department,Secretary of State for the Home Department,SoS,3
 4b467aed-afac-48fc-9ee4-dba445490dc9,NULL,143e8528-d7ab-4514-ac5b-e69d8adc9af2,"Minister for Nationality, Citizenship and Immigration","Minister for Nationality, Citizenship and Immigration",PUSS,5
 549e5163-ddeb-45b2-b568-a5e967c91bb9,NULL,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Migration and Citizenship,Minister for Migration and Citizenship,PUSS,5
+65851cfd-768d-4136-9d6c-a365c66a88fc,NULL,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Security and Counter-Terrorism,Minister for Security and Counter-Terrorism,PUSS,5
 60e3b7b2-cf81-49b1-88f2-aa27c459f8ab,NULL,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Identity,Minister for Identity,PUSS,5
 bebe0f7d-d1dd-4c59-9f3f-a948c0c925fb,NULL,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Building Safety and Communities,Minister for Building Safety and Communities,MoS,4
 db8620eb-45ae-4e78-b283-a9dbadbf1de0,NULL,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Afghan Resettlement,Minister for Afghan Resettlement,PUSS,5
