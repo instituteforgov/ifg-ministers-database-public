@@ -13,20 +13,17 @@ WITH ministerial_appointment(organisation_id, organisation_short_name, rank_equi
         MIN(q.start_date) appointment_characteristics_start_date,
         COALESCE(MAX(q.end_date), DATE('now')) appointment_characteristics_end_date
     FROM (
-        SELECT ROW_NUMBER() OVER (PARTITION BY person_id, appointment_characteristics_id ORDER BY continues_previous_appointment DESC, group_name) ROW_NUMBER,
+        SELECT ROW_NUMBER() OVER (PARTITION BY person_id, appointment_characteristics_id ORDER BY organisation_link_id_group_count DESC, group_name) row_number,
         *
         FROM (
             SELECT
-                CASE
-                    WHEN LAG(ac.end_date) OVER (PARTITION BY pr.group_name, pr.group_seniority ORDER BY ac.start_date ASC) = ac.start_date THEN 1
-                    ELSE 0
-                END continues_previous_appointment,
+                COUNT(1) OVER (PARTITION BY p.id, pr.group_name, pr.group_seniority, CASE WHEN ol1.id IS NULL AND ol2.id IS NULL THEN RANDOM() WHEN ol1.id IS NOT NULL THEN ol1.id WHEN ol2.id IS NOT NULL THEN ol2.id END) organisation_link_id_group_count,
                 pr.group_name,
                 pr.group_seniority,
                 CASE
                     WHEN ol1.id IS NULL AND ol2.id IS NULL THEN RANDOM()
-                    WHEN ol1.id IS NULL THEN ol2.id
-                    WHEN ol2.id IS NULL THEN ol1.id
+                    WHEN ol1.id IS NOT NULL THEN ol1.id
+                    WHEN ol2.id IS NOT NULL THEN ol2.id
                 END organisation_link_id,
                 p.id person_id,
                 p.id,
