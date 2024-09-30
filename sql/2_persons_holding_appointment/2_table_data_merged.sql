@@ -17,7 +17,7 @@ SELECT
     MIN(rank) AS "rank",
     MIN(cabinet_status) AS "cabinet_status",
     MIN(start_date) AS "start_date",
-    MAX(end_date) AS "end_date"
+    NULLIF(MAX(COALESCE(end_date, '9999-12-31')), '9999-12-31') AS "end_date"
 FROM (
     SELECT
         ROW_NUMBER() OVER (PARTITION BY person_id, appointment_characteristics_id ORDER BY organisation_link_id_group_count DESC, group_name) row_number,

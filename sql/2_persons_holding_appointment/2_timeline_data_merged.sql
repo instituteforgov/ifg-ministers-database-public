@@ -26,7 +26,7 @@ SELECT
     'gender-' || LOWER(REPLACE(REPLACE(MIN(q.gender), ' ', '-'), '.', '')) gender,
     'party-' || LOWER(REPLACE(REPLACE(MIN(q.party), ' ', '-'), '.', '')) party,
     MIN(q.start_date) "start",
-    COALESCE(MAX(q.end_date), DATE('now')) "end"
+    MAX(COALESCE(q.end_date, DATE('now'))) "end"
 FROM (
     SELECT
         ROW_NUMBER() OVER (PARTITION BY person_id, appointment_characteristics_id ORDER BY organisation_link_id_group_count DESC, group_name) row_number,
