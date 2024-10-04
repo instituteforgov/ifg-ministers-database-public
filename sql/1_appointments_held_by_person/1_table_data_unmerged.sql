@@ -36,8 +36,8 @@ FROM appointment a
         a.start_date < COALESCE(r.end_date, '9999-12-31')
     LEFT JOIN representation_characteristics rc ON
         r.id = rc.representation_id AND
-        r.start_date >= rc.start_date AND
-        r.start_date < COALESCE(rc.end_date, '9999-12-31')
+        a.start_date >= rc.start_date AND
+        a.start_date < COALESCE(rc.end_date, '9999-12-31')
     INNER JOIN post t ON
         a.post_id = t.id
     INNER JOIN organisation o ON
