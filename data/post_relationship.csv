@@ -997,7 +997,7 @@ beaf930d-ac6c-44fa-9010-aa3a9e1282e6,4217dcf1-8199-4b5d-b4fc-cc16b11d0848,Life S
 d977205e-d242-4f9e-9913-aa4e2e657d2d,3aa6b3c7-1bae-4a9c-bd48-bd19605396b3,Intellectual Property,MoS/PUSS
 9caee92c-c77d-456d-a5c3-ab1d2933be44,b249058e-6af9-44b2-b497-149de4ccf306,Americas,MoS/PUSS
 b69be57d-2cdf-4361-9bd0-ab1ff347dbcc,21be8e07-af4e-4539-a40f-a47a9b1f7a99,Local Government,MoS/PUSS
-2ebf500b-d3a8-4a3f-b13e-ab59678478c3,bbf62b61-c85e-4185-8f63-9609f5732fb9,Technology ,MoS/PUSS
+2ebf500b-d3a8-4a3f-b13e-ab59678478c3,bbf62b61-c85e-4185-8f63-9609f5732fb9,Technology,MoS/PUSS
 5401b951-3e89-4e81-ba68-ab5d07e55ac2,a4e8e75f-9a9b-4b06-8e31-1622846067c6,Chancellor of the Duchy of Lancaster,MoS/PUSS
 168ac188-7ce1-40af-9ae4-ab8100985ce8,482b8ca7-b9e5-4861-b941-b66a5a8e15ea,Arts (Scot),MoS/PUSS
 ef69f466-f787-40e8-9a14-ab9854c0dc93,b43fd031-81a5-461f-9015-0568d8ff5327,South East,MoS/PUSS
@@ -1079,7 +1079,7 @@ c848fd4b-fa68-495b-bed5-ba6b40bbfcc7,ee48a5f9-6474-463f-85a3-c7d0d5289a3e,Polici
 30611b45-e206-48ea-b6b8-ba779f677142,d7f11fe8-92d6-49e9-91fc-757f74755b29,Skills,MoS/PUSS
 b1beaeac-e0ac-4536-856a-bab5decbea3e,1bdbe4bf-a352-4393-a5a8-9cf7e22f204e,Policy,MoS/PUSS
 f1411514-9701-4e26-ad70-bacea5d10e05,7d196449-c7b8-494c-ad54-eef0b4e84ef7,Further Education,MoS/PUSS
-fb7ce2af-6495-48c4-bbb3-bafb9369cd76,59cc2c5a-691f-4c64-ae43-6a2ef0f33183,Deregulation ,MoS/PUSS
+fb7ce2af-6495-48c4-bbb3-bafb9369cd76,59cc2c5a-691f-4c64-ae43-6a2ef0f33183,Deregulation,MoS/PUSS
 9588c93e-b94a-4cb8-b2f9-bb28e2e021b8,75c8bc58-a634-4fea-a91b-63e79df9c53b,Policing,MoS/PUSS
 a6620b53-60b5-4edf-8d33-bb2e877aee7d,ff9408a6-d8ef-43cd-b4f9-9b73d38d3728,Industry (Scot),MoS/PUSS
 d4ecffb6-d13b-4e80-8118-bb3f5ddfaa30,e0fe2f45-ffc6-442d-b527-34ea08b02c30,Broadcasting,MoS/PUSS
@@ -1271,6 +1271,7 @@ e4ec2fe0-cd49-4716-bef9-db0754131c84,adb045d8-8dfa-4647-a174-5fd769f167a5,Digita
 e62552f8-9046-46dc-b247-db094eb521af,14a7a845-a56e-4b35-a4d1-86b056e45710,Local Growth,MoS/PUSS
 0261058f-17ac-4740-ad3b-dbbb5d0b89f6,d93f7844-8610-4830-9e94-a92d72503c2a,London,MoS/PUSS
 0c2ccc48-58eb-4a69-b395-dbc92fd6f76a,2e6efc46-a75d-45eb-9682-c672301c5f0a,Apprenticeships,MoS/PUSS
+81f86e2a-bd4f-48a9-833f-dbd17ab294c4,8bd1a91f-c5ba-4dee-a873-d87c398178ab,Policing,MoS/PUSS
 0a053b33-0996-4db5-92db-dbf81345fa38,0bad7a77-f460-4456-a90c-46eca108de1b,Criminal Justice,MoS/PUSS
 e17371f4-9b97-4cdc-ac29-dc340f707cda,878f9861-63d0-4953-8b9c-ff1dc6e63aa8,Transformation (government),MoS/PUSS
 e6c2f02a-996e-43df-b199-dd44a9b5868b,badbea66-ad49-44c9-98dc-e5c0ad96462a,Citizenship,MoS/PUSS
@@ -1305,6 +1306,7 @@ df5105e7-4dc1-446d-87a9-e324a27aeffd,550eddcd-3f86-46f3-91ea-acdaf2bf1aba,Commun
 acc299d0-e485-425e-8227-e39417dc0566,72437a48-5db9-47c7-ae09-8fbe69b50a14,Transport,MoS/PUSS
 792eea17-4733-4a58-8c32-e39dabf70748,74011b62-6682-41ab-9586-d64485850740,"Parliamentary Under-Secretary of State, FCO",MoS/PUSS
 67f66868-1560-4431-886a-e3a3ad363149,417ec4c7-0d44-4b0c-8279-89c879157f00,Health,MoS/PUSS
+0273ecc9-8525-4219-af10-e3ca82b70b38,8bd1a91f-c5ba-4dee-a873-d87c398178ab,Crime Reduction,MoS/PUSS
 43a46513-842f-4d99-9c30-e3d0e32facba,f5289af2-540f-49ce-8c26-8a7cf33dda1e,Criminal Justice,MoS/PUSS
 5bc4712f-1b8d-48c3-801a-e419c531e9e0,f0853939-e427-43a9-b7cf-fab3d245bc85,Central Asia,MoS/PUSS
 16304ac3-3961-495b-8590-e44e2234dc87,1f26e30b-9d8d-4639-aa6d-d8bbca7ad536,Communities,MoS/PUSS
