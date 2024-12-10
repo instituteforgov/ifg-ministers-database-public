@@ -11,10 +11,10 @@ The IfG Ministers Database is a resource developed by the [Institute for Governm
 We [publish the database on GitHub](https://github.com/instituteforgov/ifg-ministers-database-public/) under a Creative Commons by-attribution licence, both in SQLite form and CSV form. At the time of writing, the browser-based version of DuckDB doesn't work with SQLite files, so for the purposes of this tutorial we'll work with the CSV files.
 
 In the `data` folder of the GitHub repo you should see multiple CSV files - one for each table in the database. The database consists of 11 tables, but in this this tutorial we'll work with four of them:
-    - `person`: Basic biographical details of everyone who has been a minister since 1979
-    - `post`: All posts in existence since 1979
-    - `organisation`: Organisations at which posts are based
-    - `appointment`: Links `person` records to `post` records
+- `person`: Basic biographical details of everyone who has been a minister since 1979
+- `post`: All posts in existence since 1979
+- `organisation`: Organisations at which posts are based
+- `appointment`: Links `person` records to `post` records
 
 ## Tutorial
 ### Reading the data in
