@@ -22,7 +22,7 @@ The database consists of 11 tables, but for the purposes of this tutorial we'll 
     - `appointment`: Links `person` records to `post` records
     - `appointment_characteristics`: Each `appointment` has one or more corresponding `appointment_characteristics` records
 
-Files can be read directly in to DuckDB with minimal effort. To read in these five CSV files and turn them into tables with the relevant name, run the following:
+    Files can be read directly in to DuckDB with minimal effort. To read in these five CSV files and turn them into tables with the relevant name, run the following:
 
     ```sql
     create table appointment as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/appointment.csv';
@@ -31,18 +31,18 @@ Files can be read directly in to DuckDB with minimal effort. To read in these fi
     create table person as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/person.csv';
     create table post as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/post.csv';
     ```
-\
-NB: All statements in DuckDB need to end with a semi-colon. Line breaks are allowed in statements, so this lets DuckDB know where the statement ends.
+
+    NB: All statements in DuckDB need to end with a semi-colon. Line breaks are allowed in statements, so this lets DuckDB know where the statement ends.
 
 1. Let's take a look at the `person` table. To do this, run the following statement:
 
-        ```sql
-        select *
-        from person
-        limit 10;
-        ```
+    ```sql
+    select *
+    from person
+    limit 10;
+    ```
 
-SQL statements often look not dissimilar to English. This particular statement returns all columns (`select *`) from the top 10 rows (`limit 10`) of the `person` table.[^1]
+    SQL statements often look not dissimilar to English. This particular statement returns all columns (`select *`) from the top 10 rows (`limit 10`) of the `person` table.[^1]
 
 [^1]: DuckDB [uses a variant of PostgreSQL](https://duckdb.org/docs/sql/dialect/overview)
 
