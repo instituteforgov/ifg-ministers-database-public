@@ -13,7 +13,7 @@ The IfG Ministers Database is a resource developed by the [Institute for Governm
 1. We [publish the database on GitHub](https://github.com/instituteforgov/ifg-ministers-database-public/) under a Creative Commons by-attribution licence.
 \
 \
-If you look in the `data` folder you should see multiple CSV files - one for each table in the database - and one SQLite data. For the purposes of this tutorial, we'll use the [SQLite file](https://github.com/instituteforgov/ifg-ministers-database-public/blob/main/data/ifg-ministers-database.sqlite).
+If you look in the `data` folder you should see multiple CSV files - one for each table in the database - and one SQLite data. For the purposes of this tutorial, we'll use the CSV files.
 \
 The database consists of 11 tables, but for the purposes of this tutorial we'll work with five of them:
     - `person`: Basic biographical details of everyone who has been a minister since 1979
