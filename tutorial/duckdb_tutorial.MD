@@ -358,7 +358,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 ## Further reading
 - [About the IfG Ministers Database](https://www.instituteforgovernment.org.uk/ministers-database/about-database)
 - [How to use the IfG Ministers Database](https://www.instituteforgovernment.org.uk/ministers-database/how-use-database)
-- A nice use of DuckDB by Gregor Aisch: [**Using DuckDB to analyze over 95 million taxi rides**](https://blog.datawrapper.de/using-duckdb-to-analyze-over-95-million-car-sharing-rides/)
+- A nice use of DuckDB by Gregor Aisch: [Using DuckDB to analyze over 95 million taxi rides](https://blog.datawrapper.de/using-duckdb-to-analyze-over-95-million-car-sharing-rides/)
 
 ## Queries
 For any media queries about the database, please get in touch using: press@instituteforgovernment.org.uk.
