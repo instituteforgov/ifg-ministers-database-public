@@ -293,7 +293,7 @@ The database consists of 11 tables, but for the purposes of this tutorial we'll 
 
     This code snippet can be tweaked to give slightly different results. Can you adapt the code to get details of the first 30 appointments since May 1979 of rank Secretary of State?. See the footnotes if you need some pointers.[^6]
 
-1. Let's add on a join to one final table - `organisation` - then we'll have a f
+1. Let's add on a join to one final table - `organisation` - then we'll have a full picture of the appointments people have carried out.
 
     Adapting the statement above, and using the join between the `post` and `organisation` tables we employed earlier, that would be:
 
