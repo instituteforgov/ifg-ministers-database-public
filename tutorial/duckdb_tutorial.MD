@@ -119,7 +119,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     select *
     from person
     where
-        gender = 'F'
+        gender = 'F';
     ```
 
     (Note that things are case-sensitive - so you need to use a capital 'F'.)
@@ -340,7 +340,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
         inner join post t on
             a.post_id = t.id
         inner join organisation o on
-            t.organisation_id = o.id
+            t.organisation_id = o.id;
     ```
 
     (Note that we've got rid of the `order by` clause - this wouldn't work, as the things we were ordering on previously are now no longer part of the results. We've also got rid of `limit 20`.)
