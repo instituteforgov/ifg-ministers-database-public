@@ -110,7 +110,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     - Parl. lead.: A parliamentary leadership role
     - Parl.: Another parliamentary role, such as a government whip
 
-    [You can find further explanation of these ranks here](https://www.instituteforgovernment.org.uk/ministers-database/how-use-database) - see the description under Rank.)
+    [You can find further explanation of these ranks here](https://www.instituteforgovernment.org.uk/ministers-database/how-use-database) - see the description under Rank.
 
     1. Another important SQL keyword is `where`. Adding a `where` clause allows you to filter the results returned.
 
