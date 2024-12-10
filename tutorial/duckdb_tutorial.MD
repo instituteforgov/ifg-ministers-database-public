@@ -3,13 +3,14 @@
 ## DuckDB
 [DuckDB](https://duckdb.org/) is a simple, open source database management system. It can be run easily on macOS, Windows and Linux.
 
-For our purposes, a browser-based version, making use of WebAssembly, is also available. Files in various formats, including CSV, JSON and Parquet, can be read in and queried as if they form a database - as well as .
+For our purposes, a browser-based version, making use of WebAssembly, is also available at https://shell.duckdb.org/. Files in various formats, including CSV, JSON and Parquet, can be read in and queried as if they form a database - as well as .
 
 ## IfG Ministers Database
 The IfG Ministers Database is a resource developed by the [Institute for Government](https://instituteforgovernment.org.uk/) that provides information on all ministers in UK governments since Margaret Thatcher became prime minister in 1979. The database provides information on ministers’ role, department, rank and dates in office.
 
 ## Tutorial
 ### Reading the data in
+1. Open https://shell.duckdb.org/ in a browser.
 1. We [publish the database on GitHub](https://github.com/instituteforgov/ifg-ministers-database-public/) under a Creative Commons by-attribution licence.
 \
 \
