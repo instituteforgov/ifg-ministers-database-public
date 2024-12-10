@@ -33,6 +33,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     NB: All statements in DuckDB need to end with a semi-colon. Line breaks are allowed in statements, so this lets DuckDB know where the statement ends.
 
+### Initial queries
 1. Let's take a look at the `person` table. To do this, run the following statement:
 
     ```sql
@@ -52,7 +53,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     Go ahead and write a statement that selects all columns from the top 20 rows of the `post` table. We'll come back to what all the columns mean shortly.
 
-    TODO: If you have some experience using SQL you might want to skip ahead at this stage to step XXX.
+    If you have some experience using SQL you might want to skip ahead at this stage to the Joins section.
 
 1. Often we only want to return certain columns from a given table. To do this, we can list the columns we're interested in in the `select` statement, separated by commas.
 
@@ -172,6 +173,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     The `between` operator is inclusive - the endpoints are included (6 May 2010 and 4 July 2024 in this case).
 
+### Counts
 1. It's often helpful to generate summary statistics based on the data we're working with, such as counts. 
 
     How many records are there in the `person` table? You can find that out by running:
