@@ -3,27 +3,25 @@
 ## DuckDB
 [DuckDB](https://duckdb.org/) is a simple, open source database management system. It can be run easily on macOS, Windows and Linux.
 
-For our purposes, a browser-based version, making use of WebAssembly, is also available at https://shell.duckdb.org/. Files in various formats, including CSV, JSON and Parquet, can be read in and queried as if they form a database - as well as .
+For our purposes, a browser-based version, making use of WebAssembly, is also available at https://shell.duckdb.org/. Files in various formats, including [CSV, JSON and Parquet](https://duckdb.org/docs/data/data_sources), can be read in and queried as if they form a database. (DuckDB can also be used to read in certain database files - but at the time of writing the browser-based version doesn't work with all of these formats.)
 
 ## IfG Ministers Database
 The IfG Ministers Database is a resource developed by the [Institute for Government](https://instituteforgovernment.org.uk/) that provides information on all ministers in UK governments since Margaret Thatcher became prime minister in 1979. The database provides information on ministers’ role, department, rank and dates in office.
 
-## Tutorial
-### Reading the data in
-1. Open https://shell.duckdb.org/ in a browser.
-1. We [publish the database on GitHub](https://github.com/instituteforgov/ifg-ministers-database-public/) under a Creative Commons by-attribution licence.
-\
-\
-If you look in the `data` folder you should see multiple CSV files - one for each table in the database - and one SQLite data. For the purposes of this tutorial, we'll use the CSV files.
-\
-The database consists of 11 tables, but for the purposes of this tutorial we'll work with five of them:
+We [publish the database on GitHub](https://github.com/instituteforgov/ifg-ministers-database-public/) under a Creative Commons by-attribution licence, both in SQLite form and CSV form. At the time of writing, the browser-based version of DuckDB doesn't work with SQLite files, so for the purposes of this tutorial we'll work with the CSV files.
+
+In the `data` folder of the GitHub repo you should see multiple CSV files - one for each table in the database. The database consists of 11 tables, but in this this tutorial we'll work with four of them:
     - `person`: Basic biographical details of everyone who has been a minister since 1979
     - `post`: All posts in existence since 1979
     - `organisation`: Organisations at which posts are based
     - `appointment`: Links `person` records to `post` records
-    - `appointment_characteristics`: Each `appointment` has one or more corresponding `appointment_characteristics` records
 
-    Files can be read directly in to DuckDB with minimal effort. To read in these five CSV files and turn them into tables with the relevant name, run the following:
+## Tutorial
+### Reading the data in
+1. Open https://shell.duckdb.org/ in a browser.
+1. Files can be read in to DuckDB with minimal effort, and that's the first thing we need to do 
+
+    Paste the following into the DuckDB Shell, then hit Enter:
 
     ```sql
     create table appointment as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/appointment.csv';
