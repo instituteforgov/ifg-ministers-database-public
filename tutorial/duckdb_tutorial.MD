@@ -386,7 +386,6 @@ For any media queries about the database, please get in touch using: press@insti
 
 For all other queries (e.g. errors in the database, questions or suggestions) please get in touch using: ministers.database@instituteforgovernment.org.uk.
 
-## Foot notes
 [^1]: DuckDB [uses a variant of PostgreSQL](https://duckdb.org/docs/sql/dialect/overview)
 [^2]: The database uses gender rather than sex, as we draw that particular variable from parliament's own data, and that is the term used there.
 [^3]: The eagle-eyed among you might notice that there's a Deputy Prime Minister's Office in both the list of organisations created and wound up between the 1997 general election and the 2010 general election, and those created since the 2010 general election. These are recorded as separate organisations in the database, as there wasn't a DPM's Office in constant existence. This also gives you a flavour of how much governments like to the tinker with Whitehall structures.
