@@ -29,7 +29,6 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     ```sql
     create table appointment as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/appointment.csv';
-    create table appointment_characteristics as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/appointment_characteristics.csv';
     create table organisation as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/organisation.csv';
     create table person as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/person.csv';
     create table post as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/post.csv';
@@ -356,7 +355,21 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
 ## Extensions
 1. The `appointment_characteristics` table contains some details of _how_ someone did a post - whether they were a [Cabinet](https://www.instituteforgovernment.org.uk/explainer/cabinet) minister, whether they were on leave from an appointment or doing a post in an acting capacity. Each `appointment` record is divided into one or more `appointment_characteristics` records. Can you work out how add this information into your queries?
+
+    To do this you'll need to create the `appointment_characteristics` table, which can be done using:
+    ```sql
+    create table appointment_characteristics as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/appointment_characteristics.csv';
+    ```
+
 1. The `representation` table and it's related `representation_characteristics` and `constituency` tables contain information, sourced from Parliament, on people's parliamentary representation. Can you work out how to use this information, to break things down by whether someone was an MP or a peer, or look at the constituencies represented by ministers?
+
+    To do this you'll need to create these tables, which can be done using:
+    ```sql
+    create table representation as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/representation.csv';
+    create table representation_characteristics as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/representation_characteristics.csv';
+    create table constituency as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/constituency.csv';
+    ```
+
 1. DuckDB can also be used in [Python](https://duckdb.org/docs/api/python/overview) and [R](https://duckdb.org/docs/api/r). Can you work out how to query the database in one of those languages?
 1. As well as being available in CSV form, the entire database is available as a [SQLite database](https://github.com/instituteforgov/ifg-ministers-database-public/blob/main/data/ifg-ministers-database.sqlite). Are you able to query that directly and use some of the [advanced scripts we've made available](https://github.com/instituteforgov/ifg-ministers-database-public/#scripts)?
 
