@@ -290,11 +290,14 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     limit 20;
     ```
 
-    This joins the `person` table to the `appointment` table, which is then joined to the `post` table - meaning individuals are linked to the post they carried out. We've ordered things by appointment `start_date` and person `name`, and limited things results to the top 20 records - meaning you should get the details of 20 appointments that started shortly after the election of May 1979. Because, as we saw earlier, an individual can appear more than once in the `person` table.
+    This joins the `person` table to the `appointment` table, which is then joined to the `post` table - meaning individuals are linked to the post they carried out. We've ordered things by appointment `start_date` and person `name`, and limited things results to the top 20 records - meaning you should get the details of 20 appointments that started shortly after the election of May 1979.
+    
+    There are a few features worth flagging:
+    - This gives `t.name` an alias of `post_name` in the results - this isn't strictly needed, but helps make clear what the column is when we have another column called `name`
+    - The join of the `person` table to the `appointment` table applies conditions involving dates as well as the condition involving IDs. This is because, as we saw earlier, an individual can appear more than once in the `person` table where they've changed name. Comparing `a.start_date` to `p.start_date` and `p.end_date` picks up someone's person characteristics - name and gender - at the point where they _start_ an appointment
+    - `coalesce()` is used on the join between the `person` table and the `appointment` table. This has the effect of substituting in a value - '`1900-01-01`' and '`9999-12-31`', respectively - for `NULL` values. This ensures that, where a `person` record doesn't have a `start_date` or an `end_date` that isn't going to prevent us matching any appointments for that individual.[^5]
 
-    Two other features to flag: this gives `t.name` an alias of `post_name` in the results - this isn't strictly needed, but helps make clear what the column is when we have another column called `name`. And `coalesce()` is used on the join between the `person` table and the `appointment` table. This has the effect of (temporarily) replacing numbers in the columns it is being called on with '`1900-01-01`' or '`9999-12-31`', respectively - dates outside the range present for any of our appointments. This ensures that, where a `person` record doesn't have a `start_date` or an `end_date` that isn't going to prevent us matching any appointments for that individual.[^5]
-
-    This code snippet can be tweaked to give slightly different results. Can you adapt the code to get details of the first 30 appointments since May 1979 of rank Secretary of State?. See the footnotes if you need some pointers.[^6]
+    This code snippet can be tweaked to give slightly different results. Can you adapt the code to get details of the first 30 appointments since May 1979 of rank Secretary of State?. See the footnotes if you need some pointers.[^5]
 
 1. Let's add on a join to one final table - `organisation` - then we'll have a full picture of the appointments people have carried out.
 
@@ -323,9 +326,9 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     ```
 
     Can you adapt that statement to give:
-    - All current appointments?[^7]
-    - All appointments since May 1979 in the Cabinet Office?[^8]
-    - All appointments since May 1979 that lasted less than 30 days? (Subtraction between two columns of dates will give you the difference in number of days. Note that appointments in the database are considered to end where a post has moved from one department to another - so some of the records you return here, such as Michael Gove's appointment as Secretary of State for Housing, Communities and Local Government in reality lasted more than 30 days. Linking up appointments that span these ['machinery of government changes'](https://www.instituteforgovernment.org.uk/explainer/machinery-government-changes) is possible but beyond the scope of this tutorial)[^9]
+    - All current appointments?[^6]
+    - All appointments since May 1979 in the Cabinet Office?[^7]
+    - All appointments since May 1979 that lasted less than 30 days? (Subtraction between two columns of dates will give you the difference in number of days. Note that appointments in the database are considered to end where a post has moved from one department to another - so some of the records you return here, such as Michael Gove's appointment as Secretary of State for Housing, Communities and Local Government in reality lasted more than 30 days. Linking up appointments that span these ['machinery of government changes'](https://www.instituteforgovernment.org.uk/explainer/machinery-government-changes) is possible but beyond the scope of this tutorial)[^8]
 
     Again, see the footnotes for hints.
 
@@ -350,8 +353,8 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     (Note that we've got rid of the `order by` clause - this wouldn't work, as the things we were ordering on previously are now no longer part of the results. We've also got rid of `limit 20`.)
 
     Using what you learnt earlier, can you adapt the query to work out:
-    - How many appointments since May 1979 have been held by women and how many have been held by men?[^10]
-    - How about appointments just since 3 May 1997?[^11]
+    - How many appointments since May 1979 have been held by women and how many have been held by men?[^9]
+    - How about appointments just since 3 May 1997?[^10]
 
 ## Extensions
 1. The `appointment_characteristics` table contains some details of _how_ someone did a post - whether they were a [Cabinet](https://www.instituteforgovernment.org.uk/explainer/cabinet) minister, whether they were on leave from an appointment or doing a post in an acting capacity. Each `appointment` record is divided into one or more `appointment_characteristics` records. Can you work out how add this information into your queries?
@@ -383,15 +386,14 @@ For any media queries about the database, please get in touch using: press@insti
 
 For all other queries (e.g. errors in the database, questions or suggestions) please get in touch using: ministers.database@instituteforgovernment.org.uk.
 
-
+## Foot notes
 [^1]: DuckDB [uses a variant of PostgreSQL](https://duckdb.org/docs/sql/dialect/overview)
 [^2]: The database uses gender rather than sex, as we draw that particular variable from parliament's own data, and that is the term used there.
 [^3]: The eagle-eyed among you might notice that there's a Deputy Prime Minister's Office in both the list of organisations created and wound up between the 1997 general election and the 2010 general election, and those created since the 2010 general election. These are recorded as separate organisations in the database, as there wasn't a DPM's Office in constant existence. This also gives you a flavour of how much governments like to the tinker with Whitehall structures.
 [^4]: In the language of databases: we haven't fully de-normalised this table. Other tables in the IfG Ministers Database are denormalised.
-[^5]: Comparing `a.start_date` to `p.start_date` and `p.end_date` picks up someone's person characteristics - name and gender - at the point where they _start_ an appointment.
-[^6]: To do this you'll need a `where` clause using the `rank_equivalence` column in the `post` table.
-[^7]: Ongoing appointments have an `end_date` of `NULL`. Rather than using `= null` we use `is null`.
-[^8]: To do this you'll need to make use of `start_date` and `end_date` from the `appointment` table.
-[^9]: To do this you'll need a `where` clause with `a.end_date - a.start_date < 30` or similar.
-[^10]: To do this you'll need a `where` clause using the `gender` column in the `person` table.
-[^11]: This will need an additional `where` clause, making use of `start_date` in the `appointment` table.
+[^5]: To do this you'll need a `where` clause using the `rank_equivalence` column in the `post` table.
+[^6]: Ongoing appointments have an `end_date` of `NULL`. Rather than using `= null` we use `is null`.
+[^7]: To do this you'll need to make use of `start_date` and `end_date` from the `appointment` table.
+[^8]: To do this you'll need a `where` clause with `a.end_date - a.start_date < 30` or similar.
+[^9]: To do this you'll need a `where` clause using the `gender` column in the `person` table.
+[^10]: This will need an additional `where` clause, making use of `start_date` in the `appointment` table.
