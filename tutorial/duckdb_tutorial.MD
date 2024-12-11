@@ -10,7 +10,7 @@ Why is that useful? It allows us to use the powerful querying of SQL on any data
 (DuckDB can also be used to read in certain database files - but at the time of writing the browser-based version doesn't work with all of these formats.)
 
 ## IfG Ministers Database
-The IfG Ministers Database is a resource developed by the [Institute for Government](https://instituteforgovernment.org.uk/) that provides information on all ministers in UK governments since Margaret Thatcher became prime minister in 1979. The database provides information on ministers’ role, department, rank and dates in office.
+The IfG Ministers Database is a resource developed by the [Institute for Government](https://instituteforgovernment.org.uk/) that provides information on all UK government ministers since Margaret Thatcher became prime minister in 1979. The database provides information on ministers’ role, department, rank and dates in office.
 
 We [publish the database on GitHub](https://github.com/instituteforgov/ifg-ministers-database-public/) under a Creative Commons by-attribution licence, both in SQLite form and CSV form. At the time of writing, the browser-based version of DuckDB doesn't work with SQLite files, so for the purposes of this tutorial we'll work with the CSV files.
 
@@ -49,7 +49,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     SQL statements often look not dissimilar to English. This particular statement returns all columns (`select *`) from the top 10 rows (`limit 10`) of the `person` table.[^1]
 
     This should yield a table of results from the `person` table. Key columns to point out are:
-    - `id`: An identified tied to a unique individual, which we'll use for joining together records across tables
+    - `id`: An identifier tied to a unique individual, which we'll use for joining together records across tables
     - `name`: The name by which an individual was known for a given period in time. (For the purposes of this tutorial, we don't need to worry too much about the other name columns in the data)
     - `short_name`: The individual's last name or, in the case of some peers, the place mentioned in their title (e.g. Snowdon for the Earl of Snowdon)
     - `gender`: The individual's gender[^2]
@@ -105,14 +105,14 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     from post;
     ```
 
-    This returns all `rank_equivalence` values in the `post` table. `rank_equivalence` is an IfG-derived categorisation which attempts to classify posts with posts of similar seniority. The values are as follows:
+    This returns all `rank_equivalence` values in the `post` table. `rank_equivalence` is an IfG-derived categorisation which attempts to classify posts with others of similar seniority. The values are as follows:
     - PM: Prime minister
     - DPM: Deputy prime minister (or first secretary of state)
     - SoS: Secretary of state - generally the minister running a government department
     - MoS: Minister of state - a more junior minister
     - PUSS: Parliamentary under-secretary of state - the most junior rank of minister
-    - Parl. lead.: A parliamentary leadership role
-    - Parl.: Another parliamentary role, such as a government whip
+    - Parl. lead.: A parliamentary leadership role, like chief whip or leader of the House of Commons
+    - Parl.: Another parliamentary role, such as a junior whip
 
     [You can find further explanation of these ranks here](https://www.instituteforgovernment.org.uk/ministers-database/how-use-database) - see the description under Rank.
 
@@ -170,7 +170,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     select *
     from organisation
     where
-        start_date between '2010-05-06' and '2024-07-04';
+        start_date between '2010-05-06' and '2024-07-04'
     order by
         start_date;
     ```
@@ -373,7 +373,7 @@ For all other queries (e.g. errors in the database, questions or suggestions) pl
 
 
 [^1]: DuckDB [uses a variant of PostgreSQL](https://duckdb.org/docs/sql/dialect/overview)
-[^2]: The database uses gender rather than sex, as we draw that particular variable from Parliamentary inforation, and that is the term used there.
+[^2]: The database uses gender rather than sex, as we draw that particular variable from parliament's own data, and that is the term used there.
 [^3]: The eagle-eyed among you might notice that there's a Deputy Prime Minister's Office in both the list of organisations created and wound up between the 1997 general election and the 2010 general election, and those created since the 2010 general election. These are recorded as separate organisations in the database, as there wasn't a DPM's Office in constant existence. This also gives you a flavour of how much governments like to the tinker with Whitehall structures.
 [^4]: In the language of databases: we haven't fully de-normalised this table. Other tables in the IfG Ministers Database are denormalised.
 [^5]: Comparing `a.start_date` to `p.start_date` and `p.end_date` picks up someone's person characteristics - name and gender - at the point where they _start_ an appointment.
