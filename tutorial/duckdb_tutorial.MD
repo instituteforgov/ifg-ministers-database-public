@@ -135,8 +135,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     select *
     from person
     where
-        gender = 'F' and
-        name ilike 'Baroness%';
+        name ilike 'John%';
     ```
 
     You can apply multiple `where` clauses by separating them with `and` keywords. The following returns all ministers who have a gender of 'F' and who's name starts with 'Baroness'.
