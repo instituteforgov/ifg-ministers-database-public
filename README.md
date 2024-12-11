@@ -1,4 +1,4 @@
-The [IfG Ministers Database](https://www.instituteforgovernment.org.uk/ministers-database) provides information on all ministers in UK governments since Margaret Thatcher became prime minister in 1979. The database provides information on ministers’ role, department, rank and dates in office.
+The [IfG Ministers Database](https://www.instituteforgovernment.org.uk/ministers-database) provides information on all UK government ministers since Margaret Thatcher became prime minister in 1979. The database provides information on ministers’ role, department, rank and dates in office.
 
 You can look up individual ministers, specific ministerial roles, the entire government on a specific date or all those who left and entered government between two dates.
 
