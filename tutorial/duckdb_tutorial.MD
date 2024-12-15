@@ -10,7 +10,17 @@ Why is that useful? It allows us to use the powerful querying of SQL on any data
 (DuckDB can also be used to read in certain database files - but at the time of writing the browser-based version doesn't work with all of these formats.)
 
 ## IfG Ministers Database
-The IfG Ministers Database is a resource developed by the [Institute for Government](https://instituteforgovernment.org.uk/) that provides information on all UK government ministers since Margaret Thatcher became prime minister in 1979. The database provides information on ministers’ role, department, rank and dates in office.
+The IfG Ministers Database is a resource developed by the [Institute for Government](https://instituteforgovernment.org.uk/) that provides information on all UK government ministers since Margaret Thatcher became prime minister in 1979. The database provides information on ministers’ role, department, rank and dates in office. It can be used to answer questions like:
+- Who have been the longest serving ministers since 1979?
+- What is the gender balance of Cabinet like, and how has it changed over time?
+- How long do ministers stay in post? (A: [Not long enough](https://www.thetimes.com/article/ministers-have-same-job-security-as-football-managers-0zqcdj3pb))
+
+<p align="center">
+<img src="ministers-have-same-job-security-as-football-managers.png" alt="A screenshot of an article from The Times headlined 'Ministers have same job security as football managers', based on research carried out using the IfG Ministers Database" width="600"/>
+</p>
+<p align="center">
+<em>A previous finding from analysis based on the IfG Ministers Database</em>
+</p>
 
 We [publish the database on GitHub](https://github.com/instituteforgov/ifg-ministers-database-public/) under a Creative Commons by-attribution licence, both in SQLite form and CSV form. At the time of writing, the browser-based version of DuckDB doesn't work with SQLite files, so for the purposes of this tutorial we'll work with the CSV files.
 
