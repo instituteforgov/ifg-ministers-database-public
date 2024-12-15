@@ -123,13 +123,13 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     ```
 
     This returns all `rank_equivalence` values in the `post` table. `rank_equivalence` is an IfG-derived categorisation which attempts to classify posts with others of similar seniority. The values are as follows:
-    - PM: Prime minister
-    - DPM: Deputy prime minister (or first secretary of state)
-    - SoS: Secretary of state - generally the minister running a government department
-    - MoS: Minister of state - a more junior minister
-    - PUSS: Parliamentary under-secretary of state - the most junior rank of minister
-    - Parl. lead.: A parliamentary leadership role, like chief whip or leader of the House of Commons
-    - Parl.: Another parliamentary role, such as a junior whip
+    - **PM**: Prime minister
+    - **DPM**: Deputy prime minister (or first secretary of state)
+    - **SoS**: Secretary of state - generally the minister running a government department
+    - **MoS**: Minister of state - a more junior minister
+    - **PUSS**: Parliamentary under-secretary of state - the most junior rank of minister
+    - **Parl. lead.**: A parliamentary leadership role, like chief whip or leader of the House of Commons
+    - **Parl.**: Another parliamentary role, such as a junior whip
 
     [You can find further explanation of these ranks here](https://www.instituteforgovernment.org.uk/ministers-database/how-use-database) - see the description under Rank.
 
