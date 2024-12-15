@@ -72,7 +72,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     - `gender`: The individual's gender[^2]
     - `start_date` and `end_date`: The date when an individual started and ended being known by a given name. These values are only populated where an individual has changed name - while they look blank in other cases, they in fact contain `NULL`, which is how columns with no value are recorded in SQL.
 
-    Go ahead and write a statement that selects all columns from the top 20 rows of the `post` table. We'll come back to what all the columns mean shortly.
+    **Challenge**: Go ahead and write a statement that selects all columns from the top 20 rows of the `post` table. We'll come back to what all the columns mean shortly.
 
     If you have some experience using SQL you might want to skip ahead at this stage to the Joins section.
 
@@ -110,7 +110,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     By default, ascending ordering is applied. We could add `desc` to put things in descending order.
 
-    Go ahead and write a statement that selects all rows and all columns from the `organisation` table, ordering that table by the `name` columns.
+    **Challenge**: Go ahead and write a statement that selects all rows and all columns from the `organisation` table, ordering that table by the `name` columns.
 
 1. Another useful SQL keyword to know about is `distinct`. This can be used to return distinct (different) values. 
 
@@ -165,7 +165,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
         name ilike 'Baroness%';
     ```
 
-    Can you write a similar query to return all male ministers whose `short_name` ends with 'Smith'? And are there any ministers, male or female, with your first name?
+    **Challenge**: Can you write a similar query to return all male ministers whose `short_name` ends with 'Smith'? And are there any ministers, male or female, with your first name?
 
 1. For columns holding numeric data or dates, greater than ('`>`'), greater than or equal to ('`>=`'), less than ('`<`') and less than or equal to ('`<=`') operators are also useful.
 
@@ -178,7 +178,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
         start_date >= '2010-05-06';
     ```
 
-    Can you write a query that returns all organisations in the `organisation` table that have a `start_date` of 3 May 1997 or later and an end date of 6 May 2010 or earlier, ordered by `end_date` (`order by` clauses need to be stated after `where` clauses)? This will give you a list of government departments that were both set up and wound up during Labour's time in goverment.[^3]
+    **Challenge**: Can you write a query that returns all organisations in the `organisation` table that have a `start_date` of 3 May 1997 or later and an end date of 6 May 2010 or earlier, ordered by `end_date` (`order by` clauses need to be stated after `where` clauses)? This will give you a list of government departments that were both set up and wound up during Labour's time in goverment.[^3]
 
 1. There's also a `between` keyword that is useful when we're interested in a date that's between two possible values, say. Try running the following example and check you're happy with how it operates.
 
@@ -242,7 +242,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     (Note that we need to use `distinct id` rather than `distinct 1` - as '1' isn't going to be distinct across records.)
 
-    Of all the inviduals who've been ministers since 1979, how many have been male and how many have been female?
+    **Challenge**: Of all the inviduals who've been ministers since 1979, how many have been male and how many have been female?
 
 ## Joins
 1. The real value in using a SQL database comes when we want to join tables together. Different types of join exist, but in this tutorial we will just use one kind - the `inner join`. In an inner join, something has to exist in _both_ of the tables we're joining in order for a record to be returned (this will be clearer once we see an example).
@@ -281,7 +281,9 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     limit 10;
     ```
 
-    Note that this makes use of the table aliases again when specifying which columns we're interested in - it saves us writing out `post` and `organisation` every time. Can you add on the `rank_equivalence` column from the `post` table and order results by the `name` column in the `post` table, so that we're selecting the 10 posts that come first alphabetically, together with the name of the department in which they sat and their `rank_equivalence`?
+    Note that this makes use of the table aliases again when specifying which columns we're interested in - it saves us writing out `post` and `organisation` every time.
+    
+    **Challenge**: Can you add on the `rank_equivalence` column from the `post` table and order results by the `name` column in the `post` table, so that we're selecting the 10 posts that come first alphabetically, together with the name of the department in which they sat and their `rank_equivalence`?
 
 1. At its heart, the database is about tracking which individuals did which post for which time period. In order to do this, we need to use the `appointment` table, which links people and posts.
 
@@ -315,7 +317,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     - The join of the `person` table to the `appointment` table applies conditions involving dates as well as the condition involving IDs. This is because, as we saw earlier, an individual can appear more than once in the `person` table where they've changed name. Comparing `a.start_date` to `p.start_date` and `p.end_date` picks up someone's person characteristics - name and gender - at the point where they _start_ an appointment
     - `coalesce()` is used on the join between the `person` table and the `appointment` table. This has the effect of substituting in a value - '`1900-01-01`' and '`9999-12-31`', respectively - for `NULL` values. This ensures that, where a `person` record doesn't have a `start_date` or an `end_date` that isn't going to prevent us matching any appointments for that individual.[^5]
 
-    This code snippet can be tweaked to give slightly different results. Can you adapt the code to get details of the first 30 appointments since May 1979 of rank Secretary of State?. See the footnotes if you need some pointers.[^5]
+    **Challenge**: This code snippet can be tweaked to give slightly different results. Can you adapt the code to get details of the first 30 appointments since May 1979 of rank Secretary of State?. See the footnotes if you need some pointers.[^5]
 
 1. Let's add on a join to one final table - `organisation` - then we'll have a full picture of the appointments people have carried out.
 
@@ -343,7 +345,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     limit 20;
     ```
 
-    Can you adapt that statement to give:
+    **Challenge**: Can you adapt that statement to give:
     - All current appointments?[^6]
     - All appointments since May 1979 in the Cabinet Office?[^7]
     - All appointments since May 1979 that lasted less than 30 days? (Subtraction between two columns of dates will give you the difference in number of days. Note that appointments in the database are considered to end where a post has moved from one department to another - so some of the records you return here, such as Michael Gove's appointment as Secretary of State for Housing, Communities and Local Government in reality lasted more than 30 days. Linking up appointments that span these ['machinery of government changes'](https://www.instituteforgovernment.org.uk/explainer/machinery-government-changes) is possible but beyond the scope of this tutorial)[^8]
@@ -370,7 +372,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     (Note that we've got rid of the `order by` clause - this wouldn't work, as the things we were ordering on previously are now no longer part of the results. We've also got rid of `limit 20`.)
 
-    Using what you learnt earlier, can you adapt the query to work out:
+    **Challenge**: Using what you learnt earlier, can you adapt the query to work out:
     - How many appointments since May 1979 have been held by women and how many have been held by men?[^9]
     - How about appointments just since 3 May 1997?[^10]
 
