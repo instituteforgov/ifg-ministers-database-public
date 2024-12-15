@@ -1,4 +1,4 @@
-# Using DuckDB to query the IfG Ministers Database
+# Using DuckDB to explore the IfG Ministers Database
 
 ## 🦆 DuckDB
 [DuckDB](https://duckdb.org/) is a simple, open source database management system. It can be run easily on macOS, Windows and Linux.
