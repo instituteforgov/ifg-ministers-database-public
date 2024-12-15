@@ -178,7 +178,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
         start_date >= '2010-05-06';
     ```
 
-    Can you write a query that returns all organisations in the `organisation` table that have a `start_date` of 3 May 1997 or later and an end date of 6 May 2010 or earlier, ordered by `end_date` (`order_by` clauses need to be stated after `where` clauses)? This will give you a list of government departments that were both set up and wound up during Labour's time in goverment.[^3]
+    Can you write a query that returns all organisations in the `organisation` table that have a `start_date` of 3 May 1997 or later and an end date of 6 May 2010 or earlier, ordered by `end_date` (`order by` clauses need to be stated after `where` clauses)? This will give you a list of government departments that were both set up and wound up during Labour's time in goverment.[^3]
 
 1. There's also a `between` keyword that is useful when we're interested in a date that's between two possible values, say. Try running the following example and check you're happy with how it operates.
 
