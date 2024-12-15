@@ -43,9 +43,8 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     create table person as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/person.csv';
     create table post as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/post.csv';
     ```
-
     ___
-    #### A note on formatting queries
+    #### ✍ A note on formatting queries
     Unlike some languages (e.g. Python), SQL takes a relaxed approach to the formatting of queries - there aren't strict rules on things like the spacing used in queries.
     
     SQL queries can be written on a single line, though it's often helpful to split them onto multiple lines with some indentation, for readability.
