@@ -381,7 +381,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
         p.gender
     ```
 
-    Strictly speaking, we don't really need the joins t the `post` and `organisation` tables to get this answer - but we would for other things we might be interested in exploring. (Note that we've also got rid of the `limit 20`.)
+    Strictly speaking, we don't really need the joins to the `post` and `organisation` tables to get this answer - but we would for other things we might be interested in exploring. (Note that we've also got rid of the `limit 20`.)
 
     **Challenge**: Using what you learnt earlier:
     - Can you adapt the query to work out how different the gender balance in appointments looks if we restrict things to appointments since 3 May 1997 (the date of the 1997 general election), or between 6 May 2010 and 4 July 2024 (the 2010 and 2024 general elections)?[^9]
