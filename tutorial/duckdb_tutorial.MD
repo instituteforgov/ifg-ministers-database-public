@@ -165,7 +165,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
         name ilike 'Baroness%';
     ```
 
-    **Challenge**: Can you write a similar query to return all male ministers whose `short_name` ends with 'Smith'? And are there any ministers, male or female, with your first name?
+    **Challenge**: Can you write a similar query to return all male ministers whose `short_name` ends with 'Smith' (or 'smith')? And are there any ministers, male or female, with your first name?
 
 1. For columns holding numeric data or dates, greater than ('`>`'), greater than or equal to ('`>=`'), less than ('`<`') and less than or equal to ('`<=`') operators are also useful.
 
@@ -240,9 +240,9 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
         gender;
     ```
 
-    (Note that we need to use `distinct id` rather than `distinct 1` - as '1' isn't going to be distinct across records.)
+    This now gives you the correct answer for the gender of everyone who's been a minister since 1979. (Note that we need to use `distinct id` rather than `distinct 1` - as '1' isn't going to be distinct across records.)
 
-    **Challenge**: Of all the inviduals who've been ministers since 1979, how many have been male and how many have been female?
+    **Challenge**: Adapting the query you used earlier, of the people whose `short_name` ends with 'Smith' or 'smith', how many have been male and how many female?
 
 ## Joins
 1. The real value in using a SQL database comes when we want to join tables together. Different types of join exist, but in this tutorial we will just use one kind - the `inner join`. In an inner join, something has to exist in _both_ of the tables we're joining in order for a record to be returned (this will be clearer once we see an example).
