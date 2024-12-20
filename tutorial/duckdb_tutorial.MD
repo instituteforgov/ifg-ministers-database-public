@@ -223,6 +223,8 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
         gender;
     ```
 
+    Note that, in addition to the `group by` we've added `gender` to the list of columns in the `select` part of the query and have added an (optional) `order by` too.
+
     Is this a breakdown of the gender of everyone who's been a minister since 1979? Not quite - there's one more step we need to take.
 
     When browsing the `person` table earlier, you may have noticed that some people are in there more than once, under different names. (If you didn't notice this, try doing a simple query to look for all records in that table with an `id` equal to '`002a6349-2ee5-44b0-9b33-000baae8c737`'.)[^4]
