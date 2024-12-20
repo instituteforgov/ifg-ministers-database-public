@@ -354,7 +354,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     **Challenge**: Can you adapt that statement to give:
     - All current appointments?[^6]
     - All appointments since May 1979 in the Cabinet Office?[^7]
-    - All appointments since May 1979 that lasted less than 30 days? (Subtraction between two columns of dates will give you the difference in number of days. Note that appointments in the database are considered to end where a post has moved from one department to another - so some of the records you return here, such as Michael Gove's appointment as Secretary of State for Housing, Communities and Local Government in reality lasted more than 30 days. Linking up appointments that span these ['machinery of government changes'](https://www.instituteforgovernment.org.uk/explainer/machinery-government-changes) is possible but beyond the scope of this tutorial)[^8]
+    - All appointments since May 1979 that lasted less than 30 days? (Subtraction between two columns of dates will give you the difference in number of days. Note that appointments in the database are considered to end where a post has moved from one department to another - so some of the records you return here, such as Michael Gove's appointment as Secretary of State for Housing, Communities and Local Government, in reality lasted more than 30 days. Linking up appointments that span these ['machinery of government changes'](https://www.instituteforgovernment.org.uk/explainer/machinery-government-changes) is possible but beyond the scope of this tutorial)[^8]
 
     Again, see the footnotes for hints.
 
