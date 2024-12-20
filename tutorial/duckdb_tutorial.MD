@@ -310,7 +310,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     limit 20;
     ```
 
-    This joins the `person` table to the `appointment` table, which is then joined to the `post` table - meaning individuals are linked to the post they carried out. We've ordered things by appointment `start_date` and person `name`, and limited things results to the top 20 records - meaning you should get the details of 20 appointments that started shortly after the election of May 1979.
+    This joins the `person` table to the `appointment` table, which is then joined to the `post` table - meaning individuals are linked to the post they carried out. We've ordered things by appointment `start_date` and person `name`, and limited results to the top 20 records - meaning you should get the details of 20 appointments that started shortly after the election of May 1979.
     
     There are a few features worth flagging:
     - This gives `t.name` an alias of `post_name` in the results - this isn't strictly needed, but helps make clear what the column is when we have another column called `name`
