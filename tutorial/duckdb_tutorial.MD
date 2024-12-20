@@ -408,6 +408,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 1. As well as being available in CSV form, the entire database is available as a [SQLite database](https://github.com/instituteforgov/ifg-ministers-database-public/blob/main/data/ifg-ministers-database.sqlite). Are you able to query that directly and use some of the [advanced scripts we've made available](https://github.com/instituteforgov/ifg-ministers-database-public/#scripts)?
 
 ## Further reading
+- [The IfG Ministers Database tells us a lot about the last six decades in UK politics](https://www.instituteforgovernment.org.uk/comment/ifg-ministers-database) (launch blogpost)
 - [About the IfG Ministers Database](https://www.instituteforgovernment.org.uk/ministers-database/about-database) and [How to use the IfG Ministers Database](https://www.instituteforgovernment.org.uk/ministers-database/how-use-database)
 - A nice use of DuckDB by Gregor Aisch: [Using DuckDB to analyze over 95 million taxi rides](https://blog.datawrapper.de/using-duckdb-to-analyze-over-95-million-car-sharing-rides/)
 
