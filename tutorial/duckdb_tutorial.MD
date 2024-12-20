@@ -271,6 +271,8 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     Finally, we've specified the columns that the join needs to be done on - `organisation_id` in the `post` table (making use of its alias) and the `id` column in the `organisation` table.
 
+    In this case, this query gives us the details of 10 posts including details of the organisation at which the post was based.
+
 1. Often it's helpful to only return the columns we're interested in. The following query gets rid of all of the ID columns (which are essential for doing joins, but not that meaningful when we're browsing the data) and one or two other columns that are also of less interest:
 
     ```sql
@@ -288,6 +290,8 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     **Challenge**: Can you add on the `rank_equivalence` column from the `post` table and order results by the `name` column in the `post` table, so that we're selecting the 10 posts that come first alphabetically, together with the name of the department in which they sat and their `rank_equivalence`?
 
 1. At its heart, the database is about tracking which individuals did which posts for which time period. In order to do this, we need to use the `appointment` table, which links people and posts.
+
+    Let's say we want to look at the appointments made when Margaret Thatcher became Prime Minister in May 1979. We'll do this with a query combining the `person`, `appointment` and `post` tables.
 
     If you take a look at the `appointment` table you should see that it has `person_id` and `post_id` columns, which contain foreign keys for the `person` and `post` tables respectively.
 
@@ -312,7 +316,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     limit 20;
     ```
 
-    This joins the `person` table to the `appointment` table, which is then joined to the `post` table - meaning individuals are linked to the post they carried out. We've ordered things by appointment `start_date` and person `name`, and limited results to the top 20 records - meaning you should get the details of 20 appointments that started shortly after the election of May 1979.
+    The joins between the `person`, `appointment` and `post` tables means we're linking individuals to the post they carried out. We've ordered things by appointment `start_date` and person `name`, and limited results to the top 20 records - meaning you should get the details of 20 appointments that started shortly after the election of May 1979.
     
     There are a few features worth flagging:
     - This gives `t.name` an alias of `post_name` in the results - this isn't strictly needed, but helps make clear what the column is when we have another column called `name`
@@ -321,7 +325,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     **Challenge**: This code snippet can be tweaked to give slightly different results. Can you adapt the code to get details of the first 30 appointments since May 1979 of rank Secretary of State?. See the footnotes if you need some pointers.[^5]
 
-1. Let's add on a join to one final table - `organisation` - then we'll have a full picture of the appointments people have carried out.
+1. Let's add on a join to one final table - `organisation`. This will add details of the organisation at which someone held a post to what our previous query returned - and that will give us a full picture of the appointments people have carried out.
 
     Adapting the statement above, and using the join between the `post` and `organisation` tables we employed earlier, that would be:
 
