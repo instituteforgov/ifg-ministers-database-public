@@ -360,10 +360,11 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
 1. Combining things you've learnt, it's also possible to use `count` in combination with joins.
 
-    The following query will give a count of all appointments since May 1979:
+    Let's say we want to get a count of all appointments since May 1979, broken down by gender. The following query will achieve that:
 
     ```sql
     select
+        p.gender,
         count(1)
     from person p
         inner join appointment a on
@@ -374,13 +375,17 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
             a.post_id = t.id
         inner join organisation o on
             t.organisation_id = o.id;
+    group by
+        p.gender
+    order by
+        p.gender
     ```
 
-    (Note that we've got rid of the `order by` clause - this wouldn't work, as the things we were ordering on previously are now no longer part of the results. We've also got rid of `limit 20`.)
+    Strictly speaking, we don't really need the joins t the `post` and `organisation` tables to get this answer - but we would for other things we might be interested in exploring. (Note that we've also got rid of the `limit 20`.)
 
-    **Challenge**: Using what you learnt earlier, can you adapt the query to work out:
-    - How many appointments since May 1979 have been held by women and how many have been held by men?[^9]
-    - How about appointments just since 3 May 1997?[^10]
+    **Challenge**: Using what you learnt earlier:
+    - Can you adapt the query to work out how different the gender balance in appointments looks if we restrict things to appointments since 3 May 1997 (the date of the 1997 general election), or between 6 May 2010 and 4 July 2024 (the 2010 and 2024 general elections)?[^9]
+    - Returning to our Smiths, can you calculate tallies of the departments they have held appointments in?[^10]
 
 ## Extensions
 1. The `appointment_characteristics` table contains some details of _how_ someone did a post - whether they were a [Cabinet](https://www.instituteforgovernment.org.uk/explainer/cabinet) minister, whether they were on leave from an appointment or doing a post in an acting capacity. Each `appointment` record is divided into one or more `appointment_characteristics` records. Can you work out how add this information into your queries?
@@ -420,5 +425,5 @@ For all other queries (e.g. errors in the database, questions or suggestions) pl
 [^6]: Ongoing appointments have an `end_date` of `NULL`. Rather than using `= null` we use `is null`.
 [^7]: To do this you'll need to make use of `start_date` and `end_date` from the `appointment` table.
 [^8]: To do this you'll need a `where` clause with `a.end_date - a.start_date < 30` or similar.
-[^9]: To do this you'll need a `where` clause using the `gender` column in the `person` table.
-[^10]: This will need an additional `where` clause, making use of `start_date` in the `appointment` table.
+[^9]: This will need a `where` clause, making use of `start_date`, or `start_date` and `end_date`, in the `appointment` table.
+[^10]: This will also need a `where` clause using `ilike`, as you employed earlier, to select people whose `short_name` ends with 'Smith' or 'smith'. And, rather than grouping on `gender` from the `person` table, you'll need to group on something from the `organisation` table.
