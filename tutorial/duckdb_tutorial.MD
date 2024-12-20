@@ -33,7 +33,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 ## Tutorial
 ### Reading the data in
 1. Open https://shell.duckdb.org/ in a browser.
-1. Files can be read in to DuckDB with minimal effort, and that's the first thing we need to do 
+1. Files can be read in to DuckDB with minimal effort, and that's the first thing we need to do.
 
     Paste the following into the DuckDB Shell, then hit Enter:
 
