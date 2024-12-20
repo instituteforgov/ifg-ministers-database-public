@@ -285,7 +285,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     
     **Challenge**: Can you add on the `rank_equivalence` column from the `post` table and order results by the `name` column in the `post` table, so that we're selecting the 10 posts that come first alphabetically, together with the name of the department in which they sat and their `rank_equivalence`?
 
-1. At its heart, the database is about tracking which individuals did which post for which time period. In order to do this, we need to use the `appointment` table, which links people and posts.
+1. At its heart, the database is about tracking which individuals did which posts for which time period. In order to do this, we need to use the `appointment` table, which links people and posts.
 
     If you take a look at the `appointment` table you should see that it has `person_id` and `post_id` columns, which contain foreign keys for the `person` and `post` tables respectively.
 
