@@ -273,8 +273,8 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     ```sql
     select
-    t.name,
-    o.name
+        t.name,
+        o.name
     from post t
         inner join organisation o on
             t.organisation_id = o.id
