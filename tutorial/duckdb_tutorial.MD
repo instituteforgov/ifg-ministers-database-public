@@ -1,4 +1,4 @@
-# Using DuckDB to explore the IfG Ministers Database
+    # Using DuckDB to explore the IfG Ministers Database
 
 ## 🦆 DuckDB
 [DuckDB](https://duckdb.org/) is a simple, open source database management system. It can be run easily on macOS, Windows and Linux.
@@ -406,6 +406,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
 1. DuckDB can also be used in [Python](https://duckdb.org/docs/api/python/overview) and [R](https://duckdb.org/docs/api/r). Can you work out how to query the database in one of those languages?
 1. As well as being available in CSV form, the entire database is available as a [SQLite database](https://github.com/instituteforgov/ifg-ministers-database-public/blob/main/data/ifg-ministers-database.sqlite). Are you able to query that directly and use some of the [advanced scripts we've made available](https://github.com/instituteforgov/ifg-ministers-database-public/#scripts)?
+1. The `person` table includes people's parliamentary (MNIS) identifiers (`id_parliament`). Are you able to join the database up wiht other parliamentary data, such as from the [Register of Members' Financial Interests](https://www.parliament.uk/mps-lords-and-offices/standards-and-financial-interests/parliamentary-commissioner-for-standards/registers-of-interests/register-of-members-financial-interests/)?
 
 ## Further reading
 - [The IfG Ministers Database tells us a lot about the last six decades in UK politics](https://www.instituteforgovernment.org.uk/comment/ifg-ministers-database) (launch blogpost)
