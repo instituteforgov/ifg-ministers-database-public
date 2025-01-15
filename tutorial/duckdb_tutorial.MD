@@ -155,7 +155,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
         name ilike 'John%';
     ```
 
-    You can apply multiple `where` clauses by separating them with `and` keywords. The following returns all ministers who have a gender of 'F' and who's name starts with 'Baroness'.
+    You can apply multiple `where` clauses by separating them with `and` keywords. The following returns all ministers who have a gender of 'F' and whose name starts with 'Baroness'.
 
     ```sql
     select *
