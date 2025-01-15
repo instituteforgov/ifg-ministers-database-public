@@ -108,7 +108,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     limit 10;
     ```
 
-    By default, ascending ordering is applied. We could add `desc` to put things in descending order.
+    By default, ascending ordering is applied. We could add `desc` after the name of the column we're ordering things by if we wanted to put things in descending order.
 
     **Challenge**: Go ahead and write a statement that selects all rows and all columns from the `organisation` table, ordering that table by the `name` columns.
 
