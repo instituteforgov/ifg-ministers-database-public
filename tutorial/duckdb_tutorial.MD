@@ -74,7 +74,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     **Challenge**: Go ahead and write a statement that selects all columns from the top 20 rows of the `post` table. (Don't forget the semi-colon at the end.) We'll come back to what all the columns mean shortly.
 
-    If you have some experience using SQL you might want to skip ahead at this stage to the Joins section.
+    If you have some experience using SQL you might want to skip ahead at this stage to the _Joins_ section.
 
 1. Often we only want to return certain columns from a given table. To do this, we can list the columns we're interested in in the `select` statement, separated by commas.
 
