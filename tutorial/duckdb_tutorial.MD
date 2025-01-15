@@ -395,9 +395,9 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     create table appointment_characteristics as select * from 'https://raw.githubusercontent.com/instituteforgov/ifg-ministers-database-public/refs/heads/main/data/appointment_characteristics.csv';
     ```
 
-    Can you use this to work out everyone who's been a full cabinet minister since 6 May 2010?
+    Can you use this to work out everyone who's been a full cabinet minister since 6 May 2010?[^11]
 
-1. The `representation` table and its related `representation_characteristics` and `constituency` tables contain information, sourced from Parliament, on people's parliamentary representation. Can you work out how to use this information, to break things down by whether someone was an MP or a peer, or look at the constituencies represented by ministers?
+1. The `representation` table and its related `representation_characteristics` and `constituency` tables contain information, sourced from Parliament, on people's parliamentary representation. Can you work out how to use this information, to break things down by whether someone was an MP or a peer, or look at the constituencies represented by ministers?[^12]
 
     To do this you'll need to create these tables, which can be done using:
     ```sql
@@ -430,3 +430,5 @@ For all other queries (e.g. errors in the database, questions or suggestions) pl
 [^8]: To do this you'll need a `where` clause with `a.end_date - a.start_date < 30` or similar.
 [^9]: This will need a `where` clause, making use of `start_date`, or `start_date` and `end_date`, in the `appointment` table.
 [^10]: This will also need a `where` clause using `ilike`, as you employed earlier, to select people whose `short_name` ends with 'Smith' or 'smith'. And, rather than grouping on `gender` from the `person` table, you'll need to group on something from the `organisation` table.
+[^11]: You'll probably want to switch to using `start_date` and `end_date` from the `appointment_characteristics` table rather than the `appointment` table in doing this.
+[^12]: As with use of the `appointment` and `appointment_characteristics` tables, you'll probably want to make use of `start_date` and `end_date` from the `representation` and `representation_characteristics` tables in doing joins to these tables, so that details of parliamentary representation are picked up as at the point someone started an appointment.
