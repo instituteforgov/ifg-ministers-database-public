@@ -72,7 +72,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     - `gender`: The individual's gender[^2]
     - `start_date` and `end_date`: The date when an individual started and ended being known by a given name. These values are only populated where an individual has changed name - while they look blank in other cases, they in fact contain `NULL`, which is how columns with no value are recorded in SQL.
 
-    **Challenge**: Go ahead and write a statement that selects all columns from the top 20 rows of the `post` table. We'll come back to what all the columns mean shortly.
+    **Challenge**: Go ahead and write a statement that selects all columns from the top 20 rows of the `post` table. (Don't forget the semi-colon at the end.) We'll come back to what all the columns mean shortly.
 
     If you have some experience using SQL you might want to skip ahead at this stage to the Joins section.
 
