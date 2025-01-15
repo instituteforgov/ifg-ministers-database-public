@@ -374,11 +374,11 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
         inner join post t on
             a.post_id = t.id
         inner join organisation o on
-            t.organisation_id = o.id;
+            t.organisation_id = o.id
     group by
         p.gender
     order by
-        p.gender
+        p.gender;
     ```
 
     Strictly speaking, we don't really need the joins to the `post` and `organisation` tables to get this answer - but we would for other things we might be interested in exploring. (Note that we've also got rid of the `limit 20`.)
