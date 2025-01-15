@@ -397,7 +397,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     Can you use this to work out everyone who's been a full cabinet minister since 6 May 2010?
 
-1. The `representation` table and it's related `representation_characteristics` and `constituency` tables contain information, sourced from Parliament, on people's parliamentary representation. Can you work out how to use this information, to break things down by whether someone was an MP or a peer, or look at the constituencies represented by ministers?
+1. The `representation` table and its related `representation_characteristics` and `constituency` tables contain information, sourced from Parliament, on people's parliamentary representation. Can you work out how to use this information, to break things down by whether someone was an MP or a peer, or look at the constituencies represented by ministers?
 
     To do this you'll need to create these tables, which can be done using:
     ```sql
