@@ -80,6 +80,9 @@ In each case, the scripts most likely to be of use are those which populate the 
 - [`3_table_data_unmerged.sql`](https://github.com/instituteforgov/ifg-ministers-database-public/blob/main/sql/3_appointments_at_date/3_table_data_unmerged.sql), [`3_table_data_merged.sql`](https://github.com/instituteforgov/ifg-ministers-database-public/blob/main/sql/3_appointments_at_date/3_table_data_merged.sql),
 - [`4_table_data_unmerged.sql`](https://github.com/instituteforgov/ifg-ministers-database-public/blob/main/sql/4_appointments_exits_between_dates/4_table_data_unmerged.sql), [`4_table_data_merged.sql`](https://github.com/instituteforgov/ifg-ministers-database-public/blob/main/sql/4_appointments_exits_between_dates/4_table_data_merged.sql),
 
+# Tutorials
+- [Using DuckDB to explore the IfG Ministers Database](tutorial/duckdb_tutorial.MD)
+
 # Further details
 Further details on sourcing, limitations and judgements made in creating the database can be found on the IfG Ministers Database [_About the database_](https://www.instituteforgovernment.org.uk/ministers-database/about-database) and [_How to use the database_](https://www.instituteforgovernment.org.uk/ministers-database/how-use-database#departmental-restructures) pages.
 
