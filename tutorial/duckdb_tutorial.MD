@@ -287,7 +287,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     Note that this makes use of the table aliases again when specifying which columns we're interested in - it saves us writing out `post` and `organisation` every time.
     
-    **Challenge**: Can you add on the `rank_equivalence` column from the `post` table and order results by the `name` column in the `post` table, so that we're selecting the 10 posts that come first alphabetically, together with the name of the department in which they sat and their `rank_equivalence`?
+    **Challenge**: Can you add on the `rank_equivalence` column from the `post` table and order results by the `name` column in the `post` table, so that we're selecting the 10 posts that come first alphabetically, together with the name of the department in which they sat and their `rank_equivalence`? (See the _Initial queries_ section for a description of `rank_equivalence` values if you skipped that section.)
 
 1. At its heart, the database is about tracking which individuals did which posts for which time period. In order to do this, we need to use the `appointment` table, which links people and posts.
 
