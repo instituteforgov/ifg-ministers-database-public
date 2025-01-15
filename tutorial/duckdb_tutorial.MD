@@ -5,7 +5,7 @@
 
 For our purposes, a browser-based version, making use of WebAssembly, is also available at https://shell.duckdb.org/. Files in various formats, including [CSV, JSON and Parquet](https://duckdb.org/docs/data/data_sources), can be read in and queried as if they form a database.
 
-Why is that useful? It allows us to use the powerful querying of SQL on any data files we throw at it, without *actually* needed to load them into a database. (DuckDB can also be used to read in certain database files - but at the time of writing the browser-based version doesn't work with all of these formats.)
+Why is that useful? It allows us to use the powerful querying of SQL on any data files we throw at it, without *actually* needing to load them into a database. (DuckDB can also be used to read in certain database files - but at the time of writing the browser-based version doesn't work with all of these formats.)
 
 SQL ("sequel", or "S-Q-L" - tomato/tomato) is the most commonly used language for querying databases. It's easy to pick up, and is efficient at reading and joining large volumes of data.
 
