@@ -263,15 +263,15 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     limit 10;
     ```
 
-    There are a number of things worth mentioning here.
+    In this case, this query gives us the details of 10 posts including details of the organisation at which the post was based.
+
+    There are a number of things worth highlighting about the query.
 
     Firstly, we've given the `post` table an _alias_, `t`. We'll see why shortly.
 
     Secondly, we've specified that we're doing an `inner join` with the `organisation` table - and we've also given that an alias, `o`.
 
     Finally, we've specified the columns that the join needs to be done on - `organisation_id` in the `post` table (making use of its alias) and the `id` column in the `organisation` table.
-
-    In this case, this query gives us the details of 10 posts including details of the organisation at which the post was based.
 
 1. Often it's helpful to only return the columns we're interested in. The following query gets rid of all of the ID columns (which are essential for doing joins, but not that meaningful when we're browsing the data) and one or two other columns that are also of less interest:
 
