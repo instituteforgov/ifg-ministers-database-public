@@ -229,7 +229,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     When browsing the `person` table earlier, you may have noticed that some people are in there more than once, under different names. (If you didn't notice this, try doing a simple query to look for all records in that table with an `id` equal to '`002a6349-2ee5-44b0-9b33-000baae8c737`'.)[^4]
 
-    To generate a count of _unique individuals_ by gender, we can use the `distinct` keyword as follows:
+    To generate a count of _unique_ individuals by gender, we can use the `distinct` keyword as follows:
 
     ```sql
     select
