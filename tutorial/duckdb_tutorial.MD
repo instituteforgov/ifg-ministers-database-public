@@ -204,7 +204,7 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     from person;
     ```
 
-    What is `count(1)` doing? For every record in the table, it's adding one to the tally. You can use a column name in place of `1` but the results will vary depending whether the column has got any missing values (`NULL`s). Test this by replacing `count(1)` with `count(id)` and `count(start_date)` in the above statement.
+    What is `count(1)` doing? For every record in the table, it's adding one to the tally. You can use a column name in place of `1` but the results will vary depending whether the column has got any missing (`NULL`) values. Test this by replacing `count(1)` with `count(id)` and `count(start_date)` in the above statement.
 
     Using `count(id)` you should see you get the same count as when using `count(1)` - indicating that an `id` is present for every record.
 
