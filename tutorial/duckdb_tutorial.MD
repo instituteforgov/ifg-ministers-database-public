@@ -353,8 +353,8 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
 
     **Challenge**: Can you adapt that statement to give:
     - All current appointments?[^6]
-    - All appointments since May 1979 in the Cabinet Office?
-    - All appointments since May 1979 that lasted less than 30 days? Subtraction between two columns of dates will give you the difference in number of days.[^7] (Note that appointments in the database are considered to end where a post has moved from one department to another - so some of the records you return here, such as Angela Rayner's appointments as Secretary of State for Levelling Up, Housing and Communities and Deputy Prime Minister, in reality lasted more than 30 days. Linking up appointments that span these ['machinery of government changes'](https://www.instituteforgovernment.org.uk/explainer/machinery-government-changes) is possible but beyond the scope of this tutorial)
+    - All appointments since May 1979 in the Cabinet Office?[^7]
+    - All appointments since May 1979 that lasted less than 30 days? Subtraction between two columns of dates will give you the difference in number of days.[^8] (Note that appointments in the database are considered to end where a post has moved from one department to another - so some of the records you return here, such as Angela Rayner's appointments as Secretary of State for Levelling Up, Housing and Communities and Deputy Prime Minister, in reality lasted more than 30 days. Linking up appointments that span these ['machinery of government changes'](https://www.instituteforgovernment.org.uk/explainer/machinery-government-changes) is possible but beyond the scope of this tutorial)
 
     Again, see the footnotes for hints.
 
@@ -384,8 +384,8 @@ In the `data` folder of the GitHub repo you should see multiple CSV files - one 
     Strictly speaking, we don't really need the joins to the `post` and `organisation` tables to get this answer - but we would for other things we might be interested in exploring. (Note that we've also got rid of the `limit 20`.)
 
     **Challenge**: Using what you learnt earlier:
-    - Can you adapt the query to work out how different the gender balance in appointments looks if we restrict things to appointments since 3 May 1997 (the date of the 1997 general election), or between 6 May 2010 and 4 July 2024 (the 2010 and 2024 general elections)?[^8]
-    - Returning to our Smiths, can you calculate tallies of the departments they have held appointments in?[^9]
+    - Can you adapt the query to work out how different the gender balance in appointments looks if we restrict things to appointments since 3 May 1997 (the date of the 1997 general election), or between 6 May 2010 and 4 July 2024 (the 2010 and 2024 general elections)?[^9]
+    - Returning to our Smiths, can you calculate tallies of the departments they have held appointments in?[^10]
 
 ## Extensions
 1. The `appointment_characteristics` table contains some details of _how_ someone did a post - whether they were a [Cabinet](https://www.instituteforgovernment.org.uk/explainer/cabinet) minister, whether they were on leave from an appointment or doing a post in an acting capacity. Each `appointment` record is divided into one or more `appointment_characteristics` records. Can you work out how add this information into your queries?
@@ -426,6 +426,7 @@ For all other queries (e.g. errors in the database, questions or suggestions) pl
 [^4]: In the language of databases: we haven't fully de-normalised this table. Other tables in the IfG Ministers Database are denormalised.
 [^5]: To do this you'll need a `where` clause using the `rank_equivalence` column in the `post` table.
 [^6]: Ongoing appointments have an `end_date` of `NULL`. Rather than using `= null` we use `is null`.
-[^7]: To do this you'll need a `where` clause with `a.end_date - a.start_date < 30` or similar.
-[^8]: This will need a `where` clause, making use of `start_date`, or `start_date` and `end_date`, in the `appointment` table.
-[^9]: This will also need a `where` clause using `ilike`, as you employed earlier, to select people whose `short_name` ends with 'Smith' or 'smith'. And, rather than grouping on `gender` from the `person` table, you'll need to group on something from the `organisation` table.
+[^7]: This will need a `where` clause, making use of `name` in the `organisation` table.
+[^8]: To do this you'll need a `where` clause with `a.end_date - a.start_date < 30` or similar.
+[^9]: This will need a `where` clause, making use of `start_date`, or `start_date` and `end_date`, in the `appointment` table.
+[^10]: This will also need a `where` clause using `ilike`, as you employed earlier, to select people whose `short_name` ends with 'Smith' or 'smith'. And, rather than grouping on `gender` from the `person` table, you'll need to group on something from the `organisation` table.
