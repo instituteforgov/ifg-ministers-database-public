@@ -31,14 +31,14 @@ Contains one record for each organisation (generally a government department) at
 
 `short_name` is the department's initialism - note that these can be repeated.
 
-## `organisation_link`
+## `organisation_link`*
 Links predecessor and successor organisations.
 
 `type` is the IfG's determination of the link - one of `Merger`, `Demerger`, `Name change`, `Transfer of functions`.
 
 Links have an associated date range. `link_start_date` is the date the change was announced. `link_end_date` is the final date that a minister moved from the predecessor organisation to the successor organisation as part of the change. `link_start_date` and `link_end_date` are always specified.
 
-## `person`
+## `person`*
 Contains basic biographical details of people who have served as ministers.
 
 Split into multiple records where someone's biographical details (name, gender) have changed.
@@ -64,6 +64,9 @@ Records periods of parliamentary representation.
 Each `representation` timespan is split into one or more `representation_characteristics` records.
 
 `start_date` is always specified; `end_date` is `null` for ongoing periods of representation.
+
+\
+\* With the exception of these tables, tables in the database each have a separate `id` per row. This means the `organisation_link` and `person` tables are not denormalised; other tables are.
 
 # Scripts
 The `sql` directory contains scripts that power the IfG Ministers Database pages.
