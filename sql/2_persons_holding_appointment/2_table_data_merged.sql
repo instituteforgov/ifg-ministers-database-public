@@ -45,6 +45,7 @@ FROM (
             t.name AS "role",
             t.rank_equivalence AS "rank",
             o.name AS "department",
+            o.short_name organisation_short_name,
             ac.id appointment_characteristics_id,
             ac.cabinet_status AS "cabinet_status",
             ac.is_on_leave AS "is_on_leave",
@@ -116,7 +117,8 @@ FROM (
 
     ) q
     ORDER BY
-        q.start_date
+        q.start_date,
+        q.organisation_short_name
 ) q
 
 WHERE

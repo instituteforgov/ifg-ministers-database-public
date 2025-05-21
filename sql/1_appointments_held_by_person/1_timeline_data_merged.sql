@@ -11,7 +11,7 @@ WITH ministerial_appointment(organisation_id, organisation_short_name, rank_equi
             ELSE 'rank-equivalence-' || LOWER(REPLACE(REPLACE(MIN(q.rank_equivalence), ' ', '-'), '.', ''))
         END rank_equivalence,
         MIN(q.start_date) appointment_characteristics_start_date,
-        MAX(COALESCE(q.end_date, DATE('now'))) appointment_characteristics_end_date
+        MAX(COALESCE(q.end_date, CASE WHEN q.start_date = DATE('now') THEN DATE(DATE('now'), '+1 day') ELSE DATE('now') END)) appointment_characteristics_end_date
     FROM (
         SELECT ROW_NUMBER() OVER (PARTITION BY person_id, appointment_characteristics_id ORDER BY organisation_link_id_group_count DESC, group_name) row_number,
         *
@@ -82,7 +82,8 @@ WITH ministerial_appointment(organisation_id, organisation_short_name, rank_equi
         q.group_seniority,
         q.organisation_link_id
     ORDER BY
-        q.start_date
+        q.start_date,
+        q.organisation_short_name
 )
 SELECT
     ma1.organisation_short_name "label",
