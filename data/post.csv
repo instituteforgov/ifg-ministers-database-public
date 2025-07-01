@@ -74,7 +74,10 @@ d93f7844-8610-4830-9e94-a92d72503c2a,,1c22b544-e3e8-40f2-815e-21a2d2a2e519,Minis
 c41252c3-3c7c-4ebc-ac57-e5b5074161bc,,1c22b544-e3e8-40f2-815e-21a2d2a2e519,Secretary of State for Local Government and the Regions,Secretary of State for Local Government and the Regions,SoS,3
 f27dc30b-f703-42a0-8d26-dd93e24f3810,153.0,1c22b544-e3e8-40f2-815e-21a2d2a2e519,Minister of State,"Minister of State, DPM",MoS,4
 e0e71ea0-c78f-4f4c-95cf-f69f7605db71,,dc163b92-349e-4933-a70b-230c36f1710c,Minister for Housing and Planning,Minister for Housing and Planning,MoS,4
+4cd30989-3b43-442a-a841-c8f7ba4016c4,,dc163b92-349e-4933-a70b-230c36f1710c,"Minister for Building Safety, Fire and Local Growth","Minister for Building Safety, Fire and Local Growth",PUSS,5
+a97d0eb5-52d7-4d88-9133-c8f7f0edc8b8,,dc163b92-349e-4933-a70b-230c36f1710c,Minister for Homelessness and Democracy,Minister for Homelessness and Democracy,PUSS,5
 527e4e60-fd79-44fa-b405-ac188f331668,,dc163b92-349e-4933-a70b-230c36f1710c,"Secretary of State for Housing, Communities and Local Government","Secretary of State for Housing, Communities and Local Government",SoS,3
+72f67a25-3b42-4297-b6de-7bc439a025e4,,dc163b92-349e-4933-a70b-230c36f1710c,Minister for Local Growth and Building Safety,Minister for Local Growth and Building Safety,PUSS,5
 325b4c26-a141-4f2e-b6da-6abb8b469549,,dc163b92-349e-4933-a70b-230c36f1710c,"Minister for Faith, Communities and Resettlement","Minister for Faith, Communities and Resettlement",PUSS,5
 f15d1131-7f61-4ad4-94c7-513ac2d7d4ef,,dc163b92-349e-4933-a70b-230c36f1710c,Minister for Building Safety and Homelessness,Minister for Building Safety and Homelessness,PUSS,5
 d30d096c-909e-4439-b3eb-4ebe7da3047a,,dc163b92-349e-4933-a70b-230c36f1710c,Minister for Local Government and English Devolution,Minister for Local Government and English Devolution,MoS,4
@@ -103,14 +106,14 @@ a4d13e7a-2aa9-481b-8951-c79678ba5ac8,,00150781-4217-4183-bdf0-2841e207c9e1,"Mini
 d324f77a-723d-4784-b7ec-f6aecabb06a4,,00150781-4217-4183-bdf0-2841e207c9e1,"Minister for Small Business, Consumers and Corporate Responsibility","Minister for Small Business, Consumers and Corporate Responsibility",PUSS,5
 6c949925-c788-4127-88d2-eb9aab6f83f8,,00150781-4217-4183-bdf0-2841e207c9e1,"Minister for Small Business, Consumers and Labour Markets","Minister for Small Business, Consumers and Labour Markets",PUSS,5
 e5736114-c302-40d9-bc9b-ebba944ee639,,00150781-4217-4183-bdf0-2841e207c9e1,Minister for Enterprise and Markets,Minister for Enterprise and Markets,PUSS,5
-6fb0226e-e676-43be-877f-e0ed38d4f041,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DBT",PUSS,5
 f922c6dd-3c49-4a2a-9f9f-f110964c228b,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,"Minister for Employment Rights, Competition and Markets","Minister for Employment Rights, Competition and Markets",PUSS,5
+6fb0226e-e676-43be-877f-e0ed38d4f041,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DBT",PUSS,5
 c075d093-5e5d-448b-b087-aeeef84618e1,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,Minister for Trade Policy,Minister for Trade Policy,MoS,4
 671fb7d5-d805-43a7-b728-aa43e161134a,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,Minister for Investment,Minister for Investment,MoS,4
-edafa97e-0510-4dfc-b24c-a7b3c9ad8496,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,Minister for International Trade,Minister for International Trade,MoS,4
 4554d1d9-b884-4314-8ba0-a5c672250113,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,Minister for Trade Policy and Economic Security,Minister for Trade Policy and Economic Security,MoS,4
-7011982b-a355-4662-a3da-8e1755e096aa,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,Minister for Industry and Economic Security,Minister for Industry and Economic Security,PUSS,5
+edafa97e-0510-4dfc-b24c-a7b3c9ad8496,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,Minister for International Trade,Minister for International Trade,MoS,4
 3466667e-dc1f-4439-9208-9c531f248e27,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,Minister for Industry,Minister for Industry,MoS,4
+7011982b-a355-4662-a3da-8e1755e096aa,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,Minister for Industry and Economic Security,Minister for Industry and Economic Security,PUSS,5
 2005a3bd-23c7-4589-b93f-56d51f78be61,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,"Minister for Services, Small Business and Exports","Minister for Services, Small Business and Exports",PUSS,5
 bc39a050-2b64-417c-97f7-62244b6f7ba6,153.0,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,Minister of State,"Minister of State, DBT",MoS,4
 bc8fcd07-5826-492f-bca9-362dd23989a5,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,Minister for London,Minister for London,MoS,4
@@ -121,8 +124,8 @@ f397f603-d27a-4005-aa15-24a034063b10,,98bc3992-dfb8-49e1-99d2-286aa9ecbac7,Minis
 53a4a70d-cec1-404c-a004-2479c2f6de6c,,818266e4-b2c1-43ba-8ed8-2894c24d4367,Minister for Women and Equality,Minister for Women and Equality,SoS,3
 e6176aae-ec7e-437b-b972-2aee4e5f2ca7,,818266e4-b2c1-43ba-8ed8-2894c24d4367,Minister for Women,Minister for Women,SoS,3
 c78c3376-251e-43cf-b9dd-890651f38cab,,818266e4-b2c1-43ba-8ed8-2894c24d4367,Minister for Women and Equalities,Minister for Women and Equalities,SoS,3
-47d3a001-48e2-4153-a0a0-b4df389d30e1,153.0,818266e4-b2c1-43ba-8ed8-2894c24d4367,Minister of State,"Minister of State, GEO",MoS,4
 eeb2fce0-36b7-41f8-bc3b-ab885b33ca7c,,818266e4-b2c1-43ba-8ed8-2894c24d4367,Minister for Women and Equality,Minister for Women and Equality,PUSS,5
+47d3a001-48e2-4153-a0a0-b4df389d30e1,153.0,818266e4-b2c1-43ba-8ed8-2894c24d4367,Minister of State,"Minister of State, GEO",MoS,4
 f5284af4-7dc4-476b-8296-f294200387a4,,818266e4-b2c1-43ba-8ed8-2894c24d4367,Minister for Women and Equality,Minister for Women and Equality,MoS,4
 7a528313-21ba-40e4-8a88-f07ed8f1cb82,153.0,c388ec6d-200e-4594-aedb-2947d0b7bf1a,Minister of State,"Minister of State, MAFF",MoS,4
 7ef45470-33ef-4ead-8d6a-db5382dcd584,,c388ec6d-200e-4594-aedb-2947d0b7bf1a,"Minister of Agriculture, Fisheries and Food","Minister of Agriculture, Fisheries and Food",SoS,3
@@ -144,14 +147,14 @@ d257fc11-5b50-4d65-9064-58c17cca5f1b,,d8ca41e4-d6d3-40d1-9542-2973683d92b8,Minis
 df7cb15c-6c68-4ef6-bfeb-51978a6d5fcb,,d8ca41e4-d6d3-40d1-9542-2973683d92b8,Minister for Care and Mental Health,Minister for Care and Mental Health,MoS,4
 86dbec38-f280-4023-ba59-7319b5e74b64,145.0,d8ca41e4-d6d3-40d1-9542-2973683d92b8,Deputy Prime Minister,Deputy Prime Minister,DPM,2
 e039e7f2-0064-4f12-a94f-bac6d0f8e613,,d8ca41e4-d6d3-40d1-9542-2973683d92b8,Minister for Mental Health and Women’s Health Strategy,Minister for Mental Health and Women’s Health Strategy,PUSS,5
-be050459-153d-4771-96d6-c8b8916d9d4b,,d8ca41e4-d6d3-40d1-9542-2973683d92b8,Minister for Primary Care and Public Health,Minister for Primary Care and Public Health,PUSS,5
-f85aeef4-8ce9-43f7-9b37-c6f757327a43,153.0,d8ca41e4-d6d3-40d1-9542-2973683d92b8,Minister of State,"Minister of State, DHSC",MoS,4
 70fdd976-7436-4d33-b3c1-c668522fbfcd,,d8ca41e4-d6d3-40d1-9542-2973683d92b8,Minister for COVID Vaccine Deployment,Minister for COVID Vaccine Deployment,PUSS,5
+f85aeef4-8ce9-43f7-9b37-c6f757327a43,153.0,d8ca41e4-d6d3-40d1-9542-2973683d92b8,Minister of State,"Minister of State, DHSC",MoS,4
 d7a30032-9307-4ff2-b701-ac370ddf850a,,d8ca41e4-d6d3-40d1-9542-2973683d92b8,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DHSC",PUSS,5
 df4803f6-40ad-4b8a-b266-a767ab9a83eb,,d8ca41e4-d6d3-40d1-9542-2973683d92b8,"Minister for Mental Health, Inequalities and Suicide Prevention","Minister for Mental Health, Inequalities and Suicide Prevention",PUSS,5
 e1eacb89-9d97-4ead-9384-d437ea4cd8f9,,d8ca41e4-d6d3-40d1-9542-2973683d92b8,Minister for Primary Care and Patient Safety,Minister for Primary Care and Patient Safety,PUSS,5
-8fc13f21-582e-42b8-a312-d03366c3070a,,d8ca41e4-d6d3-40d1-9542-2973683d92b8,Minister for Care,Minister for Care,MoS,4
+be050459-153d-4771-96d6-c8b8916d9d4b,,d8ca41e4-d6d3-40d1-9542-2973683d92b8,Minister for Primary Care and Public Health,Minister for Primary Care and Public Health,PUSS,5
 4217dcf1-8199-4b5d-b4fc-cc16b11d0848,,d8ca41e4-d6d3-40d1-9542-2973683d92b8,"Minister for Technology, Innovation and Life Sciences","Minister for Technology, Innovation and Life Sciences",PUSS,5
+8fc13f21-582e-42b8-a312-d03366c3070a,,d8ca41e4-d6d3-40d1-9542-2973683d92b8,Minister for Care,Minister for Care,MoS,4
 032bbf88-8f2d-457e-a7ae-e7c973dc9bb2,,d8ca41e4-d6d3-40d1-9542-2973683d92b8,"Minister for Public Health, Start for Life and Primary Care","Minister for Public Health, Start for Life and Primary Care",PUSS,5
 394da330-ad07-4b38-b687-e6fa671fcb05,,c38bf8a3-b51c-48fe-bb7e-2e687bd1ad06,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DCLG",PUSS,5
 b1e9d04f-8ff6-45fc-b562-e0ecb820f42b,,c38bf8a3-b51c-48fe-bb7e-2e687bd1ad06,Minister for the Northern Powerhouse,Minister for the Northern Powerhouse,PUSS,5
@@ -212,13 +215,13 @@ adb045d8-8dfa-4647-a174-5fd769f167a5,,4436bde2-d717-42d6-aa2c-3ab701ea14f5,"Secr
 c6715da0-5876-45c0-9e98-5483fbd821db,,4436bde2-d717-42d6-aa2c-3ab701ea14f5,"Minister for Sport, Tourism and Civil Society","Minister for Sport, Tourism and Civil Society",PUSS,5
 855ba798-a556-46c6-8c67-737ea7aa3c98,,4436bde2-d717-42d6-aa2c-3ab701ea14f5,Minister for London,Minister for London,PUSS,5
 52853892-c502-4407-8fd9-701afe1a4652,,4436bde2-d717-42d6-aa2c-3ab701ea14f5,Minister for Sport and Civil Society,Minister for Sport and Civil Society,PUSS,5
-8c33c59e-1a54-4926-816e-dc78916e5312,,4436bde2-d717-42d6-aa2c-3ab701ea14f5,Minister for Arts,Minister for Arts,PUSS,5
-19f31330-833f-401c-bbff-f87b3d2db34e,153.0,4436bde2-d717-42d6-aa2c-3ab701ea14f5,Minister of State,"Minister of State, DCMS",MoS,4
-fe0158af-900e-4cef-a83d-d1b4f1e18dba,,4436bde2-d717-42d6-aa2c-3ab701ea14f5,Minister for Digital and the Creative Industries,Minister for Digital and the Creative Industries,MoS,4
 493a8bf9-9548-4b55-8df0-de6c866e92e9,,4436bde2-d717-42d6-aa2c-3ab701ea14f5,"Minister for Media, Data, and Digital Infrastructure","Minister for Media, Data, and Digital Infrastructure",MoS,4
+fe0158af-900e-4cef-a83d-d1b4f1e18dba,,4436bde2-d717-42d6-aa2c-3ab701ea14f5,Minister for Digital and the Creative Industries,Minister for Digital and the Creative Industries,MoS,4
+8c33c59e-1a54-4926-816e-dc78916e5312,,4436bde2-d717-42d6-aa2c-3ab701ea14f5,Minister for Arts,Minister for Arts,PUSS,5
 205f0ef2-6a3b-4aa8-b510-b98bd95fc152,,4436bde2-d717-42d6-aa2c-3ab701ea14f5,"Minister for Sport, Tourism and Heritage","Minister for Sport, Tourism and Heritage",PUSS,5
-36e0af60-bf27-4bfb-a42a-ead008648777,,74535c7d-5afe-4283-a16f-3ffa95e4727d,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DNH",PUSS,5
+19f31330-833f-401c-bbff-f87b3d2db34e,153.0,4436bde2-d717-42d6-aa2c-3ab701ea14f5,Minister of State,"Minister of State, DCMS",MoS,4
 c80a2e6d-27bf-4563-ba3b-f9f00c4a7da5,,74535c7d-5afe-4283-a16f-3ffa95e4727d,Secretary of State for National Heritage,Secretary of State for National Heritage,SoS,3
+36e0af60-bf27-4bfb-a42a-ead008648777,,74535c7d-5afe-4283-a16f-3ffa95e4727d,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DNH",PUSS,5
 b3ac6f77-e6bb-4b08-8d10-532eaceba26f,153.0,74535c7d-5afe-4283-a16f-3ffa95e4727d,Minister of State,"Minister of State, DNH",MoS,4
 2aa2a7d6-9658-4588-b9d2-4e7733550196,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Early Years,Minister for Early Years,PUSS,5
 692e9933-6957-4d35-bde7-5f0e6860a9ec,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Children and Families,Minister for Children and Families,PUSS,5
@@ -226,8 +229,8 @@ b3ac6f77-e6bb-4b08-8d10-532eaceba26f,153.0,74535c7d-5afe-4283-a16f-3ffa95e4727d,
 d7f11fe8-92d6-49e9-91fc-757f74755b29,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Skills and Enterprise,Minister for Skills and Enterprise,MoS,4
 4d7efa7e-bab2-45ff-a3cc-7593f76a5b2b,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Women and Equalities,Minister for Women and Equalities,PUSS,5
 bfaebc7b-69f2-4340-8c1d-69fb960ac201,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Childcare and Education,Minister for Childcare and Education,PUSS,5
-4dad3d4d-8682-4abb-baa0-781dfe144db1,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Women,Minister for Women,MoS,4
 f09ba8e7-82a8-404e-8c9f-7fc094cc077e,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for the School System,Minister for the School System,PUSS,5
+4dad3d4d-8682-4abb-baa0-781dfe144db1,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Women,Minister for Women,MoS,4
 ee0009ca-1268-40b6-99d7-844a841470d0,,af3124a8-cdee-4847-b0e1-41acdf926cb4,"Minister for Universities, Science, Research and Innovation","Minister for Universities, Science, Research and Innovation",MoS,4
 2ea4100a-d360-469a-a0b7-8c405125830e,,af3124a8-cdee-4847-b0e1-41acdf926cb4,"Minister for Children, Families and Wellbeing","Minister for Children, Families and Wellbeing",PUSS,5
 31b2cf59-93c9-4f2d-8cd5-9cf90344a4c6,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Skills,Minister for Skills,MoS,4
@@ -244,11 +247,11 @@ ec246d6a-353b-4282-85b9-2436d0ef1473,,af3124a8-cdee-4847-b0e1-41acdf926cb4,"Mini
 eaa999c7-4f14-4021-820f-22ed6b4fb26b,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Secretary of State for Education,Secretary of State for Education,SoS,3
 6c75e4da-8d7c-413f-9100-0aa5af642cc8,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Apprenticeships and Skills,Minister for Apprenticeships and Skills,MoS,4
 065df97d-e477-4222-a483-00aca7c27b8c,,af3124a8-cdee-4847-b0e1-41acdf926cb4,"Minister for Skills, Apprenticeships and Higher Education","Minister for Skills, Apprenticeships and Higher Education",MoS,4
+dfc27994-21fa-45f4-9e90-e76abdaeaac7,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Children and Families,Minister for Children and Families,MoS,4
 9a9b8a06-4261-436b-93bc-e73097af6a1f,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for School Reform,Minister for School Reform,MoS,4
 d8a40460-b543-4e86-90d5-e49a5d021500,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Women,Minister for Women,PUSS,5
-2415077d-1860-4cf7-b878-f44e561c7413,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Women and Equalities,Minister for Women and Equalities,SoS,3
 761a27dc-10e8-48f9-8364-eeaa9f1d6ebd,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Equalities,Minister for Equalities,PUSS,5
-dfc27994-21fa-45f4-9e90-e76abdaeaac7,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Children and Families,Minister for Children and Families,MoS,4
+2415077d-1860-4cf7-b878-f44e561c7413,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Women and Equalities,Minister for Women and Equalities,SoS,3
 7fdd77d2-f0ab-4e76-b0d8-db25a46f0bbd,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Skills,Minister for Skills,PUSS,5
 6bf34ca8-2e7d-4928-b59d-d923f1a0aec6,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for Women and Equalities,Minister for Women and Equalities,MoS,4
 5d7854ae-28f0-45d5-9473-d519f5fb8c80,,af3124a8-cdee-4847-b0e1-41acdf926cb4,Minister for School Standards,Minister for School Standards,MoS,4
@@ -268,17 +271,17 @@ ff9408a6-d8ef-43cd-b4f9-9b73d38d3728,,e02cf2e9-8ab4-4e79-992a-48d857f369ea,Minis
 eb224584-3c3c-42b7-9616-0eecba39a5fa,,e02cf2e9-8ab4-4e79-992a-48d857f369ea,Minister for Business and Industry,Minister for Business and Industry,PUSS,5
 cf8c89f1-5453-4be6-b58c-3b3c289ee2e8,,e02cf2e9-8ab4-4e79-992a-48d857f369ea,Minister for Health and Arts,Minister for Health and Arts,MoS,4
 9707228a-ab7f-4ae4-86f3-da434e9c7f69,,e02cf2e9-8ab4-4e79-992a-48d857f369ea,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, Scot",PUSS,5
+ba4427a9-35db-415b-b62d-f68fcf213f5c,,e02cf2e9-8ab4-4e79-992a-48d857f369ea,"Minister for Agriculture, Environment and Fisheries","Minister for Agriculture, Environment and Fisheries",PUSS,5
 56db2ad6-49bb-4169-b5eb-a84e00be155b,153.0,e02cf2e9-8ab4-4e79-992a-48d857f369ea,Minister of State,"Minister of State, Scot",MoS,4
 0a6672d6-dc08-4a4e-a853-ba0879874b2d,,e02cf2e9-8ab4-4e79-992a-48d857f369ea,Minister for Local Government and Transport,Minister for Local Government and Transport,PUSS,5
 22ebf65e-82ac-4435-8e25-ba3a390416d4,,e02cf2e9-8ab4-4e79-992a-48d857f369ea,Secretary of State for Scotland,Secretary of State for Scotland,SoS,3
-ba4427a9-35db-415b-b62d-f68fcf213f5c,,e02cf2e9-8ab4-4e79-992a-48d857f369ea,"Minister for Agriculture, Environment and Fisheries","Minister for Agriculture, Environment and Fisheries",PUSS,5
 315e9c7d-4e85-48d8-848f-fb7b69257705,,e02cf2e9-8ab4-4e79-992a-48d857f369ea,Minister for Home Affairs and Devolution,Minister for Home Affairs and Devolution,MoS,4
 254b89b5-a7ae-4cd0-9f1b-fb635f2e2f40,,74d7b4e7-e541-44ba-b643-4e91df504fd5,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DfID",PUSS,5
 c1737aa7-1f67-4f65-8680-be32ac5a9afc,,74d7b4e7-e541-44ba-b643-4e91df504fd5,Minister for European Neighbourhood and the Americas,Minister for European Neighbourhood and the Americas,PUSS,5
 67376b1c-0c80-4b82-be75-c1e3b62c8987,,74d7b4e7-e541-44ba-b643-4e91df504fd5,Minister for South Asia and the Commonwealth,Minister for South Asia and the Commonwealth,MoS,4
+064468d9-0f31-42a5-bd32-ef3f46b2d609,,74d7b4e7-e541-44ba-b643-4e91df504fd5,Minister for the Overseas Territories and Sustainable Development,Minister for the Overseas Territories and Sustainable Development,PUSS,5
 1df581f5-103a-4a8e-b79d-dbd50ae16949,,74d7b4e7-e541-44ba-b643-4e91df504fd5,Minister for Equalities,Minister for Equalities,PUSS,5
 a7f17db6-d1fe-41c0-b157-d15c7a020200,,74d7b4e7-e541-44ba-b643-4e91df504fd5,Minister for Trade Policy,Minister for Trade Policy,PUSS,5
-064468d9-0f31-42a5-bd32-ef3f46b2d609,,74d7b4e7-e541-44ba-b643-4e91df504fd5,Minister for the Overseas Territories and Sustainable Development,Minister for the Overseas Territories and Sustainable Development,PUSS,5
 a7f079a9-28a0-4aa6-8857-33dee931fdd3,,74d7b4e7-e541-44ba-b643-4e91df504fd5,Minister for Africa,Minister for Africa,PUSS,5
 7cc9b5cb-537c-4ef6-885c-2f11d1b4d82b,,74d7b4e7-e541-44ba-b643-4e91df504fd5,Minister for Middle East and North Africa,Minister for Middle East and North Africa,MoS,4
 92395280-9aa4-4917-ba64-4274cdb87fc1,,74d7b4e7-e541-44ba-b643-4e91df504fd5,Minister for International Development,Minister for International Development,MoS,4
@@ -321,8 +324,8 @@ cf94bfaa-dfaa-4e22-a5f4-be71d4c3fad9,,64430280-1188-4c44-9b01-590cab80e2e9,Minis
 806582cb-2353-4a7e-8e7a-d6eb2831c56e,,64430280-1188-4c44-9b01-590cab80e2e9,Minister for Defence People,Minister for Defence People,PUSS,5
 dc4a407a-aec9-452d-b057-d29f1684aa8f,,64430280-1188-4c44-9b01-590cab80e2e9,Minister for Defence Equipment and Support,Minister for Defence Equipment and Support,PUSS,5
 89226bc2-b7c1-4840-9396-cd2091349f5f,,64430280-1188-4c44-9b01-590cab80e2e9,Minister for Strategic Defence Acquisition Reform,Minister for Strategic Defence Acquisition Reform,MoS,4
-ca1625c4-dec5-4017-bc76-e0331652b1e4,,64430280-1188-4c44-9b01-590cab80e2e9,Minister for Veterans,Minister for Veterans,PUSS,5
 9abb2022-2323-4227-9053-ebce1425bbbd,,64430280-1188-4c44-9b01-590cab80e2e9,"Minister for Defence Personnel, Welfare and Veterans","Minister for Defence Personnel, Welfare and Veterans",PUSS,5
+ca1625c4-dec5-4017-bc76-e0331652b1e4,,64430280-1188-4c44-9b01-590cab80e2e9,Minister for Veterans,Minister for Veterans,PUSS,5
 c8343211-07d3-4fda-b1eb-d04eaaa4b705,,39c4900d-4c75-4622-94b7-6490ea7c8de2,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DCA",PUSS,5
 01828438-001c-432e-8ebc-d7d9b18efc2b,,39c4900d-4c75-4622-94b7-6490ea7c8de2,Secretary of State for Constitutional Affairs and Lord Chancellor,Secretary of State for Constitutional Affairs and Lord Chancellor,SoS,3
 66dd5349-a9b6-4ff3-95f6-1bc9c7b08338,,39c4900d-4c75-4622-94b7-6490ea7c8de2,Minister for Constitutional Affairs,Minister for Constitutional Affairs,MoS,4
@@ -334,8 +337,8 @@ fb200070-47de-4ad1-9192-3101a1ba5354,,5140880e-3784-47d9-a643-64c0397009a9,"Mini
 b04b132a-628c-4e67-b502-4bbef017d4c5,,5140880e-3784-47d9-a643-64c0397009a9,"Minister for Europe, North America and Overseas Territories","Minister for Europe, North America and Overseas Territories",MoS,4
 6db221b1-ecd2-4699-87df-4d2417912422,,5140880e-3784-47d9-a643-64c0397009a9,"Minister for Middle East, North Africa and North America","Minister for Middle East, North Africa and North America",MoS,4
 a86d6068-ddfc-444b-9411-95b96075db16,,5140880e-3784-47d9-a643-64c0397009a9,"Minister for International Development, Latin America and the Caribbean","Minister for International Development, Latin America and the Caribbean",MoS,4
-43f1a0f9-16f3-4f80-bced-8cd5ec25e6f1,,5140880e-3784-47d9-a643-64c0397009a9,Minister for Development and Africa,Minister for Development and Africa,MoS,4
 1cc8b9a1-7d61-496b-b808-9e17f3fa8f6e,,5140880e-3784-47d9-a643-64c0397009a9,"Minister for Middle East, North Africa, South Asia and United Nations","Minister for Middle East, North Africa, South Asia and United Nations",MoS,4
+43f1a0f9-16f3-4f80-bced-8cd5ec25e6f1,,5140880e-3784-47d9-a643-64c0397009a9,Minister for Development and Africa,Minister for Development and Africa,MoS,4
 05575d30-7f35-41cf-b4ba-8776a6922dc3,,5140880e-3784-47d9-a643-64c0397009a9,Minister for Europe,Minister for Europe,MoS,4
 730a9090-7be8-4ebe-be54-7a47bcb933a4,,5140880e-3784-47d9-a643-64c0397009a9,Minister for Indo-Pacific,Minister for Indo-Pacific,MoS,4
 c38a7c16-1444-4279-a23d-7a4cbdb9c936,,5140880e-3784-47d9-a643-64c0397009a9,Deputy Foreign Secretary,Deputy Foreign Secretary,MoS,4
@@ -348,11 +351,11 @@ a178c34f-b743-4967-9402-76739fbc81e1,,5140880e-3784-47d9-a643-64c0397009a9,"Mini
 5f655663-f908-4209-859f-51fed3d01c64,147.0,5140880e-3784-47d9-a643-64c0397009a9,"Secretary of State for Foreign, Commonwealth and Development Affairs","Secretary of State for Foreign, Commonwealth and Development Affairs",SoS,3
 6c59a4aa-e059-487c-b525-6251a822f8a1,,5140880e-3784-47d9-a643-64c0397009a9,"Minister for North America, Sanctions and Consular Policy","Minister for North America, Sanctions and Consular Policy",PUSS,5
 17176d48-1c62-496f-8560-63b784ebf8e4,,5140880e-3784-47d9-a643-64c0397009a9,Minister for Europe and Americas,Minister for Europe and Americas,PUSS,5
-e46d07dd-3134-45c7-a320-d39f05a94e82,,5140880e-3784-47d9-a643-64c0397009a9,Minister for the Indo-Pacific,Minister for the Indo-Pacific,PUSS,5
-fdf8ae9e-6160-491e-8b81-d78b66307257,,5140880e-3784-47d9-a643-64c0397009a9,"Minister for the Middle East, Afghanistan and Pakistan","Minister for the Middle East, Afghanistan and Pakistan",PUSS,5
 d511035a-71be-47e4-a8ac-d6a34b3e2795,,5140880e-3784-47d9-a643-64c0397009a9,Minister for the Overseas Territories and Sustainable Development,Minister for the Overseas Territories and Sustainable Development,PUSS,5
-b7e9fc77-6177-4c1b-9e43-cf9bd3786fac,,5140880e-3784-47d9-a643-64c0397009a9,Minister for Asia,Minister for Asia,MoS,4
+fdf8ae9e-6160-491e-8b81-d78b66307257,,5140880e-3784-47d9-a643-64c0397009a9,"Minister for the Middle East, Afghanistan and Pakistan","Minister for the Middle East, Afghanistan and Pakistan",PUSS,5
+e46d07dd-3134-45c7-a320-d39f05a94e82,,5140880e-3784-47d9-a643-64c0397009a9,Minister for the Indo-Pacific,Minister for the Indo-Pacific,PUSS,5
 13dd52d3-dace-4d39-bdb3-cced051125a5,,5140880e-3784-47d9-a643-64c0397009a9,First Secretary of State,First Secretary of State,DPM,2
+b7e9fc77-6177-4c1b-9e43-cf9bd3786fac,,5140880e-3784-47d9-a643-64c0397009a9,Minister for Asia,Minister for Asia,MoS,4
 7619a248-af32-4b8a-b921-e5870de330da,,5140880e-3784-47d9-a643-64c0397009a9,Minister for the Middle East and United Nations,Minister for the Middle East and United Nations,MoS,4
 7b48bdc2-f941-4d32-ad5a-efe87c767f39,,5140880e-3784-47d9-a643-64c0397009a9,Minister for Latin America and the Caribbean,Minister for Latin America and the Caribbean,PUSS,5
 e9f1a86c-4a77-4103-938a-c16c82378536,,5140880e-3784-47d9-a643-64c0397009a9,Minister for Africa,Minister for Africa,PUSS,5
@@ -391,8 +394,8 @@ a5bfd247-d266-4401-acdb-26e86007b6a4,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minis
 955ae4e5-d51b-4161-a709-236a3b3263e3,,4ab28968-f550-4da6-9f42-6c3a045f2263,"Minister for Culture, Communications and Creative Industries","Minister for Culture, Communications and Creative Industries",PUSS,5
 27ea6789-2f12-4f6a-b274-451346fd1021,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for Trade and Investment,Minister for Trade and Investment,MoS,4
 e93563f7-a3c3-4bdb-952e-4deffa163264,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for Digital and the Creative Industries,Minister for Digital and the Creative Industries,MoS,4
-b210b478-baf1-4292-975b-90d978c1101e,,4ab28968-f550-4da6-9f42-6c3a045f2263,"Minister for Small Business, Industry and Enterprise","Minister for Small Business, Industry and Enterprise",MoS,4
 feb6044a-7f6e-4b0d-ac5f-9324ef702974,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for Science and Innovation,Minister for Science and Innovation,MoS,4
+b210b478-baf1-4292-975b-90d978c1101e,,4ab28968-f550-4da6-9f42-6c3a045f2263,"Minister for Small Business, Industry and Enterprise","Minister for Small Business, Industry and Enterprise",MoS,4
 73c4d1bd-9d3e-406a-8351-7d77577d62ca,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for Business and Regulatory Reform,Minister for Business and Regulatory Reform,PUSS,5
 090fd417-a72b-4ed5-a318-72575f6d4772,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for the North West,Minister for the North West,MoS,4
 38b157aa-a223-4401-a2ab-7344b8992ef1,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for the East Midlands,Minister for the East Midlands,MoS,4
@@ -403,10 +406,10 @@ cdea7126-7650-4b80-8e84-e595a6c2d821,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minis
 fc3a1dea-6f55-45dd-83fd-e9a280d19e05,,4ab28968-f550-4da6-9f42-6c3a045f2263,"Secretary of State for Business, Innovation and Skills","Secretary of State for Business, Innovation and Skills",SoS,3
 c08fabaa-7bb5-4b5f-96f2-eac01704a755,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for the West Midlands,Minister for the West Midlands,MoS,4
 ebebca16-15ed-4f88-af31-f6fb0e475a95,,4ab28968-f550-4da6-9f42-6c3a045f2263,"Minister for Trade, Investment and Small Business","Minister for Trade, Investment and Small Business",MoS,4
-8175a811-6429-41d0-9d7a-d2b32b55d1b1,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for Employment Relations and Consumer Affairs,Minister for Employment Relations and Consumer Affairs,PUSS,5
-20b481d4-9caf-4f2d-896c-ceb9d61a1544,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for Skills and Enterprise,Minister for Skills and Enterprise,MoS,4
 fd2bab38-17e6-403c-b225-cc903fed322c,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for the North East,Minister for the North East,MoS,4
 506ea749-b858-4951-aa27-caa58f13138b,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for Decentralisation and Planning,Minister for Decentralisation and Planning,MoS,4
+20b481d4-9caf-4f2d-896c-ceb9d61a1544,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for Skills and Enterprise,Minister for Skills and Enterprise,MoS,4
+8175a811-6429-41d0-9d7a-d2b32b55d1b1,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for Employment Relations and Consumer Affairs,Minister for Employment Relations and Consumer Affairs,PUSS,5
 c5febf18-41e6-4a7c-a92c-d547c77c2d4f,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for Life Sciences,Minister for Life Sciences,PUSS,5
 2a2e2790-1491-466e-9cd8-d5dd3d2ad120,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for Skills and Equalities,Minister for Skills and Equalities,MoS,4
 e37ec2a2-e4f2-4d47-b070-abd2b30bfcff,,4ab28968-f550-4da6-9f42-6c3a045f2263,Minister for Universities and Science,Minister for Universities and Science,MoS,4
@@ -420,8 +423,8 @@ d76b6d3f-7575-45dd-a4c4-beb08894a60f,,cd9a4a3e-15d2-4f51-b999-6eb75e55fef4,Minis
 22b6bc5c-aeac-40e4-8cf2-b07b0b991cc6,,cd9a4a3e-15d2-4f51-b999-6eb75e55fef4,Minister for Housing and Homelessness,Minister for Housing and Homelessness,PUSS,5
 a8b9d57c-373f-4de1-96c1-b44cec590a33,,cd9a4a3e-15d2-4f51-b999-6eb75e55fef4,Minister for the Northern Powerhouse and Local Growth,Minister for the Northern Powerhouse and Local Growth,PUSS,5
 7ef9d91d-b6cf-415a-be22-cb46078cbb5b,,cd9a4a3e-15d2-4f51-b999-6eb75e55fef4,Minister for London,Minister for London,PUSS,5
-b15f5f8c-d785-452a-b7f6-f885c23abee1,,cd9a4a3e-15d2-4f51-b999-6eb75e55fef4,Minister for London,Minister for London,MoS,4
 d5f67907-e253-4cf3-8988-dfb66bb7b141,,cd9a4a3e-15d2-4f51-b999-6eb75e55fef4,Minister for Local Government,Minister for Local Government,PUSS,5
+b15f5f8c-d785-452a-b7f6-f885c23abee1,,cd9a4a3e-15d2-4f51-b999-6eb75e55fef4,Minister for London,Minister for London,MoS,4
 a39e9b6f-b0df-4c57-b57c-62aa65c8e8ac,153.0,cd9a4a3e-15d2-4f51-b999-6eb75e55fef4,Minister of State,"Minister of State, MHCLG",MoS,4
 5b4eaced-db33-4ebe-97dc-8a4f9214a2c4,,cd9a4a3e-15d2-4f51-b999-6eb75e55fef4,"Secretary of State for Housing, Communities and Local Government","Secretary of State for Housing, Communities and Local Government",SoS,3
 45d4322c-3ff7-4507-8753-3bb59cf07fb6,,cd9a4a3e-15d2-4f51-b999-6eb75e55fef4,Minister for Faith and Communities,Minister for Faith and Communities,PUSS,5
@@ -468,12 +471,13 @@ b0be04c2-a2b9-4a70-9863-3efea5acd764,,c7958519-b5ea-4631-aae2-85a59f4af4ef,Minis
 ccefa50d-d470-4c09-b8c1-2b9c05721eb0,,c7958519-b5ea-4631-aae2-85a59f4af4ef,Deputy Minister for Women,Deputy Minister for Women,MoS,4
 c9f1c86e-e042-49b2-bd38-3356a607c995,,c7958519-b5ea-4631-aae2-85a59f4af4ef,Minister for Energy,Minister for Energy,MoS,4
 2e94d573-4c9c-44e6-b6f0-cb7d74c4f211,,c7958519-b5ea-4631-aae2-85a59f4af4ef,"Minister for Science, Energy and Industry","Minister for Science, Energy and Industry",MoS,4
+6a548221-6157-4125-8fb0-f6988377b872,,c7958519-b5ea-4631-aae2-85a59f4af4ef,"Minister for Small Firms, Trade and Industry","Minister for Small Firms, Trade and Industry",PUSS,5
 56158f78-74b8-4fb3-bcfa-f87519d7568d,,c7958519-b5ea-4631-aae2-85a59f4af4ef,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DTI",PUSS,5
 b70202e1-1d92-41cf-9a43-eaed6808d57a,,c7958519-b5ea-4631-aae2-85a59f4af4ef,Minister for Competitiveness,Minister for Competitiveness,MoS,4
 d6fae8c9-9c09-4408-9d25-b71290ce195e,,c7958519-b5ea-4631-aae2-85a59f4af4ef,Minister for Women,Minister for Women,SoS,3
 7adea3b3-6779-4484-b94e-b9802d2acacb,,c7958519-b5ea-4631-aae2-85a59f4af4ef,Minister for Women and Equality,Minister for Women and Equality,PUSS,5
 ced4b43f-b686-4092-8467-a421866b72a0,,c7958519-b5ea-4631-aae2-85a59f4af4ef,Minister for Corporate and Consumer Affairs,Minister for Corporate and Consumer Affairs,PUSS,5
-6a548221-6157-4125-8fb0-f6988377b872,,c7958519-b5ea-4631-aae2-85a59f4af4ef,"Minister for Small Firms, Trade and Industry","Minister for Small Firms, Trade and Industry",PUSS,5
+98879b2b-7b99-4794-a21c-a1993ca9671d,145.0,b32a41f4-be9b-42fd-9b45-86f2482e3684,Deputy Prime Minister,Deputy Prime Minister,DPM,2
 4f30e9ed-be93-4d1d-bd56-abaa96121910,,b32a41f4-be9b-42fd-9b45-86f2482e3684,Minister for London,Minister for London,MoS,4
 ef18b95e-1923-47a0-a0c6-ec36d815d50b,,b32a41f4-be9b-42fd-9b45-86f2482e3684,Minister for London and Construction,Minister for London and Construction,PUSS,5
 a56760e2-8b9b-47f5-ad68-cf065787bfd9,,b32a41f4-be9b-42fd-9b45-86f2482e3684,Minister for Local Government and Housing,Minister for Local Government and Housing,MoS,4
@@ -484,7 +488,6 @@ b6cfb7b1-9822-4794-91ec-2b755830cc67,,b32a41f4-be9b-42fd-9b45-86f2482e3684,Minis
 a84bf021-81ae-48b2-97fc-56e64612501f,,b32a41f4-be9b-42fd-9b45-86f2482e3684,Minister for the Regions,Minister for the Regions,MoS,4
 f280bb12-b0e0-4347-9650-5ff3ef81f239,,b32a41f4-be9b-42fd-9b45-86f2482e3684,"Secretary of State for the Environment, Transport and the Regions","Secretary of State for the Environment, Transport and the Regions",SoS,3
 9de416aa-3ce3-4adf-b785-70c3d11bc263,,b32a41f4-be9b-42fd-9b45-86f2482e3684,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DETR",PUSS,5
-98879b2b-7b99-4794-a21c-a1993ca9671d,145.0,b32a41f4-be9b-42fd-9b45-86f2482e3684,Deputy Prime Minister,Deputy Prime Minister,DPM,2
 069c9474-d91b-4c5b-9aaa-96ff25f32abe,,b32a41f4-be9b-42fd-9b45-86f2482e3684,"Minister for Regions, Regeneration and Planning","Minister for Regions, Regeneration and Planning",MoS,4
 4238732b-511f-425e-aad0-838ee96acf9c,,1e0fa784-24ff-4194-bdeb-8729c147a40b,Minister for London,Minister for London,MoS,4
 db42fb13-e4e2-4bfa-9321-80635990d74a,,1e0fa784-24ff-4194-bdeb-8729c147a40b,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DoEnv",PUSS,5
@@ -512,8 +515,8 @@ a0bc79cf-5742-46c5-b823-3164afa1020c,,5970f999-2acd-4de1-93dc-92e4dc5984f4,Chief
 6a322a1e-920d-462b-8b9e-d833484106a9,,5970f999-2acd-4de1-93dc-92e4dc5984f4,Lord Commissioner (Whip),Lord Commissioner (Whip),Parl.,7
 848f251f-db49-4c64-831f-aca66a282ee2,,5970f999-2acd-4de1-93dc-92e4dc5984f4,Assistant Whip (HM Treasury),Assistant Whip (HM Treasury),Parl.,7
 550eddcd-3f86-46f3-91ea-acdaf2bf1aba,,43f14c03-ebec-4ff4-9800-945f5a8e053c,"Minister for Communications, Technology and Broadcasting","Minister for Communications, Technology and Broadcasting",PUSS,5
-89bd3196-2e4f-48b6-8bfe-a508fae5904a,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minister for Women and Equalities,Minister for Women and Equalities,PUSS,5
 b65b9ae5-0dc0-43ad-ade7-a47a736fbe06,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minister for Digital and the Creative Industries,Minister for Digital and the Creative Industries,MoS,4
+89bd3196-2e4f-48b6-8bfe-a508fae5904a,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minister for Women and Equalities,Minister for Women and Equalities,PUSS,5
 a76eafef-be4b-40b9-8666-bbd4570f37c2,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minister for Equalities,Minister for Equalities,SoS,3
 9b3a2f71-76c3-44b9-91f9-d0403d3a0274,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minister for Film and Tourism,Minister for Film and Tourism,MoS,4
 2ac5358d-bb55-41a6-b32a-f009be8acb70,,43f14c03-ebec-4ff4-9800-945f5a8e053c,"Minister for Arts, Heritage and Tourism","Minister for Arts, Heritage and Tourism",PUSS,5
@@ -526,10 +529,10 @@ ba6159e9-3000-4da0-b577-5baa282cc3d5,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minis
 8b8e695f-50a7-42d5-a955-61f27dcff684,,43f14c03-ebec-4ff4-9800-945f5a8e053c,"Minister for Sport, Tourism and Heritage","Minister for Sport, Tourism and Heritage",PUSS,5
 1e4fd634-4a4f-42c6-b732-5a3e8951f585,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minister for Intellectual Property,Minister for Intellectual Property,PUSS,5
 339e7833-b38c-4460-b076-508e76bda62a,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minister for Media and Tourism,Minister for Media and Tourism,PUSS,5
+5901a879-dd74-483c-aab3-7dab38b01b20,,43f14c03-ebec-4ff4-9800-945f5a8e053c,"Secretary of State for Culture, Olympics, Media and Sport","Secretary of State for Culture, Olympics, Media and Sport",SoS,3
 43e5d241-60fb-4e4c-9e92-820d09c1288e,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minister for Civil Society,Minister for Civil Society,PUSS,5
 8dbdae92-7b92-4ec6-96c9-80fc442a5793,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minister for Media and Heritage,Minister for Media and Heritage,PUSS,5
 336176e4-27d0-4281-a481-7a2a6e7a8203,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minister for Creative Industries and Tourism,Minister for Creative Industries and Tourism,PUSS,5
-5901a879-dd74-483c-aab3-7dab38b01b20,,43f14c03-ebec-4ff4-9800-945f5a8e053c,"Secretary of State for Culture, Olympics, Media and Sport","Secretary of State for Culture, Olympics, Media and Sport",SoS,3
 92876f40-eeb3-4575-91ee-94f1fb728323,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minister for the Arts,Minister for the Arts,MoS,4
 d0c7a0ee-fc51-4729-b780-91d413b2dd70,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minister for Sport,Minister for Sport,MoS,4
 fbb903fe-d967-4183-8e71-9ec9302ba78c,,43f14c03-ebec-4ff4-9800-945f5a8e053c,Minister for Sport,Minister for Sport,PUSS,5
@@ -558,33 +561,33 @@ decc2a5a-2938-436b-a1d0-3239d9eeedfd,,cf1ad370-166c-4263-9966-94a206be6354,Minis
 965dda7e-8521-4579-a2b0-47c3fb971776,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Third Sector,Minister for Third Sector,MoS,4
 cd353bcb-9902-4563-899c-4e0bc27c335c,,cf1ad370-166c-4263-9966-94a206be6354,Minister for the Investment Security Unit,Minister for the Investment Security Unit,MoS,4
 45fb8dfa-60bf-4076-a751-4da48bc90567,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Investment Security,Minister for Investment Security,PUSS,5
-1bdbe4bf-a352-4393-a5a8-9cf7e22f204e,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Policy and Head of the Prime Minister's Policy Unit,Minister for Policy and Head of the Prime Minister's Policy Unit,PUSS,5
 4acebe5f-ba1d-43c3-92be-a04e0532cc55,,cf1ad370-166c-4263-9966-94a206be6354,Minister for the Constitution and Devolution,Minister for the Constitution and Devolution,MoS,4
 2f7d0183-8a00-4d05-a20e-a0636530be9d,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Defence People and Veterans,Minister for Defence People and Veterans,PUSS,5
-11b3f53a-4bf4-4928-bb3e-9079363849a8,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Equalities,Minister for Equalities,SoS,3
+1bdbe4bf-a352-4393-a5a8-9cf7e22f204e,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Policy and Head of the Prime Minister's Policy Unit,Minister for Policy and Head of the Prime Minister's Policy Unit,PUSS,5
 04bc154a-1a58-442e-86b8-93cdac68f70e,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Social Exclusion,Minister for Social Exclusion,PUSS,5
+11b3f53a-4bf4-4928-bb3e-9079363849a8,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Equalities,Minister for Equalities,SoS,3
+43cb9715-57de-44c1-a4e2-8ec1bee877c6,,cf1ad370-166c-4263-9966-94a206be6354,Minister for London,Minister for London,MoS,4
 f1a7d4b1-5c4f-43d6-ad2c-8107710e0b10,,cf1ad370-166c-4263-9966-94a206be6354,Parliamentary Secretary,"Parliamentary Secretary, CO",PUSS,5
 ec8d6177-87e1-4f55-b355-82be5bc75ba9,,cf1ad370-166c-4263-9966-94a206be6354,Deputy Minister for Women,Deputy Minister for Women,MoS,4
-4a8a0a86-677b-40b5-8a76-858bbd4865cb,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Veterans' Affairs,Minister for Veterans' Affairs,MoS,4
 c6f740d3-8f24-4d01-9778-8c3ad7f24945,153.0,cf1ad370-166c-4263-9966-94a206be6354,Minister of State,"Minister of State, CO",MoS,4
-43cb9715-57de-44c1-a4e2-8ec1bee877c6,,cf1ad370-166c-4263-9966-94a206be6354,Minister for London,Minister for London,MoS,4
+4a8a0a86-677b-40b5-8a76-858bbd4865cb,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Veterans' Affairs,Minister for Veterans' Affairs,MoS,4
 46fad877-7f42-42d9-a9c1-546c60e2c5a2,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Intergovernmental Relations,Minister for Intergovernmental Relations,SoS,3
 5a03dc4d-3a2e-4191-96ba-5e0e41bf50e4,149.0,cf1ad370-166c-4263-9966-94a206be6354,Chancellor of the Duchy of Lancaster,Chancellor of the Duchy of Lancaster,SoS,3
 ceba16d3-b568-400d-a949-642fdb501a20,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Women,Minister for Women,SoS,3
 8d8c916c-6d4b-4ff6-9339-edbf1ec66b5f,,cf1ad370-166c-4263-9966-94a206be6354,Minister for the Olympics,Minister for the Olympics,MoS,4
 d2faab67-dc77-48fc-bc33-eba77149f3b2,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Cities and Constitution,Minister for Cities and Constitution,MoS,4
 561ca95e-0d0f-4aa9-8fe2-e14ff9c77a4a,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Implementation,Minister for Implementation,PUSS,5
-d69353ba-e787-4c9d-8646-d29e6630f593,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Political and Constitutional Reform,Minister for Political and Constitutional Reform,PUSS,5
-5eedf704-d096-4675-b92b-caf06a8f8ac5,,cf1ad370-166c-4263-9966-94a206be6354,Minister for the Constitution and European Relations,Minister for the Constitution and European Relations,MoS,4
-d7636d44-8c2e-4670-97f8-cb4884d18704,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Brexit Opportunities and Government Efficiency,Minister for Brexit Opportunities and Government Efficiency,MoS,4
-645e7e8f-2611-4b07-b012-d6704b1cb046,,cf1ad370-166c-4263-9966-94a206be6354,Minister without Portfolio,Minister without Portfolio,MoS,4
 7e1112c3-7ce1-4632-849d-df1a322045cb,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Civil Society,Minister for Civil Society,PUSS,5
+d69353ba-e787-4c9d-8646-d29e6630f593,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Political and Constitutional Reform,Minister for Political and Constitutional Reform,PUSS,5
+d7636d44-8c2e-4670-97f8-cb4884d18704,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Brexit Opportunities and Government Efficiency,Minister for Brexit Opportunities and Government Efficiency,MoS,4
+5eedf704-d096-4675-b92b-caf06a8f8ac5,,cf1ad370-166c-4263-9966-94a206be6354,Minister for the Constitution and European Relations,Minister for the Constitution and European Relations,MoS,4
+645e7e8f-2611-4b07-b012-d6704b1cb046,,cf1ad370-166c-4263-9966-94a206be6354,Minister without Portfolio,Minister without Portfolio,MoS,4
 8b65c175-3840-4e14-847c-b7987d175595,,cf1ad370-166c-4263-9966-94a206be6354,Paymaster General,Paymaster General,MoS,4
 ed3eaa9b-c2fc-4e80-8e4e-b8259e0a988f,145.0,cf1ad370-166c-4263-9966-94a206be6354,Deputy Prime Minister,Deputy Prime Minister,DPM,2
 8f9a72f6-64c9-40f3-90f3-bc95ccc9cd86,,cf1ad370-166c-4263-9966-94a206be6354,Minister for the Constitution,Minister for the Constitution,PUSS,5
+62b156b6-0a00-484d-b3cc-c87a7d9220ea,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Equalities,Minister for Equalities,MoS,4
 f4b056ca-892c-47b3-87be-c181dcdc88be,,cf1ad370-166c-4263-9966-94a206be6354,Minister for the Northern Powerhouse and Local Growth,Minister for the Northern Powerhouse and Local Growth,MoS,4
 7555d94c-aa28-461c-9951-c0d583dfa96b,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Women and Equalities,Minister for Women and Equalities,SoS,3
-62b156b6-0a00-484d-b3cc-c87a7d9220ea,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Equalities,Minister for Equalities,MoS,4
 c14f2288-788f-4633-b953-a528c3edc00f,,cf1ad370-166c-4263-9966-94a206be6354,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, CO",PUSS,5
 356a2f7a-1b1b-47cc-97aa-a2cde0424c4d,,cf1ad370-166c-4263-9966-94a206be6354,Minister for the Arts,Minister for the Arts,MoS,4
 c12e5c03-af8d-4c26-bf7e-fb4535bd7d44,,cf1ad370-166c-4263-9966-94a206be6354,Minister for Women,Minister for Women,PUSS,5
@@ -593,8 +596,8 @@ b3809abf-c306-4a7b-baa4-fba283a09bed,,cf1ad370-166c-4263-9966-94a206be6354,Minis
 5271e4f5-875f-404e-ba15-feee21541cf1,,6cbd29d6-19f1-4ccf-ad80-94e31aed0cb5,Minister for Tech and the Digital Economy,Minister for Tech and the Digital Economy,PUSS,5
 6e344939-a0d8-4cd1-8fc5-a7be86c7182b,,6cbd29d6-19f1-4ccf-ad80-94e31aed0cb5,Minister for Data Protection and Telecoms,Minister for Data Protection and Telecoms,MoS,4
 48bca810-f091-4a6e-a4fa-aeeda1e6427b,153.0,6cbd29d6-19f1-4ccf-ad80-94e31aed0cb5,Minister of State,"Minister of State, DSIT",MoS,4
-2966f821-b949-4b12-9883-c85cd24065b0,,6cbd29d6-19f1-4ccf-ad80-94e31aed0cb5,"Secretary of State for Science, Innovation and Technology","Secretary of State for Science, Innovation and Technology",SoS,3
 b6e85fd2-8b05-4b93-bb60-c0938c42f609,,6cbd29d6-19f1-4ccf-ad80-94e31aed0cb5,Minister for London,Minister for London,PUSS,5
+2966f821-b949-4b12-9883-c85cd24065b0,,6cbd29d6-19f1-4ccf-ad80-94e31aed0cb5,"Secretary of State for Science, Innovation and Technology","Secretary of State for Science, Innovation and Technology",SoS,3
 5e996122-bf6c-4f02-82c9-f576970bc967,,6cbd29d6-19f1-4ccf-ad80-94e31aed0cb5,"Minister for Science, Research and Innovation","Minister for Science, Research and Innovation",MoS,4
 ada4e110-e569-491e-933d-5ef7d1a6fe93,,6cbd29d6-19f1-4ccf-ad80-94e31aed0cb5,Minister for the Future Digital Economy and Online Safety,Minister for the Future Digital Economy and Online Safety,PUSS,5
 4ad83acf-9389-43a9-9ff7-98df07de2195,,6cbd29d6-19f1-4ccf-ad80-94e31aed0cb5,Minister for AI and Digital Government,Minister for AI and Digital Government,PUSS,5
@@ -605,8 +608,8 @@ ada4e110-e569-491e-933d-5ef7d1a6fe93,,6cbd29d6-19f1-4ccf-ad80-94e31aed0cb5,Minis
 958c864e-f6b7-403f-812a-f0c5755f23a8,,dc0c11db-ed48-49f3-9733-9936b595950f,Minister for Local Government and Transport,Minister for Local Government and Transport,PUSS,5
 bf1ec75a-bcb6-4cfa-ba98-c894326aea92,,dc0c11db-ed48-49f3-9733-9936b595950f,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, Scot",PUSS,5
 251df83f-991a-4051-9a46-c7b6c93cf0f5,,dc0c11db-ed48-49f3-9733-9936b595950f,Minister for Business and Industry,Minister for Business and Industry,PUSS,5
-b821e88d-267f-4fe7-9010-ab991b73ad84,153.0,dc0c11db-ed48-49f3-9733-9936b595950f,Minister of State,"Minister of State, Scot",MoS,4
 482b8ca7-b9e5-4861-b941-b66a5a8e15ea,,dc0c11db-ed48-49f3-9733-9936b595950f,Minister for Health and Arts,Minister for Health and Arts,MoS,4
+b821e88d-267f-4fe7-9010-ab991b73ad84,153.0,dc0c11db-ed48-49f3-9733-9936b595950f,Minister of State,"Minister of State, Scot",MoS,4
 e78a5653-03b3-4d74-a0ae-150aa686b324,,dc0c11db-ed48-49f3-9733-9936b595950f,Minister for Education and Industry,Minister for Education and Industry,MoS,4
 ee379a3d-e650-4226-a027-3613c98341e1,,dc0c11db-ed48-49f3-9733-9936b595950f,Minister for Home Affairs and Devolution,Minister for Home Affairs and Devolution,MoS,4
 09e6c630-53fc-473b-ace4-3fa1e248bb03,,dc0c11db-ed48-49f3-9733-9936b595950f,"Minister for Agriculture, Environment and Fisheries","Minister for Agriculture, Environment and Fisheries",PUSS,5
@@ -620,15 +623,15 @@ ed753908-a3bf-42d7-bf9a-45c8aa9c6e23,,94a430f6-efed-4a33-b504-9d39e1bfdbff,Advoc
 b53c6dbc-943a-4c4c-a94e-1b489058b488,,02a8168c-b94d-4742-bc12-a54a53bbc3f4,Minister for Skills and Apprenticeships,Minister for Skills and Apprenticeships,PUSS,5
 cb3dd193-2734-493d-a615-121d4190ef84,,02a8168c-b94d-4742-bc12-a54a53bbc3f4,"Secretary of State for Innovation, Universities and Skills","Secretary of State for Innovation, Universities and Skills",SoS,3
 9c29249a-1e51-45bb-800f-2df05c439973,153.0,02a8168c-b94d-4742-bc12-a54a53bbc3f4,Minister of State,"Minister of State, DIUS",MoS,4
-b0a89358-d4c3-4b19-b3e4-b1ce604b9118,,02a8168c-b94d-4742-bc12-a54a53bbc3f4,Minister for Higher Education and Intellectual Property,Minister for Higher Education and Intellectual Property,MoS,4
 c123068a-dec8-4897-84e5-ad648508c9e2,,02a8168c-b94d-4742-bc12-a54a53bbc3f4,Minister for Science and Innovation,Minister for Science and Innovation,MoS,4
+b0a89358-d4c3-4b19-b3e4-b1ce604b9118,,02a8168c-b94d-4742-bc12-a54a53bbc3f4,Minister for Higher Education and Intellectual Property,Minister for Higher Education and Intellectual Property,MoS,4
 19a83c76-71c0-4aa1-bca2-bf2eaefb27af,,02a8168c-b94d-4742-bc12-a54a53bbc3f4,Minister for Skills,Minister for Skills,PUSS,5
 7d196449-c7b8-494c-ad54-eef0b4e84ef7,,02a8168c-b94d-4742-bc12-a54a53bbc3f4,Minister for Further Education,Minister for Further Education,PUSS,5
 dc5cb180-7ce5-4ecf-9d0e-e38c3051afc2,,02a8168c-b94d-4742-bc12-a54a53bbc3f4,Minister for Higher Education,Minister for Higher Education,MoS,4
-60dcc69e-514a-452a-982a-f3786beb1bce,,97d2e599-4ee8-4e0a-8188-a62ed779599f,Minister for Energy,Minister for Energy,PUSS,5
 d8a41369-fbc6-4479-a952-d92b096a8797,,97d2e599-4ee8-4e0a-8188-a62ed779599f,Minister for Energy Consumers,Minister for Energy Consumers,PUSS,5
 a2330a7f-c6ec-40ff-b405-c9345cdaf16f,,97d2e599-4ee8-4e0a-8188-a62ed779599f,Minister for Energy Security and Net Zero,Minister for Energy Security and Net Zero,MoS,4
 204605ea-c99b-4421-bfe1-af0917da6ef8,,97d2e599-4ee8-4e0a-8188-a62ed779599f,Minister for Affordability and Skills,Minister for Affordability and Skills,PUSS,5
+60dcc69e-514a-452a-982a-f3786beb1bce,,97d2e599-4ee8-4e0a-8188-a62ed779599f,Minister for Energy,Minister for Energy,PUSS,5
 94f7fdef-1a3c-49e3-b0d7-486a907fb5b4,,97d2e599-4ee8-4e0a-8188-a62ed779599f,Secretary of State for Energy Security and Net Zero,Secretary of State for Energy Security and Net Zero,SoS,3
 b553b7e1-6448-4c10-bcf1-17a663589ecb,,97d2e599-4ee8-4e0a-8188-a62ed779599f,Minister for Energy Efficiency and Green Finance,Minister for Energy Efficiency and Green Finance,PUSS,5
 f42d10c7-d645-446c-9bb4-8cac9e7aada9,,97d2e599-4ee8-4e0a-8188-a62ed779599f,Minister for Industry,Minister for Industry,MoS,4
@@ -699,16 +702,16 @@ b249058e-6af9-44b2-b497-149de4ccf306,,33a2ae61-e756-40ca-96da-c708a022b702,Minis
 2723304d-3f4b-4e41-8c61-3976c66bb921,,33a2ae61-e756-40ca-96da-c708a022b702,Minister for the Middle East and North Africa,Minister for the Middle East and North Africa,MoS,4
 522824c3-53b5-4e15-aa22-3c32736ae16b,,33a2ae61-e756-40ca-96da-c708a022b702,Minister for the Middle East,Minister for the Middle East,MoS,4
 e9942601-4cf6-4ba5-90b9-3c7d8e9a343b,,33a2ae61-e756-40ca-96da-c708a022b702,Minister for the Overseas Territories and Sustainable Development,Minister for the Overseas Territories and Sustainable Development,PUSS,5
-b3692ff7-0838-4b43-b247-ff7d5d5187b2,,33a2ae61-e756-40ca-96da-c708a022b702,Minister for Africa,Minister for Africa,MoS,4
 e32cade8-4134-4410-8062-f89f504f04be,,33a2ae61-e756-40ca-96da-c708a022b702,Minister for Middle East and North Africa,Minister for Middle East and North Africa,MoS,4
+b3692ff7-0838-4b43-b247-ff7d5d5187b2,,33a2ae61-e756-40ca-96da-c708a022b702,Minister for Africa,Minister for Africa,MoS,4
 b0795a53-dde2-4923-83b5-e7ef12e844b7,,33a2ae61-e756-40ca-96da-c708a022b702,Minister for Asia,Minister for Asia,MoS,4
-a83e9393-35e7-4aba-85e6-dc43d7cd93b2,,33a2ae61-e756-40ca-96da-c708a022b702,Minister for European Neighbourhood and the Americas,Minister for European Neighbourhood and the Americas,PUSS,5
 74011b62-6682-41ab-9586-d64485850740,,33a2ae61-e756-40ca-96da-c708a022b702,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, FCO",PUSS,5
+a83e9393-35e7-4aba-85e6-dc43d7cd93b2,,33a2ae61-e756-40ca-96da-c708a022b702,Minister for European Neighbourhood and the Americas,Minister for European Neighbourhood and the Americas,PUSS,5
 ec5c9bc9-046e-4df2-ac63-b651073778ef,147.0,33a2ae61-e756-40ca-96da-c708a022b702,Secretary of State for Foreign and Commonwealth Affairs,Secretary of State for Foreign and Commonwealth Affairs,SoS,3
 f99e91e6-7d2d-4c43-88c4-b2ec62e6b6a9,,33a2ae61-e756-40ca-96da-c708a022b702,First Secretary of State,First Secretary of State,DPM,2
 f2d726ef-f1c8-4ee6-826e-b4672eacc91e,,2d033e00-cba8-484d-b06a-c84d1d0b5d8b,Minister for Civil Justice,Minister for Civil Justice,MoS,4
-f8491a10-d9e8-42fa-b2d7-b6ada6b11f39,,2d033e00-cba8-484d-b06a-c84d1d0b5d8b,"Minister for Youth Justice, Victims, Female Offenders and Offender Health","Minister for Youth Justice, Victims, Female Offenders and Offender Health",PUSS,5
 22f65802-0f32-40f4-a035-c1aded654407,,2d033e00-cba8-484d-b06a-c84d1d0b5d8b,Secretary of State for Justice and Lord Chancellor,Secretary of State for Justice and Lord Chancellor,SoS,3
+f8491a10-d9e8-42fa-b2d7-b6ada6b11f39,,2d033e00-cba8-484d-b06a-c84d1d0b5d8b,"Minister for Youth Justice, Victims, Female Offenders and Offender Health","Minister for Youth Justice, Victims, Female Offenders and Offender Health",PUSS,5
 ff04cdba-4d0f-4fbb-8a65-ed7b58d04185,,2d033e00-cba8-484d-b06a-c84d1d0b5d8b,Minister for Human Rights,Minister for Human Rights,PUSS,5
 5aad01db-80e1-44fb-b510-39ef85519b7e,,2d033e00-cba8-484d-b06a-c84d1d0b5d8b,Minister for Justice,Minister for Justice,MoS,4
 5b31e565-8743-4a6b-8552-37856c258e2a,,2d033e00-cba8-484d-b06a-c84d1d0b5d8b,Minister for Illegal Migration,Minister for Illegal Migration,PUSS,5
@@ -730,14 +733,15 @@ fe4bfdd1-63ed-442d-9ae7-63d4a551a5f0,,2d033e00-cba8-484d-b06a-c84d1d0b5d8b,Minis
 7362266e-361b-44d1-8785-455b68be395b,,e17826ce-6b83-4ac6-ab10-cd3096ffd5e4,Deputy Leader of the House of Commons,Deputy Leader of the House of Commons,Parl.,7
 785b1b6c-0be7-468d-9a99-c7d10af030b1,156.0,e17826ce-6b83-4ac6-ab10-cd3096ffd5e4,Leader of the House of Commons,Leader of the House of Commons,Parl. lead.,6
 2e67a1f3-3e07-48e0-b76d-c1113a8add32,,c091555f-f8a2-4260-9b26-d0064e3cd68f,"Minister for Agriculture, Fisheries and Food","Minister for Agriculture, Fisheries and Food",MoS,4
-74294672-392d-490a-b5f4-bdea543c4279,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minister for the Pacific and the International Environment,Minister for the Pacific and the International Environment,MoS,4
 0eb2d1ff-96c2-4d66-81e9-ba17265a75e6,,c091555f-f8a2-4260-9b26-d0064e3cd68f,"Minister for Biosecurity, Animal Health and Welfare","Minister for Biosecurity, Animal Health and Welfare",PUSS,5
+74294672-392d-490a-b5f4-bdea543c4279,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minister for the Pacific and the International Environment,Minister for the Pacific and the International Environment,MoS,4
 25d4f8d0-7f4c-43b9-924a-b2fba031b7b9,,c091555f-f8a2-4260-9b26-d0064e3cd68f,"Minister for Water, Forestry, Rural Affairs and Resource Management","Minister for Water, Forestry, Rural Affairs and Resource Management",PUSS,5
+0ccaaf4c-608c-435c-b6bd-a01ccf19aaaf,,c091555f-f8a2-4260-9b26-d0064e3cd68f,"Minister for Resource Management, the Local Environment and Environmental Science","Minister for Resource Management, the Local Environment and Environmental Science",PUSS,5
 29685b8e-a2a1-419e-8df6-d84421596402,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minister for Nature,Minister for Nature,PUSS,5
 22a88538-2458-48f2-81ac-d4ef81a62704,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minister for Water and Rural Growth,Minister for Water and Rural Growth,PUSS,5
 2d503129-af0a-4f94-a3d6-cf0cbc77d22a,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minister for Fisheries,Minister for Fisheries,PUSS,5
-d826e4ee-f0ee-4987-b0d8-fac74beb0c8f,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minister for Natural Environment and Land Use,Minister for Natural Environment and Land Use,PUSS,5
 0637dc3f-3725-4b50-8d85-fda4bd328d20,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, Defra",PUSS,5
+d826e4ee-f0ee-4987-b0d8-fac74beb0c8f,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minister for Natural Environment and Land Use,Minister for Natural Environment and Land Use,PUSS,5
 3cd17b04-609b-4b81-8489-417e224aad45,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minister for Water and Flooding,Minister for Water and Flooding,PUSS,5
 8462e8bf-8a8d-4779-bd7c-43e6fa0b08a4,,c091555f-f8a2-4260-9b26-d0064e3cd68f,"Minister for Farming, Food and Sustainable Energy","Minister for Farming, Food and Sustainable Energy",PUSS,5
 e7c7151d-ddad-4e57-9e20-3f40630d5162,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minister for Food and Animal Welfare,Minister for Food and Animal Welfare,PUSS,5
@@ -762,14 +766,13 @@ a5d53c02-7c4d-4fb0-b1f2-78c900fac55c,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minis
 8f318f29-55be-4798-ab3d-828bfff52710,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minister for Agriculture and Food,Minister for Agriculture and Food,MoS,4
 e09bca72-e4f1-4f25-a6ff-890cf1d537a5,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minister for the Environment,Minister for the Environment,MoS,4
 cc019583-52f8-4598-aa5c-a16a9d3825c3,,c091555f-f8a2-4260-9b26-d0064e3cd68f,"Secretary of State for Environment, Food and Rural Affairs","Secretary of State for Environment, Food and Rural Affairs",SoS,3
-0ccaaf4c-608c-435c-b6bd-a01ccf19aaaf,,c091555f-f8a2-4260-9b26-d0064e3cd68f,"Minister for Resource Management, the Local Environment and Environmental Science","Minister for Resource Management, the Local Environment and Environmental Science",PUSS,5
 3dbcdbef-2856-4c98-bf0d-9a2003885ca9,,c091555f-f8a2-4260-9b26-d0064e3cd68f,"Minister for Biosecurity, Marine and Rural Affairs","Minister for Biosecurity, Marine and Rural Affairs",MoS,4
 5e6790fc-8d07-4efa-ab8b-902b6a28e41b,,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minister for Pacific and the Environment,Minister for Pacific and the Environment,MoS,4
 b9510291-159b-4c7f-bc7d-91a991c223ae,,c091555f-f8a2-4260-9b26-d0064e3cd68f,"Minister for Rural Affairs, Landscape and Biodiversity","Minister for Rural Affairs, Landscape and Biodiversity",PUSS,5
 cbddc8ee-ad3e-41d0-8c98-95a453d9291e,,c091555f-f8a2-4260-9b26-d0064e3cd68f,"Minister for Food, Farming and Fisheries","Minister for Food, Farming and Fisheries",MoS,4
 12ce42e5-a5b5-4b89-8072-97b553fe0b1e,153.0,c091555f-f8a2-4260-9b26-d0064e3cd68f,Minister of State,"Minister of State, Defra",MoS,4
-78e681a2-a717-468b-9ec3-9f62b97d129a,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minister for Local Government,Minister for Local Government,PUSS,5
 e5794579-3b03-4711-90a9-9fbf6ffaf1a5,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,"Secretary of State for Levelling Up, Housing and Communities","Secretary of State for Levelling Up, Housing and Communities",SoS,3
+78e681a2-a717-468b-9ec3-9f62b97d129a,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minister for Local Government,Minister for Local Government,PUSS,5
 66e423db-19af-45e6-b763-9ed113e1b0b1,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minister for Refugees,Minister for Refugees,MoS,4
 ae18f3d3-c88a-4659-bedf-82b29d1891bb,145.0,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Deputy Prime Minister,Deputy Prime Minister,DPM,2
 7e351bd3-529b-4bbf-b921-81df33b21632,153.0,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minister of State,"Minister of State, DLUHC",MoS,4
@@ -783,26 +786,26 @@ c6a89470-302d-4602-bd00-25789a3e506b,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minis
 60ec6e6d-e191-43de-ad2a-350ce78b4389,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minister for Rough Sleeping and Housing,Minister for Rough Sleeping and Housing,PUSS,5
 754dbea0-3bbe-4d3a-bce4-307fc66d6b7d,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minister for London,Minister for London,MoS,4
 f08eba9b-e8bd-4cb1-a97b-4289f65faefd,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minister for Local Government and Building Safety,Minister for Local Government and Building Safety,PUSS,5
-ed73a690-2807-4a18-8c30-df3de1f1c937,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minister for Levelling Up,Minister for Levelling Up,PUSS,5
 1f26e30b-9d8d-4639-aa6d-d8bbca7ad536,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,"Minister for Local Government, Faith and Communities","Minister for Local Government, Faith and Communities",MoS,4
 51ebcf7f-8adf-40d4-bf11-ed90b2b510ff,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DLUHC",PUSS,5
 3fe40cf8-c6c7-4918-8796-e4dd360b7cee,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,"Minister for Housing, Planning and Building Safety","Minister for Housing, Planning and Building Safety",MoS,4
-2b7cd9d0-5950-4fea-9540-ae4fed5b73d0,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minister for Housing and Planning,Minister for Housing and Planning,MoS,4
+ed73a690-2807-4a18-8c30-df3de1f1c937,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minister for Levelling Up,Minister for Levelling Up,PUSS,5
 9de60039-9ea3-48a9-9a75-a7e12b6ad0e8,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minister for Local Government and English Devolution,Minister for Local Government and English Devolution,MoS,4
+2b7cd9d0-5950-4fea-9540-ae4fed5b73d0,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minister for Housing and Planning,Minister for Housing and Planning,MoS,4
 d9f3defa-18f5-4ca8-a726-c5b61ae4f016,,88e057e4-f7bc-428a-ac95-d5006b9e7ac0,Minister for Social Housing and Faith,Minister for Social Housing and Faith,PUSS,5
 0bbc4254-5576-453a-b3eb-c63d5870b51d,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Pensions,Minister for Pensions,MoS,4
 50106637-5adf-48e3-9721-c0a8b933a3b9,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Employment,Minister for Employment,PUSS,5
 7939187a-5689-4457-a399-bced2a26110d,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Disabled People,Minister for Disabled People,PUSS,5
 f2b16ccd-bd56-47a5-8902-bf1137da1356,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Pensions and the Ageing Society,Minister for Pensions and the Ageing Society,MoS,4
+3ef500fb-8fe3-48d9-a491-b1d8b539fbdc,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Work and Welfare,Minister for Work and Welfare,MoS,4
 9e96bea4-653c-4d11-8d92-a740983410a6,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Welfare Reform,Minister for Welfare Reform,PUSS,5
 7158b0c3-2fbb-45d8-b46a-a8af6d3e65eb,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Work and Pensions,Minister for Work and Pensions,PUSS,5
 6f3cec12-84f9-41b9-add4-a555ac95ad87,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Disabled People,Minister for Disabled People,MoS,4
-3ef500fb-8fe3-48d9-a491-b1d8b539fbdc,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Work and Welfare,Minister for Work and Welfare,MoS,4
+e3186ede-1a5e-48c1-bbeb-df6f1f2b2cd0,,fec96b64-de5a-4c15-be6a-da1f69dc5920,"Minister for Family Support, Housing and Child Maintenance","Minister for Family Support, Housing and Child Maintenance",PUSS,5
 5a00aa30-76a5-4568-bb9d-e9252db4a406,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DWP",PUSS,5
 375a04d0-6e64-4b4f-aa8a-f4bc4f73b054,,fec96b64-de5a-4c15-be6a-da1f69dc5920,"Minister for Disabled People, Health and Work","Minister for Disabled People, Health and Work",PUSS,5
-e3186ede-1a5e-48c1-bbeb-df6f1f2b2cd0,,fec96b64-de5a-4c15-be6a-da1f69dc5920,"Minister for Family Support, Housing and Child Maintenance","Minister for Family Support, Housing and Child Maintenance",PUSS,5
-f6f88b6b-c690-4832-9710-ca9051036f69,,fec96b64-de5a-4c15-be6a-da1f69dc5920,"Minister for Disabled People, Health and Work","Minister for Disabled People, Health and Work",MoS,4
 3b337313-4bc2-4165-8701-d192bac3b0eb,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Pensions and Growth,Minister for Pensions and Growth,PUSS,5
+f6f88b6b-c690-4832-9710-ca9051036f69,,fec96b64-de5a-4c15-be6a-da1f69dc5920,"Minister for Disabled People, Health and Work","Minister for Disabled People, Health and Work",MoS,4
 f6a4d3e9-50d3-4ba1-b16a-2e6c57aa1f58,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Welfare Reform,Minister for Welfare Reform,MoS,4
 04bd09e6-981c-4d23-b0a4-34684f4c34bf,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Social Security and Disability,Minister for Social Security and Disability,MoS,4
 a4aa77b4-af94-4eaf-a71e-2a788975fd23,153.0,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister of State,"Minister of State, DWP",MoS,4
@@ -813,14 +816,13 @@ feaf2046-84c8-4aff-baf6-557dd221814d,,fec96b64-de5a-4c15-be6a-da1f69dc5920,"Mini
 612445d5-267b-4213-bd11-6f3349683c0b,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Children and Families,Minister for Children and Families,PUSS,5
 60fef54b-1f64-427d-bbef-6f481912a995,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Transformation,Minister for Transformation,PUSS,5
 6dd2e95a-8b58-43b2-a777-78dad743dce5,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Employment,Minister for Employment,MoS,4
-d5b6e67a-e903-4fd3-ad75-84f11742c84b,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for London,Minister for London,MoS,4
 81ff2c97-5a95-4263-8f8e-876e10f11170,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Welfare Delivery,Minister for Welfare Delivery,PUSS,5
+d5b6e67a-e903-4fd3-ad75-84f11742c84b,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for London,Minister for London,MoS,4
 72233497-b778-4c07-8294-8bf2e029de55,,fec96b64-de5a-4c15-be6a-da1f69dc5920,Minister for Employment and Welfare Reform,Minister for Employment and Welfare Reform,MoS,4
 879060fb-5113-47a4-adf9-220bb1b460c3,153.0,13ff6dc1-7e76-46a6-93dd-da7eaea58353,Minister of State,"Minister of State, DESc",MoS,4
 21fbf81c-510d-4c98-9048-1bde331f151c,,13ff6dc1-7e76-46a6-93dd-da7eaea58353,Minister for the Arts,Minister for the Arts,MoS,4
 9cd4ecbf-f389-4444-ac22-27c7bdf00ceb,,13ff6dc1-7e76-46a6-93dd-da7eaea58353,Secretary of State for Education and Science,Secretary of State for Education and Science,SoS,3
 420f16c2-bc76-445a-8c44-f374c964cd04,,13ff6dc1-7e76-46a6-93dd-da7eaea58353,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, DESc",PUSS,5
-9ae296e8-df64-4e44-82c9-f8a3a4f158b4,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Crime Reduction,Minister for Crime Reduction,PUSS,5
 9ca81aeb-e5cd-43f1-8fb4-f24c61e1ca4a,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Countering Illegal Migration,Minister for Countering Illegal Migration,MoS,4
 12fe7d5c-a02c-4652-9a24-f274d006d428,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Crime and Policing,Minister for Crime and Policing,MoS,4
 a88b44fa-51ed-4e9a-8929-ec1a0229aeb8,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Legal Migration and the Border,Minister for Legal Migration and the Border,MoS,4
@@ -831,17 +833,18 @@ badbea66-ad49-44c9-98dc-e5c0ad96462a,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minis
 100de08d-152e-45c2-8b0b-cc8e6c54c0a6,148.0,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Secretary of State for the Home Department,Secretary of State for the Home Department,SoS,3
 4b467aed-afac-48fc-9ee4-dba445490dc9,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,"Minister for Nationality, Citizenship and Immigration","Minister for Nationality, Citizenship and Immigration",PUSS,5
 8bd1a91f-c5ba-4dee-a873-d87c398178ab,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Police and Crime Reduction,Minister for Police and Crime Reduction,MoS,4
-549e5163-ddeb-45b2-b568-a5e967c91bb9,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Migration and Citizenship,Minister for Migration and Citizenship,PUSS,5
 65851cfd-768d-4136-9d6c-a365c66a88fc,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Security and Counter-Terrorism,Minister for Security and Counter-Terrorism,PUSS,5
+60e3b7b2-cf81-49b1-88f2-aa27c459f8ab,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Identity,Minister for Identity,PUSS,5
 bebe0f7d-d1dd-4c59-9f3f-a948c0c925fb,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Building Safety and Communities,Minister for Building Safety and Communities,MoS,4
 db8620eb-45ae-4e78-b283-a9dbadbf1de0,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Afghan Resettlement,Minister for Afghan Resettlement,PUSS,5
-60e3b7b2-cf81-49b1-88f2-aa27c459f8ab,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Identity,Minister for Identity,PUSS,5
-21479529-679b-41f2-ab24-bcd35a6745a0,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Criminal Information,Minister for Criminal Information,PUSS,5
+549e5163-ddeb-45b2-b568-a5e967c91bb9,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Migration and Citizenship,Minister for Migration and Citizenship,PUSS,5
 b47586ac-5548-49f2-a623-bf6588f31945,153.0,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister of State,"Minister of State, HO",MoS,4
+21479529-679b-41f2-ab24-bcd35a6745a0,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Criminal Information,Minister for Criminal Information,PUSS,5
 7faeac15-904b-4809-851e-c7dcebf0b0e3,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,"Minister for Policing, Security and Community Safety","Minister for Policing, Security and Community Safety",MoS,4
 ee48a5f9-6474-463f-85a3-c7d0d5289a3e,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,"Minister for Policing, Fire and Criminal Justice and Victims","Minister for Policing, Fire and Criminal Justice and Victims",MoS,4
 2a90f53e-7396-4032-a16b-c74ee29b6b62,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Immigration,Minister for Immigration,PUSS,5
 15561f6c-e915-499e-9b63-fd7e83bec9bc,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Police and Security,Minister for Police and Security,MoS,4
+9ae296e8-df64-4e44-82c9-f8a3a4f158b4,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Crime Reduction,Minister for Crime Reduction,PUSS,5
 765f0d9e-7d55-4a47-9c4a-25fe83952fb7,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Women and Equalities,Minister for Women and Equalities,SoS,3
 1cadc026-8b72-4c56-a0fe-28394111b49d,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Parliamentary Under-Secretary of State,"Parliamentary Under-Secretary of State, HO",PUSS,5
 603acee5-14fe-4a71-94be-28b06f8f75f8,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Prisons,Minister for Prisons,MoS,4
@@ -867,6 +870,7 @@ fcfcca93-2d86-4f01-bc27-4d83d5c60de8,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minis
 66e38726-d28d-4cf4-b506-8519dd0d2c87,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Security,Minister for Security,PUSS,5
 3ffc8b64-6b78-404f-bc7a-83a2fb1b54be,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Deputy for EU Exit and No Deal Preparation,Deputy for EU Exit and No Deal Preparation,MoS,4
 e48e8c51-3f9d-4d60-82f0-9febc73d593c,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Policing and the Fire Service,Minister for Policing and the Fire Service,MoS,4
+e7c335d4-60e1-4955-b898-98ef09340fab,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Policing and Crime Prevention,Minister for Policing and Crime Prevention,MoS,4
 58191a66-b262-441a-892b-9c339ae53e0d,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Safeguarding,Minister for Safeguarding,PUSS,5
 51f86848-1ecb-4a56-a583-93c7c9dfc96b,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Crime Prevention,Minister for Crime Prevention,MoS,4
 20bfa8f5-6441-40af-8398-9243e8e93fbc,,143e8528-d7ab-4514-ac5b-e69d8adc9af2,Minister for Safeguarding and Violence Against Women and Girls,Minister for Safeguarding and Violence Against Women and Girls,PUSS,5
