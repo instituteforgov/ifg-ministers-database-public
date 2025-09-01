@@ -408,6 +408,7 @@ de9d7ea5-d185-4366-89c2-1ce32d2671ab,072891a7-e90f-431f-80d1-b16844a4fafe,Non-ca
 daa5d254-2cae-416b-a6f7-1d137906d2fc,f9213b5f-1f81-4057-8672-537113a3903d,Non-cabinet,False,False,,2019-07-24,2019-09-04
 877682d4-2b75-4247-9abb-1d291c728313,dd05b3cf-4d0b-42f5-9b97-8a5fc00f4239,Non-cabinet,False,False,,1994-07-20,1995-07-05
 0b7ef947-d04d-4ef3-83b1-1d2caab272ee,cc77755f-97dc-4b2f-94c1-e636a9a8efb0,Non-cabinet,False,False,,2003-06-13,2010-05-11
+1add03c2-f5d4-4e2a-a95c-1d4359ddac2f,b10eac21-75f5-4c95-9ee5-780f42d73a12,Attends cabinet,False,False,,2025-09-01,
 27cc2dc6-440e-4ef4-8fd7-1dd1d1e14025,2650b645-d5e6-4ae1-b9e1-5d647366a2b6,Full cabinet,False,False,,1982-04-06,1983-06-11
 b734ce85-f50c-45de-84f2-1dd7ea20985b,3d94da4a-d675-4fb8-b2eb-cafc1831f6d5,Non-cabinet,False,False,,2007-06-29,2008-10-05
 0cc0a24b-4f62-414f-bb24-1df4277e0736,d9644b09-f250-48cf-b4b2-f0f33501e41b,Full cabinet,False,False,,1989-10-26,1990-11-28
@@ -1031,7 +1032,7 @@ e74995c2-2dc8-4f6e-a28f-4ccef67a5944,a86cf36e-c538-4734-903a-06b2ef0c35c1,Non-ca
 ab4b5b0f-848e-4f9a-b2fa-4d035cbbb575,893aec2b-fe14-4239-9de4-d0f68e34dd30,Full cabinet,False,False,,1999-05-17,1999-07-01
 f4cb2612-a032-4c55-a4d9-4d0f1a3d438b,4398a9bd-457e-43e8-af87-6185d4ec96be,Non-cabinet,False,False,,2020-02-14,2023-01-01
 60dcd4a0-965b-4b7f-b69b-4d2055731c31,ceab3bbc-3972-436e-91dd-95f05fb6c564,Non-cabinet,False,False,,1985-09-02,1986-09-10
-648f4bf9-b96d-4d40-b67e-4d26c7fbea16,4be11acd-9c04-4186-9a6c-503fc19627ca,Non-cabinet,False,False,,2024-07-09,
+648f4bf9-b96d-4d40-b67e-4d26c7fbea16,4be11acd-9c04-4186-9a6c-503fc19627ca,Non-cabinet,False,False,,2024-07-09,2025-09-01
 aad234fc-d9cc-401d-af75-4d2dfafb1508,ec0342a2-3c9c-41f6-bef7-e166b3ec88c0,Non-cabinet,False,False,,1981-09-14,1983-06-13
 9971a907-8372-4ded-9d0b-4d475556eae0,0330b12b-ee8e-4a9f-971e-b9bbdaece888,Non-cabinet,False,False,,2017-06-13,2019-12-16
 ceacaa56-47b0-4780-b676-4d4a422defc5,2b218600-2472-4548-a03f-7ff79d9abf1f,Non-cabinet,False,False,,1979-05-07,1981-09-14
@@ -1569,6 +1570,7 @@ f7854d98-6a43-46cb-8e1a-736dee06fe5d,cc489fee-628b-4dcd-8af4-39e235ef2afc,Non-ca
 b56ed0eb-770c-4346-b494-73a145719f8f,9efec51c-5eb2-4c7f-835b-b8eb18671a0a,Non-cabinet,False,False,,1987-06-15,1989-07-24
 9af20c30-53f7-4eb0-9940-73a75d9b2e74,0743d590-5e8e-49dc-bcae-44a5862f10d3,Non-cabinet,False,False,,2022-10-30,2024-07-05
 3c6cae34-14ac-4856-bbea-73aaa70bd44f,dbe7e9db-d24d-4d3b-9db3-6ae0a0d0b234,Attends cabinet,False,False,,2017-06-11,2019-05-22
+606223dd-160f-46fa-95cf-73ecbe5fcb95,f680ddfe-6746-4375-92cb-7c8834f46145,Attends cabinet,False,False,,2025-09-01,
 54057504-2dc8-4644-8385-73ef9a3f3ce4,d8f63961-7578-4e41-8387-6af581933953,Non-cabinet,False,False,,2012-09-04,2014-08-05
 9c0d8fc1-261c-4887-b24c-73f159ffaf0b,3e9cb441-18b4-4b04-8022-bc1d82b72174,Non-cabinet,False,False,,2023-06-02,2024-03-01
 f7cebd23-c5a9-45cc-8cda-74054fdc1c5f,47816e4c-aa30-42ca-84cd-9759ebaa0f3e,Non-cabinet,False,False,,1997-05-06,1998-07-28
@@ -1709,6 +1711,7 @@ ddbebdfc-aa5d-4873-9209-7da7a066d70d,1b098030-959f-43e1-8c2e-48a8bd698243,Non-ca
 e2164d14-99ea-403f-8941-7da9b9ffbb70,4e46ba30-55fd-4772-8ba3-5b7dda2561e8,Non-cabinet,False,False,,2023-02-07,2023-05-17
 fef4f5f7-c183-44bd-af1f-7dc7e94a7b03,9d0a1236-9cbe-4002-a0c6-38d94e743355,Non-cabinet,False,False,,2015-05-11,2016-07-15
 f2ea8ee2-5c2b-476a-8f0d-7dcf5c3eb148,b7f03ea3-64fe-4d6e-8dd6-54f7bdc9f291,Non-cabinet,False,False,,1998-07-28,2001-06-11
+288511b7-9067-47bb-8d5a-7df3a9edc1aa,5a0b1e07-b3b6-4319-aee1-c23cd3e8073a,Non-cabinet,False,False,,2025-09-01,
 7439e70a-a314-42cd-a0a3-7e3191741295,361772c5-ecda-4f2c-98c8-5327c6d66187,Non-cabinet,False,False,,2017-06-15,2018-07-19
 cc40aff1-24a8-421e-b7c2-7e4309b2f815,da23c392-0317-4755-a28e-8ac8456b22a8,Non-cabinet,False,False,,1987-06-15,1994-07-20
 ace8bac2-1056-43cd-aa54-7e43eeba5ff8,3af5c757-c601-4a6a-b6d6-1a8d8e1cc290,Non-cabinet,False,False,,1997-05-05,1999-01-03
@@ -1737,7 +1740,7 @@ d5602174-d3c5-4b41-95d5-7f90f1e0de6c,f8baa3b3-c2cb-4980-9e65-8341eb43bd30,Non-ca
 b8099012-1a0a-427a-bf90-7fa293ba904e,ba7f41c7-684d-4770-acd8-f720af0eaae9,Non-cabinet,False,False,,1998-10-29,1999-10-11
 73ffb3e5-76fb-43a6-b429-7fa822f470e5,99492b2e-9745-4146-b0c1-5c3002d5b62c,Non-cabinet,False,False,,1998-01-28,2001-06-11
 217de9ce-077c-458d-bcd8-7fcc41770b4e,5eecfd94-8dd7-4c30-8254-0f89d133975c,Non-cabinet,False,False,,2009-06-09,2010-05-11
-f21acf63-ad3b-4830-a3c7-7fdaa03cc32a,e7e31acf-c7d5-41f0-82d3-d2b2f4b5645c,Attends cabinet,False,False,,2024-07-05,
+f21acf63-ad3b-4830-a3c7-7fdaa03cc32a,e7e31acf-c7d5-41f0-82d3-d2b2f4b5645c,Attends cabinet,False,False,,2024-07-05,2025-09-01
 8b5252b0-4900-4297-941c-7fdd666ebbe2,f15d7e55-2534-4c17-ab71-4ce35abed63a,Non-cabinet,False,False,,2022-10-27,2023-11-13
 b2525e89-2c10-45fe-9cbc-7ffa092c0b67,d11640c2-20a0-46b6-9921-42ae4e4fb8d4,Non-cabinet,False,False,,1997-05-05,1998-07-28
 fae6183a-d4f2-4403-acdd-800b71e9dbe6,28eaf606-6ef9-46e4-bd0b-77dc83c23ff4,Full cabinet,False,False,,2019-07-24,2022-09-06
