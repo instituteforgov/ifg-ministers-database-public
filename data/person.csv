@@ -49,6 +49,7 @@ a14fa79e-520c-48e8-b3f7-087f1b6c2f8c,3278.0,,Baroness Rawlings,Baroness Rawlings
 4e44d1ed-2273-4e38-96dd-08861b78716e,2665.0,,Lord Haskel,Lord Haskel,Lord Haskel,Haskel,M,,
 3d825859-9313-4dc5-a488-08cf2b8f9915,4607.0,,Stephanie Peacock,Stephanie Peacock,Stephanie Peacock,Peacock,F,,
 226df242-65de-4f29-9e9f-08f2cf9ad884,4395.0,,Sue Hayman,Sue Hayman,Sue Hayman,Hayman,F,,2020-09-09
+226df242-65de-4f29-9e9f-08f2cf9ad884,4395.0,,Baroness Hayman of Ullock,Baroness Hayman of Ullock,Baroness Hayman of Ullock,Hayman,F,2020-09-09,
 bd7c9702-f5c3-4fe6-b6ea-08fca700d186,78.0,,Jonathan Shaw,Jonathan Shaw,Jonathan Shaw,Shaw,M,,
 72e1bc81-da5d-4f2b-992e-09658c8445ca,1754.0,,Lord Young of Graffham,Lord Young of Graffham,Lord Young of Graffham,Young,M,1984-09-10,
 a8121307-35c2-43b5-af3c-096dd476ff5f,1200.0,,Greg Knight,Greg Knight,Greg Knight,Knight,M,,
@@ -66,6 +67,7 @@ b494bd4a-327a-4f31-8eff-0b56c1fb5946,26.0,,Michael Jabez Foster,Michael Jabez Fo
 c138b827-430b-4abb-aa44-0b9db2d4fc17,760.0,,Gyles Brandreth,Gyles Brandreth,Gyles Brandreth,Brandreth,M,,
 08e08c02-170a-451a-836c-0ba44128ea1f,4600.0,,Leo Docherty,Leo Docherty,Leo Docherty,Docherty,M,,
 4960ecb7-d315-4486-b866-0bb7765c4f05,3972.0,,Baroness Chapman of Darlington,Baroness Chapman of Darlington,Baroness Chapman of Darlington,Chapman,F,2021-02-01,
+4960ecb7-d315-4486-b866-0bb7765c4f05,3972.0,,Jenny Chapman,Jenny Chapman,Jenny Chapman,Chapman,F,,2021-02-01
 f9c60977-9aef-46d6-b3e4-0be48d8e7e81,1487.0,,Tobias Ellwood,Tobias Ellwood,Tobias Ellwood,Ellwood,M,,
 00aa6e21-fe30-45cf-8a9c-0c08f971b0d4,4601.0,,Andrew Bowie,Andrew Bowie,Andrew Bowie,Bowie,M,,
 2b817a0c-39d7-4f93-ae30-0c1c5895559a,4009.0,,Brandon Lewis,Brandon Lewis,Brandon Lewis,Lewis,M,,
@@ -125,7 +127,6 @@ ae612239-911d-4cb2-8a54-1879b4526e14,994.0,,David Hunt,David Hunt,David Hunt,Hun
 ae612239-911d-4cb2-8a54-1879b4526e14,994.0,,Lord Hunt of Wirral,Lord Hunt of Wirral,Lord Hunt of Wirral,Hunt,M,1997-10-20,
 0f897c1f-992b-4d1d-8060-18a52d0cd6ba,4097.0,373.0,Liz Truss,Liz Truss,Liz Truss,Truss,F,,
 2c191492-cd0a-42f6-af6b-18af627de447,439.0,,Ruth Kelly,Ruth Kelly,Ruth Kelly,Kelly,F,,
-4960ecb7-d315-4486-b866-0bb7765c4f05,3972.0,,Jenny Chapman,Jenny Chapman,Jenny Chapman,Chapman,F,,2021-02-01
 9c03fc9f-ae19-4893-a31a-1938d4862225,562.0,,Alun Michael,Alun Michael,Alun Michael,Michael,M,,
 eb4b9ce6-d262-4fdf-8ff5-1959bb4f4ece,4107.0,,Harriett Baldwin,Harriett Baldwin,Harriett Baldwin,Baldwin,F,,
 45a6a3da-4313-4243-b11a-196020003325,4336.0,,Lord Callanan,Lord Callanan,Lord Callanan,Callanan,M,,
@@ -135,6 +136,7 @@ f1c1a177-68d7-4951-98f9-1a5acac176a7,91.0,,John Stanley,John Stanley,John Stanle
 9d55257a-96cb-4e13-aaed-1a6d19374ec3,1391.0,,Siôn Simon,Siôn Simon,Sion Simon,Simon,M,,
 5341ff8a-ec03-4e1d-bf32-1ad47bca01ad,4669.0,,Damien Moore,Damien Moore,Damien Moore,Moore,M,,
 3d7f9eab-45b6-48b4-ba2a-1af64a72790e,3236.0,,Lord Rodger of Earlsferry,Lord Rodger of Earlsferry,Lord Rodger of Earlsferry,Rodger,M,1992-04-14,
+3d7f9eab-45b6-48b4-ba2a-1af64a72790e,3236.0,,Alan Rodger,Alan Rodger,Alan Rodger,Rodger,M,,1992-04-14
 cc840a25-c789-413d-8347-1b29fd79856c,637.0,,Sam Galbraith,Sam Galbraith,Sam Galbraith,Galbraith,M,,
 1b1edb9d-8078-4a26-8820-1b37df351207,1217.0,,Roger Evans,Roger Evans,Roger Evans,Evans,M,,
 7055dad4-4333-4ade-b14c-1b88c420d4b2,2444.0,,Lord Whitty,Lord Whitty,Lord Whitty,Whitty,M,,
@@ -239,7 +241,6 @@ b53a1156-195c-47df-a2ff-2f54cfd00e6f,206.0,,David Lammy,David Lammy,David Lammy,
 4a785688-064b-4e36-8cb3-3037eccb0c5c,1883.0,,Lord Mackay of Clashfern,Lord Mackay of Clashfern,Lord Mackay of Clashfern,Mackay,M,1979-05-07,
 a048f75a-bea6-4cd0-a4e1-3061b4c7e153,1168.0,,George Kynoch,George Kynoch,George Kynoch,Kynoch,M,,
 16fba138-0f78-4b6e-8389-308a42933e8b,1504.0,,Dan Rogerson,Dan Rogerson,Dan Rogerson,Rogerson,M,,
-226df242-65de-4f29-9e9f-08f2cf9ad884,4395.0,,Baroness Hayman of Ullock,Baroness Hayman of Ullock,Baroness Hayman of Ullock,Hayman,F,2020-09-09,
 e583766e-7e6a-419e-8765-30a2379a2b65,766.0,,Nicholas Budgen,Nicholas Budgen,Nicholas Budgen,Budgen,M,,
 894e8fc2-afa0-41de-9896-3148bcb1c1af,354.0,,Sally Keeble,Sally Keeble,Sally Keeble,Keeble,F,,
 0efc08dd-fa10-4c4d-b148-315f990010a1,116.0,,Lord Soames of Fletching,Lord Soames of Fletching,Lord Soames of Fletching,Soames,M,2022-10-28,
@@ -251,6 +252,7 @@ b0a37a65-356f-4ab6-a41f-320c0a0e2146,4632.0,,Anna McMorrin,Anna McMorrin,Anna Mc
 c5d000f3-45eb-414f-80d6-32515c61238c,591.0,397.0,Gordon Brown,Gordon Brown,Gordon Brown,Brown,M,,
 b373c1d4-d41c-4a6a-80fa-33c270fe3919,1089.0,,Nicholas Bennett,Nicholas Bennett,Nicholas Bennett,Bennett,M,,
 41412c5f-42bc-4e30-afef-33ee11c3a69a,986.0,,Lord Stewartby,Lord Stewartby,Lord Stewartby,Stewartby,M,1992-07-20,
+41412c5f-42bc-4e30-afef-33ee11c3a69a,986.0,,Ian Stewart,Ian Stewart,Ian Stewart,Stewart,M,,1992-06-06
 d724d3b6-9110-4e37-a40b-343f159d02d6,4454.0,,Amanda Milling,Amanda Milling,Amanda Milling,Milling,F,,
 6bf9b09b-6768-403d-821a-344b7f10ddf7,4682.0,,Luke Pollard,Luke Pollard,Luke Pollard,Pollard,M,,
 9f643dcf-0288-4d82-8fb3-347c8ac8d48a,3527.0,,Lord Belstead,Lord Belstead,Lord Belstead,Belstead,M,,
@@ -343,6 +345,7 @@ c1e131fc-745d-4229-9f8b-432a7fc64ee0,4652.0,,Lee Rowley,Lee Rowley,Lee Rowley,Ro
 ca93236b-63f0-47e3-9783-435e0d3ceed8,4533.0,,Baroness Altmann,Baroness Altmann,Baroness Altmann,Altmann,F,2015-05-11,
 008ccbef-fd70-4cc7-9a22-438d401ce916,1549.0,,Ed Balls,Ed Balls,Ed Balls,Balls,M,,
 2eb96b71-c4b1-4d42-aabb-438fc772f416,4508.0,,Baroness Anderson of Stoke-on-Trent,Baroness Anderson of Stoke-on-Trent,Baroness Anderson of Stoke-on-Trent,Anderson,F,2022-11-18,
+2eb96b71-c4b1-4d42-aabb-438fc772f416,4508.0,,Ruth Smeeth,Ruth Smeeth,Ruth Smeeth,Smeeth,F,,2022-11-18
 dd81db9e-2970-4c02-b5ab-43c32fd86de2,223.0,,Liam Fox,Liam Fox,Liam Fox,Fox,M,,
 385ef41e-22ab-4864-b433-43d005e2e8c7,448.0,,Ian McCartney,Ian McCartney,Ian McCartney,McCartney,M,,
 65e6d9b1-af0b-482e-ad95-43e4a2ece296,1512.0,,David Mundell,David Mundell,David Mundell,Mundell,M,,
@@ -362,12 +365,14 @@ bfc1f96c-9196-41bb-8b3e-45bfb45d6327,4941.0,,Lord Bellamy,Lord Bellamy,Lord Bell
 e56ad5f1-a7b2-465d-aa9b-45f0cc2c8864,1294.0,,William Shelton,William Shelton,William Shelton,Shelton,M,,
 1f536db8-ef03-45e3-acbd-464d0a4ad7b5,101.0,,Ian Taylor,Ian Taylor,Ian Taylor,Taylor,M,,
 c181198c-038e-471d-9542-4667e14ae3d4,3982.0,,Margaret Curran,Margaret Curran,Margaret Curran,Curran,F,,2025-01-15
+c181198c-038e-471d-9542-4667e14ae3d4,3982.0,,Baroness Curran,Baroness Curran,Baroness Curran,Curran,F,2025-01-15,
 09a12fa7-b77d-44fe-a4c0-46c95f17e762,16.0,,Dominic Grieve,Dominic Grieve,Dominic Grieve,Grieve,M,,
 be12ad36-c975-45fc-a2cf-470401792a90,1609.0,,Chloe Smith,Chloe Smith,Chloe Smith,Smith,F,,
 c7971e9f-9e2a-47d6-9629-4740b59e75e8,731.0,,Neil Hamilton,Neil Hamilton,Neil Hamilton,Hamilton,M,,
 e9048de3-a9e6-4296-b291-47532396355a,4536.0,,Lord O'Neill of Gatley,Lord O'Neill of Gatley,Lord O'Neill of Gatley,O'Neill,M,2015-05-14,
 a46961f2-7a51-49c6-91ba-478927426012,1124.0,,Marquess of Salisbury,Marquess of Salisbury,Marquess of Salisbury,Salisbury,M,2003-07-11,
 a46961f2-7a51-49c6-91ba-478927426012,1124.0,,Robert Cranborne,Robert Cranborne,Robert Cranborne,Cranborne,M,,1992-04-17
+a46961f2-7a51-49c6-91ba-478927426012,1124.0,,Viscount Cranborne,Viscount Cranborne,Viscount Cranborne,Cranborne,M,1992-04-17,2003-07-11
 cb201158-59ff-4839-99e1-4844b9745d3b,82.0,,Lord Howard of Lympne,Lord Howard of Lympne,Lord Howard of Lympne,Howard,M,2010-07-13,
 cb201158-59ff-4839-99e1-4844b9745d3b,82.0,,Michael Howard,Michael Howard,Michael Howard,Howard,M,,2010-07-13
 0524818c-6b18-4c39-9860-48a5cdc613d6,1545.0,417.0,David TC Davies,David TC Davies,David TC Davies,Davies,M,,
@@ -376,6 +381,7 @@ cb201158-59ff-4839-99e1-4844b9745d3b,82.0,,Michael Howard,Michael Howard,Michael
 d3ec6704-184d-4d93-8d61-493d7173e002,366.0,,Kenneth Clarke,Kenneth Clarke,Kenneth Clarke,Clarke,M,,2020-09-04
 d3ec6704-184d-4d93-8d61-493d7173e002,366.0,,Lord Clarke of Nottingham,Lord Clarke of Nottingham,Lord Clarke of Nottingham,Clarke,M,2020-09-04,
 2b00246a-9bde-427f-9c71-495181805b79,1418.0,,Tom Harris,Tom Harris,Tom Harris,Harris,M,,
+10011af0-812c-4d99-8cb9-49ab04175149,5370.0,,Baroness Smith of Cluny,Baroness Smith of Cluny,Baroness Smith of Cluny,Smith,F,,
 fdff3d36-0e6c-4473-acc7-49ff5c072aee,491.0,,Angela Eagle,Angela Eagle,Angela Eagle,Eagle,F,,
 d3321068-3772-4523-87d9-4a4968131eea,434.0,,Mike Hall,Mike Hall,Mike Hall,Hall,M,,
 59f233e3-5b52-4586-b6ef-4a4a22d1d434,3842.0,,Baroness Garden of Frognal,Baroness Garden of Frognal,Baroness Garden of Frognal,Garden,F,,
@@ -497,6 +503,7 @@ f7a30669-08c4-4ec7-847f-5e910c8af6d4,1408.0,,Lord Swire,Lord Swire,Lord Swire,Sw
 c8206abe-a7fb-4460-a6ab-5fd830ba4a9f,1557.0,,Baroness Kramer,Baroness Kramer,Baroness Kramer,Kramer,F,2010-12-22,
 c8206abe-a7fb-4460-a6ab-5fd830ba4a9f,1557.0,,Susan Kramer,Susan Kramer,Susan Kramer,Kramer,F,,2010-12-22
 d6c45784-ac28-40db-8645-5fdd49d825e1,583.0,,Tom Clarke,Tom Clarke,Tom Clarke,Clarke,M,,
+979af8eb-8b4b-415b-b5a7-6034bb7313d9,5374.0,,Lord Moraes,Lord Moraes,Lord Moraes,Moraes,M,2025-01-15,
 ea5e3c22-74f3-4ce6-ae4a-605963a302fa,969.0,,George Younger,George Younger,George Younger,Younger,M,,
 47225ea3-a596-4b7f-b2d7-60653e8311f1,3270.0,,Lord Rees,Lord Rees,Lord Rees,Rees,M,1987-11-16,
 47225ea3-a596-4b7f-b2d7-60653e8311f1,3270.0,,Peter Rees,Peter Rees,Peter Rees,Rees,M,,1987-11-16
@@ -531,12 +538,12 @@ d6fe475b-3bf8-4d41-a221-6452e2c8c5b6,4138.0,,Rushanara Ali,Rushanara Ali,Rushana
 d4209899-c312-497b-865b-65d06b471eb2,171.0,,Nick Raynsford,Nick Raynsford,Nick Raynsford,Raynsford,M,,
 8be1961c-a788-4387-9a60-65de6a71e06a,3154.0,,Lord Ponsonby of Shulbrede,Lord Ponsonby of Shulbrede,Lord Ponsonby of Shulbrede,Ponsonby,M,,
 2f5299d4-675b-443d-83a4-661b0e37fc2e,463.0,,Jack Straw,Jack Straw,Jack Straw,Straw,M,,
-41412c5f-42bc-4e30-afef-33ee11c3a69a,986.0,,Ian Stewart,Ian Stewart,Ian Stewart,Stewart,M,,1992-06-06
 e69106ca-cc3f-41b3-b9ee-6644c20ef4c2,2005.0,,Baroness Hooper,Baroness Hooper,Baroness Hooper,Hooper,F,,
 be254c60-a909-486f-b22c-6646cd492bfe,4569.0,,Jim McMahon,Jim McMahon,Jim McMahon,McMahon,M,,
 0c2a275c-cc04-4c13-87bc-66bd80e0bd4f,525.0,,David Clark,David Clark,David Clark,Clark,M,,2001-07-02
 0c2a275c-cc04-4c13-87bc-66bd80e0bd4f,525.0,,Lord Clark of Windermere,Lord Clark of Windermere,Lord Clark of Windermere,Clark,M,2001-07-02,
 50ea31ac-d700-4060-8e3d-66e501e767ee,98.0,,Shaun Woodward,Shaun Woodward,Shaun Woodward,Woodward,M,,
+711b7f4d-e306-42e2-b499-66fef758f824,5373.0,,Baroness Gustafsson,Baroness Gustafsson,Baroness Gustafsson,Gustafsson,F,,
 0cf51721-9b13-4afc-a56e-6783374ef5ac,4553.0,,Baroness Scott of Bybrook,Baroness Scott of Bybrook,Baroness Scott of Bybrook,Scott,F,,
 db69dae6-8c39-46b1-9246-67de2180ea50,851.0,,Ian Grist,Ian Grist,Ian Grist,Grist,M,,
 9f478366-bf44-4541-9d9f-6898412cc424,4262.0,,Lord Deighton,Lord Deighton,Lord Deighton,Deighton,M,,
@@ -551,6 +558,7 @@ c7996599-7a75-478c-ab65-6a3d40dfa852,148.0,,Ann Keen,Ann Keen,Ann Keen,Keen,F,,
 90f94e62-3f6d-45eb-b9aa-6add2601b619,4852.0,,Robert Largan,Robert Largan,Robert Largan,Largan,M,,
 e8b51c60-fa4d-4464-8a23-6b36aed675bd,4366.0,407.0,James Cleverly,James Cleverly,James Cleverly,Cleverly,M,,
 026dbf7b-b71c-42ec-bae9-6b4cf7a40579,519.0,,Fraser Kemp,Fraser Kemp,Fraser Kemp,Kemp,M,,
+bb062f95-ee5e-44bd-a126-6b790b23d840,4056.0,,Nic Dakin,Nic Dakin,Nic Dakin,Dakin,M,,
 9c329166-fc26-433e-81c8-6b8c8e0880e5,343.0,,Alan Duncan,Alan Duncan,Alan Duncan,Duncan,M,,
 d2f94029-9c75-471d-a71e-6cccf77f242f,393.0,,Denis MacShane,Denis MacShane,Denis MacShane,MacShane,M,,
 fc81eac7-5768-4824-a852-6d07b1bf575c,4062.0,,Lord Goldsmith of Richmond Park,Lord Goldsmith of Richmond Park,Lord Goldsmith of Richmond Park,Goldsmith,M,2020-01-07,
@@ -588,7 +596,6 @@ aeeafe46-0cdd-4ed3-899c-712b545687da,88.0,,Michael Fallon,Michael Fallon,Michael
 5178cfad-fc02-45d4-8ac8-713480c87d3d,310.0,,Ian Pearson,Ian Pearson,Ian Pearson,Pearson,M,,
 e03e9e48-5bd0-463a-b364-71969e8bf932,1601.0,,Bob Neill,Bob Neill,Bob Neill,Neill,M,,
 7c5ecef4-072d-4bc9-bf26-71ef54e1bdea,5260.0,,Katie White,Katie White,Katie White,White,F,,
-00471ede-a2b5-4ff6-89fe-ae9413bbec8f,1884.0,,John Mackay,John Mackay,John Mackay,Mackay,M,,1991-06-26
 b36043c6-6bd5-4d20-a424-72ed27d5d0a7,2059.0,,Earl of Lindsay,Earl of Lindsay,Earl of Lindsay,Lindsay,M,,
 969d083d-0c46-4f24-bb97-73137a21a605,1167.0,,Angela Knight,Angela Knight,Angela Knight,Knight,F,,
 f351ef68-39db-480d-9c9b-73175b9292df,3493.0,,Lord Brabazon of Tara,Lord Brabazon of Tara,Lord Brabazon of Tara,Brabazon,M,,
@@ -637,10 +644,10 @@ bbc70875-5184-457e-b613-79b25f628073,4653.0,,Stephen Morgan,Stephen Morgan,Steph
 44783c3d-ada5-4657-9259-7a99f02a6aeb,407.0,,Ann Taylor,Ann Taylor,Ann Taylor,Taylor,F,,2005-06-13
 44783c3d-ada5-4657-9259-7a99f02a6aeb,407.0,,Baroness Taylor of Bolton,Baroness Taylor of Bolton,Baroness Taylor of Bolton,Taylor,F,2005-06-13,
 b8f12a7d-a7cc-4368-8f66-7b21eaada5bb,4399.0,,Victoria Atkins,Victoria Atkins,Victoria Atkins,Atkins,F,,
+44974671-629c-4761-82dc-7b5e268a86e7,5386.0,,Lord Katz,Lord Katz,Lord Katz,Katz,M,2025-01-28,
 11c6f8f6-3425-4991-a9ad-7b6e57a73676,4680.0,413.0,Gillian Keegan,Gillian Keegan,Gillian Keegan,Keegan,F,,
 116fd4e5-c175-4f13-a454-7b90248d0286,186.0,,Chris Smith,Chris Smith,Chris Smith,Smith,M,,2005-06-22
 116fd4e5-c175-4f13-a454-7b90248d0286,186.0,,Lord Smith of Finsbury,Lord Smith of Finsbury,Lord Smith of Finsbury,Smith,M,2005-06-22,
-bb062f95-ee5e-44bd-a126-6b790b23d840,4056.0,,Nic Dakin,Nic Dakin,Nic Dakin,Dakin,M,,
 fe85adfb-56e6-4166-ac19-7bd6045bc3da,390.0,,Rosie Winterton,Rosie Winterton,Rosie Winterton,Winterton,F,,
 1c30c7e6-ba74-4b7f-9777-7bff313e3dd0,843.0,,John Gilbert,John Gilbert,John Gilbert,Gilbert,M,,1997-05-05
 1c30c7e6-ba74-4b7f-9777-7bff313e3dd0,843.0,,Lord Gilbert,Lord Gilbert,Lord Gilbert,Gilbert,M,1997-05-05,
@@ -694,6 +701,7 @@ b0ef8b03-00f2-4914-9d03-852fdcbd8088,2158.0,,Viscount St Davids,Viscount St Davi
 2be4d9b5-ac1e-4aa5-a98e-85ea6a85e040,4021.0,,Chris Skidmore,Chris Skidmore,Chris Skidmore,Skidmore,M,,
 f84fc083-aff7-4aaa-9b66-863e7e29205a,1521.0,,Sharon Hodgson,Sharon Hodgson,Sharon Hodgson,Hodgson,F,,
 10349375-18e5-4b33-86be-865082852ffe,5258.0,,Louise Jones,Louise Jones,Louise Jones,Jones,F,,2025-08-27
+10349375-18e5-4b33-86be-865082852ffe,5258.0,,Louise Sandher-Jones,Louise Sandher-Jones,Louise Sandher-Jones,Sandher-Jones,F,,
 393c4814-d410-4c4b-ba78-86881ba555b0,1575.0,,Jeremy Browne,Jeremy Browne,Jeremy Browne,Browne,M,,
 f25e381c-6426-409e-82a3-868866c6b441,4110.0,,Karen Bradley,Karen Bradley,Karen Bradley,Bradley,F,,
 3f383236-ab8e-4fb1-b7a6-8692a454ffc1,259.0,,Marquess of Lothian,Marquess of Lothian,Marquess of Lothian,Lothian,M,2010-11-22,
@@ -722,6 +730,7 @@ ba181de6-2efc-4c34-942d-89c8f8bb5f9d,1190.0,,Iain Sproat,Iain Sproat,Iain Sproat
 9e834e4d-a739-42df-9f5a-8a660cb612a7,953.0,399.0,Baroness Thatcher,Baroness Thatcher,Baroness Thatcher,Thatcher,F,1992-06-26,
 9e834e4d-a739-42df-9f5a-8a660cb612a7,953.0,399.0,Margaret Thatcher,Margaret Thatcher,Margaret Thatcher,Thatcher,F,,1992-06-26
 013591bd-1b45-45b7-a93c-8a8e6d2a3df5,4674.0,,Vicky Ford,Vicky Ford,Vicky Ford,Ford,F,,
+207a3af2-c27d-4f3b-8763-8b0b3017a7a9,5381.0,,Baroness Levitt,Baroness Levitt,Baroness Levitt,Levitt,F,2025-01-22,
 4fd676ca-13f0-4c69-956d-8b630e2abeb6,883.0,,Lord Jopling,Lord Jopling,Lord Jopling,Jopling,M,1997-06-05,
 4fd676ca-13f0-4c69-956d-8b630e2abeb6,883.0,,Michael Jopling,Michael Jopling,Michael Jopling,Jopling,M,,1997-06-05
 7197c599-1d88-4503-825b-8bb039d52b6f,1509.0,,Shahid Malik,Shahid Malik,Shahid Malik,Malik,M,,
@@ -747,6 +756,7 @@ c53e9005-ff67-427c-b966-8de866f7c188,4631.0,,Sarah Jones,Sarah Jones,Sarah Jones
 705dee40-dbac-41f0-8912-8df5570b091e,4243.0,,Dan Jarvis,Dan Jarvis,Dan Jarvis,Jarvis,M,,
 f50d9a00-f1de-47e0-b803-8e1ce063882d,1563.0,396.0,Nick Clegg,Nick Clegg,Nick Clegg,Clegg,M,,
 60fa1482-ed38-434d-b88c-8e4e730fbaa4,4046.0,,Bridget Phillipson,Bridget Phillipson,Bridget Phillipson,Phillipson,F,,
+3f9c0813-51de-482f-b04b-8e6a7cfed6b2,4572.0,,Chris Elmore,Chris Elmore,Chris Elmore,Elmore,M,,
 5dde49a3-12d9-425c-a6e7-8eb813f3c262,182.0,,Barbara Roche,Barbara Roche,Barbara Roche,Roche,F,,
 9127ea28-bbf7-459a-a806-8f0525f8aba2,4028.0,,Karl McCartney,Karl McCartney,Karl McCartney,McCartney,M,,
 76eba598-1d87-4669-b113-8f5e437dcb8e,1259.0,,John Watts,John Watts,John Watts,Watts,M,,
@@ -899,6 +909,7 @@ cce6d3d9-c5fb-4c9d-bf62-a8cb1e968fea,1028.0,,Lord Baker of Dorking,Lord Baker of
 8ad997e2-0209-4226-bfa2-a94dd18de803,4205.0,,Baroness Stowell of Beeston,Baroness Stowell of Beeston,Baroness Stowell of Beeston,Stowell,F,,
 2e97eff9-942a-43c4-a89f-a973d4de9037,176.0,,Tony McNulty,Tony McNulty,Tony McNulty,McNulty,M,,
 b4d66cfe-64a0-431b-9e2f-a99b6036562c,3310.0,,Earl of Caithness,Earl of Caithness,Earl of Caithness,Caithness,M,,
+2499f71d-f319-42cb-bf3e-a9a773b0f703,,,Jason Stockwood,Jason Stockwood,Jason Stockwood,Stockwood,M,2025-09-06,
 5540dd62-573c-4b1a-a399-a9b62c21c925,3100.0,,Jock Bruce-Gardyne,Jock Bruce-Gardyne,Jock Bruce-Gardyne,Bruce-Gardyne,M,,1983-10-07
 5540dd62-573c-4b1a-a399-a9b62c21c925,3100.0,,Lord Bruce-Gardyne,Lord Bruce-Gardyne,Lord Bruce-Gardyne,Bruce-Gardyne,M,1983-10-07,
 b2b488be-1a11-42e7-aa78-a9b6ec49a4f2,4597.0,411.0,Kemi Badenoch,Kemi Badenoch,Kemi Badenoch,Badenoch,F,,
@@ -916,11 +927,13 @@ d18e6bfb-aa43-4c52-8cb4-ab578d363e79,1816.0,,Lord Wallace of Saltaire,Lord Walla
 f80d2fa5-f994-4ebb-8e16-acff8999af28,4263.0,,Lucy Powell,Lucy Powell,Lucy Powell,Powell,F,,
 66569973-8958-464a-97dc-ad04574f4a65,4950.0,,Lord Murray of Blidworth,Lord Murray of Blidworth,Lord Murray of Blidworth,Murray,M,2022-10-07,
 b3ecd4a3-c9e4-4ad1-94ba-ad14bca75246,597.0,,Gavin Strang,Gavin Strang,Gavin Strang,Strang,M,,
+ad20631d-5307-49fb-b056-adaed0694070,5381.0,,Liz Lloyd,Liz Lloyd,Liz Lloyd,Lloyd,F,2025-09-11,
 bed74934-c31d-4695-9cff-addab1cf02e3,3921.0,,Phillip Lee,Phillip Lee,Phillip Lee,Lee,M,,
 1e4b4529-2f7a-457b-97f3-ae16d3a177be,1578.0,,Greg Clark,Greg Clark,Greg Clark,Clark,M,,
 cee56d5f-ebe8-4fb2-b2b9-ae4624298191,257.0,,David Heathcoat-Amory,David Heathcoat-Amory,David Heathcoat-Amory,Heathcoat-Amory,M,,
 60899236-642a-42c3-91b0-ae51293af58e,4700.0,,Baroness Sater,Baroness Sater,Baroness Sater,Sater,F,,
 00471ede-a2b5-4ff6-89fe-ae9413bbec8f,1884.0,,Lord MacKay of Ardbrecknish,Lord MacKay of Ardbrecknish,Lord MacKay of Ardbrecknish,MacKay,M,1991-06-26,
+00471ede-a2b5-4ff6-89fe-ae9413bbec8f,1884.0,,John Mackay,John Mackay,John Mackay,Mackay,M,,1991-06-26
 52ea00d3-1455-4458-b8d9-aeb54cab8649,2606.0,,Ian Gilmour,Ian Gilmour,Ian Gilmour,Gilmour,M,,1992-08-25
 52ea00d3-1455-4458-b8d9-aeb54cab8649,2606.0,,Lord Gilmour of Craigmillar,Lord Gilmour of Craigmillar,Lord Gilmour of Craigmillar,Gilmour,M,1992-08-25,
 0d6cf7dc-490b-42da-8aea-aec713992f8d,254.0,,Lord King of Bridgwater,Lord King of Bridgwater,Lord King of Bridgwater,King,M,2001-07-09,
@@ -1014,6 +1027,7 @@ a903ce24-c870-4aa2-beb0-c0be30691f01,573.0,,Helen Liddell,Helen Liddell,Helen Li
 bdb2dc70-4b5c-41c6-95f4-c129550a2a11,3983.0,,Amber Rudd,Amber Rudd,Amber Rudd,Rudd,F,,
 ff11fd2e-b7cc-43b6-8a99-c13ee26ee893,1845.0,,Baroness Hollis of Heigham,Baroness Hollis of Heigham,Baroness Hollis of Heigham,Hollis,F,,
 1e6246d2-823a-418c-a0a0-c14f02da773d,1882.0,,Lord Mackay of Drumadoon,Lord Mackay of Drumadoon,Lord Mackay of Drumadoon,Mackay,M,1995-11-08,
+1e6246d2-823a-418c-a0a0-c14f02da773d,1882.0,,Donald Mackay,Donald Mackay,Donald Mackay,Mackay,M,,1995-11-08
 9603c72e-d179-471b-a208-c17885f6b13f,1254.0,,Giles Shaw,Giles Shaw,Giles Shaw,Shaw,M,,
 e5de452d-9b7b-4ee4-a291-c17a6ceec95a,4384.0,,Mike Wood,Mike Wood,Mike Wood,Wood,M,,
 082d2d51-746a-4cbf-acc1-c2372080d0c5,933.0,,Irvine Patnick,Irvine Patnick,Irvine Patnick,Patnick,M,,
@@ -1108,7 +1122,6 @@ d518aefa-3a95-49e5-9052-d5626217399d,3202.0,,Lord Onslow of Woking,Lord Onslow o
 d9289658-1f6d-4d2c-9e67-d5de19b450f0,3988.0,,Ben Gummer,Ben Gummer,Ben Gummer,Gummer,M,2010-05-27,
 d9289658-1f6d-4d2c-9e67-d5de19b450f0,3988.0,,Benedict Gummer,Benedict Gummer,Benedict Gummer,Gummer,M,,2010-05-27
 740766bc-bdaa-401f-8ff5-d5ed76515d8b,2161.0,,Lord Sainsbury of Turville,Lord Sainsbury of Turville,Lord Sainsbury of Turville,Sainsbury,M,,
-3f9c0813-51de-482f-b04b-8e6a7cfed6b2,4572.0,,Chris Elmore,Chris Elmore,Chris Elmore,Elmore,M,,
 30a6b343-c9ef-485a-8bcb-d76dd9eabe45,268.0,,Peter Luff,Peter Luff,Peter Luff,Luff,M,,
 5128c916-6f31-4b3f-aaab-d7ee6ae88663,302.0,,Jeff Rooker,Jeff Rooker,Jeff Rooker,Rooker,M,,2001-06-11
 5128c916-6f31-4b3f-aaab-d7ee6ae88663,302.0,,Lord Rooker,Lord Rooker,Lord Rooker,Rooker,M,2001-06-11,
@@ -1127,9 +1140,11 @@ d60c40a9-e294-4d42-8988-da1f521b7125,600.0,,Nigel Griffiths,Nigel Griffiths,Nige
 80042a1a-4ab9-4b95-ae40-da28d988042b,4803.0,,Paul Holmes,Paul Holmes,Paul Holmes,Holmes,M,,
 94952bb4-1edc-424f-8176-dae0139c4ba7,462.0,,Paul Goggins,Paul Goggins,Paul Goggins,Goggins,M,,
 f004f3d5-ac41-4829-bb0f-daf4819b5afd,1469.0,,Tony Cunningham,Tony Cunningham,Tony Cunningham,Cunningham,M,,
+4449d0da-c73f-484a-ac4b-db1717f5ffeb,5382.0,,Lord Lemos,Lord Lemos,Lord Lemos,Lemos,M,2025-01-22,
 b80d4901-a91e-474b-b39a-db8a0b2c5e11,5011.0,,Gen Kitchen,Gen Kitchen,Gen Kitchen,Kitchen,F,,
 08c02d2b-6097-4b0b-b55d-dbb037323fb3,1425.0,,Jonathan Djanogly,Jonathan Djanogly,Jonathan Djanogly,Djanogly,M,,
 1dd8f54a-2fd1-4110-8ef2-dbb3cfddef28,181.0,,John Cryer,John Cryer,John Cryer,Cryer,M,,2024-05-30
+1dd8f54a-2fd1-4110-8ef2-dbb3cfddef28,181.0,,Lord Cryer,Lord Cryer,Lord Cryer,Cryer,M,2024-08-15,
 f3362d16-7368-48c1-946e-dc1bffe803b4,62.0,,Alan Whitehead,Alan Whitehead,Alan Whitehead,Whitehead,M,,
 858f846f-ab6e-478b-b38f-dc272ebb2f29,150.0,,Harriet Harman,Harriet Harman,Harriet Harman,Harman,F,,
 aec69b2c-ab70-4c8d-9d73-dc42e2daff11,115.0,,Francis Maude,Francis Maude,Francis Maude,Maude,M,,2015-05-11
@@ -1139,7 +1154,6 @@ aec69b2c-ab70-4c8d-9d73-dc42e2daff11,115.0,,Lord Maude of Horsham,Lord Maude of 
 9fae24ab-08dc-4675-b386-dd104da8dd70,296.0,,Baroness Stuart of Edgbaston,Baroness Stuart of Edgbaston,Baroness Stuart of Edgbaston,Stuart,F,2020-09-07,
 9fae24ab-08dc-4675-b386-dd104da8dd70,296.0,,Gisela Stuart,Gisela Stuart,Gisela Stuart,Stuart,F,,2020-09-07
 02b29467-45fb-4264-a3c1-dd3304748dfa,4913.0,,Lord Khan of Burnley,Lord Khan of Burnley,Lord Khan of Burnley,Khan,M,,
-2eb96b71-c4b1-4d42-aabb-438fc772f416,4508.0,,Ruth Smeeth,Ruth Smeeth,Ruth Smeeth,Smeeth,F,,2022-11-18
 47e5cc20-1eea-4906-a6d9-ddc2b9e524fc,1035.0,,Michael Roberts,Michael Roberts,Michael Roberts,Roberts,M,,
 10387430-9380-4a85-a43f-ddf7219cc0c9,3504.0,,Lord Bassam of Brighton,Lord Bassam of Brighton,Lord Bassam of Brighton,Bassam,M,,
 a20dbaa5-a3c5-45b1-a916-de1b063b630d,5305.0,,Georgia Gould,Georgia Gould,Georgia Gould,Gould,F,,
@@ -1216,6 +1230,7 @@ ae1c5dd8-479b-4a6a-afad-ea1c832a5623,1255.0,,Gerard Vaughan,Gerard Vaughan,Gerar
 c46815cb-8972-4455-bc1b-ea201caca841,1017.0,,Hamish Gray,Hamish Gray,Hamish Gray,Gray,M,,
 4ea9394a-3f77-4e5b-8ac9-ea4447955668,3425.0,,Earl Attlee,Earl Attlee,Earl Attlee,Attlee,M,,
 79c0922f-8886-4783-9cf9-eb0d1160732a,1603.0,,Phil Wilson,Phil Wilson,Phil Wilson,Wilson,M,,2025-01-16
+79c0922f-8886-4783-9cf9-eb0d1160732a,1603.0,,Lord Wilson of Sedgefield,Lord Wilson of Sedgefield,Lord Wilson of Sedgefield,Wilson,M,2025-01-16,
 90da4c30-7470-4a60-93d9-eba664e0ae4e,4698.0,,Janet Daby,Janet Daby,Janet Daby,Daby,F,,
 4e51b06c-e4b8-4ca2-94cc-ec52363ad6a8,1121.0,,Michael Brown,Michael Brown,Michael Brown,Brown,M,,
 d5a691e1-efaa-4295-844e-ec81b81f3f87,3530.0,,Lord Bellwin,Lord Bellwin,Lord Bellwin,Bellwin,M,1979-05-07,
@@ -1312,18 +1327,3 @@ c49db508-f08a-4b68-957a-febddb04d77b,567.0,,Peter Hain,Peter Hain,Peter Hain,Hai
 02984662-da15-4efc-9a20-ff9b20bd21f1,4513.0,,Mims Davies,Mims Davies,Mims Davies,Davies,F,,
 735e60a3-33aa-4ec2-ae91-ffc9b4461cc8,345.0,,Edward Leigh,Edward Leigh,Edward Leigh,Leigh,M,,
 6a6dd0ab-599e-4aee-8ee6-fffd48472483,4780.0,,Laura Trott,Laura Trott,Laura Trott,Trott,F,,
-3d7f9eab-45b6-48b4-ba2a-1af64a72790e,3236.0,,Alan Rodger,Alan Rodger,Alan Rodger,Rodger,M,,1992-04-14
-1e6246d2-823a-418c-a0a0-c14f02da773d,1882.0,,Donald Mackay,Donald Mackay,Donald Mackay,Mackay,M,,1995-11-08
-a46961f2-7a51-49c6-91ba-478927426012,1124.0,,Viscount Cranborne,Viscount Cranborne,Viscount Cranborne,Cranborne,M,1992-04-17,2003-07-11
-10011af0-812c-4d99-8cb9-49ab04175149,5370.0,,Baroness Smith of Cluny,Baroness Smith of Cluny,Baroness Smith of Cluny,Smith,F,,
-1dd8f54a-2fd1-4110-8ef2-dbb3cfddef28,181.0,,Lord Cryer,Lord Cryer,Lord Cryer,Cryer,M,2024-08-15,
-711b7f4d-e306-42e2-b499-66fef758f824,5373.0,,Baroness Gustafsson,Baroness Gustafsson,Baroness Gustafsson,Gustafsson,F,,
-979af8eb-8b4b-415b-b5a7-6034bb7313d9,5374.0,,Lord Moraes,Lord Moraes,Lord Moraes,Moraes,M,2025-01-15,
-79c0922f-8886-4783-9cf9-eb0d1160732a,1603.0,,Lord Wilson of Sedgefield,Lord Wilson of Sedgefield,Lord Wilson of Sedgefield,Wilson,M,2025-01-16,
-44974671-629c-4761-82dc-7b5e268a86e7,5386.0,,Lord Katz,Lord Katz,Lord Katz,Katz,M,2025-01-28,
-c181198c-038e-471d-9542-4667e14ae3d4,3982.0,,Baroness Curran,Baroness Curran,Baroness Curran,Curran,F,2025-01-15,
-4449d0da-c73f-484a-ac4b-db1717f5ffeb,5382.0,,Lord Lemos,Lord Lemos,Lord Lemos,Lemos,M,2025-01-22,
-2499f71d-f319-42cb-bf3e-a9a773b0f703,,,Jason Stockwood,Jason Stockwood,Jason Stockwood,Stockwood,M,2025-09-06,
-10349375-18e5-4b33-86be-865082852ffe,5258.0,,Louise Sandher-Jones,Louise Sandher-Jones,Louise Sandher-Jones,Sandher-Jones,F,,
-207a3af2-c27d-4f3b-8763-8b0b3017a7a9,5381.0,,Baroness Levitt,Baroness Levitt,Baroness Levitt,Levitt,F,2025-01-22,
-ad20631d-5307-49fb-b056-adaed0694070,5381.0,,Liz Lloyd,Liz Lloyd,Liz Lloyd,Lloyd,F,2025-09-11,
