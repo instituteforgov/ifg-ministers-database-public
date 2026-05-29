@@ -9,7 +9,6 @@ c8a5668a-3f63-4283-bff9-00b729951694,6f3cec12-84f9-41b9-add4-a555ac95ad87,Disabl
 4760db2f-0f70-4584-9e3e-0111a566188d,7dacfd41-e82e-4fa0-a905-64b43cd60a79,Wales,SoS
 57ea4527-9648-4094-882a-012aece5944a,3b337313-4bc2-4165-8701-d192bac3b0eb,Growth,MoS/PUSS
 dcb74ac5-3d96-4658-a6e7-01653a16aeae,6a548221-6157-4125-8fb0-f6988377b872,Trade,MoS/PUSS
-bba0d3aa-4dc9-4c9d-a8f1-016d5f314ac5,bdb5a11e-9bd0-4d0e-8da0-4804382e81f9,"Minister of State, MHCLG",MoS/PUSS
 4136db2b-cf39-47f1-b65e-018d921771b1,9686dfe1-3037-45c2-b802-ae45a0563bc1,Disabled People,MoS/PUSS
 4e832a10-c901-4c37-97c2-01a3b7a6e7bd,dfc32f3a-5653-4dc7-8fe9-2ef8a7042a12,"Parliamentary Under-Secretary of State, DfEE",MoS/PUSS
 25b1b0c9-96c7-4c5c-8270-01cc9fe00ec0,b7b76952-08be-429d-b7ea-36298169c45c,Transport,SoS
@@ -43,7 +42,6 @@ c4a20916-769a-4dd9-8479-0680d53deb05,963276b6-2814-4113-a0df-0332cd3560da,Enviro
 7cabd8e5-2068-41bd-8f82-06ac8b36935a,b02ab2bc-68fe-439b-ad9a-8abbda854a99,Exports,MoS/PUSS
 464605a9-bd6d-4be8-afe5-06defa183793,d8a41369-fbc6-4479-a952-d92b096a8797,Energy Consumers,MoS/PUSS
 2dee7574-04f6-4b56-8ce9-0706ed1de3c9,73ea2145-a263-420e-a422-37e8798ff8d7,Media,MoS/PUSS
-801bfab2-f248-4750-bb08-071ee638ac77,0b359e58-9b23-426c-8011-88654d085b04,Probation,MoS/PUSS
 7d554092-c971-48ee-9467-073478b21431,ccefa50d-d470-4c09-b8c1-2b9c05721eb0,Deputy Minister for Women,MoS/PUSS
 4f63b1cc-0db0-48c8-a6b9-07366c3c6e91,56c58d70-ebd6-4d1f-a9d8-e298afddd018,Schools,MoS/PUSS
 f703d670-52ea-405b-8451-074e25ab8565,fb8dfd78-c528-4e30-96e4-29c816d5a351,Faith,MoS/PUSS
@@ -138,7 +136,6 @@ ae0a1d2c-b018-4365-82e4-1670fda01a58,325b4c26-a141-4f2e-b6da-6abb8b469549,Faith,
 fc893590-258d-480d-91ee-16843c7e7226,7ef45470-33ef-4ead-8d6a-db5382dcd584,Fisheries,SoS
 7aadb5bd-a3c1-483a-89e8-16be487f2320,87db23fa-6c90-47ca-b366-c4936c284267,"Parliamentary Secretary, HMT",MoS/PUSS
 6e12286c-f81d-4c4b-a127-16d187e4060d,730060de-7575-4838-a1b4-384c8a1c33f3,"Parliamentary Under-Secretary of State, Wal",MoS/PUSS
-59f06481-002e-4117-b8aa-16f09bfdd62b,21479343-b190-441f-81f3-3133c7b1aed0,"Parliamentary Under-Secretary of State, FCDO",MoS/PUSS
 46ed0fdf-6c7f-4cda-84c5-16fe945425e8,692e9933-6957-4d35-bde7-5f0e6860a9ec,Children,MoS/PUSS
 0d59fb73-3d0c-4d48-b872-17062e50a00f,8d8c916c-6d4b-4ff6-9339-edbf1ec66b5f,Olympics,MoS/PUSS
 3a1e0919-5f4a-4b73-815f-172d7173c6f3,3444bc86-6a00-460e-9588-2ff8033e56f0,Pacific,MoS/PUSS
@@ -324,7 +321,6 @@ aac6dded-2cf5-426d-a87e-31c6e5e157c2,f06bdc72-75e7-4338-a569-506bf02b7782,Transp
 926e802c-ce22-4530-9e2a-31fa4a352399,cae04a4b-f0c0-4c39-8016-69e3cee56805,United Nations,MoS/PUSS
 8c9273a5-cf85-414c-845c-31fd13449e6b,f280bb12-b0e0-4347-9650-5ff3ef81f239,Transport,SoS
 5eff6c84-8659-4370-9dc5-320464a28684,4238732b-511f-425e-aad0-838ee96acf9c,London,MoS/PUSS
-dd103824-4429-4ae4-956b-3297fe27215b,b7be47f2-d538-450c-af64-5e801f473ee2,"Parliamentary Under-Secretary of State, DESNZ",MoS/PUSS
 edda2b64-db61-48c5-954a-32cffd796eef,53490da4-d0f6-4a23-92f3-7019598e133d,Inequalities (health),MoS/PUSS
 b1f92adb-a670-4c61-bab8-32d382279b53,182117d4-bad9-4509-9159-42ff91836f90,Skills,MoS/PUSS
 afbeb6a2-8f3f-4d61-b41a-32edae551e8d,cd586ccc-9d0c-4fde-bd54-00dc51cbc196,"Parliamentary Under-Secretary of State, MHCLG",MoS/PUSS
@@ -740,7 +736,6 @@ c58d600d-2abc-4bb8-bc5f-77f170d9037e,ad149d0a-1404-4498-8c8a-6a5804561a1e,Energy
 906c7bb0-636e-4135-bf35-78100564d7d1,7011982b-a355-4662-a3da-8e1755e096aa,Economic Security,MoS/PUSS
 c4890172-cc88-4dff-b8d2-7877c18f26ae,b65797fc-e053-4ce2-8f1f-504e8cde8cc0,Technology (transport),MoS/PUSS
 f6400c3f-d154-4756-b302-7880dc092e2d,44c285ef-4da0-49f8-9be6-24909eb8678c,Energy,MoS/PUSS
-349fa68d-0e88-42f6-acf2-788878efdcd0,fdf8ae9e-6160-491e-8b81-d78b66307257,Pakistan,MoS/PUSS
 af1f611d-14b5-498a-9275-78898e391f48,0706bad2-365a-4e35-b952-7b551f15d5a7,Quality (business),MoS/PUSS
 55f0070d-1d80-4f88-be50-789c0854caab,02e29d3d-4431-4731-9b68-442f99f5e527,Schools,MoS/PUSS
 77d70cc2-6ae5-47d5-b25e-789e3d059273,19a83c76-71c0-4aa1-bca2-bf2eaefb27af,Skills,MoS/PUSS
@@ -954,7 +949,6 @@ dcb50348-08db-4a9a-a1ab-9ada313ed28a,21be8e07-af4e-4539-a40f-a47a9b1f7a99,Homele
 7c8623da-7318-4d65-9887-9b6f76868b81,0bad7a77-f460-4456-a90c-46eca108de1b,Policing,MoS/PUSS
 a85c6146-81c7-4366-bb92-9b7716f14776,a8bfa6f8-cce5-43f4-b16d-636e02b80414,Arts,MoS/PUSS
 3e0535a2-230d-407f-a934-9b95b38f815a,e897f93d-5d44-428c-8f14-633302b5045e,Consumers,MoS/PUSS
-94fb4481-9e8f-4cb7-8800-9ba5cfed28ef,fdf8ae9e-6160-491e-8b81-d78b66307257,Middle East,MoS/PUSS
 cfdab9ca-7f8b-4489-be92-9bd3ed14c3e1,8175a811-6429-41d0-9d7a-d2b32b55d1b1,Employment Relations,MoS/PUSS
 ddf8fc8c-84b7-44ed-9a8e-9beafbcf1174,67376b1c-0c80-4b82-be75-c1e3b62c8987,South Asia,MoS/PUSS
 4ca61375-b236-4d7c-89f5-9becec527d02,02381386-e50a-48c9-83dc-307947ae0530,Fisheries,MoS/PUSS
@@ -1026,7 +1020,6 @@ a3bf973d-ea14-4363-9cd7-a4a854d619fc,b65b9ae5-0dc0-43ad-ade7-a47a736fbe06,Digita
 868d2eff-a14d-4194-a1e4-a4f27fcb19c6,3b88f4d6-57a6-404b-9e52-2e2179743169,Intellectual Property,MoS/PUSS
 23a4d239-edaf-4bf9-b50c-a5054ab716f0,fdfeb3c1-66eb-440b-abaa-c93ca9709169,"Parliamentary Under-Secretary of State, OPSS",MoS/PUSS
 3f5c5770-1852-41e5-bb0d-a550b8dba13e,fe0158af-900e-4cef-a83d-d1b4f1e18dba,Creative Industries,MoS/PUSS
-1130bb64-cf42-473f-8ae9-a5737fb4dcbf,0b359e58-9b23-426c-8011-88654d085b04,Prisons,MoS/PUSS
 132c106c-03b2-4b7b-a386-a5a9cb1efc95,356a2f7a-1b1b-47cc-97aa-a2cde0424c4d,Arts,MoS/PUSS
 6336aa4c-78b6-4632-96fd-a5d840c4093b,cc019583-52f8-4598-aa5c-a16a9d3825c3,Rural Affairs,SoS
 f3abb4b7-a4d4-4e58-9b0c-a5e2d408b137,a113fede-233b-43a3-a01a-b720e8b1cb10,Regional Economic Development,SoS
@@ -1040,7 +1033,6 @@ d0423cad-7c65-49ec-aaea-a6ee5ebbcbbe,ce68ceaa-cec4-4894-83c4-1091f3c155df,Public
 40bd03c8-b6bc-482b-907a-a78e34092779,826bb402-14ca-4c9a-9cd5-95987d88fd40,Middle East,MoS/PUSS
 b6c1048b-e851-4e57-90ae-a78f50a73dc1,0ef11105-5445-49bb-af02-3f15fab7058e,Regulatory Reform,SoS
 356964d4-1c40-4020-a0b3-a7ef88d37de3,947a8d5c-9993-47de-9d79-d62b7e526ffd,Leader of the House of Lords,Parl. lead./Parl.
-303580de-0c82-4629-b80b-a82326cc00b6,0b359e58-9b23-426c-8011-88654d085b04,Parole,MoS/PUSS
 8601e08a-96fd-480e-babc-a827c37bcb0a,3cd17b04-609b-4b81-8489-417e224aad45,Water,MoS/PUSS
 2dadf466-cb6b-4602-89bd-a8419fe98a8b,503977db-3080-4019-9e7d-638759e7edde,"Minister of State, DoTr",MoS/PUSS
 55070e19-83b3-4ded-9588-a893bd6a27ce,d69353ba-e787-4c9d-8646-d29e6630f593,Constitution,MoS/PUSS
@@ -1115,7 +1107,6 @@ b4d529be-940b-4073-b163-b537236f41bd,41b6019e-0430-44a8-9662-3b614a7a9a0d,Interg
 c473f6c6-883d-44f5-bb24-b54df558ed09,522824c3-53b5-4e15-aa22-3c32736ae16b,Middle East,MoS/PUSS
 3bbc234d-c05a-4bf0-9e8c-b56d76f80ec7,7d98d4d9-ac30-4993-a9eb-0069521432d9,Business,MoS/PUSS
 a56ad9a9-b8d7-4bd2-a706-b585ea751669,6fb0226e-e676-43be-877f-e0ed38d4f041,"Parliamentary Under-Secretary of State, DBT",MoS/PUSS
-38711bd5-5950-4b4f-aa56-b5b5704e5f3b,696515b3-479a-4d78-88f2-68985e2a9552,"Minister of State, DESNZ",MoS/PUSS
 8bc0db9c-d1d6-4378-a8e8-b5b948869c53,c41252c3-3c7c-4ebc-ac57-e5b5074161bc,Regional Economic Development,SoS
 28996b0a-bc42-4784-b5b9-b5c72b7913f8,6f038324-176d-44f0-9f66-9c108c61a475,Defence Personnel,MoS/PUSS
 8ce131a7-2670-498c-9fb0-b5f35158d9d4,47443b51-1e3e-4740-9036-60218cbf3288,Employment Relations,MoS/PUSS
@@ -1279,7 +1270,6 @@ c1f1d1e1-870e-42e5-b169-cf67138c513b,ca1625c4-dec5-4017-bc76-e0331652b1e4,Vetera
 87a95c46-20ff-469f-817c-d039083d70a5,37a4e36e-4f0e-40ab-b780-82f893abe556,Trade,MoS/PUSS
 42650b8f-e8bd-4034-8fb7-d05f4d085d6b,4dad3d4d-8682-4abb-baa0-781dfe144db1,Women,MoS/PUSS
 7e18bf6d-4362-4bfa-9d7f-d06e3a3820b6,435ea8ec-462d-4a2f-8ac4-240e97ecab9c,Defence Personnel,MoS/PUSS
-2e7f418c-0a1d-4b93-8f32-d10537ac939f,fdf8ae9e-6160-491e-8b81-d78b66307257,Afghanistan,MoS/PUSS
 f2ec2f82-caca-49b9-a101-d138698e82fe,0dda3b05-d413-41e9-a9ab-ad355088cd27,Caribbean,MoS/PUSS
 02f8e4ee-8f33-4e87-85ea-d1491ce36bb1,d30d096c-909e-4439-b3eb-4ebe7da3047a,Local Government,MoS/PUSS
 4ed1c0d8-af54-44c2-a321-d14b8460bad1,754dbea0-3bbe-4d3a-bce4-307fc66d6b7d,London,MoS/PUSS
@@ -1358,7 +1348,6 @@ e6c2f02a-996e-43df-b199-dd44a9b5868b,badbea66-ad49-44c9-98dc-e5c0ad96462a,Citize
 56ac2fee-23cd-40de-8274-de6f8c0ffb6c,7ec0498d-6af0-4b30-ad3f-8b13cd7d2cbe,Energy,MoS/PUSS
 f9ddf2b4-242e-48c6-8a9b-decafd832a1c,3a973462-41a4-408d-b766-3edf794ec190,Foreign Affairs,MoS/PUSS
 5a4790eb-a834-4fa5-8b50-df2d6352a759,c6f740d3-8f24-4d01-9778-8c3ad7f24945,"Minister of State, CO",MoS/PUSS
-cb4f1499-1700-4d1c-a721-dfd603263aa6,3357a5fa-f74a-48b7-a0cc-c0237ab27c1c,"Minister of State, DfE",MoS/PUSS
 02a5d86e-cda2-4524-9d0a-e01e2effa811,6533d43d-25c7-4b10-af1b-f995846e99a3,Lord President of the Council,SoS
 9a40f782-b8a2-41f5-9551-e0292591b7f8,a76eafef-be4b-40b9-8666-bbd4570f37c2,Equalities,SoS
 db9b72fe-1399-42ea-a646-e05dc45d1c77,c42b807b-6a09-4154-9314-405ef032c653,Local Government,MoS/PUSS
