@@ -59,6 +59,8 @@ FROM (
                 a.person_id in (@minister_ids) AND
                 e.date < COALESCE(a.end_date, '9999-12-31')
         )
+    ORDER BY
+        e.date
     LIMIT 1
 ) q
 
