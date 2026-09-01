@@ -23,6 +23,9 @@ The `appointment_characteristics` table records someone's `cabinet_status` - whe
 
 `start_date` is always specified; `end_date` is `null` for ongoing appointments.
 
+### `constituency`
+Contains one record for each parliamentary constituency represented by a minister.
+
 ### `event`
 Contains the dates of all general elections since 1979 and the day each prime minister completed their first ministerial line-up upon taking office.
 
