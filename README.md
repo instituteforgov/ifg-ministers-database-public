@@ -7,7 +7,7 @@ You can look up individual ministers, specific ministerial roles, the entire gov
 This repository contains the underlying data as well as related scripts.
 
 ## Database structure
-![Database diagram of the IfG Ministers Database](IfG%20Ministers%20Database%20-%20v2.1.0%20(Current).png)
+![Database diagram of the IfG Ministers Database](IfG%20Ministers%20Database%20-%20v2.1.0%20(current).png)
 
 The database consists of the following tables:
 
